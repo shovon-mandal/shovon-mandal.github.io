@@ -1,20 +1,20 @@
 PROFILE PHOTO INSTRUCTIONS
 
 Replace:
+
 assets/img/profile.jpg
 
-with your own academic profile photo.
+with your passport-size academic profile photo.
 
 Rules:
-1. Keep the filename exactly profile.jpg
-2. Use a square crop if possible
-3. Recommended size: 800 x 800 px or higher
-4. Use formal or semi-formal dress
-5. Use a clean/neutral background
-6. Avoid selfies, filters, group photos, and low-resolution images
+1. Keep filename exactly: profile.jpg
+2. Use a vertical 3:4 crop if possible.
+3. Formal or semi-formal dress is recommended.
+4. Neutral or clean background is preferred.
+5. Avoid low-resolution, selfie-style, or heavily filtered images.
 
-This single file is used for:
-- main website profile image
-- right sidebar image
+The image appears in:
+- main hero section
+- right sidebar
 - browser tab icon/favicon
 - social preview metadata

@@ -1,51 +1,42 @@
-# Deployment Guide for Shovon Mandal Academic Website
-
-## 1. Extract ZIP
-
-Extract the package on your computer.
-
-## 2. Add profile photo
-
-Replace:
-
-`assets/img/profile.jpg`
-
-with your own photo. Keep filename exactly: `profile.jpg`.
-
-## 3. Upload to GitHub
-
-Repository name:
-
-`shovon-mandal.github.io`
-
-Upload all files to repository root.
-
-## 4. Enable GitHub Pages
-
-Settings > Pages > Deploy from branch > main > /root > Save
-
-## 5. Update through VS Code
-
-```bash
-git add .
-git commit -m "Update academic portfolio website"
+# Deployment Guide for Shovon Mandal Academic Portfolio V7 ## Recommended clean upload using VS Code 1. Clone or open your GitHub Pages repository: ```bash
+git clone https://github.com/shovon-mandal/shovon-mandal.github.io.git
+cd shovon-mandal.github.io
+``` 2. Delete all old files except `.git`. Windows PowerShell: ```powershell
+Get-ChildItem -Force | Where-Object { $_.Name -ne ".git" } | Remove-Item -Recurse -Force
+``` 3. Extract the V7 ZIP file. 4. Copy the extracted files directly into the repository root. Correct structure: ```text
+index.html
+admin.html
+assets/
+data/
+README.md
+DEPLOYMENT_GUIDE.md
+PROFILE_PHOTO_INSTRUCTIONS.txt
+.nojekyll
+``` 5. Replace these two files if needed:
+- `assets/img/profile.jpg`
+- `assets/docs/Shovon_Mandal_CV.pdf` 6. Commit and push: ```bash
+git add -A
+git commit -m "Clean upload academic portfolio V7"
 git push
-```
+``` 7. Visit: `https://shovon-mandal.github.io` If the previous version appears, press:
+`Ctrl + F5` ## Future updates Edit `data/site-data.json`, then run: ```bash
+git add -A
+git commit -m "Update academic portfolio"
+git push
+``` ## Faculty profile included This version includes the official NUBTK faculty profile link: `https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal` After upload, check that the front-page `Faculty Profile` button and affiliation link open correctly. ## Final pre-publish check Before pushing, open the site with Live Server and check:
+- Lecturer/title line opens the official faculty profile.
+- University affiliation opens NUBTK.
+- Education institution names open KUET and BRAC University.
+- Teaching institution names open NUBTK, Imperial, KUET, and BRAC University.
+- CV PDF opens correctly.
+- Profile photo displays correctly.
 
-## 6. Later publication update
+## Final check for this clean premium version
 
-Edit:
-
-`data/site-data.json`
-
-Then commit and push.
-
-## 7. Add website to CV
-
-In CV header, hyperlink:
-
-`Website`
-
-to:
-
-`https://shovon-mandal.github.io`
+Before publishing, verify:
+- No separate University button appears in the top profile-link row.
+- The top Lecturer/title line is plain text.
+- The top university affiliation line is plain text.
+- Faculty Profile remains available in the profile-link row.
+- Education and Teaching institution links still open correctly.
+- `Secure Payment Systems` is not visible anywhere on the site.

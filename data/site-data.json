@@ -10,73 +10,74 @@
     "website": "https://shovon-mandal.github.io",
     "profileImage": "assets/img/profile.jpg",
     "cvUrl": "assets/docs/Shovon_Mandal_CV.pdf",
-    "formEndpoint": "",
-    "headline": "Computer Science lecturer and graduate researcher focused on secure digital payment systems, NFC-enabled cashless transactions, and blockchain-based distributed architectures.",
-    "status": "Open to graduate research opportunities, research assistantship consideration, and academic collaboration."
+    "aspirationLabel": "Graduate Study Objective",
+    "aspiration": "Aspiring to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain security, and NFC/IoT transaction security while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration.",
+    "headline": "Blockchain-Based Secure Digital Payments · NFC/IoT Transaction Security · Secure Distributed Systems · Research-Oriented Computing",
+    "rotatingWords": [
+      "Aspiring M.Sc./Ph.D. Researcher",
+      "Research-Oriented CSE Lecturer",
+      "Blockchain and Security Enthusiast",
+      "Adaptive Academic Collaborator"
+    ],
+    "facultyProfile": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal",
+    "officialProfileLabel": "Official University Profile",
+    "universityLink": "https://nubtkhulna.ac.bd/"
   },
   "links": {
+    "Faculty Profile": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal",
     "Google Scholar": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en",
     "GitHub": "https://github.com/shovon-mandal",
     "LinkedIn": "https://www.linkedin.com/in/shovonmandal/",
-    "ORCID": "",
-    "ResearchGate": "",
     "Email": "mailto:shovonmandal@gmail.com",
     "WhatsApp": "https://wa.me/8801911549671?text=Hello%20Shovon%20Mandal%2C%20I%20visited%20your%20academic%20portfolio%20and%20would%20like%20to%20connect."
   },
-  "academicSummary": [
+  "metrics": [
     {
-      "label": "Current Role",
-      "value": "Lecturer in CSE",
-      "detail": "Northern University of Business and Technology Khulna"
+      "value": "6",
+      "label": "Peer-Reviewed / Accepted Papers"
     },
     {
-      "label": "Graduate Research",
-      "value": "M.Sc. Defense Pending",
-      "detail": "KUET, Blockchain-based smart e-payment strategy"
+      "value": "2",
+      "label": "Core Research Prototypes"
     },
     {
-      "label": "Core Research Area",
-      "value": "Blockchain Payment Security",
-      "detail": "NFC/IoT transactions, distributed systems, applied cryptography"
+      "value": "4+",
+      "label": "Academic Roles"
     },
     {
-      "label": "Research Output",
-      "value": "6 Conference Papers",
-      "detail": "Blockchain/NFC, IOTA, AI, NLP, and applied ML"
+      "value": "3.80",
+      "label": "B.Sc. CGPA"
     }
   ],
   "about": [
-    "I am a Computer Science and Engineering lecturer and graduate researcher working on blockchain-based secure digital payment systems, NFC-enabled cashless transactions, and secure distributed architectures.",
-    "My current research examines how blockchain-backed transaction verification and NFC-enabled interaction can support efficient, reliable, and secure cashless payment workflows. My broader interests include secure distributed systems, IoT/NFC transaction security, applied cryptography, embedded systems security, and AI-enabled applied computing.",
-    "I am seeking graduate research opportunities where I can contribute to rigorous, implementation-aware research in blockchain security, fintech systems, secure payment infrastructure, and trustworthy distributed computing."
+    "I am a Computer Science and Engineering lecturer and graduate researcher with academic interests in blockchain-based secure digital payments, NFC-enabled transaction systems, secure distributed architectures.",
+    "My research background integrates theoretical interest and implementation-oriented practice. Through my M.Sc. and B.Sc. thesis work, publications, and prototype development, I have explored practical approaches to secure payment infrastructures, decentralized systems, and transaction verification models.",
+    "Beyond research, I bring classroom, laboratory, tutoring, and mentoring experience. I am comfortable working under academic pressure, adapting to new research environments, and learning new technologies quickly when a project or research problem requires it."
   ],
-  "researchFit": [
+  "highlightCards": [
     {
-      "title": "Secure Digital Payment Systems",
-      "text": "Designing and evaluating payment workflows that combine usability, transaction integrity, and security for cashless environments."
+      "title": "Graduate Study Direction",
+      "text": "Interested in advanced graduate study and long-term research in secure distributed systems, blockchain security, FinTech security, and IoT/NFC transaction security."
     },
     {
-      "title": "NFC and IoT Transaction Security",
-      "text": "Building and analyzing NFC-enabled interaction models for low-friction payment systems and embedded transaction devices."
+      "title": "Academic Readiness",
+      "text": "Prepared to contribute through literature review, technical documentation, prototype development, teaching support, student mentoring, and collaborative research execution."
     },
     {
-      "title": "Blockchain and Distributed Architectures",
-      "text": "Studying distributed ledger mechanisms, IOTA-based communication, node confirmation, and decentralized payment demonstrations."
-    },
-    {
-      "title": "Applied Cryptography and System Prototyping",
-      "text": "Connecting security concepts with working prototypes, experimental validation, and practical implementation constraints."
+      "title": "Research Disposition",
+      "text": "Adaptable, deadline-aware, and motivated to work in rigorous academic environments with a strong emphasis on learning, contribution, and publication."
     }
   ],
   "researchInterests": [
     "Blockchain-Based Secure Digital Payments",
     "NFC and IoT Transaction Security",
+    "Secure Payment Systems",
     "Secure Distributed Systems",
-    "Applied Cryptography",
     "Smart Contracts",
     "Embedded Systems Security",
+    "IOTA and Decentralized Communication",
     "FinTech Security",
-    "IOTA and Distributed Ledger Systems"
+    "Trustworthy Computing"
   ],
   "education": [
     {
@@ -93,18 +94,20 @@
         "Advanced Network Security",
         "Cloud Computing",
         "Neural Networks and Deep Learning"
-      ]
+      ],
+      "institutionUrl": "https://www.kuet.ac.bd/"
     },
     {
       "degree": "B.Sc. in Computer Science and Engineering",
       "institution": "BRAC University, Bangladesh",
       "period": "Spring 2018 – Spring 2022",
-      "status": "",
+      "status": "Highest Distinction",
       "gpa": "CGPA: 3.80/4.00",
       "thesis": "Blockchain-based Micropayment System for Secured Cashless Small Payments",
       "supervisor": "Md. Golam Rabiul Alam, PhD",
       "researchArea": "Blockchain-Based Micropayment Systems and Secure Cashless Transactions",
-      "coursework": []
+      "coursework": [],
+      "institutionUrl": "https://www.bracu.ac.bd/"
     }
   ],
   "publications": [
@@ -116,7 +119,7 @@
       "status": "Published",
       "doi": "10.1109/ICKECS61492.2024.10616703",
       "url": "https://doi.org/10.1109/ICKECS61492.2024.10616703",
-      "area": "Blockchain/NFC",
+      "category": "Core Research",
       "featured": true
     },
     {
@@ -127,7 +130,7 @@
       "status": "Published",
       "doi": "10.1109/ICCIT64611.2024.11021995",
       "url": "https://doi.org/10.1109/ICCIT64611.2024.11021995",
-      "area": "IOTA/Distributed Systems",
+      "category": "Core Research",
       "featured": true
     },
     {
@@ -138,7 +141,7 @@
       "status": "Published",
       "doi": "10.1109/QPAIN69676.2026.11545903",
       "url": "https://doi.org/10.1109/QPAIN69676.2026.11545903",
-      "area": "AI/Healthcare",
+      "category": "AI/ML",
       "featured": false
     },
     {
@@ -149,7 +152,7 @@
       "status": "Published",
       "doi": "10.1109/CSNT69054.2026.11502358",
       "url": "https://doi.org/10.1109/CSNT69054.2026.11502358",
-      "area": "AI/Climate",
+      "category": "AI/ML",
       "featured": false
     },
     {
@@ -160,7 +163,7 @@
       "status": "Accepted/In Press",
       "doi": "",
       "url": "",
-      "area": "AR/HCI",
+      "category": "Applied Computing",
       "featured": false
     },
     {
@@ -171,22 +174,21 @@
       "status": "Accepted/In Press",
       "doi": "",
       "url": "",
-      "area": "NLP/Deep Learning",
+      "category": "AI/ML",
       "featured": false
     }
   ],
   "projects": [
     {
-      "id": "PRJ-01",
       "title": "Blockchain and NFC-Based Secure Cashless Payment Prototype",
-      "type": "Research Prototype",
+      "type": "Thesis-Supporting Research Prototype",
       "url": "https://github.com/shovon-mandal/NFC",
-      "status": "Thesis-aligned",
+      "category": "Blockchain / NFC",
       "description": "A secure cashless payment prototype integrating blockchain-based transaction verification with NFC-enabled payment interaction.",
       "highlights": [
         "Implemented Arduino and Python modules for NFC-based transaction processing.",
-        "Supported experimental workflow for secure cashless payment validation.",
-        "Related output: ICKECS 2024 paper on blockchain and NFC-based digital payments."
+        "Supported experimental validation of secure cashless payment workflows.",
+        "Connected implementation evidence with the ICKECS 2024 publication."
       ],
       "tools": [
         "Blockchain",
@@ -197,16 +199,15 @@
       ]
     },
     {
-      "id": "PRJ-02",
       "title": "IOTA-Based Payment Website and Decentralized Transaction Demonstration",
-      "type": "Distributed Ledger Prototype",
+      "type": "Distributed Ledger Web Prototype",
       "url": "https://github.com/shovon-mandal/IOTA-Website",
-      "status": "Research implementation",
-      "description": "A web-based demonstration of IOTA-supported payment interaction and decentralized transaction flow.",
+      "category": "Distributed Systems",
+      "description": "A web-based prototype demonstrating IOTA-supported payment interaction and decentralized transaction flow.",
       "highlights": [
         "Developed front-end and backend components for payment demonstration and user interaction.",
-        "Connected the implementation to decentralized transaction and node-confirmation research.",
-        "Related output: ICCIT 2024 paper on Q-learning-based message multicast in IOTA Tangle."
+        "Linked implementation work to decentralized transaction and node-confirmation research.",
+        "Connected conceptually with the ICCIT 2024 publication."
       ],
       "tools": [
         "IOTA",
@@ -218,12 +219,34 @@
       ]
     }
   ],
+  "additionalProjects": [
+    {
+      "title": "Student Management Android Application",
+      "description": "Android Studio-based application designed for student information management and routine academic record workflows.",
+      "url": "https://github.com/shovon-mandal/Student-Management"
+    },
+    {
+      "title": "Traffic Light System",
+      "description": "Hardware-oriented project demonstrating control logic, digital system behavior, and implementation concepts.",
+      "url": ""
+    },
+    {
+      "title": "Fire Alarm Integrated with Mobile SIM",
+      "description": "A hardware project combining alert functionality with mobile SIM-based communication and notification concepts.",
+      "url": ""
+    },
+    {
+      "title": "PHP-Laravel and E-Commerce Web Projects",
+      "description": "Web development projects involving PHP, Laravel, HTML, CSS, JavaScript, and database-driven functionality.",
+      "url": ""
+    }
+  ],
   "teaching": [
     {
       "role": "Lecturer, Department of Computer Science and Engineering",
       "institution": "Northern University of Business and Technology Khulna, Bangladesh",
       "period": "Mar 2024 – Present",
-      "description": "Teach undergraduate theory and laboratory courses, prepare assessments, support student mentoring, and contribute to departmental academic activities.",
+      "description": "Teach undergraduate theory and laboratory courses, prepare lecture materials and assessments, evaluate student performance, support student mentoring, and contribute to departmental academic activities.",
       "courses": [
         "Computer Architecture",
         "Digital Logic Design",
@@ -232,13 +255,15 @@
         "Linear Programming and Combinatorial Optimization",
         "Digital Logic Design Lab",
         "Linear Programming and Combinatorial Optimization Lab"
-      ]
+      ],
+      "profileUrl": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal",
+      "institutionUrl": "https://nubtkhulna.ac.bd/"
     },
     {
       "role": "Lecturer (Adjunct), Department of Computer Science and Engineering",
       "institution": "Imperial College of Engineering, Khulna, Affiliated with Rajshahi University",
       "period": "Jul 2022 – Jun 2024",
-      "description": "Delivered undergraduate lectures, laboratory sessions, assessments, and academic support for core CSE courses.",
+      "description": "Delivered undergraduate lectures, laboratory sessions, assessments, review materials, and academic support for core CSE courses.",
       "courses": [
         "Database Management Systems",
         "Computer Peripherals and Interfacing",
@@ -246,24 +271,29 @@
         "Computer Graphics",
         "Web Engineering",
         "Microprocessor and Microcontrollers"
-      ]
+      ],
+      "institutionUrl": "https://www.imperial.edu.bd/"
     },
     {
       "role": "Teaching Assistant, Department of Computer Science and Engineering",
       "institution": "Khulna University of Engineering and Technology (KUET), Bangladesh",
       "period": "Jul 2023 – Dec 2023",
-      "description": "Assisted faculty members in laboratory instruction, assignment evaluation, academic record preparation, and student support.",
+      "description": "Assisted faculty members with laboratory instruction, assignment checking, marksheet preparation, student queries, academic record management, and research-related support.",
       "courses": [
         "Embedded Systems",
         "Electronic Devices and Circuits"
-      ]
+      ],
+      "institutionUrl": "https://www.kuet.ac.bd/"
     },
     {
-      "role": "Student Tutor, Department of Computer Science and Engineering",
+      "role": "Student Tutor (ST), Department of Computer Science and Engineering",
       "institution": "BRAC University, Bangladesh",
       "period": "Feb 2022 – Apr 2022",
-      "description": "Provided individual and group academic support to undergraduate students through tutoring sessions and guided academic assistance.",
-      "courses": []
+      "description": "Supported students in Electronic Devices and Circuits through individual and group tutoring, assignment and quiz guidance, study-strategy support, progress monitoring, communication with academic supervisors, and student contact-hour record maintenance.",
+      "courses": [
+        "Electronic Devices and Circuits"
+      ],
+      "institutionUrl": "https://www.bracu.ac.bd/"
     }
   ],
   "skills": {
@@ -271,7 +301,24 @@
       "Python",
       "Java",
       "C",
-      "MATLAB"
+      "MATLAB",
+      "MIPS Assembly",
+      "JavaScript"
+    ],
+    "Security and Blockchain": [
+      "Blockchain Payment Prototyping",
+      "IOTA Demonstration",
+      "Secure Payment Systems Concepts",
+      "Secure Digital Payment Systems",
+      "Secure Distributed Systems"
+    ],
+    "Systems and Hardware": [
+      "Arduino Prototyping",
+      "NFC Modules",
+      "Embedded Systems",
+      "Hardware Interfacing",
+      "Digital Electronics",
+      "Android Studio"
     ],
     "Web and Database": [
       "HTML",
@@ -279,35 +326,25 @@
       "JavaScript",
       "PHP",
       "Laravel",
-      "MySQL"
+      "MySQL",
+      "WordPress"
     ],
-    "Blockchain and Security": [
-      "Blockchain Payment Prototyping",
-      "IOTA Demonstration",
-      "Applied Cryptography Concepts",
-      "Secure Digital Payment Systems"
-    ],
-    "Systems and Hardware": [
-      "Arduino Prototyping",
-      "NFC Modules",
-      "MIPS Assembly",
-      "Digital Electronics",
-      "Embedded Systems",
-      "Android Studio"
-    ],
-    "Research and Analysis": [
+    "Research and Tools": [
       "LaTeX",
       "SPSS",
       "Microsoft Excel",
       "Google Sheets",
-      "Technical Writing",
-      "Experimental Documentation"
+      "Git",
+      "API Integration",
+      "Workflow Automation"
     ],
-    "Machine Learning": [
-      "CNN",
-      "Classification Models",
-      "Model Evaluation Metrics",
-      "NLP/Deep Learning Applications"
+    "Academic Strengths": [
+      "Teaching",
+      "Student Mentoring",
+      "Lab Supervision",
+      "Technical Documentation",
+      "Research Adaptability",
+      "Rapid Technology Learning"
     ]
   },
   "honors": [
@@ -321,5 +358,11 @@
     "Executive Member, BRAC University Computer Club, 2018–2020",
     "Executive Member, Robotics Club of BRAC University, 2018–2020",
     "Executive Member, BRACU Mongol Tori, Next Generation Mars Rover Team 4.0, 2019–2020"
+  ],
+  "strengths": [
+    "Comfortable working under academic pressure in research, teaching, and project-driven environments.",
+    "Adaptive to new research settings and able to learn unfamiliar technologies quickly when a research problem requires it.",
+    "Prepared for literature review, technical writing, implementation support, teaching support, and scholarly collaboration.",
+    "Interested in building a sustained graduate research trajectory through rigorous study, implementation, and publication."
   ]
 }
