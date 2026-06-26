@@ -8,7 +8,17 @@
     "website": "https://shovon-mandal.github.io",
     "tagline": "Blockchain-Based Secure Digital Payments | NFC and IoT Transaction Security | Secure Distributed Systems",
     "profileImage": "assets/img/profile.jpg",
-    "cvUrl": "assets/docs/Shovon_Mandal_CV.pdf"
+    "cvUrl": "assets/docs/Shovon_Mandal_CV.pdf",
+    "favicon": "assets/img/profile.jpg",
+    "browserTitle": "Shovon Mandal | Academic Portfolio",
+    "heroCommand": "whoami → academic profile",
+    "portraitLabel": "// profile.jpg",
+    "status": "Open to funded graduate research opportunities",
+    "base": "Bangladesh",
+    "sector": "CSE / Blockchain Security",
+    "educationShort": "M.Sc. CSE, KUET",
+    "cgpaShort": "B.Sc. CGPA 3.80 / 4.00",
+    "lastUpdated": "2026.06"
   },
   "links": {
     "Google Scholar": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en",
@@ -138,6 +148,11 @@
         "Arduino",
         "Python",
         "Secure Payment Systems"
+      ],
+      "categories": [
+        "Blockchain",
+        "NFC",
+        "Research"
       ]
     },
     {
@@ -157,6 +172,11 @@
         "CSS",
         "JavaScript",
         "Distributed Systems"
+      ],
+      "categories": [
+        "IOTA",
+        "Research",
+        "Web"
       ]
     }
   ],
@@ -266,5 +286,70 @@
     "Executive Member, BRAC University Computer Club, 2018–2020",
     "Executive Member, Robotics Club of BRAC University, 2018–2020",
     "Executive Member, BRACU Mongol Tori, Next Generation Mars Rover Team 4.0, 2019–2020"
+  ],
+  "skillLevels": [
+    {
+      "group": "Programming & Research Computing",
+      "items": [
+        {
+          "name": "Python",
+          "level": 86
+        },
+        {
+          "name": "Java",
+          "level": 84
+        },
+        {
+          "name": "C",
+          "level": 78
+        },
+        {
+          "name": "MATLAB",
+          "level": 72
+        }
+      ]
+    },
+    {
+      "group": "Blockchain & Security",
+      "items": [
+        {
+          "name": "Blockchain Payment Prototyping",
+          "level": 88
+        },
+        {
+          "name": "NFC/IoT Transaction Security",
+          "level": 86
+        },
+        {
+          "name": "Applied Cryptography Concepts",
+          "level": 80
+        },
+        {
+          "name": "IOTA Demonstration",
+          "level": 76
+        }
+      ]
+    },
+    {
+      "group": "Web, Data & Documentation",
+      "items": [
+        {
+          "name": "HTML/CSS/JavaScript",
+          "level": 82
+        },
+        {
+          "name": "MySQL/PHP/Laravel",
+          "level": 78
+        },
+        {
+          "name": "LaTeX & Technical Writing",
+          "level": 84
+        },
+        {
+          "name": "Research Data Analysis",
+          "level": 76
+        }
+      ]
+    }
   ]
 }

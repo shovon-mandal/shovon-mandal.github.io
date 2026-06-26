@@ -1,0 +1,22 @@
+PROFILE PHOTO INSTRUCTIONS
+==========================
+
+Use this exact file path for your photo:
+
+assets/img/profile.jpg
+
+Do not change the file name unless you also edit data/site-data.json and index.html.
+
+Recommended:
+- Square image
+- 800 x 800 px or larger
+- JPG format
+- Formal/academic headshot
+- Neutral background
+- Clear face and good lighting
+
+After replacing the image:
+1. Commit the change to GitHub.
+2. Wait 1-3 minutes for GitHub Pages to update.
+3. Hard refresh the website with Ctrl + F5.
+4. Browser tab icons are often cached. If the old icon remains, wait or clear browser cache.
