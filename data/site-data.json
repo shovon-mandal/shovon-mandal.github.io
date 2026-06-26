@@ -1,0 +1,330 @@
+{
+  "site": {
+    "name": "Shovon Mandal",
+    "title": "Lecturer, Department of Computer Science and Engineering",
+    "affiliation": "Northern University of Business and Technology Khulna, Bangladesh",
+    "location": "Bangladesh",
+    "email": "shovonmandal@gmail.com",
+    "whatsappDisplay": "+8801911549671",
+    "whatsappLink": "https://wa.me/8801911549671?text=Hello%20Shovon%20Mandal%2C%20I%20visited%20your%20academic%20portfolio%20and%20would%20like%20to%20connect.",
+    "website": "https://shovon-mandal.github.io",
+    "tagline": "Blockchain-Based Secure Digital Payments | NFC and IoT Transaction Security | Secure Distributed Systems",
+    "profileImage": "assets/img/profile.jpg",
+    "cvUrl": "assets/docs/Shovon_Mandal_CV.docx",
+    "status": "Open to graduate research opportunities and academic collaboration"
+  },
+  "links": {
+    "Google Scholar": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en",
+    "GitHub": "https://github.com/shovon-mandal",
+    "LinkedIn": "https://www.linkedin.com/in/shovonmandal/",
+    "ORCID": "",
+    "ResearchGate": "",
+    "Email": "mailto:shovonmandal@gmail.com",
+    "WhatsApp": "https://wa.me/8801911549671?text=Hello%20Shovon%20Mandal%2C%20I%20visited%20your%20academic%20portfolio%20and%20would%20like%20to%20connect."
+  },
+  "profileHighlights": [
+    {
+      "value": "6",
+      "label": "Conference Papers"
+    },
+    {
+      "value": "2",
+      "label": "Research Prototypes"
+    },
+    {
+      "value": "4+",
+      "label": "Academic Roles"
+    },
+    {
+      "value": "3.80",
+      "label": "B.Sc. CGPA"
+    }
+  ],
+  "about": [
+    "I am a Computer Science and Engineering lecturer and graduate researcher working on blockchain-based secure digital payment systems, NFC-enabled cashless transactions, and secure distributed architectures.",
+    "My research focuses on blockchain security, IoT/NFC transaction security, applied cryptography, smart payment infrastructures, and embedded systems security. I am particularly interested in fully funded graduate research opportunities in the United States in secure distributed systems and financial technology security."
+  ],
+  "researchInterests": [
+    "Blockchain-Based Secure Digital Payments",
+    "NFC and IoT Transaction Security",
+    "Secure Distributed Systems",
+    "Applied Cryptography",
+    "Smart Contracts",
+    "Embedded Systems Security"
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. in Computer Science and Engineering",
+      "institution": "Khulna University of Engineering and Technology (KUET), Bangladesh",
+      "period": "Jul 2022 – Present",
+      "status": "Defense Pending",
+      "gpa": "Coursework CGPA: 3.29/4.00",
+      "thesis": "Blockchain Technology Based Smart E-Payment Strategy for Secure Cashless Payment",
+      "supervisor": "Dr. Pintu Chandra Shill",
+      "researchArea": "Blockchain-Based Secure Digital Payment Systems and NFC-Enabled Transaction Security",
+      "coursework": [
+        "Principles of Cryptography",
+        "Advanced Network Security",
+        "Cloud Computing",
+        "Neural Networks and Deep Learning"
+      ]
+    },
+    {
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "institution": "BRAC University, Bangladesh",
+      "period": "Spring 2018 – Spring 2022",
+      "gpa": "CGPA: 3.80/4.00",
+      "thesis": "Blockchain-based Micropayment System for Secured Cashless Small Payments",
+      "supervisor": "Md. Golam Rabiul Alam, PhD",
+      "researchArea": "Blockchain-Based Micropayment Systems and Secure Cashless Transactions",
+      "coursework": []
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Mandal, S., & Shill, P. C.",
+      "year": "2024",
+      "title": "Ensuring Security and Efficiency in Digital Payments using Blockchain with NFC",
+      "venue": "2024 International Conference on Knowledge Engineering and Communication Systems (ICKECS), Chikkaballapur, India",
+      "status": "Published",
+      "doi": "10.1109/ICKECS61492.2024.10616703",
+      "url": "https://doi.org/10.1109/ICKECS61492.2024.10616703",
+      "area": "Blockchain/NFC",
+      "featured": true
+    },
+    {
+      "authors": "Keya, M., Mandal, S., et al.",
+      "year": "2024",
+      "title": "Q-learning based Automated Message Multicast in Gossip Protocol for Node Confirmation in IOTA Tangle",
+      "venue": "2024 27th International Conference on Computer and Information Technology (ICCIT), Cox’s Bazar, Bangladesh",
+      "status": "Published",
+      "doi": "10.1109/ICCIT64611.2024.11021995",
+      "url": "https://doi.org/10.1109/ICCIT64611.2024.11021995",
+      "area": "IOTA/Distributed Systems",
+      "featured": true
+    },
+    {
+      "authors": "Ghosh, A., Mandal, S., Islam, M. J., Islam, K. M., Dhar, S., & Baidya, R.",
+      "year": "2026",
+      "title": "Comparative Evaluation of Multiple CNN Architectures for Dermoscopic Skin Lesion Classification using ISIC Dataset",
+      "venue": "2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN), Chittagong, Bangladesh",
+      "status": "Published",
+      "doi": "10.1109/QPAIN69676.2026.11545903",
+      "url": "https://doi.org/10.1109/QPAIN69676.2026.11545903",
+      "area": "AI/Healthcare",
+      "featured": false
+    },
+    {
+      "authors": "Ghosh, A., Pinki, F. T., Baidya, R., Alam, F., & Mandal, S.",
+      "year": "2026",
+      "title": "A Machine Learning and DEM-Based Approach for Predicting Sea Level Rise and Assessing Coastal Risk in Bangladesh Using AI Insights",
+      "venue": "2026 IEEE 15th International Conference on Communication Systems and Network Technologies (CSNT), Al-Khobar, Saudi Arabia",
+      "status": "Published",
+      "doi": "10.1109/CSNT69054.2026.11502358",
+      "url": "https://doi.org/10.1109/CSNT69054.2026.11502358",
+      "area": "AI/Climate",
+      "featured": false
+    },
+    {
+      "authors": "Mandal, S., et al.",
+      "year": "2025",
+      "title": "Revolutionizing Academic Learning and Research with the Integration of Leap Motion and ARCore in Android",
+      "venue": "16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT), IIT Indore, India",
+      "status": "Accepted/In Press",
+      "doi": "",
+      "url": "",
+      "area": "AR/HCI",
+      "featured": false
+    },
+    {
+      "authors": "Ghosh, A., Mandal, S., et al.",
+      "year": "2025",
+      "title": "Advancing Sentiment Analysis Through Natural Language Processing and Deep Learning",
+      "venue": "16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT), IIT Indore, India",
+      "status": "Accepted/In Press",
+      "doi": "",
+      "url": "",
+      "area": "NLP/Deep Learning",
+      "featured": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ_001",
+      "title": "Blockchain and NFC-Based Secure Cashless Payment Prototype",
+      "type": "Research Prototype",
+      "url": "https://github.com/shovon-mandal/NFC",
+      "status": "Thesis-aligned",
+      "description": "A secure cashless payment prototype integrating blockchain-based transaction verification with NFC-enabled payment interaction.",
+      "highlights": [
+        "Implemented Arduino and Python modules for NFC-based transaction processing.",
+        "Supported experimental workflow for secure cashless payment validation.",
+        "Related output: ICKECS 2024 paper on blockchain and NFC-based digital payments."
+      ],
+      "tools": [
+        "Blockchain",
+        "NFC",
+        "Arduino",
+        "Python",
+        "Secure Payment Systems"
+      ]
+    },
+    {
+      "id": "PRJ_002",
+      "title": "IOTA-Based Payment Website and Decentralized Transaction Demonstration",
+      "type": "Distributed Ledger Prototype",
+      "url": "https://github.com/shovon-mandal/IOTA-Website",
+      "status": "Research implementation",
+      "description": "A web-based demonstration of IOTA-supported payment interaction and decentralized transaction flow.",
+      "highlights": [
+        "Developed front-end and backend components for payment demonstration and user interaction.",
+        "Connected the implementation to decentralized transaction and node-confirmation research.",
+        "Related output: ICCIT 2024 paper on Q-learning-based message multicast in IOTA Tangle."
+      ],
+      "tools": [
+        "IOTA",
+        "Python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Distributed Systems"
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "role": "Lecturer, Department of Computer Science and Engineering",
+      "institution": "Northern University of Business and Technology Khulna, Bangladesh",
+      "period": "Mar 2024 – Present",
+      "description": "Teach undergraduate theory and laboratory courses, prepare assessments, support student mentoring, and contribute to departmental academic activities.",
+      "courses": [
+        "Computer Architecture",
+        "Digital Logic Design",
+        "Object-Oriented Programming with Java",
+        "Technical Writing",
+        "Linear Programming and Combinatorial Optimization",
+        "Digital Logic Design Lab",
+        "Linear Programming and Combinatorial Optimization Lab"
+      ]
+    },
+    {
+      "role": "Lecturer (Adjunct), Department of Computer Science and Engineering",
+      "institution": "Imperial College of Engineering, Khulna, Affiliated with Rajshahi University",
+      "period": "Jul 2022 – Jun 2024",
+      "description": "Delivered undergraduate lectures, laboratory sessions, assessments, and academic support for core CSE courses.",
+      "courses": [
+        "Database Management Systems",
+        "Computer Peripherals and Interfacing",
+        "Computer Architecture and Organization",
+        "Computer Graphics",
+        "Web Engineering",
+        "Microprocessor and Microcontrollers"
+      ]
+    },
+    {
+      "role": "Teaching Assistant, Department of Computer Science and Engineering",
+      "institution": "Khulna University of Engineering and Technology (KUET), Bangladesh",
+      "period": "Jul 2023 – Dec 2023",
+      "description": "Assisted faculty members in laboratory instruction, assignment evaluation, academic record preparation, and student support.",
+      "courses": [
+        "Embedded Systems",
+        "Electronic Devices and Circuits"
+      ]
+    },
+    {
+      "role": "Student Tutor, Department of Computer Science and Engineering",
+      "institution": "BRAC University, Bangladesh",
+      "period": "Feb 2022 – Apr 2022",
+      "description": "Provided individual and group academic support to undergraduate students through tutoring sessions and guided academic assistance.",
+      "courses": []
+    }
+  ],
+  "skills": {
+    "Programming": [
+      {
+        "name": "Python",
+        "level": 86
+      },
+      {
+        "name": "Java",
+        "level": 82
+      },
+      {
+        "name": "C",
+        "level": 78
+      },
+      {
+        "name": "MATLAB",
+        "level": 74
+      }
+    ],
+    "Web and Database": [
+      {
+        "name": "HTML/CSS/JavaScript",
+        "level": 82
+      },
+      {
+        "name": "PHP/Laravel",
+        "level": 75
+      },
+      {
+        "name": "MySQL",
+        "level": 80
+      }
+    ],
+    "Research and Analysis": [
+      {
+        "name": "LaTeX",
+        "level": 78
+      },
+      {
+        "name": "SPSS",
+        "level": 70
+      },
+      {
+        "name": "Excel/Google Sheets",
+        "level": 84
+      }
+    ],
+    "Blockchain and Security": [
+      {
+        "name": "Blockchain Payment Prototyping",
+        "level": 84
+      },
+      {
+        "name": "IOTA Demonstration",
+        "level": 78
+      },
+      {
+        "name": "Applied Cryptography Concepts",
+        "level": 76
+      }
+    ],
+    "Systems and Hardware": [
+      {
+        "name": "Arduino Prototyping",
+        "level": 80
+      },
+      {
+        "name": "NFC Modules",
+        "level": 82
+      },
+      {
+        "name": "Embedded Systems",
+        "level": 76
+      }
+    ]
+  },
+  "honors": [
+    "Highest Distinction, BRAC University",
+    "Vice Chancellor’s List, BRAC University — 5 consecutive semesters",
+    "Dean’s List, BRAC University — 2 consecutive semesters",
+    "Merit-based Scholarship, BRAC University",
+    "Merit-based Scholarship, Junior School Certificate, Board of Intermediate and Secondary Education, Jashore"
+  ],
+  "service": [
+    "Executive Member, BRAC University Computer Club, 2018–2020",
+    "Executive Member, Robotics Club of BRAC University, 2018–2020",
+    "Executive Member, BRACU Mongol Tori, Next Generation Mars Rover Team 4.0, 2019–2020"
+  ]
+}

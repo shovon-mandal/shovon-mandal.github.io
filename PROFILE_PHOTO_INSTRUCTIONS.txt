@@ -1,0 +1,20 @@
+PROFILE PHOTO INSTRUCTIONS
+
+Replace this file path:
+assets/img/profile.jpg
+
+with your own professional academic headshot.
+
+Important:
+1. Keep the filename exactly: profile.jpg
+2. Use a square crop if possible.
+3. Recommended size: 800 x 800 pixels or higher.
+4. Use formal or semi-formal dress.
+5. Use a clean/neutral background.
+6. Avoid selfies, heavy filters, group photos, or low-resolution images.
+
+This single image will appear in:
+- website main profile section
+- right sidebar
+- browser tab icon/favicon
+- social preview metadata
