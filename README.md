@@ -1,58 +1,82 @@
-# Shovon Mandal Professor-Friendly Academic Website
+# Shovon Mandal Academic Professor-Friendly Website
 
-Complete static academic portfolio for GitHub Pages.
+This is a complete static academic portfolio website for GitHub Pages.
 
-Expected URL after publishing: `https://shovon-mandal.github.io`
+## Main URL after publishing
 
-## Main files
+https://shovon-mandal.github.io
 
-- `index.html` — main website
-- `admin.html` — local content editor
-- `data/site-data.json` — all editable content
-- `assets/css/style.css` — design/layout
-- `assets/js/main.js` — website functionality
-- `assets/js/admin.js` — admin editor script
-- `assets/img/profile.jpg` — replace this with your professional profile photo
-- `assets/docs/Shovon_Mandal_CV.docx` — replace with updated CV if needed
+## Main features
 
-## Profile picture
+- Fully academic and professor-friendly layout
+- Right-side desktop sidebar navigation
+- Mobile responsive menu
+- Profile photo as website portrait and browser tab icon
+- WhatsApp direct contact button
+- Email contact form with mailto fallback
+- Optional Formspree endpoint support for direct inbox delivery
+- Publications and projects with filters
+- Research-fit section for prospective supervisors
+- Data-driven editing through `data/site-data.json`
+- Local `admin.html` editor for easy updates
 
-Replace `assets/img/profile.jpg` with your own formal academic photo. Keep the filename exactly: `profile.jpg`.
+## Profile photo
 
-This same image is used for:
-- main profile photo
-- right sidebar photo
-- browser tab icon/favicon
-- social preview image
+Replace this file with your own professional academic headshot:
 
-Recommended: square crop, 800×800 px or higher, formal/semi-formal dress, neutral background.
+`assets/img/profile.jpg`
 
-## Contact features
+Keep the filename exactly the same: `profile.jpg`
 
-- WhatsApp direct link: `https://wa.me/8801911549671`
-- WhatsApp message button with pre-filled message
-- Email button using `mailto:shovonmandal@gmail.com`
-- Contact form opens visitor's email app with prepared message
+Recommended: square crop, 800 x 800 px or higher, formal/semi-formal dress, neutral background.
 
-For direct server-side email delivery without opening an email app, use a service like Formspree, EmailJS, Netlify Forms, or a custom backend.
+## Editing content
 
-## Editing content later
+Most content is stored in:
 
-Edit `data/site-data.json` to update:
-- about/profile
-- research interests
-- education
+`data/site-data.json`
+
+Edit this file to update:
+
+- profile text
+- research fit
 - publications
 - projects
-- teaching
+- teaching experience
 - skills
 - honors
 - contact links
 
 ## Admin editor
 
-Open `admin.html`.
+Open:
 
-Default passcode: `shovon-admin-2026`
+`admin.html`
 
-This is a local/static content editor. It can download an updated `site-data.json`, but it cannot securely save to GitHub by itself because GitHub Pages is static hosting.
+Default passcode:
+
+`shovon-admin-2026`
+
+This editor lets you update JSON and download a new `site-data.json`. Because GitHub Pages is static hosting, this is not a secure online dashboard and cannot directly save to GitHub without a backend.
+
+## Email form
+
+Default email sending uses `mailto:`. It opens the visitor's email application with your email and message already prepared.
+
+For direct inbox delivery from the website form:
+
+1. Create a Formspree form endpoint.
+2. Open `data/site-data.json`.
+3. Add your endpoint to:
+
+`"formEndpoint": "https://formspree.io/f/YOUR_FORM_ID"`
+
+## Publishing
+
+1. Create/open GitHub repository: `shovon-mandal.github.io`
+2. Upload all files from this package to the repository root.
+3. Go to Settings > Pages.
+4. Select Deploy from branch.
+5. Choose main branch and /root.
+6. Save.
+7. Visit https://shovon-mandal.github.io after deployment.

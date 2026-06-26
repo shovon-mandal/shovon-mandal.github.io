@@ -8,10 +8,11 @@
     "whatsappDisplay": "+8801911549671",
     "whatsappLink": "https://wa.me/8801911549671?text=Hello%20Shovon%20Mandal%2C%20I%20visited%20your%20academic%20portfolio%20and%20would%20like%20to%20connect.",
     "website": "https://shovon-mandal.github.io",
-    "tagline": "Blockchain-Based Secure Digital Payments | NFC and IoT Transaction Security | Secure Distributed Systems",
     "profileImage": "assets/img/profile.jpg",
     "cvUrl": "assets/docs/Shovon_Mandal_CV.pdf",
-    "status": "Open to graduate research opportunities and academic collaboration"
+    "formEndpoint": "",
+    "headline": "Computer Science lecturer and graduate researcher focused on secure digital payment systems, NFC-enabled cashless transactions, and blockchain-based distributed architectures.",
+    "status": "Open to graduate research opportunities, research assistantship consideration, and academic collaboration."
   },
   "links": {
     "Google Scholar": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en",
@@ -22,27 +23,50 @@
     "Email": "mailto:shovonmandal@gmail.com",
     "WhatsApp": "https://wa.me/8801911549671?text=Hello%20Shovon%20Mandal%2C%20I%20visited%20your%20academic%20portfolio%20and%20would%20like%20to%20connect."
   },
-  "profileHighlights": [
+  "academicSummary": [
     {
-      "value": "6",
-      "label": "Conference Papers"
+      "label": "Current Role",
+      "value": "Lecturer in CSE",
+      "detail": "Northern University of Business and Technology Khulna"
     },
     {
-      "value": "2",
-      "label": "Research Prototypes"
+      "label": "Graduate Research",
+      "value": "M.Sc. Defense Pending",
+      "detail": "KUET, Blockchain-based smart e-payment strategy"
     },
     {
-      "value": "4+",
-      "label": "Academic Roles"
+      "label": "Core Research Area",
+      "value": "Blockchain Payment Security",
+      "detail": "NFC/IoT transactions, distributed systems, applied cryptography"
     },
     {
-      "value": "3.80",
-      "label": "B.Sc. CGPA"
+      "label": "Research Output",
+      "value": "6 Conference Papers",
+      "detail": "Blockchain/NFC, IOTA, AI, NLP, and applied ML"
     }
   ],
   "about": [
     "I am a Computer Science and Engineering lecturer and graduate researcher working on blockchain-based secure digital payment systems, NFC-enabled cashless transactions, and secure distributed architectures.",
-    "My research focuses on blockchain security, IoT/NFC transaction security, applied cryptography, smart payment infrastructures, and embedded systems security. I am particularly interested in fully funded graduate research opportunities in the United States in secure distributed systems and financial technology security."
+    "My current research examines how blockchain-backed transaction verification and NFC-enabled interaction can support efficient, reliable, and secure cashless payment workflows. My broader interests include secure distributed systems, IoT/NFC transaction security, applied cryptography, embedded systems security, and AI-enabled applied computing.",
+    "I am seeking graduate research opportunities where I can contribute to rigorous, implementation-aware research in blockchain security, fintech systems, secure payment infrastructure, and trustworthy distributed computing."
+  ],
+  "researchFit": [
+    {
+      "title": "Secure Digital Payment Systems",
+      "text": "Designing and evaluating payment workflows that combine usability, transaction integrity, and security for cashless environments."
+    },
+    {
+      "title": "NFC and IoT Transaction Security",
+      "text": "Building and analyzing NFC-enabled interaction models for low-friction payment systems and embedded transaction devices."
+    },
+    {
+      "title": "Blockchain and Distributed Architectures",
+      "text": "Studying distributed ledger mechanisms, IOTA-based communication, node confirmation, and decentralized payment demonstrations."
+    },
+    {
+      "title": "Applied Cryptography and System Prototyping",
+      "text": "Connecting security concepts with working prototypes, experimental validation, and practical implementation constraints."
+    }
   ],
   "researchInterests": [
     "Blockchain-Based Secure Digital Payments",
@@ -50,7 +74,9 @@
     "Secure Distributed Systems",
     "Applied Cryptography",
     "Smart Contracts",
-    "Embedded Systems Security"
+    "Embedded Systems Security",
+    "FinTech Security",
+    "IOTA and Distributed Ledger Systems"
   ],
   "education": [
     {
@@ -73,6 +99,7 @@
       "degree": "B.Sc. in Computer Science and Engineering",
       "institution": "BRAC University, Bangladesh",
       "period": "Spring 2018 – Spring 2022",
+      "status": "",
       "gpa": "CGPA: 3.80/4.00",
       "thesis": "Blockchain-based Micropayment System for Secured Cashless Small Payments",
       "supervisor": "Md. Golam Rabiul Alam, PhD",
@@ -96,7 +123,7 @@
       "authors": "Keya, M., Mandal, S., et al.",
       "year": "2024",
       "title": "Q-learning based Automated Message Multicast in Gossip Protocol for Node Confirmation in IOTA Tangle",
-      "venue": "2024 27th International Conference on Computer and Information Technology (ICCIT), Cox’s Bazar, Bangladesh",
+      "venue": "2024 27th International Conference on Computer and Information Technology (ICCIT), Cox's Bazar, Bangladesh",
       "status": "Published",
       "doi": "10.1109/ICCIT64611.2024.11021995",
       "url": "https://doi.org/10.1109/ICCIT64611.2024.11021995",
@@ -150,7 +177,7 @@
   ],
   "projects": [
     {
-      "id": "PRJ_001",
+      "id": "PRJ-01",
       "title": "Blockchain and NFC-Based Secure Cashless Payment Prototype",
       "type": "Research Prototype",
       "url": "https://github.com/shovon-mandal/NFC",
@@ -170,7 +197,7 @@
       ]
     },
     {
-      "id": "PRJ_002",
+      "id": "PRJ-02",
       "title": "IOTA-Based Payment Website and Decentralized Transaction Demonstration",
       "type": "Distributed Ledger Prototype",
       "url": "https://github.com/shovon-mandal/IOTA-Website",
@@ -241,78 +268,46 @@
   ],
   "skills": {
     "Programming": [
-      {
-        "name": "Python",
-        "level": 86
-      },
-      {
-        "name": "Java",
-        "level": 82
-      },
-      {
-        "name": "C",
-        "level": 78
-      },
-      {
-        "name": "MATLAB",
-        "level": 74
-      }
+      "Python",
+      "Java",
+      "C",
+      "MATLAB"
     ],
     "Web and Database": [
-      {
-        "name": "HTML/CSS/JavaScript",
-        "level": 82
-      },
-      {
-        "name": "PHP/Laravel",
-        "level": 75
-      },
-      {
-        "name": "MySQL",
-        "level": 80
-      }
-    ],
-    "Research and Analysis": [
-      {
-        "name": "LaTeX",
-        "level": 78
-      },
-      {
-        "name": "SPSS",
-        "level": 70
-      },
-      {
-        "name": "Excel/Google Sheets",
-        "level": 84
-      }
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "MySQL"
     ],
     "Blockchain and Security": [
-      {
-        "name": "Blockchain Payment Prototyping",
-        "level": 84
-      },
-      {
-        "name": "IOTA Demonstration",
-        "level": 78
-      },
-      {
-        "name": "Applied Cryptography Concepts",
-        "level": 76
-      }
+      "Blockchain Payment Prototyping",
+      "IOTA Demonstration",
+      "Applied Cryptography Concepts",
+      "Secure Digital Payment Systems"
     ],
     "Systems and Hardware": [
-      {
-        "name": "Arduino Prototyping",
-        "level": 80
-      },
-      {
-        "name": "NFC Modules",
-        "level": 82
-      },
-      {
-        "name": "Embedded Systems",
-        "level": 76
-      }
+      "Arduino Prototyping",
+      "NFC Modules",
+      "MIPS Assembly",
+      "Digital Electronics",
+      "Embedded Systems",
+      "Android Studio"
+    ],
+    "Research and Analysis": [
+      "LaTeX",
+      "SPSS",
+      "Microsoft Excel",
+      "Google Sheets",
+      "Technical Writing",
+      "Experimental Documentation"
+    ],
+    "Machine Learning": [
+      "CNN",
+      "Classification Models",
+      "Model Evaluation Metrics",
+      "NLP/Deep Learning Applications"
     ]
   },
   "honors": [

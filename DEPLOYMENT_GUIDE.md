@@ -1,56 +1,51 @@
-# Deployment Guide
+# Deployment Guide for Shovon Mandal Academic Website
 
-## 1. Extract the ZIP
+## 1. Extract ZIP
 
-Extract the website package on your computer.
+Extract the package on your computer.
 
-## 2. Add your profile picture
+## 2. Add profile photo
 
 Replace:
 
 `assets/img/profile.jpg`
 
-with your own professional photo. Keep the same filename.
+with your own photo. Keep filename exactly: `profile.jpg`.
 
 ## 3. Upload to GitHub
 
-Create or open the repository:
+Repository name:
 
 `shovon-mandal.github.io`
 
-Upload all files to the repository root.
+Upload all files to repository root.
 
 ## 4. Enable GitHub Pages
 
-Go to:
+Settings > Pages > Deploy from branch > main > /root > Save
 
-Settings > Pages
-
-Choose:
-- Source: Deploy from branch
-- Branch: main
-- Folder: /root
-
-Click Save.
-
-## 5. Open the website
-
-After a few minutes, visit:
-
-`https://shovon-mandal.github.io`
-
-## 6. Update later using VS Code
+## 5. Update through VS Code
 
 ```bash
 git add .
-git commit -m "Update academic portfolio"
+git commit -m "Update academic portfolio website"
 git push
 ```
 
-GitHub Pages will redeploy automatically after push.
+## 6. Later publication update
+
+Edit:
+
+`data/site-data.json`
+
+Then commit and push.
 
 ## 7. Add website to CV
 
-In your CV header, write `Website` and hyperlink it to:
+In CV header, hyperlink:
+
+`Website`
+
+to:
 
 `https://shovon-mandal.github.io`
