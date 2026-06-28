@@ -70,3 +70,28 @@ This version rearranges the portfolio to prioritize:
 - email-only academic contact.
 
 The bottom contact section no longer repeats the generic GitHub repositories link.
+
+## V10 Hardware and Academic Service Update
+
+This version adds:
+- university faculty interest in hardware-oriented computing,
+- embedded systems and project-based learning emphasis,
+- CSE Fest 2025 Project Showcasing judge experience,
+- a new Academic Service and Hardware Engagement section,
+- updated M.Sc./Ph.D. supervisor-facing research fit language.
+
+## V11 Premium Supervisor-Focused Update
+
+This version adds ResearchGate and redesigns the home page for first-impression academic visibility.
+
+ResearchGate profile used:
+https://www.researchgate.net/profile/Shovon-Mandal-2
+
+Main emphasis:
+- supervisor-facing M.Sc./Ph.D. research fit,
+- RA/TA readiness,
+- secure payment systems and blockchain/NFC security,
+- publications and implementation prototypes,
+- academic automation as evidence of practical technical contribution,
+- hardware/project-based learning and CSE Fest 2025 judging service,
+- email-only contact.

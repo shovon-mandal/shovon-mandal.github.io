@@ -58,10 +58,34 @@ Before publishing:
 
 Before pushing:
 1. Confirm the bottom contact section shows only the direct email card and email form.
-2. Confirm `GitHub Repositories` is not repeated at the bottom.
+2. Confirm `GitHub` is not repeated at the bottom.
 3. Confirm the section order starts with Graduate Research Fit before Profile.
 4. Confirm research projects appear before automation projects.
 5. Push with:
    git add -A
    git commit -m "Refocus portfolio for MSc PhD supervision"
+   git push
+
+## V10 Pre-Publish Check
+
+Before pushing:
+1. Confirm the new Academic Service and Hardware Engagement section appears before Contact.
+2. Confirm CSE Fest 2025 Project Showcasing judge information appears.
+3. Confirm hardware/embedded systems interest appears in profile and skills.
+4. Push with:
+   git add -A
+   git commit -m "Add hardware interest and CSE Fest judging service"
+   git push
+
+## V11 Pre-Publish Check
+
+Before pushing:
+1. Confirm ResearchGate appears in the top academic profile links.
+2. Confirm the home page has the new evidence cards below the hero.
+3. Confirm the Graduate Research Fit section appears near the top.
+4. Confirm the bottom contact section is email-only.
+5. Confirm `admin.html` is not in the published root.
+6. Push with:
+   git add -A
+   git commit -m "Premium supervisor-focused portfolio redesign"
    git push
