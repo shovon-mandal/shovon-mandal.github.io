@@ -53,3 +53,15 @@ Before publishing:
    git add -A
    git commit -m "Update portfolio with automation profile"
    git push
+
+## V9 Pre-Publish Check
+
+Before pushing:
+1. Confirm the bottom contact section shows only the direct email card and email form.
+2. Confirm `GitHub Repositories` is not repeated at the bottom.
+3. Confirm the section order starts with Graduate Research Fit before Profile.
+4. Confirm research projects appear before automation projects.
+5. Push with:
+   git add -A
+   git commit -m "Refocus portfolio for MSc PhD supervision"
+   git push

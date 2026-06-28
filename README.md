@@ -58,3 +58,15 @@ Included project emphasis:
 - Student Management Android Application
 
 Public admin panel files were removed from the publish package for a cleaner and safer professional website.
+
+## V9 M.Sc./Ph.D. Supervisor-Focused Update
+
+This version rearranges the portfolio to prioritize:
+- graduate research fit,
+- supervisor-facing research alignment,
+- publications and thesis-related prototypes,
+- RA/TA readiness,
+- academic automation as implementation evidence,
+- email-only academic contact.
+
+The bottom contact section no longer repeats the generic GitHub repositories link.
