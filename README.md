@@ -107,3 +107,15 @@ Key changes:
 - landing page focuses on research, projects, teaching, and graduate fit,
 - cleaner premium layout with improved readability,
 - email-only contact and no bottom GitHub repetition.
+
+## V13 Academic Premium Redesign
+
+This version fully changes the website formation into a cleaner academic premium layout:
+- new top navigation,
+- redesigned landing page,
+- concise academic snapshot,
+- email visible on landing page without extra email button,
+- professor-friendly first impression,
+- reduced long redundant text,
+- research fit and selected evidence placed near the top,
+- balanced personal academic portfolio and M.Sc./Ph.D. research direction.

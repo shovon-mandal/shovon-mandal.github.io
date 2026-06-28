@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "Shovon Mandal",
-    "title": "Lecturer, Department of Computer Science and Engineering",
+    "title": "Lecturer, Department of CSE",
     "affiliation": "Northern University of Business and Technology Khulna, Bangladesh",
     "location": "Bangladesh",
     "email": "shovonmandal@gmail.com",
@@ -10,7 +10,7 @@
     "cvUrl": "assets/docs/Shovon_Mandal_CV.pdf",
     "aspirationLabel": "Graduate Research Direction",
     "aspiration": "I am building an academic research profile for advanced M.Sc./Ph.D. study in secure distributed systems, blockchain-enabled payment security, NFC/IoT transaction security, and implementation-oriented computing. My work combines publications, thesis-based prototypes, teaching experience, academic automation, and hardware-oriented project engagement.",
-    "headline": "CSE Lecturer · Prospective M.Sc./Ph.D. Researcher · Secure Digital Payments · Blockchain/NFC Transaction Security · Academic Automation",
+    "headline": "CSE Lecturer · Prospective M.Sc./Ph.D. Researcher · Secure Payments · Blockchain/NFC Security · Academic Automation",
     "rotatingWords": [
       "CSE Lecturer and Research-Oriented Academic",
       "Prospective M.Sc./Ph.D. Researcher",
@@ -21,40 +21,40 @@
     "facultyProfile": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal",
     "officialProfileLabel": "Official University Profile",
     "universityLink": "https://nubtkhulna.ac.bd/",
-    "researchGate": "https://www.researchgate.net/profile/Shovon-Mandal-2"
+    "researchGate": "https://www.researchgate.net/profile/Shovon-Mandal-2",
+    "graduateGoalTitle": "M.Sc./Ph.D. Research Goal",
+    "graduateGoal": "My academic goal is to pursue M.Sc./Ph.D. research in secure distributed systems, blockchain-enabled payment security, NFC/IoT transaction security, and implementation-oriented computing. I aim to contribute to an active research group through prototype development, technical writing, teaching/lab support, and organized research workflows.",
+    "shortPositioning": "Research-oriented CSE lecturer with publications, secure payment prototypes, academic automation systems, teaching experience, and hardware/project-based learning engagement."
   },
   "links": {
     "Faculty Profile": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal",
     "Google Scholar": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en",
     "ResearchGate": "https://www.researchgate.net/profile/Shovon-Mandal-2",
     "GitHub": "https://github.com/shovon-mandal",
-    "LinkedIn": "https://www.linkedin.com/in/shovonmandal/",
-    "Email": "mailto:shovonmandal@gmail.com"
+    "LinkedIn": "https://www.linkedin.com/in/shovonmandal/"
   },
   "metrics": [
     {
       "value": "6",
-      "label": "Research Papers Accepted / Published"
+      "label": "Research Papers"
     },
     {
       "value": "4+",
-      "label": "Research & Implementation Projects"
+      "label": "Selected Projects"
     },
     {
       "value": "2+",
-      "label": "Academic Automation Systems"
+      "label": "Automation Systems"
     },
     {
       "value": "3.80",
-      "label": "B.Sc. CGPA / Highest Distinction"
+      "label": "B.Sc. CGPA"
     }
   ],
   "about": [
-    "I am a Computer Science and Engineering lecturer and research-oriented academic with a focused interest in secure digital payments, blockchain/NFC transaction security, secure distributed systems, and implementation-oriented computing.",
-    "My profile combines publication experience, thesis-based prototype development, teaching practice, and practical academic systems building. I have worked on secure cashless payment systems, blockchain/NFC interaction, IOTA-based transaction demonstration, and decentralized communication concepts.",
-    "I also build automation systems for real academic workflows. Using Google Sheets, Apps Script, Python, and web tools, I have developed systems for class routine management, faculty/section-wise routine retrieval, student communication, assessment/marking organization, and cleaner academic administration.",
-    "As a university faculty member, I maintain an interest in hardware-oriented computing, embedded systems, digital logic, computer architecture, and project-based learning. These interests support my ability to contribute not only to research implementation, but also to teaching, lab work, and student project supervision.",
-    "This portfolio presents my academic background, research preparation, implementation projects, teaching record, automation systems, and service activities for both personal academic visibility and graduate-research evaluation."
+    "I am a Computer Science and Engineering lecturer and research-oriented academic working toward advanced graduate research in secure digital payment systems, blockchain/NFC transaction security, and secure distributed computing.",
+    "My academic profile combines publications, thesis-based prototypes, teaching experience, academic workflow automation, and practical implementation. I have worked on blockchain/NFC payment interaction, IOTA-based transaction demonstration, and Python/Apps Script automation systems.",
+    "My long-term goal is to develop a focused M.Sc./Ph.D. research path where I can contribute to a research group through disciplined reading, prototype development, technical documentation, teaching/lab support, and reproducible academic workflows."
   ],
   "highlightCards": [
     {
@@ -192,8 +192,8 @@
       "title": "Blockchain and NFC-Based Secure Cashless Payment Prototype",
       "type": "Thesis-Supporting Research Prototype",
       "url": "https://github.com/shovon-mandal/NFC",
-      "category": "Research Prototype / Secure Payments",
-      "description": "A thesis-supporting secure cashless payment prototype connecting blockchain-based transaction verification with NFC-enabled payment interaction and practical security experimentation.",
+      "category": "Research Prototype",
+      "description": "A thesis-supporting prototype connecting blockchain-based transaction verification with NFC-enabled payment interaction.",
       "highlights": [
         "Implemented Arduino and Python modules for NFC-based transaction processing.",
         "Supported experimental validation of secure cashless payment workflows.",
@@ -211,8 +211,8 @@
       "title": "IOTA-Based Payment Website and Decentralized Transaction Demonstration",
       "type": "Distributed Ledger Web Prototype",
       "url": "https://github.com/shovon-mandal/IOTA-Website",
-      "category": "Distributed Ledger / Web Prototype",
-      "description": "A web-based prototype demonstrating IOTA-supported payment interaction and decentralized transaction flow, showing applied interest in distributed ledger systems.",
+      "category": "Distributed Ledger Prototype",
+      "description": "A web-based prototype demonstrating IOTA-supported payment interaction and decentralized transaction flow.",
       "highlights": [
         "Developed front-end and backend components for payment demonstration and user interaction.",
         "Linked implementation work to decentralized transaction and node-confirmation research.",
@@ -231,8 +231,8 @@
       "title": "Academic Routine Management System using Google Sheets and Apps Script",
       "type": "Academic Workflow Automation System",
       "url": "https://github.com/shovon-mandal/academic-routine-management-appscript",
-      "category": "Academic Workflow Automation",
-      "description": "A Google Sheets and Apps Script system for department-level routine preparation, course-offering based dropdowns, faculty/section-wise routine retrieval, protected views, and PDF generation.",
+      "category": "Academic Automation",
+      "description": "A Google Sheets and Apps Script system for course offering retrieval, routine preparation, faculty/section-wise output, protected views, and PDF generation.",
       "highlights": [
         "Automated section, teacher, and course-code selection from course offerings.",
         "Supported faculty-wise and section-wise routine extraction for academic use.",
@@ -250,8 +250,8 @@
       "title": "Python-Based Discord Server Management Bot for Academic Communication",
       "type": "Academic Communication Automation",
       "url": "https://github.com/shovon-mandal/academic-discord-management-bot",
-      "category": "Python Automation / Academic Communication",
-      "description": "A Python-based Discord bot for academic communication, student verification, role assignment, access control, reminders, attendance-related logging, and administrative support.",
+      "category": "Python Automation",
+      "description": "A Python-based Discord bot for student verification, role assignment, academic communication, access control, reminders, and admin support.",
       "highlights": [
         "Automated student verification and section-based role assignment.",
         "Improved academic communication and student access management.",
@@ -400,7 +400,7 @@
       "Routine Management Systems",
       "Assessment and Marking Management",
       "Discord Bot Automation",
-      "Academic Data Organization"
+      "Python Automation"
     ],
     "Hardware and Embedded Systems": [
       "Digital Logic Design",
@@ -408,8 +408,15 @@
       "Arduino Prototyping",
       "NFC Module Integration",
       "Embedded Systems Teaching Support",
-      "Hardware/Software Project Evaluation",
-      "Student Prototype Mentoring"
+      "Hardware/Software Project Evaluation"
+    ],
+    "Research and Graduate Preparation": [
+      "Literature Review",
+      "Prototype Development",
+      "Technical Documentation",
+      "Research Implementation",
+      "Teaching/Lab Support",
+      "Academic Workflow Organization"
     ]
   },
   "honors": [
@@ -476,80 +483,97 @@
   "graduateFit": [
     {
       "title": "Research Alignment",
-      "label": "Research Fit",
-      "text": "Aligned with secure distributed systems, blockchain security, FinTech security, NFC/IoT transaction systems, decentralized applications, embedded/IoT-enabled computing, and applied secure computing groups."
+      "label": "Supervisor Fit",
+      "text": "Secure distributed systems, blockchain security, FinTech security, NFC/IoT transactions, decentralized applications, and applied secure computing."
     },
     {
-      "title": "Academic Preparation",
-      "label": "Evidence",
-      "text": "Prepared through thesis work on blockchain-based payment systems, accepted/published conference papers, working prototypes, and a strong undergraduate academic record with Highest Distinction."
+      "title": "Academic Evidence",
+      "label": "Preparation",
+      "text": "Thesis work, accepted/published conference papers, secure payment prototypes, and Highest Distinction in B.Sc."
     },
     {
-      "title": "Research Contribution Capacity",
-      "label": "RA Fit",
-      "text": "Able to support research groups through literature review, implementation, data organization, experiment documentation, code organization, and technical writing."
+      "title": "RA Contribution",
+      "label": "Research Support",
+      "text": "Can support literature review, implementation, documentation, data organization, code organization, and technical writing."
     },
     {
-      "title": "Teaching and Lab Capacity",
-      "label": "TA Fit",
-      "text": "University teaching experience supports teaching assistance, lab instruction, grading workflows, student mentoring, and course documentation."
-    },
-    {
-      "title": "Technical Implementation",
-      "label": "Builder Profile",
-      "text": "Experience with Python, Java, Google Apps Script, web technologies, Arduino/NFC modules, and automation tools supports prototype-driven research."
+      "title": "TA/Lab Contribution",
+      "label": "Teaching Support",
+      "text": "Lecturer experience supports teaching assistance, lab instruction, grading workflows, mentoring, and course documentation."
     }
   ],
   "academicService": [
     {
       "title": "Judge, Project Showcasing",
       "organization": "CSE Fest 2025",
-      "description": "Served as a judge for student project showcasing, evaluating computing projects and prototypes, observing hardware/software implementation quality, and contributing to project-based academic engagement."
+      "description": "Evaluated student computing projects and prototypes, with attention to implementation quality, practical relevance, and presentation."
     },
     {
-      "title": "Academic Workflow and Departmental Support",
+      "title": "Academic Workflow Support",
       "organization": "Department of CSE",
-      "description": "Contributed to organized academic workflow through class routine automation, student communication support, marking/assessment management, and structured academic record practices."
+      "description": "Supported cleaner academic management through routine automation, student communication workflows, marking organization, and structured records."
     }
   ],
   "homeEvidence": [
     {
-      "label": "Research",
-      "title": "Secure Digital Payment Systems",
-      "text": "Thesis and publication work focused on blockchain-enabled cashless payment, NFC interaction, and secure transaction workflows."
+      "label": "Research Direction",
+      "title": "Secure Digital Payments",
+      "text": "Thesis and publication work in blockchain-enabled cashless payment, NFC interaction, and transaction security."
     },
     {
       "label": "Implementation",
-      "title": "Working Prototypes and Systems",
-      "text": "Built secure payment, IOTA, academic routine automation, Discord management, and student-management related systems."
+      "title": "Prototype-Driven Profile",
+      "text": "Built secure payment, IOTA, routine automation, Discord management, and student-management related systems."
     },
     {
-      "label": "Teaching",
-      "title": "University Faculty Experience",
-      "text": "Experience in CSE theory and lab teaching, assessment, mentoring, academic coordination, and project-based student engagement."
+      "label": "Academic Role",
+      "title": "Teaching and Lab Readiness",
+      "text": "CSE lecturer with theory/lab teaching, assessment, mentoring, academic coordination, and project evaluation exposure."
     },
     {
       "label": "Graduate Fit",
-      "title": "Research Group Contribution Ready",
-      "text": "Prepared to contribute through literature review, implementation, documentation, data organization, teaching support, and lab workflows."
+      "title": "RA/TA Contribution Capacity",
+      "text": "Prepared for literature review, implementation, documentation, data organization, grading, lab and teaching support."
     }
   ],
   "supervisorReasons": [
     {
-      "title": "Focused but flexible research direction",
-      "text": "The core profile is secure payments and blockchain/NFC security, with flexibility toward secure distributed systems and applied computing."
+      "title": "Focused research direction",
+      "text": "Secure payments and blockchain/NFC security are the core research identity."
     },
     {
-      "title": "Evidence beyond coursework",
-      "text": "Publications, thesis prototypes, GitHub projects, and automation systems provide visible evidence of implementation and documentation ability."
+      "title": "Visible implementation work",
+      "text": "Projects and repositories show prototype-building, documentation, and applied computing ability."
     },
     {
-      "title": "Teaching and lab readiness",
-      "text": "Lecturer experience provides a strong base for TA roles, lab support, grading, mentoring, and academic communication."
+      "title": "Teaching-ready profile",
+      "text": "Lecturer experience supports TA, lab, grading, and student mentoring responsibilities."
     },
     {
-      "title": "Workflow discipline",
-      "text": "Automation projects show a habit of organizing complex academic work into structured, maintainable systems."
+      "title": "Automation mindset",
+      "text": "Routine, marking, and communication tools show structured workflow and problem-solving discipline."
+    }
+  ],
+  "academicSnapshot": [
+    {
+      "label": "B.Sc. CGPA",
+      "value": "3.80/4.00"
+    },
+    {
+      "label": "Academic Standing",
+      "value": "Highest Distinction"
+    },
+    {
+      "label": "Current Role",
+      "value": "Lecturer, CSE"
+    },
+    {
+      "label": "Graduate Target",
+      "value": "M.Sc./Ph.D. Research"
+    },
+    {
+      "label": "Research Fit",
+      "value": "Secure Payments · Blockchain/NFC · Automation · Hardware"
     }
   ]
 }

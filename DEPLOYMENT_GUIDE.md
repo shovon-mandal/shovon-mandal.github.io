@@ -102,3 +102,15 @@ Before pushing:
    git add -A
    git commit -m "Balanced premium academic portfolio update"
    git push
+
+## V13 Pre-Publish Check
+
+Before pushing:
+1. Confirm the homepage has the new premium two-column layout.
+2. Confirm academic snapshot is concise.
+3. Confirm landing page shows the full email address but no separate email button.
+4. Confirm the website feels academic and research-oriented without excessive long text.
+5. Push with:
+   git add -A
+   git commit -m "Academic premium portfolio redesign"
+   git push
