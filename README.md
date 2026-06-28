@@ -95,3 +95,15 @@ Main emphasis:
 - academic automation as evidence of practical technical contribution,
 - hardware/project-based learning and CSE Fest 2025 judging service,
 - email-only contact.
+
+## V12 Balanced Premium Academic Update
+
+This version removes the direct "seeking" tone and presents the site as a balanced personal academic portfolio that also supports M.Sc./Ph.D. and RA/TA evaluation.
+
+Key changes:
+- stronger but more natural first impression,
+- judge experience moved to academic service/achievement context,
+- no "Academic Profiles" line in the academic snapshot,
+- landing page focuses on research, projects, teaching, and graduate fit,
+- cleaner premium layout with improved readability,
+- email-only contact and no bottom GitHub repetition.

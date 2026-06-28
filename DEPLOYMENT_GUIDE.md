@@ -89,3 +89,16 @@ Before pushing:
    git add -A
    git commit -m "Premium supervisor-focused portfolio redesign"
    git push
+
+## V12 Pre-Publish Check
+
+Before pushing:
+1. Confirm the home page reads like a personal academic profile, not only an application page.
+2. Confirm the word `Seeking` does not appear in the visible website.
+3. Confirm the academic snapshot does not show `Academic Profiles`.
+4. Confirm CSE Fest judge appears under academic service/honor context, not as a landing metric.
+5. Confirm contact is email-only.
+6. Push with:
+   git add -A
+   git commit -m "Balanced premium academic portfolio update"
+   git push
