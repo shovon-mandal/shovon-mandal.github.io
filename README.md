@@ -1,17 +1,15 @@
-# Shovon Mandal Academic Portfolio — V41 Final USA Professor Ready
+# Shovon Mandal Academic Portfolio — V42 Final Publish Ready
 
-Final polished academic portfolio combining the uploaded design language with the V38/V40 content structure.
+Final publish-ready academic portfolio.
 
-Final improvements:
-- Education timeline replaced with readable academic cards
+Final updates:
+- Academic Snapshot includes B.Sc. CGPA 3.80/4.00 and Highest Distinction
+- Unnecessary repetitive visible wording reduced
+- Education uses readable academic card model
 - Sidebar photo removed
-- Font family changed to a cleaner modern academic sans-serif stack
-- More USA professor-friendly academic language
-- Box labels revised to avoid B.Sc./M.Sc./NFC/IOTA in summary boxes
+- Modern academic font family
 - Positive navy/blue academic theme
-- Responsive layout for desktop, laptop, tablet, and mobile
-- No extra blank-space design
-- Right sidebar on desktop and collapsible navigation on mobile
-- Repository-linked skills and GitHub repositories included
+- Fully responsive for desktop, laptop, tablet, and mobile
+- Fast Review, Research Fit, Publications, Projects, Repository-linked Skills, Experience, Honors, and Contact included
 - No direct chat option
 - No admin/editor panel

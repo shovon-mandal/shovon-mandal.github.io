@@ -1,12 +1,11 @@
-V41 final validation report
+V42 final validation report
+- B.Sc. CGPA included in Academic Snapshot: True
+- Highest Distinction included in Academic Snapshot: True
 - Education card model present: True
 - Sidebar photo removed from HTML: True
-- Modern font stack present: True
 - No wa.me string: False
 - No WhatsApp string: False
 - No admin.html link: False
-- Fast Review present: True
-- Repository-linked skills present: True
 - ResearchGate present: True
+- Repository-linked skills present: True
 - Responsive breakpoints present: True
-- Summary metric labels avoid B.Sc./M.Sc./NFC/IOTA: True

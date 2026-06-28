@@ -307,3 +307,28 @@ p,li,.fit-row p,.sys-row p,.proj-card p,.exp-body p,.pub-authors{
     align-items:flex-start;
   }
 }
+
+
+/* V42 final snapshot readability refinement */
+.snapshot .snap-list li{
+  gap:10px;
+}
+.snapshot .snap-k{
+  min-width:112px;
+}
+.snapshot .snap-v{
+  max-width:62%;
+  line-height:1.45;
+}
+@media(max-width:560px){
+  .snapshot .snap-k{
+    min-width:0;
+    display:block;
+    margin-bottom:2px;
+  }
+  .snapshot .snap-v{
+    max-width:100%;
+    display:block;
+    text-align:left;
+  }
+}

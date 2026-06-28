@@ -65,24 +65,24 @@
   ],
   "snapshot": [
     {
+      "label": "B.Sc. CGPA",
+      "value": "3.80/4.00"
+    },
+    {
+      "label": "Academic Standing",
+      "value": "Highest Distinction"
+    },
+    {
       "label": "Current Role",
-      "value": "Lecturer, Computer Science and Engineering"
+      "value": "Lecturer, CSE"
     },
     {
       "label": "Research Direction",
       "value": "Secure Payments · Distributed Systems"
     },
     {
-      "label": "Implementation Focus",
-      "value": "Working Prototypes and Reproducible Systems"
-    },
-    {
-      "label": "Teaching Profile",
-      "value": "Theory, Laboratory, Assessment, Mentoring"
-    },
-    {
       "label": "Academic Strength",
-      "value": "Publications · Projects · Automation"
+      "value": "Publications · Projects · Teaching · Automation"
     }
   ],
   "metrics": [
@@ -127,8 +127,8 @@
   ],
   "profile": {
     "paragraphs": [
-      "I am a Computer Science and Engineering lecturer with a research profile that connects secure computing, prototype implementation, and university teaching. My work focuses on secure digital payments, distributed transaction systems, connected-device security, academic workflow automation, and practical computing education.",
-      "My background includes peer-reviewed publications, thesis-based payment system research, GitHub-backed prototypes, classroom and laboratory teaching, academic systems development, hardware-oriented project work, and adaptability to emerging technologies."
+      "I am a Computer Science and Engineering lecturer whose academic profile connects secure computing research, prototype implementation, and classroom practice.",
+      "My background includes peer-reviewed publications, thesis-based payment system research, GitHub-backed prototypes, classroom and laboratory teaching, academic systems development, and adaptability to emerging technologies."
     ],
     "cards": [
       {

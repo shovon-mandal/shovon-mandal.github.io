@@ -16,5 +16,5 @@ Required structure:
 Then run:
 
 git add -A
-git commit -m "Publish final USA professor ready academic portfolio"
+git commit -m "Publish final academic portfolio"
 git push
