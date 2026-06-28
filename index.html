@@ -1,180 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Academic portfolio of Shovon Mandal, CSE lecturer and prospective M.Sc./Ph.D. researcher focused on secure digital payments, blockchain/NFC security, academic automation, teaching, and implementation projects." />
-  <meta property="og:title" content="Shovon Mandal | Academic Portfolio" />
-  <meta property="og:description" content="Research-oriented academic portfolio highlighting graduate research direction, publications, secure payment prototypes, automation systems, teaching experience, and implementation readiness." />
-  <meta property="og:image" content="assets/img/profile.jpg" />
-  <title>Shovon Mandal | Academic Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Shovon Mandal — CSE Lecturer and researcher in blockchain-based secure digital payments, NFC/IoT transaction security, secure distributed systems, and academic automation."/>
+<meta name="author" content="Shovon Mandal"/>
+<meta property="og:title" content="Shovon Mandal | Academic Portfolio"/>
+<meta property="og:description" content="Academic portfolio of Shovon Mandal, CSE Lecturer and researcher focused on blockchain security, NFC transaction systems, and secure distributed architectures."/>
+<meta property="og:image" content="assets/img/profile.jpg"/>
+<title>Shovon Mandal | Academic Portfolio</title>
+<link rel="icon" type="image/jpeg" href="assets/img/profile.jpg"/>
+<link rel="apple-touch-icon" href="assets/img/profile.jpg"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
+<script id="fallback-data" type="application/json"></script>
 </head>
 <body>
-  <div class="site-bg"></div>
-  <header class="topbar">
-    <a class="brand" href="#home">
-      <span class="brand-mark">SM</span>
-      <span>
-        <strong>Shovon Mandal</strong>
-        <small>Academic Portfolio</small>
-      </span>
-    </a>
-    <nav class="topnav" id="topnav">
-      <a href="#fit">Research Fit</a>
-      <a href="#publications">Publications</a>
-      <a href="#projects">Projects</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#contact">Contact</a>
+<div id="scroll-bar"></div>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="mob-header">
+  <a class="mob-brand" href="#home">
+    <img src="assets/img/profile.jpg" alt=""/>
+    <span>Shovon Mandal</span>
+  </a>
+  <button id="menu-btn" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+</header>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    <div class="sb-card">
+      <h2 id="side-name">Shovon Mandal</h2>
+      <p>Academic Portfolio</p>
+      <a class="sb-cv" href="assets/docs/Shovon_Mandal_CV.pdf" target="_blank" rel="noopener">Download CV PDF</a>
+    </div>
+
+    <nav class="sb-nav" id="sb-nav" aria-label="Section navigation">
+      <a href="#home"><span class="nav-n">01</span><span>Overview</span></a>
+      <a href="#research-fit"><span class="nav-n">02</span><span>Research Fit</span></a>
+      <a href="#profile"><span class="nav-n">03</span><span>Profile</span></a>
+      <a href="#education"><span class="nav-n">04</span><span>Education</span></a>
+      <a href="#publications"><span class="nav-n">05</span><span>Publications</span></a>
+      <a href="#projects"><span class="nav-n">06</span><span>Projects</span></a>
+      <a href="#systems"><span class="nav-n">07</span><span>Systems</span></a>
+      <a href="#experience"><span class="nav-n">08</span><span>Experience</span></a>
+      <a href="#skills"><span class="nav-n">09</span><span>Skills</span></a>
+      <a href="#honors"><span class="nav-n">10</span><span>Honors</span></a>
+      <a href="#contact"><span class="nav-n">11</span><span>Contact</span></a>
+      <div class="nav-rail" id="nav-rail"></div>
     </nav>
-    <a class="top-email" href="mailto:shovonmandal@gmail.com">shovonmandal@gmail.com</a>
-  </header>
+  </div>
+</aside>
 
-  <main class="page">
-    <section id="home" class="hero-shell">
-      <div class="hero-left">
-        <div class="eyebrow">CSE Lecturer · Graduate Research Direction</div>
-        <h1>Building an academic path toward M.Sc./Ph.D. research in secure payment systems and applied computing.</h1>
-        <p class="lead" id="hero-goal"></p>
+<main id="main" class="page">
+  <section id="home" class="sec hero reveal">
+    <div>
+      <p class="eyebrow">Academic Portfolio</p>
+      <h1><span class="first" id="first-name">Shovon</span> <span class="last" id="last-name">Mandal</span></h1>
+      <p class="hero-role" id="hero-role"></p>
+      <p class="hero-affil" id="hero-affil"></p>
 
-        <div class="hero-actions">
-          <a class="btn primary" href="assets/docs/Shovon_Mandal_CV.pdf" target="_blank" rel="noopener">Download Academic CV</a>
-          <a class="btn ghost" href="#fit">View Research Fit</a>
+      <div class="goal-box">
+        <p class="goal-label" id="goal-label">Academic Research Goal</p>
+        <div class="goal-rotate" id="goal-rotate"></div>
+        <p class="goal-text" id="goal-text"></p>
+      </div>
+
+      <p class="hero-focus" id="hero-headline"></p>
+
+      <div class="strength-row">
+        <a class="s-pill" href="#research-fit">Research Alignment</a>
+        <a class="s-pill" href="#publications">Publication Evidence</a>
+        <a class="s-pill" href="#projects">Prototype Ability</a>
+        <a class="s-pill" href="#experience">Teaching Readiness</a>
+      </div>
+
+      <div class="hero-btns">
+        <a class="btn btn-pri" id="cv-btn" href="assets/docs/Shovon_Mandal_CV.pdf" target="_blank" rel="noopener">Download CV PDF</a>
+        <a class="btn btn-ghost" href="#contact">Academic Contact</a>
+      </div>
+
+      <div class="plinks" id="profile-links"></div>
+    </div>
+
+    <div class="hero-panel">
+      <div class="hero-photo-row">
+        <div class="hero-passport"><img id="hero-photo" src="assets/img/profile.jpg" alt="Shovon Mandal profile photo"/></div>
+        <div class="hero-name-blk">
+          <h2>Shovon Mandal</h2>
+          <p>Lecturer, CSE</p>
         </div>
+      </div>
 
-        <div class="email-line">
-          <span>Direct academic email</span>
-          <a href="mailto:shovonmandal@gmail.com">shovonmandal@gmail.com</a>
+      <div class="snapshot">
+        <h3>Academic Snapshot</h3>
+        <ul class="snap-list" id="snapshot-list"></ul>
+      </div>
+
+      <div class="fast-review">
+        <span class="fr-label">Fast Review</span>
+        <div class="fr-links" id="fast-review"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="metrics reveal" id="metrics"></section>
+
+  <section id="research-fit" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">02 / Research Fit</p>
+      <h2>Research Alignment and Contribution Readiness</h2>
+      <p class="lead">A concise view of research alignment, academic evidence, implementation strength, and laboratory contribution capacity.</p>
+    </div>
+    <div class="fit-grid" id="research-fit-list"></div>
+  </section>
+
+  <section id="profile" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">03 / Profile Summary</p>
+      <h2>Academic and Research Overview</h2>
+    </div>
+    <div class="profile-layout">
+      <div class="prose" id="profile-paragraphs"></div>
+      <div class="evidence-grid" id="profile-cards"></div>
+    </div>
+    <div class="tags" id="profile-tags"></div>
+    <div class="strength-box">
+      <h3>Professional Strengths</h3>
+      <ul id="strength-list"></ul>
+    </div>
+  </section>
+
+  <section id="education" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">04 / Education</p>
+      <h2>Academic Background</h2>
+    </div>
+    <div class="timeline" id="education-list"></div>
+  </section>
+
+  <section id="publications" class="sec reveal">
+    <div class="sec-h split">
+      <div>
+        <p class="eyebrow">05 / Publications</p>
+        <h2>Peer-Reviewed Research Output</h2>
+      </div>
+      <div class="filter-row" id="pub-filters">
+        <button class="filt on" data-scope="pub" data-filter="all">All</button>
+        <button class="filt" data-scope="pub" data-filter="published">Published</button>
+        <button class="filt" data-scope="pub" data-filter="accepted">Accepted</button>
+        <button class="filt" data-scope="pub" data-filter="core">Core Research</button>
+      </div>
+    </div>
+    <div class="pub-list" id="pub-list"></div>
+  </section>
+
+  <section id="projects" class="sec reveal">
+    <div class="sec-h split">
+      <div>
+        <p class="eyebrow">06 / Projects</p>
+        <h2>Research and Technical Projects</h2>
+      </div>
+      <div class="filter-row" id="proj-filters">
+        <button class="filt on" data-scope="project" data-filter="all">All</button>
+        <button class="filt" data-scope="project" data-filter="research">Research</button>
+        <button class="filt" data-scope="project" data-filter="automation">Automation</button>
+        <button class="filt" data-scope="project" data-filter="hardware">Hardware</button>
+        <button class="filt" data-scope="project" data-filter="blockchain">Blockchain</button>
+        <button class="filt" data-scope="project" data-filter="connected">Connected Devices</button>
+        <button class="filt" data-scope="project" data-filter="distributed">Distributed Ledger</button>
+      </div>
+    </div>
+    <div class="proj-grid" id="project-list"></div>
+  </section>
+
+  <section id="systems" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">07 / Academic Systems</p>
+      <h2>Academic Systems and Automation</h2>
+      <p class="lead">Automation and structured workflows applied to routine management, marking, student communication, and academic records.</p>
+    </div>
+    <div class="sys-list" id="systems-list"></div>
+  </section>
+
+  <section id="experience" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">08 / Experience</p>
+      <h2>Teaching Experience, Courses Conducted, and Academic Support</h2>
+    </div>
+    <div class="exp-list" id="experience-list"></div>
+  </section>
+
+  <section id="skills" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">09 / Skills</p>
+      <h2>Technical and Academic Skill Profile</h2>
+    </div>
+    <div class="skill-grid" id="skills-list"></div>
+
+    <div class="repo-skill-block">
+      <h3>Repository-Linked Skills</h3>
+      <p class="lead">Technical skills evidenced by project repositories and implementation work.</p>
+      <div class="rsk-list" id="repository-skills"></div>
+    </div>
+  </section>
+
+  <section id="honors" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">10 / Honors and Service</p>
+      <h2>Recognition and Academic Engagement</h2>
+    </div>
+    <div class="honors-grid" id="honors-list"></div>
+  </section>
+
+  <section id="contact" class="sec contact-sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">11 / Contact</p>
+      <h2>Academic Communication and Research Discussion</h2>
+      <p class="lead">I welcome academic communication regarding graduate research alignment, secure computing research, scholarly collaboration, and teaching or laboratory support.</p>
+    </div>
+    <div class="contact-layout">
+      <div>
+        <div class="contact-links">
+          <a class="c-link" href="mailto:shovonmandal@gmail.com"><span class="c-icon">E</span><span class="c-info"><span class="c-kind">Email for Contact</span><span class="c-val">shovonmandal@gmail.com</span></span></a>
+          <a class="c-link" href="https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en" target="_blank" rel="noopener"><span class="c-icon">GS</span><span class="c-info"><span class="c-kind">Research Profile</span><span class="c-val">Google Scholar ↗</span></span></a>
+          <a class="c-link" href="https://www.researchgate.net/profile/Shovon-Mandal-2" target="_blank" rel="noopener"><span class="c-icon">RG</span><span class="c-info"><span class="c-kind">Research Network</span><span class="c-val">ResearchGate ↗</span></span></a>
         </div>
-
-        <div class="profile-links" id="profile-links"></div>
       </div>
+      <form class="cform" id="cform">
+        <label for="c-name">Your Name</label>
+        <input id="c-name" type="text" required placeholder="Name"/>
+        <label for="c-email">Your Email</label>
+        <input id="c-email" type="email" required placeholder="email@example.com"/>
+        <label for="c-msg">Message</label>
+        <textarea id="c-msg" required placeholder="Write your message here..."></textarea>
+        <button class="btn btn-pri" type="submit">Send Email</button>
+        <p class="fn">The button opens the sender’s email application with a prepared message.</p>
+      </form>
+    </div>
+  </section>
 
-      <aside class="hero-card">
-        <div class="photo-wrap">
-          <img src="assets/img/profile.jpg" alt="Shovon Mandal profile photo" />
-        </div>
-        <h2 id="profile-name">Shovon Mandal</h2>
-        <p id="profile-title">Lecturer, Department of CSE</p>
-        <div class="snapshot" id="academic-snapshot"></div>
-      </aside>
-    </section>
-
-    <section class="evidence-grid reveal" id="home-evidence"></section>
-
-    <section class="metric-strip reveal" id="metrics"></section>
-
-    <section id="fit" class="section premium-section reveal">
-      <div class="section-head compact-head">
-        <span>01 · Graduate Research Fit</span>
-        <h2>What a professor can evaluate quickly</h2>
-        <p>This page highlights the core information usually needed to evaluate research alignment, assistantship readiness, implementation ability, and academic contribution potential.</p>
-      </div>
-      <div class="fit-grid" id="graduate-fit-list"></div>
-      <div class="reason-grid" id="supervisor-reasons-list"></div>
-    </section>
-
-    <section id="profile" class="section split-section reveal">
-      <div class="section-head">
-        <span>02 · Academic Profile</span>
-        <h2>Research-oriented lecturer with implementation and automation strength</h2>
-      </div>
-      <div class="profile-copy" id="about-list"></div>
-      <div class="research-tags" id="research-tags"></div>
-    </section>
-
-    <section id="publications" class="section premium-section reveal">
-      <div class="section-head">
-        <span>03 · Publications</span>
-        <h2>Research publications and accepted papers</h2>
-      </div>
-      <div class="publication-list" id="publication-list"></div>
-    </section>
-
-    <section id="projects" class="section premium-section reveal">
-      <div class="section-head">
-        <span>04 · Selected Projects</span>
-        <h2>Research prototypes and implementation evidence</h2>
-        <p>Research-related prototypes are placed first, followed by automation systems that show practical technical contribution and workflow discipline.</p>
-      </div>
-      <div class="project-grid" id="project-list"></div>
-    </section>
-
-    <section id="automation" class="section premium-section reveal">
-      <div class="section-head">
-        <span>05 · Academic Automation</span>
-        <h2>Automation systems built for real academic workflows</h2>
-      </div>
-      <div class="automation-grid" id="automation-list"></div>
-    </section>
-
-    <section id="teaching" class="section premium-section reveal">
-      <div class="section-head">
-        <span>06 · Teaching Experience</span>
-        <h2>Teaching, lab support, mentoring, and course coordination</h2>
-      </div>
-      <div class="timeline-list" id="teaching-list"></div>
-    </section>
-
-    <section id="education" class="section premium-section reveal">
-      <div class="section-head">
-        <span>07 · Education</span>
-        <h2>Academic background</h2>
-      </div>
-      <div class="timeline-list" id="education-list"></div>
-    </section>
-
-    <section id="skills" class="section premium-section reveal">
-      <div class="section-head">
-        <span>08 · Skills</span>
-        <h2>Research, teaching, automation, and implementation toolkit</h2>
-      </div>
-      <div class="skill-grid" id="skills-list"></div>
-    </section>
-
-    <section id="service" class="section premium-section reveal">
-      <div class="section-head">
-        <span>09 · Academic Service</span>
-        <h2>Academic service, hardware interest, and project-based learning</h2>
-      </div>
-      <div class="service-grid" id="academic-service-list"></div>
-    </section>
-
-    <section id="honors" class="section premium-section reveal">
-      <div class="section-head">
-        <span>10 · Honors</span>
-        <h2>Honors, scholarships, and academic service highlights</h2>
-      </div>
-      <div class="honors-grid" id="honors-list"></div>
-    </section>
-
-    <section id="contact" class="section contact-section reveal">
-      <div class="contact-panel">
-        <div>
-          <span>11 · Contact</span>
-          <h2>Academic contact</h2>
-          <p>I welcome academic communication regarding graduate research alignment, supervision discussion, RA/TA opportunities, secure computing research, academic collaboration, and teaching or lab-support roles.</p>
-          <a class="mail-display" href="mailto:shovonmandal@gmail.com">shovonmandal@gmail.com</a>
-        </div>
-        <form class="message-form" id="message-form">
-          <label>Name <input type="text" id="sender-name" placeholder="Your name" /></label>
-          <label>Email <input type="email" id="sender-email" placeholder="your.email@example.com" /></label>
-          <label>Message <textarea id="sender-message" rows="5" placeholder="Write a short academic message..."></textarea></label>
-          <button class="btn primary" type="button" id="email-form-btn">Open Email Draft</button>
-          <p class="form-note">The form opens your email application with a prepared message addressed to shovonmandal@gmail.com.</p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© <span id="year"></span> Shovon Mandal · Academic Portfolio</p>
-    <a href="#home">Back to top</a>
+  <footer>
+    <p>© <span id="yr"></span> Shovon Mandal. Academic portfolio prepared for research visibility and scholarly communication.</p>
+    <p><a href="#home">Back to top</a></p>
   </footer>
+</main>
 
-  <script src="assets/js/main.js"></script>
+<button id="btt" aria-label="Back to top">↑</button>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
