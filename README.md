@@ -5,7 +5,7 @@
 - Passport-style profile image frame.
 - Stronger, more convincing academic presentation.
 - CV download as PDF.
-- WhatsApp and email contact options.
+- Email and email contact options.
 - JSON-based update system for future edits. ## Main editable files - `data/site-data.json` — main content and text.
 - `assets/img/profile.jpg` — replace with your passport-size professional photo.
 - `assets/docs/Shovon_Mandal_CV.pdf` — replace with your final CV PDF.
@@ -44,3 +44,17 @@ It keeps:
 - blue premium academic theme
 - numbered sidebar with active transition
 - CV PDF download
+
+
+## V8 Automation Premium Update
+
+This version is email-only and removes public Email contact buttons. It adds an automation-focused academic profile section, highlights Google Sheets and Apps Script routine management, includes Python Discord bot automation, and presents selected GitHub repositories in a professor-facing academic format.
+
+Included project emphasis:
+- Academic Routine Management System using Google Sheets and Apps Script
+- Python-Based Discord Server Management Bot for Academic Communication
+- Blockchain and NFC-Based Secure Cashless Payment Prototype
+- IOTA-Based Payment Website and Decentralized Transaction Demonstration
+- Student Management Android Application
+
+Public admin panel files were removed from the publish package for a cleaner and safer professional website.

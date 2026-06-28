@@ -5,19 +5,18 @@
     "affiliation": "Northern University of Business and Technology Khulna, Bangladesh",
     "location": "Bangladesh",
     "email": "shovonmandal@gmail.com",
-    "whatsappDisplay": "+8801911549671",
-    "whatsappLink": "https://wa.me/8801911549671?text=Hello%20Shovon%20Mandal%2C%20I%20visited%20your%20academic%20portfolio%20and%20would%20like%20to%20connect.",
     "website": "https://shovon-mandal.github.io",
     "profileImage": "assets/img/profile.jpg",
     "cvUrl": "assets/docs/Shovon_Mandal_CV.pdf",
     "aspirationLabel": "Graduate Study Objective",
-    "aspiration": "Aspiring to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain security, and NFC/IoT transaction security while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration.",
-    "headline": "Blockchain-Based Secure Digital Payments · NFC/IoT Transaction Security · Secure Distributed Systems · Research-Oriented Computing",
+    "aspiration": "Aspiring to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain-based payment security, NFC/IoT transaction security, and academic workflow automation, with readiness to contribute through research implementation, teaching support, technical documentation, and structured academic systems development.",
+    "headline": "Secure Digital Payments · Academic Workflow Automation · Google Workspace Automation · Research-Oriented CSE Teaching",
     "rotatingWords": [
       "Aspiring M.Sc./Ph.D. Researcher",
       "Research-Oriented CSE Lecturer",
+      "Academic Automation Builder",
       "Blockchain and Security Enthusiast",
-      "Adaptive Academic Collaborator"
+      "Google Workspace Automation Practitioner"
     ],
     "facultyProfile": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal",
     "officialProfileLabel": "Official University Profile",
@@ -29,7 +28,7 @@
     "GitHub": "https://github.com/shovon-mandal",
     "LinkedIn": "https://www.linkedin.com/in/shovonmandal/",
     "Email": "mailto:shovonmandal@gmail.com",
-    "WhatsApp": "https://wa.me/8801911549671?text=Hello%20Shovon%20Mandal%2C%20I%20visited%20your%20academic%20portfolio%20and%20would%20like%20to%20connect."
+    "GitHub Repositories": "https://github.com/shovon-mandal?tab=repositories"
   },
   "metrics": [
     {
@@ -37,12 +36,12 @@
       "label": "Peer-Reviewed / Accepted Papers"
     },
     {
-      "value": "2",
-      "label": "Core Research Prototypes"
+      "value": "4+",
+      "label": "Research & Automation Systems"
     },
     {
-      "value": "4+",
-      "label": "Academic Roles"
+      "value": "8",
+      "label": "Public GitHub Repositories"
     },
     {
       "value": "3.80",
@@ -50,33 +49,35 @@
     }
   ],
   "about": [
-    "I am a Computer Science and Engineering lecturer and graduate researcher with academic interests in blockchain-based secure digital payments, NFC-enabled transaction systems, secure distributed architectures.",
-    "My research background integrates theoretical interest and implementation-oriented practice. Through my M.Sc. and B.Sc. thesis work, publications, and prototype development, I have explored practical approaches to secure payment infrastructures, decentralized systems, and transaction verification models.",
-    "Beyond research, I bring classroom, laboratory, tutoring, and mentoring experience. I am comfortable working under academic pressure, adapting to new research environments, and learning new technologies quickly when a project or research problem requires it."
+    "I am a Computer Science and Engineering lecturer and graduate researcher with academic interests in blockchain-based secure digital payments, NFC/IoT transaction systems, secure distributed architectures, and automation-driven academic workflow design.",
+    "My research background integrates implementation-oriented computing with secure payment systems. Through my M.Sc. and B.Sc. thesis work, publications, and prototype development, I have explored practical approaches to secure transaction verification, blockchain-enabled payment interaction, and decentralized system behavior.",
+    "Alongside research and teaching, I actively build automation systems to make academic work cleaner and more manageable. I have developed Google Sheets and Apps Script workflows for departmental class-routine management, faculty/section-wise routine retrieval, PDF routine generation, and structured assessment/marking management.",
+    "I also built a Python-based Discord management bot to support student communication, section-based verification, role assignment, and access control. This reflects my broader academic profile: a researcher and lecturer who can combine teaching, programming, automation, and technical documentation to support a research group or academic lab."
   ],
   "highlightCards": [
     {
-      "title": "Graduate Study Direction",
-      "text": "Interested in advanced graduate study and long-term research in secure distributed systems, blockchain security, FinTech security, and IoT/NFC transaction security."
+      "title": "Graduate Research Direction",
+      "text": "Focused on secure distributed systems, blockchain-enabled digital payment security, NFC/IoT transaction security, and automation-supported computing workflows."
     },
     {
-      "title": "Academic Readiness",
-      "text": "Prepared to contribute through literature review, technical documentation, prototype development, teaching support, student mentoring, and collaborative research execution."
+      "title": "Academic Automation Profile",
+      "text": "Experienced in using Google Sheets, Apps Script, Python, and Discord automation to simplify class routine management, student communication, record keeping, and teaching operations."
     },
     {
-      "title": "Research Disposition",
-      "text": "Adaptable, deadline-aware, and motivated to work in rigorous academic environments with a strong emphasis on learning, contribution, and publication."
+      "title": "Research Group Readiness",
+      "text": "Prepared to contribute to literature review, prototype implementation, data organization, technical writing, teaching assistance, lab coordination, and reproducible academic workflows."
     }
   ],
   "researchInterests": [
     "Blockchain-Based Secure Digital Payments",
     "NFC and IoT Transaction Security",
-    "Secure Payment Systems",
     "Secure Distributed Systems",
-    "Smart Contracts",
-    "Embedded Systems Security",
-    "IOTA and Decentralized Communication",
+    "Academic Workflow Automation",
+    "Google Workspace Automation",
+    "Python-Based Communication Automation",
     "FinTech Security",
+    "IOTA and Decentralized Communication",
+    "Teaching Technology and Student Support Systems",
     "Trustworthy Computing"
   ],
   "education": [
@@ -180,6 +181,44 @@
   ],
   "projects": [
     {
+      "title": "Academic Routine Management System using Google Sheets and Apps Script",
+      "type": "Academic Workflow Automation System",
+      "url": "https://github.com/shovon-mandal/academic-routine-management-appscript",
+      "category": "Automation / Google Workspace",
+      "description": "A department-level class routine management system built with Google Sheets and Apps Script to support course-offering based routine preparation, faculty/section-wise routine retrieval, protected routine views, and PDF routine downloads.",
+      "highlights": [
+        "Automated section, teacher, and course-code selection from course offerings.",
+        "Supported faculty-wise and section-wise routine extraction for academic use.",
+        "Included sheet protection, installable trigger support, individual PDF export, and merged PDF workflow."
+      ],
+      "tools": [
+        "Google Apps Script",
+        "Google Sheets",
+        "JavaScript",
+        "PDF Automation",
+        "Academic Workflow"
+      ]
+    },
+    {
+      "title": "Python-Based Discord Server Management Bot for Academic Communication",
+      "type": "Academic Communication Automation",
+      "url": "https://github.com/shovon-mandal/academic-discord-management-bot",
+      "category": "Automation / Python",
+      "description": "A Python-based Discord bot designed for academic server management, student verification, role assignment, nickname formatting, access control, reminders, attendance logging, and admin communication.",
+      "highlights": [
+        "Automated student verification and section-based role assignment.",
+        "Improved academic communication and student access management.",
+        "Used environment-variable based configuration and security-focused repository structure."
+      ],
+      "tools": [
+        "Python",
+        "discord.py",
+        "Discord API",
+        "Automation",
+        "Student Communication"
+      ]
+    },
+    {
       "title": "Blockchain and NFC-Based Secure Cashless Payment Prototype",
       "type": "Thesis-Supporting Research Prototype",
       "url": "https://github.com/shovon-mandal/NFC",
@@ -188,7 +227,7 @@
       "highlights": [
         "Implemented Arduino and Python modules for NFC-based transaction processing.",
         "Supported experimental validation of secure cashless payment workflows.",
-        "Connected implementation evidence with the ICKECS 2024 publication."
+        "Connected implementation evidence with blockchain and NFC transaction security research."
       ],
       "tools": [
         "Blockchain",
@@ -207,7 +246,7 @@
       "highlights": [
         "Developed front-end and backend components for payment demonstration and user interaction.",
         "Linked implementation work to decentralized transaction and node-confirmation research.",
-        "Connected conceptually with the ICCIT 2024 publication."
+        "Demonstrated applied interest in distributed ledger systems."
       ],
       "tools": [
         "IOTA",
@@ -226,6 +265,11 @@
       "url": "https://github.com/shovon-mandal/Student-Management"
     },
     {
+      "title": "Google Sheets-Based Marking and Academic Management Workflows",
+      "description": "Spreadsheet-driven systems used to keep marking, assessment records, and academic management cleaner, more structured, and easier to maintain.",
+      "url": ""
+    },
+    {
       "title": "Traffic Light System",
       "description": "Hardware-oriented project demonstrating control logic, digital system behavior, and implementation concepts.",
       "url": ""
@@ -234,11 +278,6 @@
       "title": "Fire Alarm Integrated with Mobile SIM",
       "description": "A hardware project combining alert functionality with mobile SIM-based communication and notification concepts.",
       "url": ""
-    },
-    {
-      "title": "PHP-Laravel and E-Commerce Web Projects",
-      "description": "Web development projects involving PHP, Laravel, HTML, CSS, JavaScript, and database-driven functionality.",
-      "url": ""
     }
   ],
   "teaching": [
@@ -246,7 +285,7 @@
       "role": "Lecturer, Department of Computer Science and Engineering",
       "institution": "Northern University of Business and Technology Khulna, Bangladesh",
       "period": "Mar 2024 – Present",
-      "description": "Teach undergraduate theory and laboratory courses, prepare lecture materials and assessments, evaluate student performance, support student mentoring, and contribute to departmental academic activities.",
+      "description": "Teach undergraduate theory and laboratory courses, prepare lecture materials and assessments, evaluate student performance, support student mentoring, and contribute to departmental academic activities. Alongside teaching, developed automation-supported workflows for class routine management, student communication, and structured academic records.",
       "courses": [
         "Computer Architecture",
         "Digital Logic Design",
@@ -345,6 +384,15 @@
       "Technical Documentation",
       "Research Adaptability",
       "Rapid Technology Learning"
+    ],
+    "Automation and Academic Systems": [
+      "Google Apps Script",
+      "Google Sheets Automation",
+      "Spreadsheet Workflow Engineering",
+      "Routine Management Systems",
+      "Assessment and Marking Management",
+      "Discord Bot Automation",
+      "Academic Data Organization"
     ]
   },
   "honors": [
@@ -364,5 +412,47 @@
     "Adaptive to new research settings and able to learn unfamiliar technologies quickly when a research problem requires it.",
     "Prepared for literature review, technical writing, implementation support, teaching support, and scholarly collaboration.",
     "Interested in building a sustained graduate research trajectory through rigorous study, implementation, and publication."
+  ],
+  "automationSystems": [
+    {
+      "title": "Departmental Class Routine Automation",
+      "category": "Google Sheets · Apps Script",
+      "description": "Developed a Google Sheets and Apps Script-based routine management workflow that retrieves course-offering information, supports dependent dropdowns, generates faculty/section-wise routines, protects output sheets, and enables downloadable PDF routines.",
+      "points": [
+        "Course offering driven section, teacher, and course-code workflow",
+        "Faculty-wise and section-wise routine extraction",
+        "Protected routine views and PDF download support"
+      ]
+    },
+    {
+      "title": "Academic Communication and Access Bot",
+      "category": "Python · Discord API",
+      "description": "Built a Python-based Discord bot to manage academic server communication, student verification, section-based role assignment, nickname formatting, reminders, and administrative logging.",
+      "points": [
+        "Student verification and section-based role management",
+        "Channel access control and administrative logs",
+        "Structured communication workflow for course/server management"
+      ]
+    },
+    {
+      "title": "Assessment and Marking Management",
+      "category": "Google Sheets · Academic Records",
+      "description": "Use spreadsheet-based systems to keep marking, assessment tracking, and academic management workflows organized, clean, auditable, and easier to update.",
+      "points": [
+        "Structured marksheet and assessment tracking practice",
+        "Clean academic record organization",
+        "Workflow mindset for reducing repetitive administrative work"
+      ]
+    },
+    {
+      "title": "Automation-Oriented Teaching Operations",
+      "category": "Teaching Support · Workflow Design",
+      "description": "Apply automation thinking to teaching and departmental coordination so that routine communication, scheduling, record keeping, and student access management can be handled more efficiently.",
+      "points": [
+        "Practical use of automation in real academic environments",
+        "Support for teaching, mentoring, and department-level coordination",
+        "Strong fit for research labs requiring organized technical workflows"
+      ]
+    }
   ]
 }

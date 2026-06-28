@@ -40,3 +40,16 @@ Before publishing, verify:
 - Faculty Profile remains available in the profile-link row.
 - Education and Teaching institution links still open correctly.
 - `Secure Payment Systems` is not visible anywhere on the site.
+
+
+## V8 Final Check
+
+Before publishing:
+1. Search the folder for `Email`; no visible Email contact feature should remain.
+2. Confirm `admin.html` is not present in the publish root.
+3. Confirm the contact section clearly shows `shovonmandal@gmail.com`.
+4. Confirm the Projects section shows automation, blockchain/NFC, IOTA, and student-management work.
+5. Push using:
+   git add -A
+   git commit -m "Update portfolio with automation profile"
+   git push
