@@ -1,0 +1,15 @@
+V100 validation report
+- Built from V97 ZIP: shovon_mandal_academic_portfolio_v97_v91_header_width_language_bar.zip
+- Default English bright override present: True
+- Header text fit CSS present: True
+- Current view label sizing present: True
+- Scroll blank-line gap CSS present: True
+- V100 anchor gap JS present: True
+- Complete README has site URL: True
+- Git commit command in README: True
+- ORCID exact URL present: True
+- Default English link present once in HTML: True
+- Google Translate preserved: True
+- No direct chat URL: True
+- No admin link: True
+- No forbidden study-word string: True
