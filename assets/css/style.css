@@ -5796,3 +5796,794 @@ body.menu-is-open .right-progress-sidebar{
     font-size:.54rem !important;
   }
 }
+
+
+/* V76 FINAL: full mobile name, readable current segment, smaller mobile progress sidebar, clearer download icon */
+
+/* Clear download icon everywhere */
+.download-mark{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  margin-left:6px !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+}
+
+.scroll-cv-btn{
+  gap:6px !important;
+}
+
+.scroll-cv-btn::after,
+.sb-cv::after,
+#cv-btn::after,
+a[href$="Shovon_Mandal_CV.pdf"]::after{
+  content:"⬇" !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  margin-left:6px !important;
+  width:17px !important;
+  height:17px !important;
+  border-radius:50% !important;
+  background:rgba(255,255,255,.24) !important;
+  color:currentColor !important;
+  font-size:.76rem !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+}
+
+/* Avoid duplicate icon where explicit span exists */
+.sb-cv .download-mark,
+#cv-btn .download-mark{
+  display:none !important;
+}
+
+/* Mobile header: full name must remain visible; current segment gets enough room */
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(118px,.86fr) minmax(116px,1.08fr) auto !important;
+    column-gap:5px !important;
+    padding:7px 6px !important;
+  }
+
+  .scroll-id-left{
+    min-width:0 !important;
+    width:100% !important;
+    gap:5px !important;
+    padding:2px 2px !important;
+  }
+
+  .scroll-id-left img{
+    width:28px !important;
+    height:28px !important;
+    min-width:28px !important;
+  }
+
+  .scroll-id-left span{
+    min-width:0 !important;
+    width:100% !important;
+  }
+
+  .scroll-id-left strong{
+    display:block !important;
+    font-size:.68rem !important;
+    line-height:1.02 !important;
+    max-width:none !important;
+    width:100% !important;
+    white-space:nowrap !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+    letter-spacing:-.045em !important;
+  }
+
+  .scroll-id-left em{
+    display:block !important;
+    font-size:.46rem !important;
+    line-height:1.04 !important;
+    max-width:none !important;
+    width:100% !important;
+    white-space:nowrap !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+    letter-spacing:-.035em !important;
+  }
+
+  .header-role-text{
+    font-size:.46rem !important;
+    line-height:1.04 !important;
+  }
+
+  .scroll-current-label{
+    width:100% !important;
+    max-width:none !important;
+    min-width:0 !important;
+    min-height:36px !important;
+    padding:4px 5px !important;
+    border-radius:12px !important;
+    font-size:.58rem !important;
+    line-height:1.05 !important;
+    white-space:normal !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+    text-align:center !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    word-break:normal !important;
+    overflow-wrap:break-word !important;
+  }
+
+  .scroll-current-label::before{
+    display:none !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"],
+  .scroll-current-label[data-section="professional-strengths"],
+  .scroll-current-label[data-section="education"],
+  .scroll-current-label[data-section="systems"]{
+    font-size:.51rem !important;
+    line-height:1.03 !important;
+  }
+
+  .scroll-id-actions{
+    gap:4px !important;
+  }
+
+  /* Mobile header CV: only CV + icon */
+  .scroll-cv-btn{
+    min-width:42px !important;
+    min-height:30px !important;
+    padding:6px 7px !important;
+    border-radius:11px !important;
+    gap:4px !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:.62rem !important;
+    line-height:1 !important;
+  }
+
+  .scroll-cv-btn::after{
+    margin-left:0 !important;
+    width:15px !important;
+    height:15px !important;
+    font-size:.68rem !important;
+  }
+
+  .scroll-menu-btn{
+    min-height:30px !important;
+    padding:6px 7px !important;
+    border-radius:11px !important;
+  }
+
+  .scroll-menu-btn span{
+    font-size:.62rem !important;
+  }
+
+  /* Mobile right progress sidebar smaller than before */
+  .right-progress-sidebar{
+    width:24px !important;
+    right:2px !important;
+    top:90px !important;
+    bottom:62px !important;
+    padding:7px 0 !important;
+    border-radius:999px !important;
+  }
+
+  .right-progress-track{
+    top:38px !important;
+    bottom:38px !important;
+    width:2.5px !important;
+  }
+
+  .right-progress-dots{
+    top:42px !important;
+    bottom:42px !important;
+  }
+
+  .right-progress-dot{
+    width:13px !important;
+    height:13px !important;
+  }
+
+  .right-progress-dot span{
+    font-size:.34rem !important;
+  }
+
+  .right-progress-count,
+  .right-progress-percent{
+    font-size:.44rem !important;
+  }
+
+  .page{
+    padding-right:16px !important;
+  }
+}
+
+/* Smaller phones: retain full Shovon Mandal and let segment label wrap */
+@media(max-width:520px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(110px,.90fr) minmax(98px,1.02fr) auto !important;
+    column-gap:4px !important;
+    padding:6px 5px !important;
+  }
+
+  .scroll-id-left img{
+    width:25px !important;
+    height:25px !important;
+    min-width:25px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.61rem !important;
+    letter-spacing:-.055em !important;
+  }
+
+  .scroll-id-left em{
+    font-size:.40rem !important;
+  }
+
+  .header-role-text{
+    font-size:.40rem !important;
+  }
+
+  .scroll-current-label{
+    min-height:34px !important;
+    padding:3px 4px !important;
+    font-size:.50rem !important;
+    line-height:1.04 !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"],
+  .scroll-current-label[data-section="professional-strengths"],
+  .scroll-current-label[data-section="education"],
+  .scroll-current-label[data-section="systems"]{
+    font-size:.44rem !important;
+    line-height:1.02 !important;
+  }
+
+  .scroll-cv-btn{
+    min-width:39px !important;
+    padding:5px 6px !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:.56rem !important;
+  }
+
+  .scroll-cv-btn::after{
+    width:14px !important;
+    height:14px !important;
+    font-size:.62rem !important;
+  }
+
+  .scroll-menu-btn{
+    padding:5px 6px !important;
+  }
+
+  .scroll-menu-btn span{
+    font-size:.56rem !important;
+  }
+}
+
+/* Very small phones: if needed, the role becomes tiny, not the name */
+@media(max-width:390px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(100px,.95fr) minmax(84px,1fr) auto !important;
+    column-gap:3px !important;
+    padding:6px 4px !important;
+  }
+
+  .scroll-id-left{
+    gap:3px !important;
+  }
+
+  .scroll-id-left img{
+    width:23px !important;
+    height:23px !important;
+    min-width:23px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.55rem !important;
+    letter-spacing:-.06em !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.36rem !important;
+  }
+
+  .scroll-current-label{
+    min-height:33px !important;
+    padding:3px 3px !important;
+    font-size:.45rem !important;
+    line-height:1.02 !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"],
+  .scroll-current-label[data-section="professional-strengths"],
+  .scroll-current-label[data-section="education"],
+  .scroll-current-label[data-section="systems"]{
+    font-size:.39rem !important;
+    line-height:1.01 !important;
+  }
+
+  .scroll-cv-btn{
+    min-width:36px !important;
+    padding:5px 5px !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:.52rem !important;
+  }
+
+  .scroll-cv-btn::after{
+    width:12px !important;
+    height:12px !important;
+    font-size:.55rem !important;
+  }
+
+  .right-progress-sidebar{
+    width:21px !important;
+    right:1px !important;
+  }
+
+  .page{
+    padding-right:13px !important;
+  }
+}
+
+
+/* V77 FINAL: balanced mobile header, larger name/designation, one download icon only */
+
+/* Remove any explicit/old download icon span and keep only one pseudo icon per CV link */
+.download-mark{
+  display:none !important;
+}
+
+.scroll-cv-btn::after,
+.sb-cv::after,
+#cv-btn::after{
+  content:"↓" !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  margin-left:6px !important;
+  width:17px !important;
+  height:17px !important;
+  min-width:17px !important;
+  border-radius:50% !important;
+  background:rgba(255,255,255,.24) !important;
+  color:currentColor !important;
+  font-size:.82rem !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+}
+
+/* Neutralize broad duplicate download-icon selector from older versions */
+a[href$="Shovon_Mandal_CV.pdf"]::after{
+  content:none !important;
+}
+
+.scroll-cv-btn::after,
+.sb-cv::after,
+#cv-btn::after{
+  content:"↓" !important;
+}
+
+/* Mobile header: allocate more space to name/designation while keeping segment visible */
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(142px,1.06fr) minmax(98px,.88fr) auto !important;
+    column-gap:5px !important;
+    padding:7px 6px !important;
+    align-items:center !important;
+  }
+
+  .scroll-id-left{
+    min-width:0 !important;
+    width:100% !important;
+    gap:6px !important;
+    padding:2px 2px !important;
+  }
+
+  .scroll-id-left img{
+    width:32px !important;
+    height:32px !important;
+    min-width:32px !important;
+  }
+
+  .scroll-id-left span{
+    min-width:0 !important;
+    width:100% !important;
+  }
+
+  .scroll-id-left strong{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    font-size:.78rem !important;
+    line-height:1.04 !important;
+    white-space:nowrap !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+    letter-spacing:-.04em !important;
+  }
+
+  .scroll-id-left em{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    font-size:.54rem !important;
+    line-height:1.05 !important;
+    white-space:nowrap !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+    letter-spacing:-.035em !important;
+  }
+
+  .header-role-text{
+    font-size:.54rem !important;
+    line-height:1.05 !important;
+  }
+
+  /* Segment label: smaller or 2-line when text is long */
+  .scroll-current-label{
+    justify-self:stretch !important;
+    width:100% !important;
+    max-width:none !important;
+    min-width:0 !important;
+    min-height:36px !important;
+    padding:4px 4px !important;
+    border-radius:12px !important;
+    font-size:.55rem !important;
+    line-height:1.04 !important;
+    white-space:normal !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+    text-align:center !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    word-break:normal !important;
+    overflow-wrap:break-word !important;
+  }
+
+  .scroll-current-label::before{
+    display:none !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"],
+  .scroll-current-label[data-section="professional-strengths"],
+  .scroll-current-label[data-section="education"],
+  .scroll-current-label[data-section="systems"]{
+    font-size:.48rem !important;
+    line-height:1.02 !important;
+  }
+
+  .scroll-id-actions{
+    gap:4px !important;
+    justify-self:end !important;
+  }
+
+  /* Mobile CV: CV + one clear icon only */
+  .scroll-cv-btn{
+    min-width:42px !important;
+    min-height:30px !important;
+    padding:6px 6px !important;
+    gap:4px !important;
+    border-radius:11px !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:.62rem !important;
+    line-height:1 !important;
+  }
+
+  .scroll-cv-btn::after{
+    content:"↓" !important;
+    margin-left:0 !important;
+    width:14px !important;
+    height:14px !important;
+    min-width:14px !important;
+    font-size:.66rem !important;
+  }
+
+  .scroll-menu-btn{
+    min-height:30px !important;
+    padding:6px 7px !important;
+    border-radius:11px !important;
+  }
+
+  .scroll-menu-btn span{
+    font-size:.62rem !important;
+  }
+}
+
+/* Smaller phones: keep Shovon Mandal fully visible and make segment label smaller/two-line */
+@media(max-width:520px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(128px,1.08fr) minmax(86px,.82fr) auto !important;
+    column-gap:4px !important;
+    padding:6px 5px !important;
+  }
+
+  .scroll-id-left{
+    gap:5px !important;
+  }
+
+  .scroll-id-left img{
+    width:29px !important;
+    height:29px !important;
+    min-width:29px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.70rem !important;
+    letter-spacing:-.05em !important;
+  }
+
+  .scroll-id-left em{
+    font-size:.48rem !important;
+  }
+
+  .header-role-text{
+    font-size:.48rem !important;
+  }
+
+  .scroll-current-label{
+    min-height:34px !important;
+    padding:3px 3px !important;
+    font-size:.48rem !important;
+    line-height:1.03 !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"],
+  .scroll-current-label[data-section="professional-strengths"],
+  .scroll-current-label[data-section="education"],
+  .scroll-current-label[data-section="systems"]{
+    font-size:.41rem !important;
+    line-height:1.01 !important;
+  }
+
+  .scroll-cv-btn{
+    min-width:39px !important;
+    padding:5px 5px !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:.56rem !important;
+  }
+
+  .scroll-cv-btn::after{
+    width:12px !important;
+    height:12px !important;
+    min-width:12px !important;
+    font-size:.58rem !important;
+  }
+
+  .scroll-menu-btn{
+    padding:5px 6px !important;
+  }
+
+  .scroll-menu-btn span{
+    font-size:.56rem !important;
+  }
+}
+
+/* Very small phones: name still full; segment label becomes very compact/two-line */
+@media(max-width:390px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(118px,1.12fr) minmax(74px,.72fr) auto !important;
+    column-gap:3px !important;
+    padding:6px 4px !important;
+  }
+
+  .scroll-id-left{
+    gap:4px !important;
+  }
+
+  .scroll-id-left img{
+    width:26px !important;
+    height:26px !important;
+    min-width:26px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.64rem !important;
+    letter-spacing:-.055em !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.42rem !important;
+  }
+
+  .scroll-current-label{
+    min-height:33px !important;
+    padding:3px 2px !important;
+    font-size:.42rem !important;
+    line-height:1.01 !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"],
+  .scroll-current-label[data-section="professional-strengths"],
+  .scroll-current-label[data-section="education"],
+  .scroll-current-label[data-section="systems"]{
+    font-size:.36rem !important;
+    line-height:1 !important;
+  }
+
+  .scroll-cv-btn{
+    min-width:35px !important;
+    padding:5px 4px !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:.50rem !important;
+  }
+
+  .scroll-cv-btn::after{
+    width:11px !important;
+    height:11px !important;
+    min-width:11px !important;
+    font-size:.52rem !important;
+  }
+}
+
+
+/* V78 FINAL: ticks only after 1 second + thinner/shorter right progress sidebar */
+
+/* Old visited state should not show instant ticks anymore */
+.scroll-menu-panel a.is-visited:not(.is-active)::after,
+.sb-nav a.is-visited:not(.is-active)::after{
+  content:none !important;
+}
+
+/* Tick appears only after JS adds is-completed, which happens after 1 second in a segment */
+.scroll-menu-panel a.is-completed:not(.is-active)::after,
+.sb-nav a.is-completed:not(.is-active)::after{
+  content:"✓" !important;
+  margin-left:auto !important;
+  color:#1f5ed6 !important;
+  font-weight:950 !important;
+  font-size:.78rem !important;
+}
+
+/* Completed progress dots show tick only after 1 second dwell */
+.right-progress-dot.is-completed:not(.is-active){
+  color:#1f5ed6 !important;
+  border-color:rgba(31,94,214,.32) !important;
+  background:#ffffff !important;
+}
+
+.right-progress-dot.is-completed:not(.is-active) span{
+  font-size:0 !important;
+}
+
+.right-progress-dot.is-completed:not(.is-active) span::after{
+  content:"✓" !important;
+  font-size:.58rem !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+}
+
+/* Right progress sidebar: shorter length and thinner body */
+@media(max-width:1280px){
+  .right-progress-sidebar{
+    width:28px !important;
+    right:4px !important;
+    top:132px !important;
+    bottom:118px !important;
+    padding:6px 0 !important;
+    border-radius:999px !important;
+    box-shadow:0 12px 28px rgba(6,24,51,.12) !important;
+  }
+
+  .right-progress-track{
+    top:36px !important;
+    bottom:36px !important;
+    width:2px !important;
+  }
+
+  .right-progress-dots{
+    top:40px !important;
+    bottom:40px !important;
+  }
+
+  .right-progress-dot{
+    width:14px !important;
+    height:14px !important;
+  }
+
+  .right-progress-dot span{
+    font-size:.34rem !important;
+  }
+
+  .right-progress-count,
+  .right-progress-percent{
+    font-size:.46rem !important;
+  }
+
+  .page{
+    padding-right:18px !important;
+  }
+}
+
+/* Mobile: even smaller/thinner progress sidebar */
+@media(max-width:760px){
+  .right-progress-sidebar{
+    width:19px !important;
+    right:1px !important;
+    top:126px !important;
+    bottom:104px !important;
+    padding:5px 0 !important;
+  }
+
+  .right-progress-track{
+    top:30px !important;
+    bottom:30px !important;
+    width:2px !important;
+  }
+
+  .right-progress-dots{
+    top:33px !important;
+    bottom:33px !important;
+  }
+
+  .right-progress-dot{
+    width:10px !important;
+    height:10px !important;
+    transform:scale(.84) !important;
+  }
+
+  .right-progress-dot.is-active{
+    transform:scale(1.05) !important;
+  }
+
+  .right-progress-dot span{
+    font-size:.28rem !important;
+  }
+
+  .right-progress-dot.is-completed:not(.is-active) span::after{
+    font-size:.44rem !important;
+  }
+
+  .right-progress-count,
+  .right-progress-percent{
+    font-size:.36rem !important;
+  }
+
+  .page{
+    padding-right:10px !important;
+  }
+}
+
+@media(max-width:420px){
+  .right-progress-sidebar{
+    width:16px !important;
+    right:0 !important;
+    top:124px !important;
+    bottom:102px !important;
+  }
+
+  .right-progress-track{
+    width:1.5px !important;
+  }
+
+  .right-progress-dot{
+    width:9px !important;
+    height:9px !important;
+  }
+
+  .right-progress-count,
+  .right-progress-percent{
+    font-size:.32rem !important;
+  }
+
+  .page{
+    padding-right:7px !important;
+  }
+}

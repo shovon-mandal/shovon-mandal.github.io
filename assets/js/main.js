@@ -495,7 +495,10 @@ init();
 
 
 
-/* V73: Single responsive role text, right progress sidebar, delayed active section, menu/side active state */
+
+
+
+/* V78: Tick/completed state only after the user stays in a segment for at least 1 second */
 (function(){
   const trackedIds = [
     "home",
@@ -529,6 +532,10 @@ init();
     contact: "Contact"
   };
 
+  const completedSections = new Set();
+  let activeSectionId = "";
+  let dwellTimer = null;
+
   const currentLabel = document.getElementById("scroll-current-label");
   const menuPanel = document.getElementById("scroll-menu-panel");
   const sideNav = document.getElementById("sb-nav");
@@ -552,15 +559,14 @@ init();
     const compact = window.innerWidth <= 560;
     roleText.textContent = compact ? short : full;
 
-    // If the header is still tight after trying full text, reduce size; if very tight, switch to CSE.
     if (!compact) {
-      roleText.textContent = full;
       const headerWidth = header ? header.getBoundingClientRect().width : window.innerWidth;
-      if (headerWidth < 620) roleText.textContent = short;
+      roleText.textContent = headerWidth < 620 ? short : full;
     }
   }
 
-  if (rightDots && !rightDots.children.length) {
+  if (rightDots) {
+    rightDots.innerHTML = "";
     trackedTargets.forEach(function(section, index){
       const dot = document.createElement("a");
       dot.href = "#" + section.id;
@@ -573,10 +579,6 @@ init();
   }
 
   function getActiveSection(){
-    /*
-      Delayed switching: next segment activates only after it enters well into the viewport.
-      This allows the reader to finish the current segment before the header/menu changes.
-    */
     const triggerLine = window.innerHeight * 0.42;
     let active = trackedTargets[0];
 
@@ -593,13 +595,25 @@ init();
     return target;
   }
 
+  function updateDwellTimer(newActiveId){
+    if (newActiveId === activeSectionId) return;
+
+    activeSectionId = newActiveId;
+    if (dwellTimer) clearTimeout(dwellTimer);
+
+    dwellTimer = setTimeout(function(){
+      completedSections.add(newActiveId);
+      renderProgressUI();
+    }, 1000);
+  }
+
   function setMenuOpenState(){
     const isOpen = header && header.classList.contains("menu-open");
     document.body.classList.toggle("menu-is-open", !!isOpen);
     if (rightProgress) rightProgress.classList.toggle("hide-for-menu", !!isOpen);
   }
 
-  function updateProgressUI(){
+  function renderProgressUI(){
     if (!trackedTargets.length) return;
 
     updateRoleText();
@@ -611,8 +625,10 @@ init();
     const active = getActiveSection();
     const activeId = active.id;
     const activeIndex = trackedTargets.findIndex(section => section.id === activeId);
-    const doneCount = Math.max(1, activeIndex + 1);
+    const doneCount = completedSections.size;
     const total = trackedTargets.length;
+
+    updateDwellTimer(activeId);
 
     if (rightFill) rightFill.style.height = `${progress * 100}%`;
     if (rightPercent) rightPercent.textContent = `${Math.round(progress * 100)}%`;
@@ -623,10 +639,13 @@ init();
       currentLabel.dataset.section = activeId;
     }
 
-    document.querySelectorAll(".right-progress-dot").forEach(function(dot, index){
-      const isActive = dot.dataset.section === activeId;
+    document.querySelectorAll(".right-progress-dot").forEach(function(dot){
+      const id = dot.dataset.section;
+      const isActive = id === activeId;
+      const isCompleted = completedSections.has(id);
       dot.classList.toggle("is-active", isActive);
-      dot.classList.toggle("is-visited", index <= activeIndex);
+      dot.classList.toggle("is-visited", false);
+      dot.classList.toggle("is-completed", isCompleted);
       dot.setAttribute("aria-current", isActive ? "true" : "false");
     });
 
@@ -638,9 +657,10 @@ init();
       const rawTarget = link.getAttribute("href").slice(1);
       const target = normalizeTargetId(rawTarget);
       const isActive = target === activeId;
-      const index = trackedTargets.findIndex(section => section.id === target);
+      const isCompleted = completedSections.has(target);
       link.classList.toggle("is-active", isActive);
-      link.classList.toggle("is-visited", index > -1 && index <= activeIndex);
+      link.classList.toggle("is-visited", false);
+      link.classList.toggle("is-completed", isCompleted);
       link.setAttribute("aria-current", isActive ? "page" : "false");
     });
   }
@@ -649,7 +669,7 @@ init();
   function requestUpdate(){
     if (!ticking) {
       window.requestAnimationFrame(function(){
-        updateProgressUI();
+        renderProgressUI();
         ticking = false;
       });
       ticking = true;
@@ -684,5 +704,5 @@ init();
   window.addEventListener("resize", requestUpdate);
   window.addEventListener("load", requestUpdate);
   document.addEventListener("DOMContentLoaded", requestUpdate);
-  updateProgressUI();
+  renderProgressUI();
 })();
