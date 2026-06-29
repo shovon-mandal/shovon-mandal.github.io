@@ -2870,3 +2870,2712 @@ button:hover,
     padding-bottom:8px !important;
   }
 }
+
+
+/* V58 FINAL: real-time experience count in year/month format */
+.experience-duration{
+  display:inline-flex !important;
+  align-items:center !important;
+  gap:5px !important;
+  width:max-content !important;
+  max-width:100% !important;
+  margin-top:8px !important;
+  padding:6px 10px !important;
+  border-radius:999px !important;
+  background:rgba(255,255,255,.13) !important;
+  border:1px solid rgba(255,255,255,.22) !important;
+  color:rgba(255,255,255,.90) !important;
+  font-size:.76rem !important;
+  font-weight:850 !important;
+  line-height:1.25 !important;
+  box-shadow:0 8px 18px rgba(0,0,0,.08) !important;
+}
+
+.experience-duration b{
+  color:#ffffff !important;
+  font-weight:950 !important;
+}
+
+.experience-card:not(.ta-card):not(.st-card) .experience-duration{
+  background:rgba(31,94,214,.10) !important;
+  border-color:rgba(31,94,214,.20) !important;
+  color:#314a66 !important;
+}
+
+.experience-card:not(.ta-card):not(.st-card) .experience-duration b{
+  color:#061833 !important;
+}
+
+.ta-card .experience-duration,
+.st-card .experience-duration{
+  background:rgba(255,255,255,.14) !important;
+  border-color:rgba(255,255,255,.24) !important;
+  color:rgba(255,255,255,.92) !important;
+}
+
+@media(max-width:560px){
+  .experience-duration{
+    font-size:.72rem !important;
+    white-space:normal !important;
+  }
+}
+
+
+/* V59 FINAL: visible real-time experience duration below month/year */
+.experience-head{
+  align-items:flex-start !important;
+}
+
+.experience-main-info{
+  min-width:0 !important;
+}
+
+.experience-time-block{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-end !important;
+  justify-content:flex-start !important;
+  gap:8px !important;
+  min-width:190px !important;
+  margin-left:18px !important;
+}
+
+.experience-time-block .experience-period{
+  display:inline-flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  width:max-content !important;
+  max-width:100% !important;
+  margin:0 !important;
+  white-space:nowrap !important;
+}
+
+.experience-time-block .experience-duration{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:5px !important;
+  width:max-content !important;
+  max-width:100% !important;
+  margin:0 !important;
+  padding:7px 12px !important;
+  border-radius:999px !important;
+  background:#ffffff !important;
+  border:1px solid rgba(31,94,214,.28) !important;
+  color:#061833 !important;
+  font-size:.78rem !important;
+  font-weight:900 !important;
+  line-height:1.25 !important;
+  box-shadow:0 10px 24px rgba(6,24,51,.13) !important;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+
+.experience-time-block .experience-duration b{
+  color:#1f5ed6 !important;
+  font-weight:950 !important;
+}
+
+/* Colored TA/ST cards: use a high-contrast academic badge */
+.ta-card .experience-time-block .experience-duration,
+.st-card .experience-time-block .experience-duration{
+  background:#ffffff !important;
+  color:#061833 !important;
+  border-color:rgba(255,255,255,.55) !important;
+  box-shadow:0 12px 26px rgba(0,0,0,.20) !important;
+}
+
+.ta-card .experience-time-block .experience-duration b,
+.st-card .experience-time-block .experience-duration b{
+  color:#0e9f8f !important;
+}
+
+/* Lecturer cards: clear blue/white contrast */
+.experience-card:not(.ta-card):not(.st-card) .experience-time-block .experience-duration{
+  background:linear-gradient(135deg,#ffffff,#edf6ff) !important;
+  color:#061833 !important;
+  border-color:rgba(31,94,214,.30) !important;
+}
+
+.experience-card:not(.ta-card):not(.st-card) .experience-time-block .experience-duration b{
+  color:#1f5ed6 !important;
+}
+
+/* Mobile: period first, duration just below it, both readable */
+@media(max-width:760px){
+  .experience-head{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:12px !important;
+  }
+
+  .experience-time-block{
+    align-items:flex-start !important;
+    min-width:0 !important;
+    margin-left:0 !important;
+    width:100% !important;
+  }
+
+  .experience-time-block .experience-period,
+  .experience-time-block .experience-duration{
+    width:max-content !important;
+    max-width:100% !important;
+  }
+}
+
+@media(max-width:560px){
+  .experience-time-block .experience-duration{
+    font-size:.74rem !important;
+    padding:6px 10px !important;
+    white-space:normal !important;
+  }
+}
+
+
+/* V60 FINAL: 2 row x 2 column layout for Implementation Evidence and Academic Systems */
+
+/* Implementation Evidence and Technical Competencies: 4 cards = 2 columns x 2 rows on desktop */
+#skills .rsk-list,
+#skills #repository-skills,
+.repo-skill-block .rsk-list{
+  display:grid !important;
+  grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+  gap:14px !important;
+  align-items:stretch !important;
+}
+
+#skills .rsk-row,
+#skills .repo-card,
+.repo-skill-block .rsk-row{
+  height:100% !important;
+  min-height:150px !important;
+  padding:18px !important;
+  border-radius:20px !important;
+}
+
+#skills .rsk-tags,
+#skills .repo-tags{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+}
+
+/* 09 / Academic Systems: 4 system cards = 2 columns x 2 rows on desktop */
+#systems .sys-list,
+#systems #systems-list,
+#systems .systems-grid{
+  display:grid !important;
+  grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+  gap:14px !important;
+  align-items:stretch !important;
+}
+
+#systems .sys-row,
+#systems .system-item,
+#systems .system-card{
+  height:100% !important;
+  min-height:150px !important;
+  padding:18px !important;
+  border-radius:20px !important;
+}
+
+/* Tablet/mobile: stack cleanly */
+@media(max-width:760px){
+  #skills .rsk-list,
+  #skills #repository-skills,
+  .repo-skill-block .rsk-list,
+  #systems .sys-list,
+  #systems #systems-list,
+  #systems .systems-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  #skills .rsk-row,
+  #skills .repo-card,
+  .repo-skill-block .rsk-row,
+  #systems .sys-row,
+  #systems .system-item,
+  #systems .system-card{
+    min-height:auto !important;
+  }
+}
+
+
+/* V61 FINAL: animated scroll identity header for convenient review */
+
+/* Compact identity header is hidden at top, then appears while scrolling */
+.scroll-identity-header{
+  position:fixed !important;
+  left:24px !important;
+  right:calc(var(--sidebar,270px) + var(--side-offset,16px) + 22px) !important;
+  top:12px !important;
+  z-index:999 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:14px !important;
+  min-height:62px !important;
+  padding:9px 12px !important;
+  border-radius:22px !important;
+  background:rgba(255,255,255,.88) !important;
+  border:1px solid rgba(204,219,239,.86) !important;
+  box-shadow:0 18px 48px rgba(6,24,51,.16) !important;
+  backdrop-filter:blur(18px) saturate(1.2) !important;
+  -webkit-backdrop-filter:blur(18px) saturate(1.2) !important;
+  transform:translateY(-95px) scale(.985) !important;
+  opacity:0 !important;
+  pointer-events:none !important;
+  transition:transform .34s cubic-bezier(.22,1,.36,1), opacity .24s ease, box-shadow .24s ease !important;
+}
+
+.scroll-identity-header.is-visible{
+  transform:translateY(0) scale(1) !important;
+  opacity:1 !important;
+  pointer-events:auto !important;
+}
+
+.scroll-id-left{
+  display:flex !important;
+  align-items:center !important;
+  gap:11px !important;
+  min-width:0 !important;
+  text-decoration:none !important;
+  color:#061833 !important;
+}
+
+.scroll-id-left img{
+  width:44px !important;
+  height:44px !important;
+  min-width:44px !important;
+  border-radius:14px !important;
+  object-fit:cover !important;
+  object-position:top center !important;
+  border:2px solid #ffffff !important;
+  box-shadow:0 8px 18px rgba(6,24,51,.14) !important;
+}
+
+.scroll-id-left span{
+  display:flex !important;
+  flex-direction:column !important;
+  min-width:0 !important;
+}
+
+.scroll-id-left strong{
+  display:block !important;
+  color:#061833 !important;
+  font-size:1rem !important;
+  font-weight:950 !important;
+  line-height:1.15 !important;
+  white-space:nowrap !important;
+}
+
+.scroll-id-left em{
+  display:block !important;
+  margin-top:2px !important;
+  color:#536b88 !important;
+  font-style:normal !important;
+  font-size:.77rem !important;
+  font-weight:750 !important;
+  line-height:1.22 !important;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+  max-width:470px !important;
+}
+
+.scroll-id-actions{
+  display:flex !important;
+  align-items:center !important;
+  gap:7px !important;
+  flex-wrap:wrap !important;
+  justify-content:flex-end !important;
+}
+
+.scroll-id-actions a{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:34px !important;
+  padding:7px 11px !important;
+  border-radius:999px !important;
+  background:#f2f7ff !important;
+  border:1px solid rgba(204,219,239,.96) !important;
+  color:#1f5ed6 !important;
+  font-size:.76rem !important;
+  font-weight:900 !important;
+  text-decoration:none !important;
+  transition:background-color .22s ease, color .22s ease, border-color .22s ease, transform .22s ease !important;
+}
+
+.scroll-id-actions a:hover{
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  color:#ffffff !important;
+  border-color:transparent !important;
+  transform:translateY(-1px) !important;
+}
+
+/* Slightly reduce visual conflict with the fixed sidebar when compact identity header appears */
+body.has-scroll-identity .sidebar{
+  box-shadow:0 18px 50px rgba(6,24,51,.13) !important;
+}
+
+/* Tablet/mobile: compact header spans almost full width and keeps name visible */
+@media(max-width:1180px){
+  .scroll-identity-header{
+    left:12px !important;
+    right:12px !important;
+    top:10px !important;
+    min-height:58px !important;
+    border-radius:19px !important;
+  }
+
+  .scroll-id-left em{
+    max-width:420px !important;
+  }
+}
+
+@media(max-width:760px){
+  .scroll-identity-header{
+    padding:8px 10px !important;
+    gap:10px !important;
+  }
+
+  .scroll-id-actions{
+    display:none !important;
+  }
+
+  .scroll-id-left{
+    width:100% !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.95rem !important;
+  }
+
+  .scroll-id-left em{
+    max-width:calc(100vw - 96px) !important;
+    font-size:.72rem !important;
+  }
+}
+
+@media(max-width:420px){
+  .scroll-id-left img{
+    width:40px !important;
+    height:40px !important;
+    min-width:40px !important;
+    border-radius:13px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.9rem !important;
+  }
+
+  .scroll-id-left em{
+    font-size:.68rem !important;
+  }
+}
+
+
+/* V62 FINAL: safe scroll header bridge + Download CV and Menu buttons */
+
+/* Bridge reserves space when the compact header appears, so content is not hidden under the bar */
+.scroll-header-bridge{
+  position:fixed !important;
+  left:24px !important;
+  right:calc(var(--sidebar,270px) + var(--side-offset,16px) + 22px) !important;
+  top:0 !important;
+  height:0 !important;
+  z-index:996 !important;
+  pointer-events:none !important;
+  opacity:0 !important;
+  transition:height .28s ease, opacity .22s ease !important;
+}
+
+.scroll-header-bridge.is-active{
+  height:86px !important;
+  opacity:1 !important;
+}
+
+/* Header itself: fixed inside its own safe visual band, not covering sidebar */
+.scroll-identity-header{
+  left:24px !important;
+  right:calc(var(--sidebar,270px) + var(--side-offset,16px) + 22px) !important;
+  top:12px !important;
+  min-height:64px !important;
+  padding:9px 12px !important;
+  border-radius:22px !important;
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) auto !important;
+  align-items:center !important;
+  gap:14px !important;
+  overflow:visible !important;
+  background:rgba(255,255,255,.94) !important;
+  border:1px solid rgba(204,219,239,.92) !important;
+  box-shadow:0 18px 48px rgba(6,24,51,.15) !important;
+  backdrop-filter:blur(18px) saturate(1.2) !important;
+  -webkit-backdrop-filter:blur(18px) saturate(1.2) !important;
+}
+
+/* When header is visible, give anchors and sections a safe top offset */
+body.has-scroll-identity .sec,
+body.has-scroll-identity .hero,
+body.has-scroll-identity section{
+  scroll-margin-top:102px !important;
+}
+
+.scroll-id-left{
+  min-width:0 !important;
+}
+
+.scroll-id-left img{
+  width:44px !important;
+  height:44px !important;
+  min-width:44px !important;
+}
+
+.scroll-id-left strong{
+  white-space:nowrap !important;
+}
+
+.scroll-id-left em{
+  max-width:520px !important;
+}
+
+/* Header actions: exactly two visible controls */
+.scroll-id-actions{
+  display:flex !important;
+  align-items:center !important;
+  gap:8px !important;
+  flex-wrap:nowrap !important;
+}
+
+.scroll-cv-btn,
+.scroll-menu-btn{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:7px !important;
+  min-height:38px !important;
+  padding:9px 13px !important;
+  border-radius:999px !important;
+  font-size:.78rem !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+  white-space:nowrap !important;
+  text-decoration:none !important;
+  transition:background-color .22s ease, color .22s ease, border-color .22s ease, transform .22s ease, box-shadow .22s ease !important;
+}
+
+.scroll-cv-btn{
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  color:#ffffff !important;
+  border:1px solid transparent !important;
+  box-shadow:0 10px 22px rgba(31,94,214,.22) !important;
+}
+
+.scroll-cv-btn::before{
+  content:"↓" !important;
+  font-weight:950 !important;
+}
+
+.scroll-menu-btn{
+  border:1px solid rgba(204,219,239,.98) !important;
+  background:#f3f8ff !important;
+  color:#1f5ed6 !important;
+  cursor:pointer !important;
+  font-family:inherit !important;
+}
+
+.scroll-menu-btn i{
+  width:14px !important;
+  height:10px !important;
+  display:inline-block !important;
+  position:relative !important;
+}
+
+.scroll-menu-btn i::before,
+.scroll-menu-btn i::after{
+  content:"" !important;
+  position:absolute !important;
+  left:0 !important;
+  width:14px !important;
+  height:2px !important;
+  border-radius:999px !important;
+  background:currentColor !important;
+  transition:transform .22s ease, top .22s ease !important;
+}
+
+.scroll-menu-btn i::before{
+  top:1px !important;
+}
+
+.scroll-menu-btn i::after{
+  top:7px !important;
+}
+
+.scroll-identity-header.menu-open .scroll-menu-btn i::before{
+  top:4px !important;
+  transform:rotate(45deg) !important;
+}
+
+.scroll-identity-header.menu-open .scroll-menu-btn i::after{
+  top:4px !important;
+  transform:rotate(-45deg) !important;
+}
+
+.scroll-cv-btn:hover,
+.scroll-menu-btn:hover{
+  transform:translateY(-1px) !important;
+  box-shadow:0 12px 26px rgba(31,94,214,.22) !important;
+}
+
+.scroll-menu-btn:hover{
+  background:#ffffff !important;
+  border-color:rgba(31,94,214,.38) !important;
+}
+
+/* Dropdown menu panel */
+.scroll-menu-panel{
+  position:absolute !important;
+  right:12px !important;
+  top:calc(100% + 10px) !important;
+  width:min(360px, calc(100vw - 40px)) !important;
+  display:grid !important;
+  grid-template-columns:repeat(2, minmax(0,1fr)) !important;
+  gap:8px !important;
+  padding:12px !important;
+  border-radius:20px !important;
+  background:rgba(255,255,255,.98) !important;
+  border:1px solid rgba(204,219,239,.96) !important;
+  box-shadow:0 24px 70px rgba(6,24,51,.22) !important;
+  opacity:0 !important;
+  transform:translateY(-8px) scale(.98) !important;
+  pointer-events:none !important;
+  visibility:hidden !important;
+  transition:opacity .2s ease, transform .24s cubic-bezier(.22,1,.36,1), visibility .2s ease !important;
+}
+
+.scroll-menu-panel.is-open{
+  opacity:1 !important;
+  transform:translateY(0) scale(1) !important;
+  pointer-events:auto !important;
+  visibility:visible !important;
+}
+
+.scroll-menu-panel a{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:36px !important;
+  padding:8px 10px !important;
+  border-radius:12px !important;
+  background:#f4f8ff !important;
+  border:1px solid rgba(204,219,239,.9) !important;
+  color:#1f5ed6 !important;
+  font-size:.76rem !important;
+  font-weight:900 !important;
+  text-decoration:none !important;
+}
+
+.scroll-menu-panel a:hover{
+  color:#fff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+}
+
+/* Disable the old quick nav pills in the scroll header if browser cache keeps old children */
+.scroll-id-actions > a:not(.scroll-cv-btn){
+  display:none !important;
+}
+
+/* Tablet/mobile safety */
+@media(max-width:1180px){
+  .scroll-header-bridge,
+  .scroll-identity-header{
+    left:12px !important;
+    right:12px !important;
+  }
+
+  .scroll-id-left em{
+    max-width:420px !important;
+  }
+}
+
+@media(max-width:760px){
+  .scroll-identity-header{
+    grid-template-columns:minmax(0,1fr) auto !important;
+    min-height:60px !important;
+    top:8px !important;
+    padding:8px 10px !important;
+    border-radius:19px !important;
+  }
+
+  .scroll-header-bridge.is-active{
+    height:78px !important;
+  }
+
+  .scroll-id-left em{
+    max-width:calc(100vw - 230px) !important;
+  }
+
+  .scroll-cv-btn,
+  .scroll-menu-btn{
+    min-height:34px !important;
+    padding:8px 10px !important;
+    font-size:.72rem !important;
+  }
+
+  .scroll-menu-panel{
+    right:0 !important;
+    grid-template-columns:1fr 1fr !important;
+  }
+}
+
+@media(max-width:520px){
+  .scroll-id-left em{
+    display:none !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.92rem !important;
+  }
+
+  .scroll-id-left img{
+    width:40px !important;
+    height:40px !important;
+    min-width:40px !important;
+  }
+
+  .scroll-cv-btn span,
+  .scroll-menu-btn span{
+    font-size:.70rem !important;
+  }
+
+  .scroll-cv-btn{
+    padding-left:9px !important;
+    padding-right:9px !important;
+  }
+
+  .scroll-menu-panel{
+    width:calc(100vw - 24px) !important;
+    grid-template-columns:1fr !important;
+  }
+}
+
+
+/* V63 FINAL: sidebar icons + fixed responsive header bar without mobile overlap */
+
+/* Sidebar numbers + academic icons */
+.sb-nav.icon-nav a{
+  grid-template-columns:30px 26px minmax(0,1fr) !important;
+  gap:8px !important;
+  align-items:center !important;
+}
+
+.sb-nav.icon-nav .nav-n{
+  min-width:30px !important;
+  text-align:center !important;
+  font-size:.70rem !important;
+}
+
+.sb-nav.icon-nav .nav-ico{
+  display:grid !important;
+  place-items:center !important;
+  width:24px !important;
+  height:24px !important;
+  min-width:24px !important;
+  border-radius:8px !important;
+  color:#1f5ed6 !important;
+  background:#eff6ff !important;
+  border:1px solid rgba(204,219,239,.92) !important;
+  font-size:.78rem !important;
+  font-weight:950 !important;
+  transition:background-color .22s ease, color .22s ease, border-color .22s ease !important;
+}
+
+.sb-nav.icon-nav a:hover .nav-ico,
+.sb-nav.icon-nav a.active .nav-ico{
+  color:#ffffff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+}
+
+/* Header bridge: reserves a separate safe header band so content does not overlap */
+.scroll-header-bridge{
+  left:24px !important;
+  right:calc(var(--sidebar,270px) + var(--side-offset,16px) + 22px) !important;
+  top:0 !important;
+  height:0 !important;
+  background:linear-gradient(180deg,rgba(245,249,255,.98),rgba(245,249,255,.86),rgba(245,249,255,0)) !important;
+  border-bottom:1px solid rgba(204,219,239,0) !important;
+}
+
+.scroll-header-bridge.is-active{
+  height:88px !important;
+  opacity:1 !important;
+  border-bottom-color:rgba(204,219,239,.45) !important;
+}
+
+/* Fixed header bar: visually behaves like a proper header, not a loose floating block */
+.scroll-identity-header.fixed-review-header{
+  left:24px !important;
+  right:calc(var(--sidebar,270px) + var(--side-offset,16px) + 22px) !important;
+  top:12px !important;
+  min-height:64px !important;
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) auto !important;
+  gap:14px !important;
+  align-items:center !important;
+  padding:9px 12px !important;
+  border-radius:18px !important;
+  overflow:visible !important;
+  background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(246,250,255,.95)) !important;
+  border:1px solid rgba(204,219,239,.96) !important;
+  box-shadow:0 16px 44px rgba(6,24,51,.14) !important;
+  backdrop-filter:blur(18px) saturate(1.2) !important;
+  -webkit-backdrop-filter:blur(18px) saturate(1.2) !important;
+}
+
+/* Two controls only: Download CV and Menu */
+.scroll-id-actions{
+  display:flex !important;
+  align-items:center !important;
+  gap:8px !important;
+  flex-wrap:nowrap !important;
+}
+
+.scroll-id-actions > a:not(.scroll-cv-btn){
+  display:none !important;
+}
+
+.scroll-cv-btn,
+.scroll-menu-btn{
+  min-height:38px !important;
+  padding:9px 13px !important;
+  border-radius:999px !important;
+}
+
+.scroll-cv-btn{
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  color:#ffffff !important;
+}
+
+.scroll-menu-btn{
+  background:#f3f8ff !important;
+  color:#1f5ed6 !important;
+  border:1px solid rgba(204,219,239,.98) !important;
+}
+
+/* Menu panel with icons */
+.scroll-menu-panel{
+  right:12px !important;
+  top:calc(100% + 10px) !important;
+  width:min(390px, calc(100vw - 40px)) !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+}
+
+.scroll-menu-panel a{
+  justify-content:flex-start !important;
+  gap:8px !important;
+  text-align:left !important;
+}
+
+.scroll-menu-panel a span{
+  display:grid !important;
+  place-items:center !important;
+  width:22px !important;
+  height:22px !important;
+  min-width:22px !important;
+  border-radius:7px !important;
+  background:#eaf3ff !important;
+  color:#1f5ed6 !important;
+  font-size:.72rem !important;
+  font-weight:950 !important;
+}
+
+.scroll-menu-panel a:hover span{
+  color:#ffffff !important;
+  background:rgba(255,255,255,.18) !important;
+}
+
+/* Anchor safety for fixed header */
+body.has-scroll-identity section,
+body.has-scroll-identity .sec,
+body.has-scroll-identity .hero{
+  scroll-margin-top:108px !important;
+}
+
+/* Mobile/tablet: this becomes the main header, so old topbar must not overlap */
+@media(max-width:1180px){
+  .topbar,
+  .mobile-topbar,
+  .mbar,
+  .top-nav{
+    display:none !important;
+  }
+
+  .scroll-header-bridge,
+  .scroll-identity-header.fixed-review-header{
+    left:10px !important;
+    right:10px !important;
+  }
+
+  .scroll-header-bridge,
+  .scroll-header-bridge.is-active{
+    height:82px !important;
+    opacity:1 !important;
+  }
+
+  .scroll-identity-header.fixed-review-header{
+    top:9px !important;
+    transform:translateY(0) scale(1) !important;
+    opacity:1 !important;
+    pointer-events:auto !important;
+    min-height:62px !important;
+    border-radius:18px !important;
+    z-index:1200 !important;
+  }
+
+  body.has-main-mobile-header .page{
+    margin-top:96px !important;
+  }
+
+  .scroll-id-left em{
+    max-width:420px !important;
+  }
+}
+
+/* Medium mobile */
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(0,1fr) auto !important;
+    gap:8px !important;
+    padding:8px 9px !important;
+    min-height:58px !important;
+  }
+
+  .scroll-header-bridge,
+  .scroll-header-bridge.is-active{
+    height:76px !important;
+  }
+
+  body.has-main-mobile-header .page{
+    margin-top:88px !important;
+  }
+
+  .scroll-id-left img{
+    width:40px !important;
+    height:40px !important;
+    min-width:40px !important;
+    border-radius:13px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.93rem !important;
+  }
+
+  .scroll-id-left em{
+    max-width:calc(100vw - 230px) !important;
+    font-size:.70rem !important;
+  }
+
+  .scroll-cv-btn,
+  .scroll-menu-btn{
+    min-height:34px !important;
+    padding:8px 9px !important;
+    font-size:.70rem !important;
+  }
+
+  .scroll-menu-panel{
+    right:0 !important;
+    width:calc(100vw - 20px) !important;
+    max-height:calc(100vh - 92px) !important;
+    overflow:auto !important;
+    grid-template-columns:1fr 1fr !important;
+  }
+}
+
+/* Small mobile: prevent title/actions from colliding */
+@media(max-width:520px){
+  .scroll-id-left{
+    gap:8px !important;
+  }
+
+  .scroll-id-left em{
+    display:none !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.88rem !important;
+    max-width:130px !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:0 !important;
+  }
+
+  .scroll-cv-btn span::after{
+    content:"CV" !important;
+    font-size:.70rem !important;
+  }
+
+  .scroll-menu-btn span{
+    font-size:.70rem !important;
+  }
+
+  .scroll-cv-btn,
+  .scroll-menu-btn{
+    padding-left:9px !important;
+    padding-right:9px !important;
+  }
+
+  .scroll-menu-panel{
+    grid-template-columns:1fr !important;
+    width:calc(100vw - 20px) !important;
+  }
+}
+
+@media(max-width:360px){
+  .scroll-id-left strong{
+    max-width:105px !important;
+  }
+
+  .scroll-id-left img{
+    width:36px !important;
+    height:36px !important;
+    min-width:36px !important;
+  }
+}
+
+
+/* V64 FINAL: premium header identity visibility + sidebar icons without numbers */
+
+/* Sidebar: icon + label only, no extra section numbers */
+.sb-nav.clean-icon-nav a{
+  grid-template-columns:34px minmax(0,1fr) !important;
+  gap:10px !important;
+  align-items:center !important;
+  padding:8px 10px !important;
+}
+
+.sb-nav.clean-icon-nav .nav-n{
+  display:none !important;
+}
+
+.sb-nav.clean-icon-nav .nav-ico{
+  width:30px !important;
+  height:30px !important;
+  min-width:30px !important;
+  border-radius:11px !important;
+  font-size:.84rem !important;
+  color:#1f5ed6 !important;
+  background:linear-gradient(180deg,#f8fbff,#edf5ff) !important;
+  border:1px solid rgba(204,219,239,.95) !important;
+  box-shadow:0 7px 16px rgba(6,24,51,.055) !important;
+}
+
+.sb-nav.clean-icon-nav a:hover .nav-ico,
+.sb-nav.clean-icon-nav a.active .nav-ico{
+  color:#fff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+  box-shadow:0 9px 20px rgba(31,94,214,.20) !important;
+}
+
+.sb-nav.clean-icon-nav a > span:last-of-type{
+  font-weight:850 !important;
+  letter-spacing:-.01em !important;
+}
+
+/* Header: keep Shovon Mandal and Lecturer, CSE visible and premium on all devices */
+.scroll-identity-header.fixed-review-header{
+  grid-template-columns:minmax(230px,1fr) auto !important;
+}
+
+.scroll-id-left{
+  min-width:0 !important;
+  max-width:100% !important;
+}
+
+.scroll-id-left span{
+  min-width:0 !important;
+  max-width:100% !important;
+}
+
+.scroll-id-left strong{
+  display:block !important;
+  max-width:none !important;
+  white-space:nowrap !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+  color:#061833 !important;
+  font-size:1.03rem !important;
+  font-weight:950 !important;
+  letter-spacing:-.025em !important;
+}
+
+.scroll-id-left em{
+  display:block !important;
+  max-width:none !important;
+  white-space:nowrap !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+  color:#506984 !important;
+  font-style:normal !important;
+  font-size:.79rem !important;
+  font-weight:800 !important;
+  letter-spacing:-.01em !important;
+}
+
+/* Header buttons balanced beside visible identity */
+.scroll-cv-btn,
+.scroll-menu-btn{
+  min-width:auto !important;
+  padding-left:13px !important;
+  padding-right:13px !important;
+}
+
+/* Tablet: maintain visibility without crowding */
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(150px,1fr) auto !important;
+    gap:8px !important;
+  }
+
+  .scroll-id-left{
+    gap:8px !important;
+  }
+
+  .scroll-id-left img{
+    width:40px !important;
+    height:40px !important;
+    min-width:40px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.93rem !important;
+    max-width:none !important;
+  }
+
+  .scroll-id-left em{
+    display:block !important;
+    font-size:.70rem !important;
+    max-width:none !important;
+  }
+}
+
+/* Small mobile: keep name and Lecturer, CSE visible; shorten CV text only */
+@media(max-width:520px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(128px,1fr) auto !important;
+    gap:6px !important;
+    padding-left:8px !important;
+    padding-right:8px !important;
+  }
+
+  .scroll-id-left{
+    gap:7px !important;
+  }
+
+  .scroll-id-left img{
+    width:37px !important;
+    height:37px !important;
+    min-width:37px !important;
+    border-radius:12px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.84rem !important;
+    max-width:none !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+  }
+
+  .scroll-id-left em{
+    display:block !important;
+    font-size:.66rem !important;
+    max-width:none !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+  }
+
+  .scroll-cv-btn,
+  .scroll-menu-btn{
+    padding-left:8px !important;
+    padding-right:8px !important;
+    min-height:32px !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:0 !important;
+  }
+
+  .scroll-cv-btn span::after{
+    content:"CV" !important;
+    font-size:.69rem !important;
+  }
+
+  .scroll-menu-btn span{
+    font-size:.69rem !important;
+  }
+}
+
+@media(max-width:360px){
+  .scroll-id-left img{
+    width:34px !important;
+    height:34px !important;
+    min-width:34px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.78rem !important;
+  }
+
+  .scroll-id-left em{
+    font-size:.62rem !important;
+  }
+
+  .scroll-cv-btn,
+  .scroll-menu-btn{
+    padding-left:7px !important;
+    padding-right:7px !important;
+  }
+}
+
+
+/* V65 FINAL: Back-to-top button always visible, including mobile */
+#btt,
+.back-to-top,
+button#btt{
+  position:fixed !important;
+  right:18px !important;
+  bottom:18px !important;
+  z-index:1300 !important;
+  display:grid !important;
+  place-items:center !important;
+  width:48px !important;
+  height:48px !important;
+  min-width:48px !important;
+  min-height:48px !important;
+  border-radius:16px !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  pointer-events:auto !important;
+  transform:none !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  color:#ffffff !important;
+  border:1px solid rgba(255,255,255,.35) !important;
+  box-shadow:0 16px 34px rgba(6,24,51,.24) !important;
+  font-size:1.12rem !important;
+  font-weight:950 !important;
+}
+
+#btt.show,
+#btt.is-visible,
+.back-to-top.show,
+.back-to-top.is-visible{
+  opacity:1 !important;
+  visibility:visible !important;
+  pointer-events:auto !important;
+  transform:none !important;
+}
+
+#btt:hover,
+.back-to-top:hover{
+  background:linear-gradient(135deg,#08aecd,#1f5ed6) !important;
+  color:#ffffff !important;
+  transform:translateY(-2px) !important;
+  box-shadow:0 20px 42px rgba(6,24,51,.28) !important;
+}
+
+@media(max-width:760px){
+  #btt,
+  .back-to-top,
+  button#btt{
+    right:14px !important;
+    bottom:14px !important;
+    width:46px !important;
+    height:46px !important;
+    min-width:46px !important;
+    min-height:46px !important;
+    border-radius:15px !important;
+    z-index:1400 !important;
+  }
+}
+
+@media(max-width:420px){
+  #btt,
+  .back-to-top,
+  button#btt{
+    right:12px !important;
+    bottom:12px !important;
+    width:44px !important;
+    height:44px !important;
+    min-width:44px !important;
+    min-height:44px !important;
+    font-size:1.05rem !important;
+  }
+}
+
+
+/* V66 FINAL: Menu button appears only when sidebar is hidden */
+
+/* Desktop / large screen: sidebar is visible, so Menu button is not needed */
+@media(min-width:1181px){
+  .scroll-menu-btn{
+    display:none !important;
+    opacity:0 !important;
+    visibility:hidden !important;
+    pointer-events:none !important;
+  }
+
+  .scroll-menu-panel{
+    display:none !important;
+  }
+
+  .scroll-id-actions{
+    gap:0 !important;
+  }
+
+  .scroll-cv-btn{
+    display:inline-flex !important;
+  }
+}
+
+/* Tablet and mobile: sidebar is hidden, so Menu button appears with animation */
+@media(max-width:1180px){
+  .scroll-menu-btn{
+    display:inline-flex !important;
+    opacity:1 !important;
+    visibility:visible !important;
+    pointer-events:auto !important;
+    transform:translateX(0) scale(1) !important;
+    animation:menuButtonIn .34s cubic-bezier(.22,1,.36,1) both !important;
+  }
+
+  .scroll-menu-panel{
+    display:grid !important;
+  }
+}
+
+@keyframes menuButtonIn{
+  from{
+    opacity:0;
+    transform:translateX(10px) scale(.94);
+  }
+  to{
+    opacity:1;
+    transform:translateX(0) scale(1);
+  }
+}
+
+/* When sidebar-hidden menu opens, keep dropdown smooth */
+.scroll-menu-panel{
+  transform-origin:top right !important;
+}
+
+.scroll-menu-panel.is-open{
+  animation:menuPanelIn .24s cubic-bezier(.22,1,.36,1) both !important;
+}
+
+@keyframes menuPanelIn{
+  from{
+    opacity:0;
+    transform:translateY(-8px) scale(.97);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1);
+  }
+}
+
+
+/* V67 FINAL: full header role, single-column menu, and no sidebar overlap */
+
+/* Header role: show full academic department line */
+.scroll-id-left em{
+  display:block !important;
+  color:#506984 !important;
+  font-style:normal !important;
+  font-weight:800 !important;
+  white-space:nowrap !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+}
+
+/* Desktop with sidebar visible: reserve enough space so sidebar never overlaps content */
+@media(min-width:1281px){
+  :root{
+    --sidebar:288px !important;
+    --side-offset:16px !important;
+    --content-gap:28px !important;
+    --left-edge:24px !important;
+  }
+
+  .sidebar{
+    display:block !important;
+    width:var(--sidebar) !important;
+    right:var(--side-offset) !important;
+    visibility:visible !important;
+    opacity:1 !important;
+    transform:none !important;
+  }
+
+  .page{
+    width:auto !important;
+    max-width:none !important;
+    margin-left:var(--left-edge) !important;
+    margin-right:calc(var(--sidebar) + var(--side-offset) + var(--content-gap)) !important;
+  }
+
+  .scroll-identity-header.fixed-review-header,
+  .scroll-header-bridge{
+    left:var(--left-edge) !important;
+    right:calc(var(--sidebar) + var(--side-offset) + var(--content-gap)) !important;
+  }
+
+  /* Sidebar visible means menu button is not needed */
+  .scroll-menu-btn{
+    display:none !important;
+    opacity:0 !important;
+    visibility:hidden !important;
+    pointer-events:none !important;
+  }
+
+  .scroll-menu-panel{
+    display:none !important;
+  }
+
+  .scroll-cv-btn{
+    display:inline-flex !important;
+  }
+
+  /* Sidebar text must remain readable */
+  .sb-card h2,
+  .sidebar-card h2{
+    white-space:nowrap !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+    font-size:1rem !important;
+  }
+
+  .sb-nav.clean-icon-nav a{
+    grid-template-columns:30px minmax(0,1fr) !important;
+    gap:9px !important;
+  }
+
+  .sb-nav.clean-icon-nav a > span:last-of-type{
+    white-space:normal !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+    line-height:1.18 !important;
+    font-size:.80rem !important;
+  }
+}
+
+/* When available width becomes tight, collapse sidebar and convert to main header menu */
+@media(max-width:1280px){
+  .sidebar{
+    display:none !important;
+    opacity:0 !important;
+    visibility:hidden !important;
+    pointer-events:none !important;
+  }
+
+  .page{
+    width:calc(100% - 24px) !important;
+    max-width:1080px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-top:96px !important;
+  }
+
+  .scroll-header-bridge,
+  .scroll-header-bridge.is-active{
+    left:10px !important;
+    right:10px !important;
+    height:82px !important;
+    opacity:1 !important;
+  }
+
+  .scroll-identity-header.fixed-review-header{
+    left:10px !important;
+    right:10px !important;
+    top:9px !important;
+    transform:translateY(0) scale(1) !important;
+    opacity:1 !important;
+    pointer-events:auto !important;
+    visibility:visible !important;
+    min-height:62px !important;
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) auto !important;
+    z-index:1200 !important;
+  }
+
+  .scroll-menu-btn{
+    display:inline-flex !important;
+    opacity:1 !important;
+    visibility:visible !important;
+    pointer-events:auto !important;
+    animation:menuButtonIn .34s cubic-bezier(.22,1,.36,1) both !important;
+  }
+
+  .scroll-menu-panel{
+    display:grid !important;
+  }
+
+  .scroll-id-left em{
+    max-width:calc(100vw - 300px) !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+  }
+}
+
+/* Menu dropdown should be one column for clean mobile/tablet navigation */
+.scroll-menu-panel,
+.scroll-menu-panel.is-open{
+  grid-template-columns:1fr !important;
+  width:min(320px, calc(100vw - 20px)) !important;
+  max-height:calc(100vh - 96px) !important;
+  overflow:auto !important;
+}
+
+.scroll-menu-panel a{
+  min-height:40px !important;
+  justify-content:flex-start !important;
+}
+
+/* Mobile: keep header readable and avoid overlap */
+@media(max-width:760px){
+  .page{
+    width:calc(100% - 18px) !important;
+    margin-top:88px !important;
+  }
+
+  .scroll-header-bridge,
+  .scroll-header-bridge.is-active{
+    height:76px !important;
+  }
+
+  .scroll-identity-header.fixed-review-header{
+    min-height:58px !important;
+    padding:8px 9px !important;
+    border-radius:18px !important;
+    gap:8px !important;
+  }
+
+  .scroll-id-left img{
+    width:40px !important;
+    height:40px !important;
+    min-width:40px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.92rem !important;
+    white-space:nowrap !important;
+  }
+
+  .scroll-id-left em{
+    display:block !important;
+    font-size:.68rem !important;
+    max-width:calc(100vw - 228px) !important;
+    white-space:nowrap !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+  }
+
+  .scroll-cv-btn,
+  .scroll-menu-btn{
+    min-height:34px !important;
+    padding:8px 9px !important;
+  }
+}
+
+/* Small mobile: full line is too long, so keep name + academic field visible without breaking layout */
+@media(max-width:520px){
+  .page{
+    margin-top:84px !important;
+  }
+
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(0,1fr) auto !important;
+    gap:6px !important;
+  }
+
+  .scroll-id-left{
+    gap:7px !important;
+    min-width:0 !important;
+  }
+
+  .scroll-id-left img{
+    width:37px !important;
+    height:37px !important;
+    min-width:37px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.84rem !important;
+    max-width:100% !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+  }
+
+  .scroll-id-left em{
+    display:block !important;
+    font-size:.62rem !important;
+    max-width:calc(100vw - 178px) !important;
+  }
+
+  .scroll-cv-btn span{
+    font-size:0 !important;
+  }
+
+  .scroll-cv-btn span::after{
+    content:"CV" !important;
+    font-size:.69rem !important;
+  }
+
+  .scroll-menu-btn span{
+    font-size:.69rem !important;
+  }
+
+  .scroll-cv-btn,
+  .scroll-menu-btn{
+    padding-left:8px !important;
+    padding-right:8px !important;
+  }
+}
+
+
+/* V68 FINAL: smaller right-side back-to-top + mobile academic-goal justification */
+
+/* Back-to-top: right side, smaller, appears only while scrolling */
+#btt,
+.back-to-top,
+button#btt{
+  position:fixed !important;
+  right:16px !important;
+  left:auto !important;
+  bottom:18px !important;
+  z-index:1450 !important;
+  width:40px !important;
+  height:40px !important;
+  min-width:40px !important;
+  min-height:40px !important;
+  border-radius:13px !important;
+  display:grid !important;
+  place-items:center !important;
+  opacity:0 !important;
+  visibility:hidden !important;
+  pointer-events:none !important;
+  transform:translateY(10px) scale(.94) !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  color:#ffffff !important;
+  border:1px solid rgba(255,255,255,.32) !important;
+  box-shadow:0 12px 26px rgba(6,24,51,.22) !important;
+  font-size:.94rem !important;
+  font-weight:950 !important;
+  transition:opacity .22s ease, visibility .22s ease, transform .24s ease, box-shadow .22s ease !important;
+}
+
+#btt.show,
+#btt.is-visible,
+#btt.scroll-visible,
+.back-to-top.show,
+.back-to-top.is-visible,
+.back-to-top.scroll-visible{
+  opacity:1 !important;
+  visibility:visible !important;
+  pointer-events:auto !important;
+  transform:translateY(0) scale(1) !important;
+}
+
+#btt:hover,
+.back-to-top:hover{
+  transform:translateY(-2px) scale(1) !important;
+  box-shadow:0 16px 32px rgba(6,24,51,.28) !important;
+}
+
+/* Mobile size and position */
+@media(max-width:760px){
+  #btt,
+  .back-to-top,
+  button#btt{
+    right:12px !important;
+    bottom:12px !important;
+    width:38px !important;
+    height:38px !important;
+    min-width:38px !important;
+    min-height:38px !important;
+    border-radius:12px !important;
+    font-size:.88rem !important;
+  }
+}
+
+/* Mobile academic goal paragraph: justified and readable */
+@media(max-width:760px){
+  .hero-copy p,
+  .hero-text p,
+  .hero-content p,
+  .intro p,
+  #home .lead,
+  #home .goal,
+  #home .academic-goal,
+  #home p{
+    text-align:justify !important;
+    text-justify:inter-word !important;
+    hyphens:auto !important;
+    line-height:1.72 !important;
+  }
+
+  /* Keep headings/buttons centered/normal; only paragraph body gets justified */
+  #home h1,
+  #home h2,
+  #home .eyebrow,
+  #home .hero-actions,
+  #home .meta,
+  #home .chip-row,
+  #home .snapshot,
+  #home .hero-fast-review-card,
+  #home .fr-links{
+    text-align:initial !important;
+  }
+}
+
+
+/* V69 FINAL PUBLISH: rectangular Back to Top + clickable identity home link */
+#btt,
+.back-to-top,
+button#btt{
+  right:16px !important;
+  left:auto !important;
+  bottom:18px !important;
+  width:auto !important;
+  min-width:104px !important;
+  height:38px !important;
+  min-height:38px !important;
+  padding:0 14px !important;
+  border-radius:12px !important;
+  font-size:.78rem !important;
+  font-weight:950 !important;
+  letter-spacing:.01em !important;
+  text-transform:none !important;
+  white-space:nowrap !important;
+}
+
+#btt::before,
+.back-to-top::before{
+  content:"↑" !important;
+  margin-right:6px !important;
+  font-weight:950 !important;
+}
+
+#btt:hover,
+.back-to-top:hover{
+  transform:translateY(-2px) scale(1) !important;
+}
+
+/* Header identity: image and name act as Home link */
+.scroll-id-left{
+  cursor:pointer !important;
+  border-radius:14px !important;
+  padding:3px 6px 3px 3px !important;
+  transition:background-color .22s ease, transform .22s ease !important;
+}
+
+.scroll-id-left:hover{
+  background:rgba(31,94,214,.07) !important;
+  transform:translateY(-1px) !important;
+}
+
+.scroll-id-left:hover strong{
+  color:#1f5ed6 !important;
+}
+
+@media(max-width:760px){
+  #btt,
+  .back-to-top,
+  button#btt{
+    right:12px !important;
+    bottom:12px !important;
+    min-width:96px !important;
+    height:36px !important;
+    min-height:36px !important;
+    padding:0 12px !important;
+    border-radius:11px !important;
+    font-size:.74rem !important;
+  }
+}
+
+@media(max-width:420px){
+  #btt,
+  .back-to-top,
+  button#btt{
+    min-width:90px !important;
+    height:34px !important;
+    min-height:34px !important;
+    padding:0 10px !important;
+    font-size:.70rem !important;
+  }
+}
+
+
+/* V70 FINAL: Back to Top icon and text in one line */
+#btt,
+.back-to-top,
+button#btt{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:6px !important;
+  flex-direction:row !important;
+  white-space:nowrap !important;
+  line-height:1 !important;
+  width:auto !important;
+  min-width:112px !important;
+  height:38px !important;
+  min-height:38px !important;
+  padding:0 14px !important;
+}
+
+#btt::before,
+.back-to-top::before{
+  content:"↑" !important;
+  display:inline-block !important;
+  margin:0 !important;
+  line-height:1 !important;
+  font-weight:950 !important;
+  flex:0 0 auto !important;
+}
+
+#btt,
+.back-to-top{
+  font-size:.78rem !important;
+}
+
+@media(max-width:760px){
+  #btt,
+  .back-to-top,
+  button#btt{
+    display:inline-flex !important;
+    min-width:104px !important;
+    height:36px !important;
+    min-height:36px !important;
+    padding:0 12px !important;
+    gap:5px !important;
+    font-size:.73rem !important;
+  }
+}
+
+@media(max-width:420px){
+  #btt,
+  .back-to-top,
+  button#btt{
+    min-width:98px !important;
+    height:34px !important;
+    min-height:34px !important;
+    padding:0 10px !important;
+    gap:5px !important;
+    font-size:.70rem !important;
+  }
+}
+
+
+/* V71 FINAL: animated hidden-sidebar progress, current header segment, and selected menu state */
+
+/* Header current segment label */
+.scroll-identity-header.fixed-review-header{
+  grid-template-columns:minmax(0,1fr) auto auto !important;
+}
+
+.scroll-current-label{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  max-width:220px !important;
+  min-height:34px !important;
+  padding:7px 12px !important;
+  border-radius:999px !important;
+  background:linear-gradient(135deg,#eef6ff,#ffffff) !important;
+  border:1px solid rgba(204,219,239,.96) !important;
+  color:#1f5ed6 !important;
+  font-size:.76rem !important;
+  font-weight:950 !important;
+  line-height:1.1 !important;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+  box-shadow:0 8px 20px rgba(6,24,51,.06) !important;
+  transition:font-size .2s ease, max-width .2s ease, background-color .2s ease !important;
+}
+
+.scroll-current-label::before{
+  content:"Viewing" !important;
+  margin-right:6px !important;
+  color:#536b88 !important;
+  font-weight:850 !important;
+  font-size:.68rem !important;
+}
+
+/* Hidden sidebar progress: visible only after the sidebar collapses */
+.hidden-progress-sidebar{
+  position:fixed !important;
+  left:10px !important;
+  top:100px !important;
+  bottom:74px !important;
+  z-index:990 !important;
+  display:none !important;
+  width:44px !important;
+  border-radius:999px !important;
+  background:rgba(255,255,255,.86) !important;
+  border:1px solid rgba(204,219,239,.92) !important;
+  box-shadow:0 18px 44px rgba(6,24,51,.13) !important;
+  backdrop-filter:blur(14px) saturate(1.1) !important;
+  -webkit-backdrop-filter:blur(14px) saturate(1.1) !important;
+  opacity:0 !important;
+  transform:translateX(-12px) scale(.98) !important;
+  transition:opacity .28s ease, transform .34s cubic-bezier(.22,1,.36,1) !important;
+}
+
+.progress-track{
+  position:absolute !important;
+  left:20px !important;
+  top:18px !important;
+  bottom:18px !important;
+  width:4px !important;
+  border-radius:999px !important;
+  background:#e1ecf9 !important;
+  overflow:hidden !important;
+}
+
+.progress-fill{
+  position:absolute !important;
+  left:0 !important;
+  top:0 !important;
+  width:100% !important;
+  height:0 !important;
+  border-radius:999px !important;
+  background:linear-gradient(180deg,#1f5ed6,#08aecd) !important;
+  transition:height .18s linear !important;
+}
+
+.progress-dots{
+  position:absolute !important;
+  inset:12px 0 !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+}
+
+.progress-dot{
+  position:relative !important;
+  display:grid !important;
+  place-items:center !important;
+  width:23px !important;
+  height:23px !important;
+  border-radius:50% !important;
+  background:#ffffff !important;
+  border:1px solid rgba(204,219,239,.96) !important;
+  color:#6a7f99 !important;
+  text-decoration:none !important;
+  box-shadow:0 6px 14px rgba(6,24,51,.08) !important;
+  transform:scale(.88) !important;
+  transition:transform .22s ease, background .22s ease, color .22s ease, border-color .22s ease, box-shadow .22s ease !important;
+}
+
+.progress-dot span{
+  font-size:.48rem !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+}
+
+.progress-dot.is-visited{
+  color:#1f5ed6 !important;
+  border-color:rgba(31,94,214,.30) !important;
+}
+
+.progress-dot.is-active{
+  color:#ffffff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+  transform:scale(1.12) !important;
+  box-shadow:0 10px 22px rgba(31,94,214,.26) !important;
+}
+
+.progress-dot:hover::after{
+  content:attr(aria-label) !important;
+  position:absolute !important;
+  left:32px !important;
+  top:50% !important;
+  transform:translateY(-50%) !important;
+  white-space:nowrap !important;
+  padding:6px 9px !important;
+  border-radius:10px !important;
+  color:#ffffff !important;
+  background:#061833 !important;
+  font-size:.70rem !important;
+  font-weight:850 !important;
+  box-shadow:0 12px 26px rgba(6,24,51,.20) !important;
+}
+
+/* Menu active/highlighted current section */
+.scroll-menu-panel a.is-active{
+  color:#ffffff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+  box-shadow:0 10px 22px rgba(31,94,214,.18) !important;
+}
+
+.scroll-menu-panel a.is-active span{
+  color:#ffffff !important;
+  background:rgba(255,255,255,.20) !important;
+}
+
+.scroll-menu-panel a.is-visited:not(.is-active){
+  border-color:rgba(31,94,214,.25) !important;
+  color:#1f5ed6 !important;
+}
+
+/* Sidebar active state also follows current section when sidebar is visible */
+.sb-nav a.is-active,
+.sb-nav a.active{
+  color:#ffffff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+}
+
+.sb-nav.clean-icon-nav a.is-active .nav-ico,
+.sb-nav.clean-icon-nav a.active .nav-ico{
+  color:#1f5ed6 !important;
+  background:#ffffff !important;
+  border-color:rgba(255,255,255,.55) !important;
+}
+
+/* Show progress sidebar only when desktop sidebar is hidden */
+@media(max-width:1280px){
+  .hidden-progress-sidebar{
+    display:block !important;
+    opacity:1 !important;
+    transform:translateX(0) scale(1) !important;
+  }
+
+  .page{
+    padding-left:40px !important;
+  }
+}
+
+/* On phone, avoid a vertical rail overlap; convert to a thin top progress strip under header */
+.mobile-progress-strip{
+  position:fixed !important;
+  left:12px !important;
+  right:12px !important;
+  top:78px !important;
+  z-index:1190 !important;
+  display:none !important;
+  height:4px !important;
+  border-radius:999px !important;
+  background:#dce9f8 !important;
+  overflow:hidden !important;
+  box-shadow:0 6px 14px rgba(6,24,51,.08) !important;
+}
+
+.mobile-progress-strip span{
+  display:block !important;
+  width:0 !important;
+  height:100% !important;
+  border-radius:999px !important;
+  background:linear-gradient(90deg,#1f5ed6,#08aecd) !important;
+  transition:width .18s linear !important;
+}
+
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(0,1fr) auto auto !important;
+  }
+
+  .scroll-current-label{
+    max-width:118px !important;
+    min-height:30px !important;
+    padding:6px 9px !important;
+    font-size:.66rem !important;
+  }
+
+  .scroll-current-label::before{
+    display:none !important;
+  }
+
+  .hidden-progress-sidebar{
+    display:none !important;
+  }
+
+  .mobile-progress-strip{
+    display:block !important;
+  }
+
+  .page{
+    padding-left:0 !important;
+  }
+}
+
+/* Small mobile: keep current segment visible in very small font if space is limited */
+@media(max-width:520px){
+  .scroll-current-label{
+    max-width:82px !important;
+    min-height:28px !important;
+    padding:5px 7px !important;
+    font-size:.58rem !important;
+  }
+}
+
+@media(max-width:390px){
+  .scroll-current-label{
+    max-width:68px !important;
+    font-size:.54rem !important;
+  }
+}
+
+
+/* V72 FINAL: merged Research Fit/Profile, scrollable sidebar/menu, delayed active section, responsive role */
+
+/* Research/Profile wrapper needs scroll offset when linked from sidebar/menu */
+#research-profile{
+  scroll-margin-top:108px !important;
+}
+
+/* Sidebar and menu must be scrollable */
+.sidebar{
+  overflow-y:auto !important;
+  overflow-x:hidden !important;
+  scrollbar-width:thin !important;
+  scrollbar-color:rgba(31,94,214,.45) transparent !important;
+}
+
+.sidebar::-webkit-scrollbar,
+.scroll-menu-panel::-webkit-scrollbar{
+  width:6px !important;
+}
+
+.sidebar::-webkit-scrollbar-thumb,
+.scroll-menu-panel::-webkit-scrollbar-thumb{
+  background:rgba(31,94,214,.45) !important;
+  border-radius:999px !important;
+}
+
+.sb-nav{
+  padding-bottom:14px !important;
+}
+
+/* Menu dropdown should also scroll on short screens */
+.scroll-menu-panel{
+  max-height:calc(100vh - 104px) !important;
+  overflow-y:auto !important;
+  overflow-x:hidden !important;
+  overscroll-behavior:contain !important;
+}
+
+/* Merge label may be longer: keep it readable in menu/sidebar */
+.sb-nav.clean-icon-nav a[href="#research-profile"] > span:last-of-type,
+.scroll-menu-panel a[href="#research-profile"]{
+  font-size:.76rem !important;
+  line-height:1.18 !important;
+}
+
+/* Header current segment label: merged name and late switching, responsive size */
+.scroll-current-label{
+  max-width:255px !important;
+  transition:opacity .22s ease, transform .22s ease, font-size .22s ease, max-width .22s ease !important;
+}
+
+.scroll-current-label[data-section="research-profile"]{
+  max-width:290px !important;
+}
+
+/* Role full/short behavior: show full when enough space; CSE only when space is tight */
+.role-short{
+  display:none !important;
+}
+
+.role-full{
+  display:inline !important;
+}
+
+/* Smooth mode animation when sidebar changes to menu mode or back */
+@keyframes sidebarInPremium{
+  from{opacity:0; transform:translateX(18px) scale(.985);}
+  to{opacity:1; transform:translateX(0) scale(1);}
+}
+
+@keyframes menuModeInPremium{
+  from{opacity:0; transform:translateY(-8px) scale(.985);}
+  to{opacity:1; transform:translateY(0) scale(1);}
+}
+
+/* Sidebar visible mode */
+@media(min-width:1281px){
+  .sidebar{
+    display:block !important;
+    opacity:1 !important;
+    visibility:visible !important;
+    pointer-events:auto !important;
+    transform:translateX(0) scale(1) !important;
+    animation:sidebarInPremium .34s cubic-bezier(.22,1,.36,1) both !important;
+    max-height:calc(100vh - 32px) !important;
+  }
+
+  .scroll-menu-btn{
+    display:none !important;
+  }
+
+  .scroll-menu-panel{
+    display:none !important;
+  }
+
+  .hidden-progress-sidebar,
+  .mobile-progress-strip{
+    display:none !important;
+  }
+}
+
+/* Sidebar hidden mode: menu appears and progress indicator appears */
+@media(max-width:1280px){
+  .sidebar{
+    display:block !important;
+    opacity:0 !important;
+    visibility:hidden !important;
+    pointer-events:none !important;
+    transform:translateX(120%) scale(.965) !important;
+    transition:opacity .30s ease, transform .34s cubic-bezier(.22,1,.36,1), visibility .30s ease !important;
+  }
+
+  .scroll-menu-btn{
+    display:inline-flex !important;
+    animation:menuButtonIn .34s cubic-bezier(.22,1,.36,1) both !important;
+  }
+
+  .scroll-identity-header.fixed-review-header{
+    animation:menuModeInPremium .30s cubic-bezier(.22,1,.36,1) both !important;
+  }
+
+  .scroll-menu-panel{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+  }
+
+  .hidden-progress-sidebar{
+    display:block !important;
+  }
+}
+
+/* Menu active section highlight is clearer when opened */
+.scroll-menu-panel a.is-active{
+  position:relative !important;
+}
+
+.scroll-menu-panel a.is-active::after{
+  content:"Current" !important;
+  margin-left:auto !important;
+  font-size:.62rem !important;
+  font-weight:950 !important;
+  color:rgba(255,255,255,.84) !important;
+  letter-spacing:.04em !important;
+  text-transform:uppercase !important;
+}
+
+.scroll-menu-panel a.is-visited:not(.is-active)::after{
+  content:"✓" !important;
+  margin-left:auto !important;
+  color:#1f5ed6 !important;
+  font-weight:950 !important;
+}
+
+/* Header segment label stays useful on medium screens */
+@media(max-width:1180px){
+  .scroll-current-label{
+    max-width:210px !important;
+    font-size:.72rem !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"]{
+    max-width:230px !important;
+  }
+}
+
+@media(max-width:760px){
+  .scroll-current-label{
+    max-width:124px !important;
+    font-size:.64rem !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"]{
+    max-width:132px !important;
+    font-size:.58rem !important;
+  }
+
+  .scroll-menu-panel{
+    max-height:calc(100vh - 92px) !important;
+  }
+}
+
+/* If space is tight in mobile header, use CSE */
+@media(max-width:560px){
+  .role-full{
+    display:none !important;
+  }
+
+  .role-short{
+    display:inline !important;
+  }
+
+  .scroll-id-left em{
+    max-width:calc(100vw - 180px) !important;
+  }
+
+  .scroll-current-label{
+    max-width:84px !important;
+    font-size:.56rem !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"]{
+    max-width:88px !important;
+    font-size:.50rem !important;
+  }
+}
+
+@media(max-width:390px){
+  .scroll-current-label{
+    max-width:70px !important;
+    font-size:.52rem !important;
+  }
+
+  .scroll-current-label[data-section="research-profile"]{
+    max-width:74px !important;
+    font-size:.48rem !important;
+  }
+}
+
+
+/* V73 FINAL: responsive header text, fixed sidebar identity, right progress rail */
+
+/* Header role: one visible text only; JS chooses full text or CSE depending on space */
+.header-role-text{
+  display:inline !important;
+  white-space:nowrap !important;
+}
+
+.role-full,
+.role-short{
+  display:none !important;
+}
+
+/* Sidebar identity area fixed/sticky inside sidebar; sidebar menu scrolls independently */
+.sidebar{
+  overflow:hidden !important;
+}
+
+.sidebar-inner{
+  height:100% !important;
+  display:flex !important;
+  flex-direction:column !important;
+  overflow:hidden !important;
+}
+
+.sidebar .sb-card{
+  position:sticky !important;
+  top:0 !important;
+  z-index:5 !important;
+  flex:0 0 auto !important;
+  background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(246,250,255,.95)) !important;
+  border-bottom:1px solid rgba(204,219,239,.76) !important;
+  backdrop-filter:blur(12px) !important;
+}
+
+.sidebar .sb-nav{
+  flex:1 1 auto !important;
+  overflow-y:auto !important;
+  overflow-x:hidden !important;
+  min-height:0 !important;
+  padding-bottom:18px !important;
+}
+
+/* When sidebar is visible, there is already a sidebar CV button, so remove header Download CV */
+@media(min-width:1281px){
+  .scroll-cv-btn,
+  .scroll-id-actions{
+    display:none !important;
+  }
+
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(0,1fr) auto !important;
+  }
+
+  .right-progress-sidebar{
+    display:none !important;
+  }
+}
+
+/* When sidebar is hidden, header CV/menu appear; right progress rail appears */
+@media(max-width:1280px){
+  .scroll-id-actions{
+    display:flex !important;
+  }
+
+  .scroll-cv-btn{
+    display:inline-flex !important;
+  }
+
+  .right-progress-sidebar{
+    display:flex !important;
+  }
+}
+
+/* Right-side progress rail: only for sidebar-hidden mode */
+.right-progress-sidebar{
+  position:fixed !important;
+  right:8px !important;
+  left:auto !important;
+  top:102px !important;
+  bottom:72px !important;
+  z-index:990 !important;
+  width:42px !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  padding:10px 0 !important;
+  border-radius:999px !important;
+  background:rgba(255,255,255,.90) !important;
+  border:1px solid rgba(204,219,239,.94) !important;
+  box-shadow:0 18px 44px rgba(6,24,51,.14) !important;
+  backdrop-filter:blur(14px) saturate(1.1) !important;
+  -webkit-backdrop-filter:blur(14px) saturate(1.1) !important;
+  opacity:1 !important;
+  transform:translateX(0) scale(1) !important;
+  transition:opacity .25s ease, transform .32s cubic-bezier(.22,1,.36,1), visibility .25s ease !important;
+}
+
+.right-progress-sidebar.hide-for-menu,
+body.menu-is-open .right-progress-sidebar{
+  opacity:0 !important;
+  visibility:hidden !important;
+  pointer-events:none !important;
+  transform:translateX(18px) scale(.96) !important;
+}
+
+.right-progress-count,
+.right-progress-percent{
+  writing-mode:vertical-rl !important;
+  transform:rotate(180deg) !important;
+  color:#1f5ed6 !important;
+  font-size:.62rem !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+  letter-spacing:.04em !important;
+}
+
+.right-progress-track{
+  position:absolute !important;
+  top:54px !important;
+  bottom:54px !important;
+  left:50% !important;
+  width:4px !important;
+  transform:translateX(-50%) !important;
+  border-radius:999px !important;
+  background:#dce9f8 !important;
+  overflow:hidden !important;
+}
+
+.right-progress-fill{
+  position:absolute !important;
+  left:0 !important;
+  top:0 !important;
+  width:100% !important;
+  height:0 !important;
+  border-radius:999px !important;
+  background:linear-gradient(180deg,#1f5ed6,#08aecd) !important;
+  transition:height .18s linear !important;
+}
+
+.right-progress-dots{
+  position:absolute !important;
+  top:58px !important;
+  bottom:58px !important;
+  left:0 !important;
+  right:0 !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  pointer-events:auto !important;
+}
+
+.right-progress-dot{
+  display:grid !important;
+  place-items:center !important;
+  width:20px !important;
+  height:20px !important;
+  border-radius:50% !important;
+  background:#ffffff !important;
+  border:1px solid rgba(204,219,239,.96) !important;
+  color:#6a7f99 !important;
+  text-decoration:none !important;
+  box-shadow:0 6px 14px rgba(6,24,51,.08) !important;
+  transform:scale(.86) !important;
+  transition:transform .22s ease, background .22s ease, color .22s ease, border-color .22s ease, box-shadow .22s ease !important;
+}
+
+.right-progress-dot span{
+  font-size:.46rem !important;
+  font-weight:950 !important;
+  line-height:1 !important;
+}
+
+.right-progress-dot.is-visited{
+  color:#1f5ed6 !important;
+  border-color:rgba(31,94,214,.30) !important;
+}
+
+.right-progress-dot.is-active{
+  color:#ffffff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+  transform:scale(1.12) !important;
+  box-shadow:0 10px 22px rgba(31,94,214,.26) !important;
+}
+
+/* Give content a small safety area while right rail is visible */
+@media(max-width:1280px){
+  .page{
+    padding-right:32px !important;
+  }
+}
+
+/* Menu remains scrollable and highlights current segment */
+.scroll-menu-panel{
+  overflow-y:auto !important;
+  max-height:calc(100vh - 104px) !important;
+}
+
+.scroll-menu-panel a.is-active{
+  color:#ffffff !important;
+  background:linear-gradient(135deg,#1f5ed6,#08aecd) !important;
+  border-color:transparent !important;
+}
+
+.scroll-menu-panel a.is-active::after{
+  content:"Current" !important;
+  margin-left:auto !important;
+  font-size:.62rem !important;
+  font-weight:950 !important;
+  color:rgba(255,255,255,.84) !important;
+  text-transform:uppercase !important;
+}
+
+/* Mobile: keep header readable and switch role text to CSE by JS */
+@media(max-width:760px){
+  .right-progress-sidebar{
+    width:32px !important;
+    right:5px !important;
+    top:88px !important;
+    bottom:58px !important;
+  }
+
+  .right-progress-count,
+  .right-progress-percent{
+    font-size:.52rem !important;
+  }
+
+  .right-progress-track{
+    top:44px !important;
+    bottom:44px !important;
+    width:3px !important;
+  }
+
+  .right-progress-dots{
+    top:48px !important;
+    bottom:48px !important;
+  }
+
+  .right-progress-dot{
+    width:16px !important;
+    height:16px !important;
+  }
+
+  .right-progress-dot span{
+    font-size:.40rem !important;
+  }
+
+  .page{
+    padding-right:24px !important;
+  }
+}
+
+@media(max-width:420px){
+  .right-progress-sidebar{
+    width:28px !important;
+    right:3px !important;
+  }
+
+  .page{
+    padding-right:19px !important;
+  }
+
+  .scroll-id-left em{
+    font-size:.62rem !important;
+  }
+}
+
+
+/* V74 FINAL: smaller sidebar + one-line lecturer department header */
+
+/* Smaller desktop sidebar, with safe main-content spacing */
+@media(min-width:1281px){
+  :root{
+    --sidebar:248px !important;
+    --side-offset:14px !important;
+    --content-gap:24px !important;
+    --left-edge:24px !important;
+  }
+
+  .sidebar{
+    width:var(--sidebar) !important;
+    right:var(--side-offset) !important;
+    top:14px !important;
+    bottom:14px !important;
+    border-radius:22px !important;
+  }
+
+  .sidebar-inner{
+    padding:12px !important;
+  }
+
+  .sidebar .sb-card{
+    padding:13px 12px !important;
+    border-radius:18px !important;
+  }
+
+  .sb-card h2,
+  .sidebar-card h2,
+  #side-name{
+    font-size:.94rem !important;
+    line-height:1.15 !important;
+    white-space:nowrap !important;
+    letter-spacing:-.025em !important;
+  }
+
+  .sb-card p{
+    font-size:.72rem !important;
+    line-height:1.25 !important;
+    margin-top:4px !important;
+  }
+
+  .sb-cv{
+    min-height:34px !important;
+    padding:8px 10px !important;
+    font-size:.72rem !important;
+    border-radius:12px !important;
+    margin-top:10px !important;
+  }
+
+  .sb-nav.clean-icon-nav{
+    gap:5px !important;
+    padding-top:8px !important;
+  }
+
+  .sb-nav.clean-icon-nav a{
+    grid-template-columns:26px minmax(0,1fr) !important;
+    gap:7px !important;
+    padding:7px 8px !important;
+    border-radius:12px !important;
+  }
+
+  .sb-nav.clean-icon-nav .nav-ico{
+    width:25px !important;
+    height:25px !important;
+    min-width:25px !important;
+    border-radius:9px !important;
+    font-size:.72rem !important;
+  }
+
+  .sb-nav.clean-icon-nav a > span:last-of-type{
+    font-size:.74rem !important;
+    line-height:1.14 !important;
+    white-space:normal !important;
+  }
+
+  .page{
+    margin-right:calc(var(--sidebar) + var(--side-offset) + var(--content-gap)) !important;
+  }
+
+  .scroll-identity-header.fixed-review-header,
+  .scroll-header-bridge{
+    right:calc(var(--sidebar) + var(--side-offset) + var(--content-gap)) !important;
+  }
+}
+
+/* Header role: force a clean one-line academic title when space allows */
+.scroll-id-left em{
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+  max-width:100% !important;
+  line-height:1.18 !important;
+}
+
+.header-role-text{
+  white-space:nowrap !important;
+  display:inline !important;
+  font-size:.78rem !important;
+  letter-spacing:-.015em !important;
+}
+
+/* Give identity area enough room before shrinking to CSE */
+.scroll-identity-header.fixed-review-header{
+  grid-template-columns:minmax(360px,1fr) auto auto !important;
+}
+
+.scroll-id-left span{
+  min-width:0 !important;
+}
+
+@media(max-width:1280px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(300px,1fr) auto auto !important;
+  }
+
+  .header-role-text{
+    font-size:.74rem !important;
+  }
+}
+
+@media(max-width:900px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(240px,1fr) auto auto !important;
+  }
+
+  .header-role-text{
+    font-size:.69rem !important;
+  }
+}
+
+/* On small screens, CSE is used by JS; keep it in one line */
+@media(max-width:560px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(0,1fr) auto auto !important;
+  }
+
+  .header-role-text{
+    font-size:.62rem !important;
+  }
+
+  .scroll-id-left em{
+    max-width:calc(100vw - 178px) !important;
+  }
+}
+
+@media(max-width:390px){
+  .header-role-text{
+    font-size:.58rem !important;
+  }
+}

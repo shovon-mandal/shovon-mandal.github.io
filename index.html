@@ -26,6 +26,44 @@
   <button id="menu-btn" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
 </header>
 
+
+<div class="scroll-header-bridge" id="scroll-header-bridge" aria-hidden="true"></div>
+<header class="scroll-identity-header fixed-review-header" id="scroll-identity-header" aria-label="Main identity header">
+  <a class="scroll-id-left" href="#home" aria-label="Back to home section">
+    <img src="assets/img/profile.jpg" alt="Shovon Mandal profile photo"/>
+    <span>
+      <strong>Shovon Mandal</strong>
+      <em>Lecturer, <span id="header-role-text" class="header-role-text">Computer Science and Engineering</span></em>
+    </span>
+  </a>
+
+  <div class="scroll-current-label" id="scroll-current-label" aria-live="polite">Overview</div>
+
+  <div class="scroll-id-actions" aria-label="Header actions">
+    <a class="scroll-cv-btn" href="assets/docs/Shovon_Mandal_CV.pdf" download>
+      <span>Download CV</span>
+    </a>
+    <button class="scroll-menu-btn" id="scroll-menu-btn" type="button" aria-expanded="false" aria-controls="scroll-menu-panel">
+      <span>Menu</span>
+      <i aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <nav class="scroll-menu-panel" id="scroll-menu-panel" aria-label="Compact section menu">
+    <a href="#home"><span>⌂</span>Overview</a>
+    <a href="#research-profile"><span>◎</span>Research Fit &amp; Profile</a>
+    <a href="#professional-strengths"><span>✓</span>Strengths</a>
+    <a href="#education"><span>▤</span>Education</a>
+    <a href="#publications"><span>✎</span>Publications</a>
+    <a href="#projects"><span>▣</span>Projects</a>
+    <a href="#skills"><span>⌘</span>Skills</a>
+    <a href="#systems"><span>◆</span>Systems</a>
+    <a href="#experience"><span>◈</span>Experience</a>
+    <a href="#honors"><span>★</span>Honors</a>
+    <a href="#contact"><span>✉</span>Contact</a>
+  </nav>
+</header>
+
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-inner">
     <div class="sb-card">
@@ -34,22 +72,30 @@
       <a class="sb-cv" href="assets/docs/Shovon_Mandal_CV.pdf" target="_blank" rel="noopener">Download CV PDF</a>
     </div>
 
-    <nav class="sb-nav" id="sb-nav" aria-label="Section navigation">
-      <a href="#home"><span class="nav-n">01</span><span>Overview</span></a>
-      <a href="#research-fit"><span class="nav-n">02</span><span>Research Fit</span></a>
-      <a href="#profile"><span class="nav-n">03</span><span>Profile</span></a>
-      <a href="#professional-strengths"><span class="nav-n">04</span><span>Strengths</span></a>
-      <a href="#education"><span class="nav-n">05</span><span>Education</span></a>
-      <a href="#publications"><span class="nav-n">06</span><span>Publications</span></a>
-      <a href="#projects"><span class="nav-n">07</span><span>Projects</span></a>
-      <a href="#skills"><span class="nav-n">08</span><span>Skills</span></a>
-      <a href="#systems"><span class="nav-n">09</span><span>Systems</span></a>
-      <a href="#experience"><span class="nav-n">10</span><span>Experience</span></a>
-      <a href="#honors"><span class="nav-n">11</span><span>Honors</span></a>
-      <a href="#contact"><span class="nav-n">12</span><span>Contact</span></a>
+    <nav class="sb-nav icon-nav clean-icon-nav" id="sb-nav" aria-label="Section navigation">
+      <a href="#home"><span class="nav-ico">⌂</span><span>Overview</span></a>
+      <a href="#research-profile"><span class="nav-ico">◎</span><span>Research Fit &amp; Profile</span></a>
+      <a href="#professional-strengths"><span class="nav-ico">✓</span><span>Strengths</span></a>
+      <a href="#education"><span class="nav-ico">▤</span><span>Education</span></a>
+      <a href="#publications"><span class="nav-ico">✎</span><span>Publications</span></a>
+      <a href="#projects"><span class="nav-ico">▣</span><span>Projects</span></a>
+      <a href="#skills"><span class="nav-ico">⌘</span><span>Skills</span></a>
+      <a href="#systems"><span class="nav-ico">◆</span><span>Systems</span></a>
+      <a href="#experience"><span class="nav-ico">◈</span><span>Experience</span></a>
+      <a href="#honors"><span class="nav-ico">★</span><span>Honors</span></a>
+      <a href="#contact"><span class="nav-ico">✉</span><span>Contact</span></a>
       <div class="nav-rail" id="nav-rail"></div>
     </nav>
   </div>
+</aside>
+
+<aside class="right-progress-sidebar" id="right-progress-sidebar" aria-label="Reading progress">
+  <div class="right-progress-count" id="right-progress-count">01/11</div>
+  <div class="right-progress-track" aria-hidden="true">
+    <span class="right-progress-fill" id="right-progress-fill"></span>
+  </div>
+  <div class="right-progress-dots" id="right-progress-dots"></div>
+  <div class="right-progress-percent" id="right-progress-percent">0%</div>
 </aside>
 
 <main id="main" class="page">
@@ -101,7 +147,7 @@
 
   <section class="metrics reveal" id="metrics"></section>
 
-  <div class="paired-sections pair-research-profile">
+  <div id="research-profile" class="paired-sections pair-research-profile">
   <section id="research-fit" class="sec reveal">
     <div class="sec-h">
       <p class="eyebrow">02 / Research Fit</p>
@@ -270,7 +316,7 @@
   </footer>
 </main>
 
-<button id="btt" aria-label="Back to top">↑</button>
+<button id="btt" aria-label="Back to Top">Back to Top</button>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

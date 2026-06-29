@@ -13,8 +13,8 @@ Required structure:
 - DEPLOYMENT_GUIDE.md
 - .nojekyll
 
-Then run:
+Final publish commands:
 
 git add -A
-git commit -m "Publish final premium academic portfolio"
+git commit -m "Publish final academic portfolio website"
 git push

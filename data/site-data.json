@@ -379,7 +379,10 @@
         "Student mentoring",
         "Student research and project supervision"
       ],
-      "placeUrl": "https://nubtkhulna.ac.bd/"
+      "placeUrl": "https://nubtkhulna.ac.bd/",
+      "durationStart": "2024-03",
+      "durationEnd": "present",
+      "durationLabel": "Duration"
     },
     {
       "period": "Jul 2022 – Jun 2024",
@@ -406,7 +409,10 @@
         "Project guidance",
         "Academic support"
       ],
-      "placeUrl": "https://www.imperial.edu.bd/"
+      "placeUrl": "https://www.imperial.edu.bd/",
+      "durationStart": "2022-07",
+      "durationEnd": "2024-06",
+      "durationLabel": "Duration"
     },
     {
       "period": "Jul 2023 – Dec 2023",
@@ -429,7 +435,10 @@
         "Prepared academic records",
         "Guided students during course activities"
       ],
-      "placeUrl": "https://www.kuet.ac.bd/"
+      "placeUrl": "https://www.kuet.ac.bd/",
+      "durationStart": "2023-07",
+      "durationEnd": "2023-12",
+      "durationLabel": "Duration"
     },
     {
       "period": "Feb 2022 – Apr 2022",
@@ -450,7 +459,10 @@
         "Checked assignments",
         "Provided student academic support"
       ],
-      "placeUrl": "https://www.bracu.ac.bd/"
+      "placeUrl": "https://www.bracu.ac.bd/",
+      "durationStart": "2022-02",
+      "durationEnd": "2022-04",
+      "durationLabel": "Duration"
     }
   ],
   "skills": [

@@ -1,13 +1,9 @@
-# Shovon Mandal Academic Portfolio — V57 Final Funding Organization
+# Shovon Mandal Academic Portfolio — V74 Final Compact Sidebar Header Role
 
 Final update:
-- Portfolio sections reorganized for academic funding / scholarship / graduate review flow
-- Writing preserved; only organization and numbering were adjusted
-- Research Fit and Profile remain side-by-side
-- Professional Strengths remains a separate row after segments 02 and 03
-- Academic Background now comes before research outputs
-- Publications and Projects are placed before Skills and Systems
-- Skills and Implementation Evidence now come immediately after research projects
-- Experience follows research and implementation evidence
-- Sidebar navigation updated to the final funding-review order
-- All previous approved contact, hover, skills, landing, and mobile fixes preserved
+- Desktop sidebar made smaller and more compact
+- Sidebar identity card and navigation spacing reduced
+- Main content spacing adjusted so the smaller sidebar does not overlap text
+- Header role line now stays as Lecturer, Computer Science and Engineering when there is enough space
+- On very small screens, it still switches to CSE only when needed
+- All previous responsive progress, menu, contact, experience duration, and publish-ready fixes preserved
