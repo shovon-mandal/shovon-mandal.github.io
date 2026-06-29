@@ -1,14 +1,11 @@
-V91 validation report
-- Default English forced one line: True
-- Language bar main-width desktop rule present: True
-- Language row one-line present: True
-- Experience boxes based on longest duration: True
-- Google banner JS suppression present: True
-- Google banner CSS suppression present: True
+V99 validation report
+- Built from V97 ZIP: shovon_mandal_academic_portfolio_v97_v91_header_width_language_bar.zip
+- Default English light color forced: True
+- Scroll gap CSS present: True
+- Header-safe anchor JS present: True
+- Default English link present once in HTML: True
+- ORCID exact URL preserved: True
 - Google Translate preserved: True
-- Default English reset preserved: True
-- Experience-only styling preserved: True
-- Single CV icon preserved: True
 - No direct chat URL: True
 - No admin link: True
 - No forbidden study-word string: True

@@ -1,10 +1,10 @@
-# Shovon Mandal Academic Portfolio — V91 Final Language Row Duration Boxes
+# Shovon Mandal Academic Portfolio — V99 V97 Scroll Gap Light Link
+
+Built directly from V97 as requested.
 
 Final update:
-- Default English hyperlink is forced into one line
-- Language bar is a compact single row
-- Language bar now matches the landing/page content width and stops before the sidebar
-- Language bar no longer overlaps the sidebar segment
-- Experience date and duration boxes are equal size, based on the longest duration text
-- Google Translate ribbon/banner suppression strengthened with CSS and JavaScript
-- Previous Google Translate dropdown, mobile header, institute styling, menu hover, repository hover, and CV icon fixes preserved
+- V97 layout preserved
+- Default English hyperlink changed to bright light color
+- Section-index clicks now scroll with a safe one-line gap below the fixed header
+- Example: clicking Skills opens the Skills section without the heading being hidden behind the header
+- No layout restructuring applied
