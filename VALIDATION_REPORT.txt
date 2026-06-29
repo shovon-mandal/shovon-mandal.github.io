@@ -1,11 +1,12 @@
-V42 final validation report
-- B.Sc. CGPA included in Academic Snapshot: True
-- Highest Distinction included in Academic Snapshot: True
-- Education card model present: True
-- Sidebar photo removed from HTML: True
-- No wa.me string: False
-- No WhatsApp string: False
-- No admin.html link: False
-- ResearchGate present: True
-- Repository-linked skills present: True
-- Responsive breakpoints present: True
+V57 validation report
+- Sidebar updated to 12-item funding order: True
+- Section order: ['home', 'research-fit', 'profile', 'professional-strengths', 'education', 'publications', 'projects', 'skills', 'systems', 'experience', 'honors', 'contact']
+- Skills placed before Systems: True
+- Experience placed after Systems: True
+- Research/Profile pair preserved: True
+- Professional Strengths separate segment preserved: True
+- Contact final classes preserved: True
+- Experience institute hover preserved: True
+- No direct chat URL: True
+- No admin link: True
+- No forbidden study-word string: True

@@ -38,14 +38,15 @@
       <a href="#home"><span class="nav-n">01</span><span>Overview</span></a>
       <a href="#research-fit"><span class="nav-n">02</span><span>Research Fit</span></a>
       <a href="#profile"><span class="nav-n">03</span><span>Profile</span></a>
-      <a href="#education"><span class="nav-n">04</span><span>Education</span></a>
-      <a href="#publications"><span class="nav-n">05</span><span>Publications</span></a>
-      <a href="#projects"><span class="nav-n">06</span><span>Projects</span></a>
-      <a href="#systems"><span class="nav-n">07</span><span>Systems</span></a>
-      <a href="#experience"><span class="nav-n">08</span><span>Experience</span></a>
-      <a href="#skills"><span class="nav-n">09</span><span>Skills</span></a>
-      <a href="#honors"><span class="nav-n">10</span><span>Honors</span></a>
-      <a href="#contact"><span class="nav-n">11</span><span>Contact</span></a>
+      <a href="#professional-strengths"><span class="nav-n">04</span><span>Strengths</span></a>
+      <a href="#education"><span class="nav-n">05</span><span>Education</span></a>
+      <a href="#publications"><span class="nav-n">06</span><span>Publications</span></a>
+      <a href="#projects"><span class="nav-n">07</span><span>Projects</span></a>
+      <a href="#skills"><span class="nav-n">08</span><span>Skills</span></a>
+      <a href="#systems"><span class="nav-n">09</span><span>Systems</span></a>
+      <a href="#experience"><span class="nav-n">10</span><span>Experience</span></a>
+      <a href="#honors"><span class="nav-n">11</span><span>Honors</span></a>
+      <a href="#contact"><span class="nav-n">12</span><span>Contact</span></a>
       <div class="nav-rail" id="nav-rail"></div>
     </nav>
   </div>
@@ -83,11 +84,11 @@
     </div>
 
     <div class="hero-panel">
-      <div class="hero-photo-row">
+      <div class="hero-photo-row premium-photo-review">
         <div class="hero-passport"><img id="hero-photo" src="assets/img/profile.jpg" alt="Shovon Mandal profile photo"/></div>
-        <div class="hero-name-blk">
-          <h2>Shovon Mandal</h2>
-          <p>Lecturer, CSE</p>
+        <div class="hero-fast-review-card">
+          <span class="fr-label">Fast Review</span>
+          <div class="fr-links" id="fast-review"></div>
         </div>
       </div>
 
@@ -95,16 +96,12 @@
         <h3>Academic Snapshot</h3>
         <ul class="snap-list" id="snapshot-list"></ul>
       </div>
-
-      <div class="fast-review">
-        <span class="fr-label">Fast Review</span>
-        <div class="fr-links" id="fast-review"></div>
-      </div>
     </div>
   </section>
 
   <section class="metrics reveal" id="metrics"></section>
 
+  <div class="paired-sections pair-research-profile">
   <section id="research-fit" class="sec reveal">
     <div class="sec-h">
       <p class="eyebrow">02 / Research Fit</p>
@@ -124,8 +121,16 @@
       <div class="evidence-grid" id="profile-cards"></div>
     </div>
     <div class="tags" id="profile-tags"></div>
-    <div class="strength-box">
-      <h3>Professional Strengths</h3>
+  </section>
+</div>
+
+  <section id="professional-strengths" class="sec professional-strengths-section reveal">
+    <div class="sec-h">
+      <p class="eyebrow">04 / Professional Strengths</p>
+      <h2>Professional Strengths</h2>
+      <p class="lead">A concise summary of academic preparation, implementation ability, teaching contribution, and adaptive technical practice.</p>
+    </div>
+    <div class="strength-box strength-box-segment">
       <ul id="strength-list"></ul>
     </div>
   </section>
@@ -141,7 +146,7 @@
   <section id="publications" class="sec reveal">
     <div class="sec-h split">
       <div>
-        <p class="eyebrow">05 / Publications</p>
+        <p class="eyebrow">06 / Publications</p>
         <h2>Peer-Reviewed Research Output</h2>
       </div>
       <div class="filter-row" id="pub-filters">
@@ -157,7 +162,7 @@
   <section id="projects" class="sec reveal">
     <div class="sec-h split">
       <div>
-        <p class="eyebrow">06 / Projects</p>
+        <p class="eyebrow">07 / Projects</p>
         <h2>Research and Technical Projects</h2>
       </div>
       <div class="filter-row" id="proj-filters">
@@ -173,9 +178,23 @@
     <div class="proj-grid" id="project-list"></div>
   </section>
 
+  <section id="skills" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">08 / Skills</p>
+      <h2>Technical and Academic Skill Profile</h2>
+    </div>
+    <div class="skill-grid" id="skills-list"></div>
+
+    <div class="repo-skill-block">
+      <h3>Implementation Evidence and Technical Competencies</h3>
+      <p class="lead">Technical skills evidenced by project repositories and implementation work.</p>
+      <div class="rsk-list" id="repository-skills"></div>
+    </div>
+  </section>
+
   <section id="systems" class="sec reveal">
     <div class="sec-h">
-      <p class="eyebrow">07 / Academic Systems</p>
+      <p class="eyebrow">09 / Academic Systems</p>
       <h2>Academic Systems and Automation</h2>
       <p class="lead">Automation and structured workflows applied to routine management, marking, student communication, and academic records.</p>
     </div>
@@ -184,29 +203,15 @@
 
   <section id="experience" class="sec reveal">
     <div class="sec-h">
-      <p class="eyebrow">08 / Experience</p>
+      <p class="eyebrow">10 / Experience</p>
       <h2>Teaching Experience, Courses Conducted, and Academic Support</h2>
     </div>
     <div class="exp-list" id="experience-list"></div>
   </section>
 
-  <section id="skills" class="sec reveal">
-    <div class="sec-h">
-      <p class="eyebrow">09 / Skills</p>
-      <h2>Technical and Academic Skill Profile</h2>
-    </div>
-    <div class="skill-grid" id="skills-list"></div>
-
-    <div class="repo-skill-block">
-      <h3>Repository-Linked Skills</h3>
-      <p class="lead">Technical skills evidenced by project repositories and implementation work.</p>
-      <div class="rsk-list" id="repository-skills"></div>
-    </div>
-  </section>
-
   <section id="honors" class="sec reveal">
     <div class="sec-h">
-      <p class="eyebrow">10 / Honors and Service</p>
+      <p class="eyebrow">11 / Honors and Service</p>
       <h2>Recognition and Academic Engagement</h2>
     </div>
     <div class="honors-grid" id="honors-list"></div>
@@ -214,19 +219,39 @@
 
   <section id="contact" class="sec contact-sec reveal">
     <div class="sec-h">
-      <p class="eyebrow">11 / Contact</p>
-      <h2>Academic Communication and Research Discussion</h2>
-      <p class="lead">I welcome academic communication regarding graduate research alignment, secure computing research, scholarly collaboration, and academic discussion.</p>
+      <p class="eyebrow">12 / Contact</p>
+      <h2>Contact</h2>
+      <p class="lead">For academic communication, graduate research discussion, collaboration, or scholarly correspondence, please use the contact options below.</p>
     </div>
-    <div class="contact-layout">
-      <div>
-        <div class="contact-links">
-          <a class="c-link" href="mailto:shovonmandal@gmail.com"><span class="c-icon">E</span><span class="c-info"><span class="c-kind">Email for Contact</span><span class="c-val">shovonmandal@gmail.com</span></span></a>
-          <a class="c-link" href="https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en" target="_blank" rel="noopener"><span class="c-icon">GS</span><span class="c-info"><span class="c-kind">Research Profile</span><span class="c-val">Google Scholar ↗</span></span></a>
-          <a class="c-link" href="https://www.researchgate.net/profile/Shovon-Mandal-2" target="_blank" rel="noopener"><span class="c-icon">RG</span><span class="c-info"><span class="c-kind">Research Network</span><span class="c-val">ResearchGate ↗</span></span></a>
-        </div>
+
+    <div class="final-contact-grid">
+      <div class="final-contact-list">
+        <a class="final-contact-card" href="mailto:shovonmandal@gmail.com">
+          <span class="final-contact-icon">E</span>
+          <span class="final-contact-copy">
+            <strong>Email for Contact</strong>
+            <em>shovonmandal@gmail.com</em>
+          </span>
+        </a>
+
+        <a class="final-contact-card" href="https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en" target="_blank" rel="noopener">
+          <span class="final-contact-icon">GS</span>
+          <span class="final-contact-copy">
+            <strong>Research Profile</strong>
+            <em>Google Scholar ↗</em>
+          </span>
+        </a>
+
+        <a class="final-contact-card" href="https://www.researchgate.net/profile/Shovon-Mandal-2" target="_blank" rel="noopener">
+          <span class="final-contact-icon">RG</span>
+          <span class="final-contact-copy">
+            <strong>Research Network</strong>
+            <em>ResearchGate ↗</em>
+          </span>
+        </a>
       </div>
-      <form class="cform" id="cform">
+
+      <form class="final-contact-form" id="cform">
         <label for="c-name">Your Name</label>
         <input id="c-name" type="text" required placeholder="Name"/>
         <label for="c-email">Your Email</label>
@@ -234,7 +259,7 @@
         <label for="c-msg">Message</label>
         <textarea id="c-msg" required placeholder="Write your message here..."></textarea>
         <button class="btn btn-pri" type="submit">Send Email</button>
-        <p class="fn">The button opens the sender’s email application with a prepared message.</p>
+        <p>The button opens the sender’s email application with a prepared message.</p>
       </form>
     </div>
   </section>

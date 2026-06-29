@@ -10,10 +10,10 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "My academic direction is to pursue graduate research in secure distributed systems, payment security, connected-device transaction security, and implementation-oriented computing.",
-    "headline": "Secure Digital Payments · Distributed Systems · Transaction Security · Academic Automation · Hardware-Oriented Computing",
+    "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain-based payment security, and contactless transaction security, while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration. My profile combines peer-reviewed publications, secure payment prototypes, university teaching experience, academic automation systems, and hardware-oriented project engagement.",
+    "headline": "Secure Digital Payments · Distributed Payment Security · Contactless Transaction Security · Academic Automation · Hardware-Oriented Computing",
     "rotatingWords": [
-      "Graduate Research-Oriented CSE Lecturer",
+      "M.Sc./Ph.D. Graduate Study Goal",
       "Secure Payment Systems Research",
       "Distributed Transaction Security",
       "Implementation-Oriented Academic"
@@ -66,7 +66,7 @@
   "snapshot": [
     {
       "label": "B.Sc. CGPA",
-      "value": "3.80/4.00"
+      "value": "3.80 out of 4.00"
     },
     {
       "label": "Academic Standing",
@@ -77,12 +77,12 @@
       "value": "Lecturer, CSE"
     },
     {
-      "label": "Research Direction",
-      "value": "Secure Payments · Distributed Systems"
+      "label": "Graduate Goal",
+      "value": "M.Sc./Ph.D. Research"
     },
     {
-      "label": "Academic Strength",
-      "value": "Publications · Projects · Teaching · Automation"
+      "label": "Research Fit",
+      "value": "Secure Payments · Distributed Systems · Automation"
     }
   ],
   "metrics": [
@@ -110,7 +110,7 @@
   "researchFit": [
     {
       "title": "Research Alignment",
-      "text": "Secure distributed systems, payment security, connected-device transaction security, applied security, and implementation-focused computing."
+      "text": "Secure distributed systems, blockchain-based payment security, contactless transaction security, applied security, and implementation-focused computing."
     },
     {
       "title": "Scholarly Evidence",
@@ -122,7 +122,7 @@
     },
     {
       "title": "Teaching and Lab Contribution",
-      "text": "University teaching experience supports laboratory instruction, grading, mentoring, course preparation, and structured student support."
+      "text": "University teaching experience supports course delivery, theory lectures, lab work, assignment evaluation, student mentoring, project supervision, and structured academic support."
     }
   ],
   "profile": {
@@ -133,17 +133,17 @@
     "cards": [
       {
         "title": "Research Direction",
-        "text": "Secure payments, distributed systems, connected-device transaction security, and applied secure computing.",
+        "text": "Secure payments, distributed systems, contactless transaction security, and applied secure computing.",
         "target": "#research-fit"
       },
       {
         "title": "Implementation Ability",
-        "text": "Prototype-focused academic work supported by repositories, documentation, and system-building practice.",
+        "text": "Prototype-focused academic work supported by technical documentation and system-building practice.",
         "target": "#projects"
       },
       {
-        "title": "Teaching Support",
-        "text": "Undergraduate course delivery, lab instruction, assessment preparation, and student mentoring.",
+        "title": "Teaching and Mentoring",
+        "text": "Course teaching, theory lectures, lab work, assignment evaluation, student mentoring, and research/project supervision.",
         "target": "#experience"
       },
       {
@@ -154,8 +154,9 @@
     ],
     "tags": [
       "Secure Distributed Systems",
-      "Digital Payment Security",
-      "Connected-Device Transaction Security",
+      "Blockchain-Based Payment Security",
+      "Contactless Transaction Security",
+      "Digital Payment Systems",
       "Academic Automation",
       "Hardware-Oriented Computing",
       "Teaching Technology"
@@ -163,7 +164,7 @@
     "strengths": [
       "Research direction aligned with secure payment systems and distributed computing.",
       "Ability to translate academic ideas into working prototypes and documented outputs.",
-      "Teaching background suitable for lab support, course assistance, and student mentoring.",
+      "Teaching background includes course delivery, theory lectures, lab work, assignment evaluation, student mentoring, and student research/project supervision.",
       "Adaptive learning mindset for new technologies, academic tools, and automation workflows."
     ]
   },
@@ -175,10 +176,11 @@
       "url": "https://www.kuet.ac.bd/",
       "badge": "Defense Pending",
       "items": [
-        "Status: Defense Pending; Coursework CGPA: 3.29/4.00",
-        "Thesis: Blockchain Technology Based Smart E-Payment Strategy for Secure Cashless Payment",
-        "Supervisor: Dr. Pintu Chandra Shill",
-        "Relevant Coursework: Principles of Cryptography; Advanced Network Security; Cloud Computing; Neural Networks"
+        "<strong>Academic Status:</strong> Defense Pending",
+        "<strong>Coursework CGPA:</strong> 3.29 out of 4.00",
+        "<strong>Thesis:</strong> Blockchain Technology Based Smart E-Payment Strategy for Secure Cashless Payment",
+        "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>Dr. Pintu Chandra Shill ↗</a>",
+        "<strong>Relevant Coursework:</strong> Principles of Cryptography; Advanced Network Security; Cloud Computing; Neural Networks"
       ]
     },
     {
@@ -188,9 +190,10 @@
       "url": "https://www.bracu.ac.bd/",
       "badge": "Highest Distinction",
       "items": [
-        "CGPA: 3.80/4.00; Highest Distinction",
-        "Thesis: Blockchain-based Micropayment System for Secured Cashless Small Payments",
-        "Supervisor: Md. Golam Rabiul Alam, PhD"
+        "<strong>CGPA:</strong> 3.80 out of 4.00",
+        "<strong>Academic Standing:</strong> Highest Distinction",
+        "<strong>Thesis:</strong> Blockchain-based Micropayment System for Secured Cashless Small Payments",
+        "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://www.bracu.ac.bd/about/people/md-golam-rabiul-alam-phd' target='_blank' rel='noopener'>Md. Golam Rabiul Alam, PhD ↗</a>"
       ]
     }
   ],
@@ -254,11 +257,11 @@
   ],
   "projects": [
     {
-      "title": "Blockchain and NFC-Based Secure Cashless Payment Prototype",
+      "title": "Blockchain-Based Secure Cashless Payment Prototype with Contactless Interaction",
       "type": "Research Prototype",
-      "category": "Secure Payments · Connected Devices · Hardware Integration",
+      "category": "Secure Payments · Contactless Interaction · Hardware Integration",
       "filter": "research hardware blockchain connected device secure payment",
-      "description": "Research prototype connecting blockchain-based verification with NFC-enabled transaction interaction and hardware-supported payment demonstration.",
+      "description": "Research prototype connecting blockchain-based verification with contactless transaction interaction and hardware-supported payment demonstration.",
       "tools": [
         "Blockchain",
         "Contactless module",
@@ -268,22 +271,22 @@
       ],
       "highlights": [
         "Connects secure payment research with implementation-oriented prototyping.",
-        "Demonstrates NFC-supported cashless transaction interaction.",
+        "Demonstrates contactless cashless transaction interaction.",
         "Supports thesis direction in secure digital payment systems."
       ],
       "url": "https://github.com/shovon-mandal/NFC"
     },
     {
-      "title": "IOTA-Based Payment Website and Decentralized Transaction Demonstration",
+      "title": "Distributed Ledger-Based Payment Website and Transaction Demonstration",
       "type": "Research Prototype",
       "category": "Distributed Ledger · Web Transaction",
       "filter": "research distributed ledger web transaction",
-      "description": "Web prototype for IOTA-supported payment and decentralized transaction flow demonstration.",
+      "description": "Web prototype for distributed-ledger-supported payment and decentralized transaction flow demonstration.",
       "tools": [
         "Distributed ledger",
-        "Tangle concept",
         "Web transaction flow",
-        "Payment demonstration"
+        "Payment demonstration",
+        "Decentralized system practice"
       ],
       "highlights": [
         "Demonstrates distributed ledger-based payment flow.",
@@ -354,53 +357,106 @@
   "experience": [
     {
       "period": "Mar 2024 – Present",
-      "title": "Lecturer, Department of CSE",
+      "title": "Lecturer, Department of Computer Science and Engineering",
       "place": "Northern University of Business and Technology Khulna, Bangladesh",
-      "text": "Conduct undergraduate CSE theory and lab courses, prepare lecture materials, lab tasks, assessments, evaluation materials, and academic support resources.",
+      "roleLabel": "Lecturer",
+      "roleClass": "role-lecturer",
+      "text": "Teach undergraduate Computer Science and Engineering courses, conduct theory and laboratory classes, prepare course materials, assess student performance, mentor students, and supervise student research and project work.",
+      "courseHeading": "Courses Taught",
       "courses": [
         "Computer Architecture",
         "Digital Logic Design",
-        "OOP with Java",
+        "Object-Oriented Programming with Java",
         "Technical Writing",
-        "LPCO"
-      ]
+        "Linear Programming and Combinatorial Optimization"
+      ],
+      "responsibilityHeading": "Teaching, Assessment, and Supervision",
+      "responsibilities": [
+        "Theory lecture delivery",
+        "Lab work and practical class support",
+        "Question and assessment preparation",
+        "Answer-script and assignment evaluation",
+        "Student mentoring",
+        "Student research and project supervision"
+      ],
+      "placeUrl": "https://nubtkhulna.ac.bd/"
     },
     {
       "period": "Jul 2022 – Jun 2024",
-      "title": "Lecturer (Adjunct), Department of CSE",
+      "title": "Lecturer (Adjunct), Department of Computer Science and Engineering",
       "place": "Imperial College of Engineering, Khulna",
-      "text": "Conducted undergraduate lectures, labs, assessments, and academic support across systems, database, graphics, web, and microcontroller-related courses.",
+      "roleLabel": "Adjunct Lecturer",
+      "roleClass": "role-adjunct",
+      "text": "Taught undergraduate Computer Science and Engineering courses, conducted laboratory sessions, prepared academic materials, evaluated student work, and supported academic project development.",
+      "courseHeading": "Courses Taught",
       "courses": [
-        "DBMS",
-        "Computer Architecture",
+        "Database Management Systems",
+        "Computer Peripherals and Interfacing",
+        "Computer Architecture and Organization",
         "Computer Graphics",
         "Web Engineering",
-        "Microprocessor"
-      ]
+        "Microprocessor and Microcontrollers"
+      ],
+      "responsibilityHeading": "Instructional Responsibilities",
+      "responsibilities": [
+        "Theory class instruction",
+        "Lab work and practical session support",
+        "Assessment preparation",
+        "Student performance evaluation",
+        "Project guidance",
+        "Academic support"
+      ],
+      "placeUrl": "https://www.imperial.edu.bd/"
     },
     {
       "period": "Jul 2023 – Dec 2023",
-      "title": "Teaching Assistant, Department of CSE",
+      "title": "Teaching Assistant, Department of Computer Science and Engineering",
       "place": "Khulna University of Engineering & Technology",
-      "text": "Supported Embedded Systems and Electronic Devices and Circuits through lab instruction, assignment evaluation, academic record preparation, and student support.",
+      "roleLabel": "Teaching Assistant",
+      "roleClass": "role-ta",
+      "text": "Assisted course teachers with laboratory sessions, assignment checking, evaluation support, academic record preparation, student guidance, and course-related instructional activities.",
+      "courseHeading": "Courses Assisted",
       "courses": [
         "Embedded Systems",
         "Electronic Devices and Circuits"
-      ]
+      ],
+      "responsibilityHeading": "Teaching Assistant Support",
+      "responsibilities": [
+        "Assisted course teachers",
+        "Supported laboratory sessions",
+        "Checked assignments",
+        "Helped with evaluation",
+        "Prepared academic records",
+        "Guided students during course activities"
+      ],
+      "placeUrl": "https://www.kuet.ac.bd/"
     },
     {
       "period": "Feb 2022 – Apr 2022",
-      "title": "Student Tutor, Department of CSE",
+      "title": "Student Tutor, Department of Computer Science and Engineering",
       "place": "BRAC University",
-      "text": "Provided guided academic assistance in Electronic Devices and Circuits.",
+      "roleLabel": "Student Tutor",
+      "roleClass": "role-tutor",
+      "text": "Helped students understand course materials, supported problem-solving practice, assisted the course instructor with assignment checking, and provided academic support during tutorials.",
+      "courseHeading": "Tutorial Course",
       "courses": [
         "Electronic Devices and Circuits"
-      ]
+      ],
+      "responsibilityHeading": "Student Tutor Support",
+      "responsibilities": [
+        "Helped students understand course topics",
+        "Supported tutorial problem solving",
+        "Assisted the course instructor",
+        "Checked assignments",
+        "Provided student academic support"
+      ],
+      "placeUrl": "https://www.bracu.ac.bd/"
     }
   ],
   "skills": [
     {
-      "title": "Programming",
+      "title": "Programming and Computational Tools",
+      "icon": "⌘",
       "items": [
         "Python",
         "Java",
@@ -411,31 +467,37 @@
       ]
     },
     {
-      "title": "Repository-Linked Implementation",
-      "items": [
-        "Blockchain payment prototype implementation",
-        "NFC module integration",
-        "IOTA/Tangle payment demonstration",
-        "Google Apps Script academic automation",
-        "Python Discord bot automation",
-        "Repository documentation and code organization"
-      ]
-    },
-    {
       "title": "Security and Distributed Systems",
+      "icon": "◈",
       "items": [
         "Secure distributed systems",
         "Blockchain-based payment security",
-        "NFC/IoT transaction security",
-        "Cryptography and network security fundamentals",
-        "Secure cashless payment workflow design"
+        "Contactless transaction security",
+        "Cryptography fundamentals",
+        "Network security fundamentals",
+        "Secure cashless payment workflows"
       ]
     },
     {
-      "title": "Academic Automation",
+      "title": "Web, Database, and Application Development",
+      "icon": "▣",
       "items": [
-        "Class routine automation",
-        "Google Sheets workflow design",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Android Studio"
+      ]
+    },
+    {
+      "title": "Academic Automation and Workflow Systems",
+      "icon": "◆",
+      "items": [
+        "Google Apps Script",
+        "Google Sheets automation",
+        "Class routine management",
         "Protected academic views",
         "PDF generation workflow",
         "Assessment and marking support",
@@ -443,62 +505,55 @@
       ]
     },
     {
-      "title": "Web and Database",
-      "items": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "Laravel",
-        "MySQL"
-      ]
-    },
-    {
       "title": "Hardware and Embedded Practice",
+      "icon": "▧",
       "items": [
         "Arduino prototyping",
-        "NFC/RFID module practice",
+        "Contactless/RFID module practice",
         "Embedded systems",
         "Hardware interfacing",
-        "Digital electronics",
-        "Android Studio"
+        "Digital electronics"
       ]
     },
     {
-      "title": "Research and Teaching Support",
+      "title": "Research, Teaching, and Mentoring",
+      "icon": "✦",
       "items": [
         "Literature review",
         "Prototype development",
         "Technical documentation",
         "Research implementation",
-        "Lab support",
-        "Student mentoring",
-        "Academic workflow organization"
+        "Theory lecture support",
+        "Lab work support",
+        "Student mentoring"
       ]
     }
   ],
   "repositorySkills": [
     {
-      "title": "Blockchain and NFC Payment Prototype",
+      "title": "Secure Payment Prototype Evidence",
+      "icon": "◈",
       "tags": [
         "Blockchain payment logic",
-        "NFC module integration",
+        "Contactless module integration",
         "Secure transaction flow",
-        "Arduino/hardware interfacing",
+        "Hardware interfacing",
         "Prototype documentation"
       ]
     },
     {
-      "title": "IOTA Payment Website",
+      "title": "Distributed Payment Demonstration",
+      "icon": "▣",
       "tags": [
         "Distributed ledger concept",
-        "IOTA/Tangle payment demonstration",
+        "Payment demonstration",
         "Web transaction flow",
         "Decentralized system practice"
       ]
     },
     {
-      "title": "Academic Routine Management",
+      "title": "Academic Workflow Automation",
+      "icon": "◆",
       "tags": [
         "Google Apps Script",
         "Google Sheets automation",
@@ -508,10 +563,11 @@
       ]
     },
     {
-      "title": "Academic Discord Management Bot",
+      "title": "Academic Communication Automation",
+      "icon": "✦",
       "tags": [
         "Python automation",
-        "Discord role management",
+        "Role management",
         "Student verification",
         "Reminder workflow",
         "Access control"
