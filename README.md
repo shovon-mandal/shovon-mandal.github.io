@@ -1,10 +1,10 @@
-# Shovon Mandal Academic Portfolio — V80 Final Professional Tick Download Icon
+# Shovon Mandal Academic Portfolio — V91 Final Language Row Duration Boxes
 
 Final update:
-- Sidebar completion tick now appears at the end of each link line
-- Tick is now a small professional greenish/teal mark with no green background
-- Menu completion tick also uses the same professional style
-- Progress completion tick is subtle and professional
-- Download buttons now use one stronger, clearer download icon across all screens
-- Duplicate CV/download icons are suppressed
-- Previous 1-second tick delay, reload reset, compact sidebar, mobile header, progress, menu, contact, and publish-ready fixes preserved
+- Default English hyperlink is forced into one line
+- Language bar is a compact single row
+- Language bar now matches the landing/page content width and stops before the sidebar
+- Language bar no longer overlaps the sidebar segment
+- Experience date and duration boxes are equal size, based on the longest duration text
+- Google Translate ribbon/banner suppression strengthened with CSS and JavaScript
+- Previous Google Translate dropdown, mobile header, institute styling, menu hover, repository hover, and CV icon fixes preserved

@@ -15,6 +15,18 @@
 <script id="fallback-data" type="application/json"></script>
 </head>
 <body>
+<div class="language-top-row" id="language-top-row" aria-label="Language translation row">
+  <div class="language-top-inner">
+    <div class="site-translator" id="site-translator" aria-label="Website language translator">
+      <span class="translator-label">Language</span>
+      <div id="google_translate_element"></div>
+    </div>
+    <span class="language-note">Default: English</span>
+  </div>
+    <a class="language-default-link" id="language-default-en" href="#" aria-label="Reset language to default English">Default English</a>
+  </div>
+</div>
+
 <div id="scroll-bar"></div>
 <a class="skip-link" href="#main">Skip to main content</a>
 
@@ -97,6 +109,8 @@
   <div class="right-progress-dots" id="right-progress-dots"></div>
   <div class="right-progress-percent" id="right-progress-percent">0%</div>
 </aside>
+
+
 
 <main id="main" class="page">
   <section id="home" class="sec hero reveal">
@@ -318,5 +332,65 @@
 
 <button id="btt" aria-label="Back to Top">Back to Top</button>
 <script src="assets/js/main.js"></script>
+
+
+
+
+<!-- V83: Universal Google Translate. Default language is English on every load/reload; English remains first. -->
+<script>
+(function(){
+  function resetGoogleTranslateToEnglish(){
+    var past = "Thu, 01 Jan 1970 00:00:00 GMT";
+    var hosts = [location.hostname, "." + location.hostname];
+    document.cookie = "googtrans=;expires=" + past + ";path=/";
+    document.cookie = "googtrans=/en/en;path=/";
+    hosts.forEach(function(host){
+      if (!host || host === ".") return;
+      document.cookie = "googtrans=;expires=" + past + ";path=/;domain=" + host;
+      document.cookie = "googtrans=/en/en;path=/;domain=" + host;
+    });
+  }
+
+  function putEnglishFirst(){
+    var combo = document.querySelector(".goog-te-combo");
+    if (!combo) return false;
+
+    var english = Array.from(combo.options).find(function(option){
+      return option.value === "en" || /english/i.test(option.textContent || "");
+    });
+
+    if (english) {
+      combo.insertBefore(english, combo.options[0] || null);
+      english.textContent = "English";
+      combo.value = "en";
+    }
+
+    return true;
+  }
+
+  function keepEnglishFirst(){
+    var tries = 0;
+    var timer = setInterval(function(){
+      tries += 1;
+      if (putEnglishFirst() || tries > 20) clearInterval(timer);
+    }, 250);
+  }
+
+  resetGoogleTranslateToEnglish();
+
+  window.googleTranslateElementInit = function(){
+    new google.translate.TranslateElement({
+      pageLanguage: "en",
+      includedLanguages: "en,bn,hi,ur,ar,zh-CN,fr,de,es,ja,ko,ru,pt,tr,ms,id,th,vi",
+      layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+      autoDisplay: false
+    }, "google_translate_element");
+
+    keepEnglishFirst();
+  };
+})();
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </body>
 </html>

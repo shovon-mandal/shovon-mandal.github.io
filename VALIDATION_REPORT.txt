@@ -1,13 +1,14 @@
-V80 validation report
-- Sidebar tick end column CSS present: True
-- Professional tick color present: True
-- Tick background removed: True
-- Single bold download icon present: True
-- Duplicate generic CV icon disabled: True
-- 1-second dwell preserved: True
-- Reload reset preserved: True
-- Back to Top preserved: True
-- Contact final classes preserved: True
+V91 validation report
+- Default English forced one line: True
+- Language bar main-width desktop rule present: True
+- Language row one-line present: True
+- Experience boxes based on longest duration: True
+- Google banner JS suppression present: True
+- Google banner CSS suppression present: True
+- Google Translate preserved: True
+- Default English reset preserved: True
+- Experience-only styling preserved: True
+- Single CV icon preserved: True
 - No direct chat URL: True
 - No admin link: True
 - No forbidden study-word string: True
