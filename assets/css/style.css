@@ -13232,3 +13232,674 @@ body.language-row-scrolled .scroll-identity-header.fixed-review-header{
     scroll-margin-top:102px !important;
   }
 }
+
+
+/* V118 FINAL: remove redundant fast-review buttons + enlarge Academic Research Goal */
+
+/* Fast-review buttons removed because they repeated Research Fit / Publications / Projects / Experience */
+.fast-review,
+#fast-review{
+  display:none !important;
+  visibility:hidden !important;
+  height:0 !important;
+  min-height:0 !important;
+  max-height:0 !important;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:hidden !important;
+}
+
+/* Academic Research Goal: slightly larger and more readable */
+.goal-box{
+  padding:18px 20px !important;
+  margin-top:16px !important;
+  margin-bottom:18px !important;
+  border-radius:22px !important;
+  background:linear-gradient(135deg,rgba(30,95,196,.065),rgba(14,168,147,.065)) !important;
+  border:1px solid rgba(208,221,240,.98) !important;
+  box-shadow:0 12px 28px rgba(6,24,51,.075) !important;
+}
+
+.goal-label{
+  font-size:.78rem !important;
+  letter-spacing:.10em !important;
+  color:#0b3d68 !important;
+  font-weight:1000 !important;
+  margin-bottom:8px !important;
+}
+
+.goal-rotate{
+  min-height:30px !important;
+  font-size:1.02rem !important;
+  line-height:1.22 !important;
+  color:#075e54 !important;
+  font-weight:1000 !important;
+  margin-bottom:8px !important;
+}
+
+.goal-text{
+  font-size:1.00rem !important;
+  line-height:1.76 !important;
+  color:#172b47 !important;
+}
+
+/* Keep landing balanced after removing buttons */
+#home .strength-row,
+.hero .strength-row{
+  margin-top:14px !important;
+}
+
+@media(max-width:760px){
+  .goal-box{
+    padding:16px 15px !important;
+    margin-top:14px !important;
+    margin-bottom:16px !important;
+    border-radius:18px !important;
+  }
+
+  .goal-label{
+    font-size:.70rem !important;
+  }
+
+  .goal-rotate{
+    min-height:28px !important;
+    font-size:.92rem !important;
+  }
+
+  .goal-text{
+    font-size:.90rem !important;
+    line-height:1.68 !important;
+  }
+}
+
+@media(max-width:420px){
+  .goal-box{
+    padding:14px 12px !important;
+  }
+
+  .goal-rotate{
+    font-size:.86rem !important;
+  }
+
+  .goal-text{
+    font-size:.86rem !important;
+  }
+}
+
+
+/* V119 FINAL: Fast Review restored, redundant hero strength buttons removed */
+
+/* Remove only the redundant hero strength-button row */
+.strength-row{
+  display:none !important;
+  visibility:hidden !important;
+  height:0 !important;
+  min-height:0 !important;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:hidden !important;
+}
+
+/* Restore Fast Review card and links */
+.hero-fast-review-card{
+  display:flex !important;
+  flex-direction:column !important;
+  gap:9px !important;
+  visibility:visible !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  padding:14px 15px !important;
+  margin:0 !important;
+  overflow:visible !important;
+  border-radius:18px !important;
+  background:linear-gradient(135deg,#ffffff,#f7faff) !important;
+  border:1px solid rgba(208,221,240,.95) !important;
+  box-shadow:0 10px 24px rgba(6,24,51,.08) !important;
+}
+
+.fr-label{
+  display:block !important;
+  color:#0b3d68 !important;
+  font-size:.70rem !important;
+  font-weight:1000 !important;
+  letter-spacing:.10em !important;
+  text-transform:uppercase !important;
+}
+
+.fast-review,
+#fast-review,
+.fr-links{
+  display:grid !important;
+  visibility:visible !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:visible !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:7px !important;
+}
+
+#fast-review a,
+.fr-links a{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:34px !important;
+  padding:7px 9px !important;
+  border-radius:999px !important;
+  background:#ffffff !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.24) !important;
+  box-shadow:0 6px 14px rgba(6,24,51,.07) !important;
+  text-decoration:none !important;
+  font-size:.72rem !important;
+  font-weight:900 !important;
+  line-height:1.12 !important;
+  text-align:center !important;
+}
+
+#fast-review a:hover,
+.fr-links a:hover{
+  background:#f3f8ff !important;
+  border-color:rgba(14,168,147,.40) !important;
+}
+
+@media(max-width:760px){
+  .hero-fast-review-card{
+    padding:12px !important;
+    border-radius:16px !important;
+  }
+
+  #fast-review,
+  .fr-links{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:6px !important;
+  }
+
+  #fast-review a,
+  .fr-links a{
+    min-height:32px !important;
+    font-size:.66rem !important;
+    padding:6px 7px !important;
+  }
+}
+
+@media(max-width:420px){
+  #fast-review a,
+  .fr-links a{
+    font-size:.61rem !important;
+  }
+}
+
+
+/* V120 FINAL: restore previous Fast Review color combination + institute country suffixes */
+
+/* Keep Fast Review exactly in the earlier dark academic style */
+.hero-fast-review-card{
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  align-self:stretch !important;
+  gap:0 !important;
+  padding:18px !important;
+  border-radius:24px !important;
+  background:linear-gradient(135deg,#061833,#0b2d5c) !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  box-shadow:0 18px 44px rgba(6,24,51,.16) !important;
+  visibility:visible !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  overflow:visible !important;
+}
+
+.hero-fast-review-card .fr-label,
+.hero-fast-review-card > .fr-label{
+  display:block !important;
+  color:rgba(255,255,255,.78) !important;
+  font-size:.76rem !important;
+  font-weight:950 !important;
+  letter-spacing:.13em !important;
+  text-transform:uppercase !important;
+  margin:0 0 12px !important;
+}
+
+.hero-fast-review-card .fr-links,
+.hero-fast-review-card #fast-review,
+.hero-fast-review-card .fast-review{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  grid-template-columns:none !important;
+  gap:8px !important;
+  visibility:visible !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:visible !important;
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+}
+
+.hero-fast-review-card .fr-links a,
+.hero-fast-review-card #fast-review a,
+.hero-fast-review-card .fast-review a{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:0 !important;
+  color:#ffffff !important;
+  background:rgba(255,255,255,.13) !important;
+  border:1px solid rgba(255,255,255,.20) !important;
+  border-radius:999px !important;
+  padding:7px 12px !important;
+  box-shadow:none !important;
+  font-size:.75rem !important;
+  font-weight:800 !important;
+  line-height:1.15 !important;
+  text-decoration:none !important;
+  text-align:center !important;
+}
+
+.hero-fast-review-card .fr-links a:hover,
+.hero-fast-review-card #fast-review a:hover,
+.hero-fast-review-card .fast-review a:hover{
+  background:rgba(255,255,255,.22) !important;
+  border-color:rgba(255,255,255,.34) !important;
+  color:#ffffff !important;
+}
+
+@media(max-width:760px){
+  .hero-fast-review-card{
+    padding:16px !important;
+    border-radius:22px !important;
+  }
+
+  .hero-fast-review-card .fr-label,
+  .hero-fast-review-card > .fr-label{
+    font-size:.70rem !important;
+    margin-bottom:10px !important;
+  }
+
+  .hero-fast-review-card .fr-links a,
+  .hero-fast-review-card #fast-review a,
+  .hero-fast-review-card .fast-review a{
+    padding:6px 10px !important;
+    font-size:.70rem !important;
+  }
+}
+
+@media(max-width:420px){
+  .hero-fast-review-card .fr-links,
+  .hero-fast-review-card #fast-review,
+  .hero-fast-review-card .fast-review{
+    gap:6px !important;
+  }
+
+  .hero-fast-review-card .fr-links a,
+  .hero-fast-review-card #fast-review a,
+  .hero-fast-review-card .fast-review a{
+    padding:6px 8px !important;
+    font-size:.64rem !important;
+  }
+}
+
+
+/* V125 FINAL: keep V120 picture placement, add smooth transitions and stability */
+
+/* Overall smooth scrolling */
+html{
+  scroll-behavior:smooth !important;
+  scroll-padding-top:112px !important;
+}
+
+/* Smooth UI transitions without changing V120 layout */
+a,
+button,
+.btn,
+.nav a,
+.plinks a,
+.hero-fast-review-card,
+.hero-fast-review-card a,
+.snapshot,
+.snapshot li,
+.goal-box,
+.pub-card,
+.proj-card,
+.fit-row,
+.profile-card,
+.rsk-row,
+.ev-card,
+.m-card,
+.skill-card,
+.edu-card,
+.experience-card,
+.scroll-cv-btn,
+.mob-cv-btn,
+.scroll-current-label,
+.mob-current-label,
+.hero-name-photo,
+.hero-passport,
+.hero-main-card,
+.hero-panel{
+  transition:
+    transform .24s ease,
+    box-shadow .24s ease,
+    border-color .24s ease,
+    background .24s ease,
+    color .24s ease,
+    opacity .24s ease,
+    filter .24s ease !important;
+}
+
+/* Subtle premium hover effects */
+.btn:hover,
+.plinks a:hover,
+.hero-fast-review-card a:hover,
+.nav a:hover,
+.pub-card:hover,
+.proj-card:hover,
+.fit-row:hover,
+.profile-card:hover,
+.rsk-row:hover,
+.ev-card:hover,
+.m-card:hover,
+.skill-card:hover,
+.edu-card:hover,
+.experience-card:hover{
+  transform:translateY(-1px) !important;
+}
+
+.hero-name-photo:hover,
+.hero-passport:hover{
+  transform:translateY(-2px) !important;
+  box-shadow:0 20px 48px rgba(6,24,51,.16) !important;
+}
+
+.goal-box:hover,
+.snapshot:hover,
+.hero-fast-review-card:hover{
+  transform:translateY(-1px) !important;
+}
+
+/* Keep V120 Fast Review color and shape, only smooth interaction */
+.hero-fast-review-card{
+  will-change:transform !important;
+}
+
+.hero-fast-review-card a{
+  will-change:transform, background, border-color !important;
+}
+
+.hero-fast-review-card a:hover{
+  transform:translateY(-1px) !important;
+}
+
+/* Keep fixed-header anchor jumps clean on all devices */
+section[id],
+.sec[id],
+[id="home"],
+[id="research-profile"],
+[id="research-fit"],
+[id="professional-strengths"],
+[id="profile"],
+[id="education"],
+[id="publications"],
+[id="projects"],
+[id="systems"],
+[id="experience"],
+[id="skills"],
+[id="honors"],
+[id="contact"]{
+  scroll-margin-top:112px !important;
+}
+
+@media(max-width:1100px){
+  html{
+    scroll-padding-top:116px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:116px !important;
+  }
+
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    z-index:3200 !important;
+  }
+
+  .sidebar.open{
+    z-index:3100 !important;
+  }
+}
+
+@media(max-width:760px){
+  html{
+    scroll-padding-top:108px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:108px !important;
+  }
+}
+
+@media(max-width:420px){
+  html{
+    scroll-padding-top:104px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:104px !important;
+  }
+}
+
+/* Respect accessibility preference */
+@media(prefers-reduced-motion:reduce){
+  html{
+    scroll-behavior:auto !important;
+  }
+
+  *,
+  *::before,
+  *::after{
+    transition:none !important;
+    animation:none !important;
+  }
+}
+
+
+/* V126 FINAL: Fast Review list style; V120 picture placement preserved */
+
+/* Fast Review card stays in the same V120 position, only inner links become a clean list */
+.hero-fast-review-card{
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  gap:10px !important;
+  padding:18px !important;
+  border-radius:24px !important;
+  background:linear-gradient(135deg,#061833,#0b2d5c) !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  box-shadow:0 18px 44px rgba(6,24,51,.16) !important;
+  visibility:visible !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  overflow:visible !important;
+}
+
+.hero-fast-review-card .fr-label,
+.hero-fast-review-card > .fr-label{
+  display:block !important;
+  color:rgba(255,255,255,.78) !important;
+  font-size:.74rem !important;
+  font-weight:1000 !important;
+  letter-spacing:.13em !important;
+  text-transform:uppercase !important;
+  margin:0 0 2px !important;
+}
+
+/* List manner */
+.hero-fast-review-card .fr-links,
+.hero-fast-review-card #fast-review,
+.hero-fast-review-card .fast-review{
+  display:flex !important;
+  flex-direction:column !important;
+  flex-wrap:nowrap !important;
+  grid-template-columns:none !important;
+  gap:8px !important;
+  visibility:visible !important;
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:visible !important;
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+}
+
+.hero-fast-review-card .fr-links a,
+.hero-fast-review-card #fast-review a,
+.hero-fast-review-card .fast-review a{
+  position:relative !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  width:100% !important;
+  min-height:38px !important;
+  padding:8px 12px 8px 14px !important;
+  border-radius:14px !important;
+  background:rgba(255,255,255,.12) !important;
+  color:#ffffff !important;
+  border:1px solid rgba(255,255,255,.18) !important;
+  box-shadow:none !important;
+  text-decoration:none !important;
+  font-size:.76rem !important;
+  font-weight:900 !important;
+  line-height:1.12 !important;
+  text-align:left !important;
+}
+
+.hero-fast-review-card .fr-links a::after,
+.hero-fast-review-card #fast-review a::after,
+.hero-fast-review-card .fast-review a::after{
+  content:"›" !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:20px !important;
+  height:20px !important;
+  margin-left:10px !important;
+  border-radius:999px !important;
+  background:rgba(255,255,255,.14) !important;
+  color:#ffffff !important;
+  font-size:1rem !important;
+  line-height:1 !important;
+  opacity:.9 !important;
+  flex:0 0 auto !important;
+}
+
+.hero-fast-review-card .fr-links a:hover,
+.hero-fast-review-card #fast-review a:hover,
+.hero-fast-review-card .fast-review a:hover{
+  transform:translateX(2px) !important;
+  background:rgba(255,255,255,.21) !important;
+  border-color:rgba(255,255,255,.34) !important;
+  color:#ffffff !important;
+}
+
+/* Mobile: keep list style, compact and clean */
+@media(max-width:760px){
+  .hero-fast-review-card{
+    padding:15px !important;
+    border-radius:20px !important;
+    gap:8px !important;
+  }
+
+  .hero-fast-review-card .fr-label,
+  .hero-fast-review-card > .fr-label{
+    font-size:.68rem !important;
+  }
+
+  .hero-fast-review-card .fr-links,
+  .hero-fast-review-card #fast-review,
+  .hero-fast-review-card .fast-review{
+    gap:7px !important;
+  }
+
+  .hero-fast-review-card .fr-links a,
+  .hero-fast-review-card #fast-review a,
+  .hero-fast-review-card .fast-review a{
+    min-height:34px !important;
+    padding:7px 10px 7px 12px !important;
+    border-radius:13px !important;
+    font-size:.68rem !important;
+  }
+
+  .hero-fast-review-card .fr-links a::after,
+  .hero-fast-review-card #fast-review a::after,
+  .hero-fast-review-card .fast-review a::after{
+    width:18px !important;
+    height:18px !important;
+    font-size:.9rem !important;
+  }
+}
+
+@media(max-width:420px){
+  .hero-fast-review-card .fr-links a,
+  .hero-fast-review-card #fast-review a,
+  .hero-fast-review-card .fast-review a{
+    min-height:32px !important;
+    font-size:.63rem !important;
+    padding:7px 9px 7px 10px !important;
+  }
+}

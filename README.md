@@ -342,3 +342,50 @@ Final fixes:
 - In-press papers no longer mention `Conference Website`.
 - In-press papers show only: `Status: In press / DOI not assigned yet`.
 - Mobile/tablet section navigation offset was increased so selected sections do not hide behind the fixed header.
+
+
+## V118 Final Goal and Fast Review Cleanup
+
+Final fixes:
+- Removed the redundant fast-review buttons because Research Fit, Publications, Projects, and Experience already exist in the main navigation.
+- Academic Research Goal section was made slightly larger and more readable.
+- The Academic Research Goal wording was strengthened without using any undesirable wording.
+- All previous final fixes are preserved.
+
+
+## V119 Fast Review Restored
+
+Final correction:
+- Fast Review was restored with Research Fit, Publications, Projects, and Experience.
+- The redundant hero strength buttons were removed: Research Alignment, Publication Evidence, Prototype Ability, and Teaching Readiness.
+- The enlarged Academic Research Goal section from V118 is preserved.
+- All V117/V118 cleanup fixes are preserved.
+
+
+## V120 Fast Review and Institute Country Fix
+
+Final correction:
+- Fast Review color combination restored to the previous dark academic style.
+- Bangladesh added beside institute names where it was missing.
+- Existing Bangladesh mentions were not duplicated.
+- Imperial wording now remains: Imperial College of Engineering, Khulna, Bangladesh — Affiliated with Rajshahi University, Bangladesh.
+
+
+## V125 V120 Picture Placement + Smooth Final
+
+Final correction:
+- Rebuilt from V120.
+- Profile picture placement is kept exactly like V120.
+- No V124 left-side picture layout is used.
+- Smooth transitions were added across cards, links, buttons, and navigation.
+- Anchor scrolling stability is strengthened for desktop, tablet, and mobile.
+- All V120 content fixes are preserved.
+
+
+## V126 Fast Review List Final
+
+Final correction:
+- Built from V125.
+- V120 picture placement is preserved.
+- Fast Review links are changed into a clean vertical list style.
+- Smooth transitions and scroll stability from V125 are preserved.

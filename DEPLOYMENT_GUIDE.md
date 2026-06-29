@@ -181,3 +181,48 @@ git add -A
 git commit -m "Finalize portfolio snapshot and mobile navigation"
 git push
 ```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Clean final landing goal section"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Restore fast review and remove redundant hero buttons"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Restore fast review style and update institute countries"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Keep V120 landing and add smooth transitions"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Make fast review list style"
+git push
+```

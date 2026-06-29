@@ -10,7 +10,7 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain-based payment security, contactless transaction security, and hardware-oriented computing, while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration. My profile combines peer-reviewed publications, secure payment prototypes, undergraduate teaching experience, academic automation systems, and hardware-oriented project engagement.",
+    "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, payment security, contactless transaction security, and hardware-oriented computing. I aim to contribute to rigorous research, teaching support, technical implementation, and scholarly collaboration through a profile that combines peer-reviewed publications, secure payment prototypes, undergraduate teaching experience, academic automation systems, and hardware-oriented project engagement.",
     "headline": "Secure Distributed Systems · Payment Security · Hardware-Oriented Computing · Contactless Transaction Security · Research Implementation",
     "rotatingWords": [
       "M.Sc./Ph.D. Higher Study Goal",
@@ -180,7 +180,7 @@
     {
       "period": "Jul 2022 – Present",
       "degree": "M.Sc. in Computer Science and Engineering",
-      "institution": "Khulna University of Engineering & Technology",
+      "institution": "Khulna University of Engineering & Technology, Bangladesh",
       "url": "https://www.kuet.ac.bd/",
       "badge": "Defense Pending",
       "items": [
@@ -193,7 +193,7 @@
     {
       "period": "Spring 2018 – Spring 2022",
       "degree": "B.Sc. in Computer Science and Engineering",
-      "institution": "BRAC University",
+      "institution": "BRAC University, Bangladesh",
       "url": "https://www.bracu.ac.bd/",
       "badge": "Highest Distinction",
       "items": [
@@ -431,10 +431,10 @@
     {
       "period": "Jul 2022 – Jun 2024",
       "title": "Lecturer (Adjunct), Department of Computer Science and Engineering",
-      "place": "Imperial College of Engineering, Khulna — Affiliated with Rajshahi University",
+      "place": "Imperial College of Engineering, Khulna, Bangladesh — Affiliated with Rajshahi University, Bangladesh",
       "roleLabel": "Adjunct Lecturer",
       "roleClass": "rajshahi-affiliated",
-      "text": "Two years of undergraduate teaching experience at Imperial College of Engineering, Khulna, affiliated with Rajshahi University. Responsibilities included CSE theory lecture support, lab work, course assistance, assessment support, and student mentoring.",
+      "text": "Two years of undergraduate teaching experience at Imperial College of Engineering, Khulna, Bangladesh, affiliated with Rajshahi University, Bangladesh. Responsibilities included CSE theory lecture support, lab work, course assistance, assessment support, and student mentoring.",
       "courseHeading": "Courses Taught",
       "courses": [
         "Database Management Systems",
@@ -461,7 +461,7 @@
     {
       "period": "Jul 2023 – Dec 2023",
       "title": "Teaching Assistant, Department of Computer Science and Engineering",
-      "place": "Khulna University of Engineering & Technology",
+      "place": "Khulna University of Engineering & Technology, Bangladesh",
       "roleLabel": "Teaching Assistant",
       "roleClass": "role-ta",
       "text": "Assisted course teachers with laboratory sessions, assignment checking, evaluation support, academic record preparation, student guidance, and course-related instructional activities.",
@@ -487,7 +487,7 @@
     {
       "period": "Feb 2022 – Apr 2022",
       "title": "Student Tutor, Department of Computer Science and Engineering",
-      "place": "BRAC University",
+      "place": "BRAC University, Bangladesh",
       "roleLabel": "Student Tutor",
       "roleClass": "role-tutor",
       "text": "Helped students understand course materials, supported problem-solving practice, assisted the course instructor with assignment checking, and provided academic support during tutorials.",

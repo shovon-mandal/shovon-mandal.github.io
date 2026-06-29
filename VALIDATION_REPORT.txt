@@ -1,20 +1,21 @@
-V117 validation report
-- Built from V116 ZIP: shovon_mandal_academic_portfolio_v116_icccnt_inpress_fix.zip
-- Implementation Evidence removed from data snapshot: True
-- Secure Payment Prototypes + Academic Systems removed from snapshot/data: True
-- Conference Website text removed: False
-- ICCCNT raw URL removed from display/data: False
-- In-press papers still present: True
-- In-press publisher/status clean: True
-- In-press DOI removed: True
-- Mobile safe scroll JS present: True
-- Mobile scroll margin CSS present: True
+V126 validation report
+- Built from V125 ZIP: shovon_mandal_academic_portfolio_v125_v120_picture_smooth_final.zip
+- V120 landing/picture placement preserved: False
+- Fast Review preserved: True
+- Fast Review list CSS present: True
+- Smooth transition CSS preserved: True
+- Smooth anchor JS preserved: True
+- Education institutions include Bangladesh: True
+- Experience institutes include Bangladesh: True
+- No duplicate Bangladesh phrase: True
+- Forbidden wording absent: True
+- Implementation Evidence remains removed: True
+- Conference Website remains removed: False
+- In-press status preserved: True
 - Research Alignment preserved: True
-- Final snapshot value preserved: True
 - Full publication detail preserved: True
 - Mobile menu click handler preserved: True
 - No language bar: True
 - ORCID exact URL preserved: True
 - No direct chat URL: True
 - No admin link: True
-- No forbidden study-word string: True
