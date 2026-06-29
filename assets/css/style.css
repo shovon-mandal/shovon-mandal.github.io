@@ -10789,3 +10789,470 @@ section[id],
     justify-content:flex-start !important;
   }
 }
+
+
+/* V103 FINAL: no language bar + exact header identity text */
+
+/* Remove language bar completely */
+.language-top-row,
+.language-top-inner,
+.site-translator,
+#google_translate_element,
+.language-default-link,
+.language-default-btn,
+.language-note{
+  display:none !important;
+  visibility:hidden !important;
+  height:0 !important;
+  min-height:0 !important;
+  max-height:0 !important;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:hidden !important;
+}
+
+/* Header starts at the top area because the language bar is gone */
+.scroll-identity-header.fixed-review-header,
+body.language-row-visible .scroll-identity-header.fixed-review-header,
+body.language-row-scrolled .scroll-identity-header.fixed-review-header,
+body.no-language-bar .scroll-identity-header.fixed-review-header{
+  top:9px !important;
+}
+
+.scroll-header-bridge,
+.scroll-header-bridge.is-active,
+body.language-row-visible .scroll-header-bridge,
+body.language-row-visible .scroll-header-bridge.is-active,
+body.no-language-bar .scroll-header-bridge,
+body.no-language-bar .scroll-header-bridge.is-active{
+  top:0 !important;
+}
+
+/* Reset page spacing that was previously reserved for language row */
+body.language-row-visible .page,
+body.language-row-scrolled .page,
+body.no-language-bar .page{
+  margin-top:86px !important;
+}
+
+/* Header identity: show exactly Shovon Mandal + Lecturer, Department of Computer Science and Engineering */
+.scroll-identity-header.fixed-review-header{
+  min-height:74px !important;
+  grid-template-columns:minmax(330px,1.16fr) minmax(170px,.52fr) auto !important;
+  column-gap:14px !important;
+  padding-top:8px !important;
+  padding-bottom:8px !important;
+}
+
+.scroll-id-left{
+  min-width:0 !important;
+  max-width:100% !important;
+  align-items:center !important;
+}
+
+.scroll-id-left strong{
+  font-size:1.12rem !important;
+  line-height:1.08 !important;
+  letter-spacing:-.018em !important;
+  white-space:nowrap !important;
+}
+
+.scroll-id-left em,
+.header-role-text{
+  font-size:.78rem !important;
+  line-height:1.13 !important;
+  font-weight:850 !important;
+  max-width:410px !important;
+  white-space:normal !important;
+}
+
+.scroll-current-label{
+  min-width:162px !important;
+  max-width:250px !important;
+  min-height:38px !important;
+  padding:7px 12px !important;
+  font-size:.78rem !important;
+  line-height:1.08 !important;
+  font-weight:950 !important;
+}
+
+/* Anchor gap updated after removing language bar */
+html{
+  scroll-padding-top:116px !important;
+}
+
+section[id],
+.sec[id],
+[id="home"],
+[id="research-profile"],
+[id="professional-strengths"],
+[id="education"],
+[id="publications"],
+[id="projects"],
+[id="systems"],
+[id="experience"],
+[id="skills"],
+[id="honors"],
+[id="contact"]{
+  scroll-margin-top:116px !important;
+}
+
+/* Tablet */
+@media(max-width:900px){
+  .scroll-identity-header.fixed-review-header{
+    min-height:72px !important;
+    grid-template-columns:minmax(210px,1fr) minmax(130px,.55fr) auto !important;
+    column-gap:8px !important;
+    padding:7px 8px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.98rem !important;
+    line-height:1.06 !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.62rem !important;
+    line-height:1.08 !important;
+    max-width:260px !important;
+  }
+
+  .scroll-current-label{
+    min-width:128px !important;
+    max-width:168px !important;
+    min-height:36px !important;
+    padding:5px 7px !important;
+    font-size:.66rem !important;
+  }
+}
+
+/* Mobile */
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header,
+  body.language-row-visible .scroll-identity-header.fixed-review-header,
+  body.language-row-scrolled .scroll-identity-header.fixed-review-header,
+  body.no-language-bar .scroll-identity-header.fixed-review-header{
+    top:7px !important;
+  }
+
+  body.language-row-visible .page,
+  body.language-row-scrolled .page,
+  body.no-language-bar .page{
+    margin-top:82px !important;
+  }
+
+  .scroll-identity-header.fixed-review-header{
+    min-height:68px !important;
+    grid-template-columns:minmax(166px,1fr) minmax(112px,.70fr) auto !important;
+    column-gap:6px !important;
+    padding:7px 7px !important;
+  }
+
+  .scroll-id-left img{
+    width:38px !important;
+    height:38px !important;
+    min-width:38px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.86rem !important;
+    line-height:1.05 !important;
+    white-space:nowrap !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.52rem !important;
+    line-height:1.07 !important;
+    max-width:178px !important;
+    white-space:normal !important;
+  }
+
+  .scroll-current-label{
+    min-width:106px !important;
+    max-width:126px !important;
+    min-height:36px !important;
+    padding:4px 5px !important;
+    font-size:.57rem !important;
+    line-height:1.04 !important;
+    white-space:normal !important;
+  }
+
+  html{
+    scroll-padding-top:108px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="professional-strengths"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:108px !important;
+  }
+}
+
+/* Small mobile */
+@media(max-width:420px){
+  .scroll-identity-header.fixed-review-header{
+    min-height:66px !important;
+    grid-template-columns:minmax(148px,1fr) minmax(96px,.66fr) auto !important;
+    column-gap:5px !important;
+    padding:6px 6px !important;
+  }
+
+  .scroll-id-left img{
+    width:36px !important;
+    height:36px !important;
+    min-width:36px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.78rem !important;
+    letter-spacing:-.035em !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.46rem !important;
+    line-height:1.05 !important;
+    max-width:150px !important;
+  }
+
+  .scroll-current-label{
+    min-width:92px !important;
+    max-width:108px !important;
+    font-size:.50rem !important;
+  }
+}
+
+
+/* V104 FINAL: remove extra top gap on landing page after language bar removal */
+
+/* Language bar is gone, so no reserved space should remain above landing area */
+html,
+body{
+  margin-top:0 !important;
+  padding-top:0 !important;
+}
+
+body::before,
+body::after{
+  display:none !important;
+}
+
+/* Header remains at the top, but landing page starts closer below it */
+.scroll-identity-header.fixed-review-header,
+body.no-language-bar .scroll-identity-header.fixed-review-header,
+body.language-row-visible .scroll-identity-header.fixed-review-header,
+body.language-row-scrolled .scroll-identity-header.fixed-review-header{
+  top:6px !important;
+}
+
+/* Remove old top spacing that was kept for the deleted language bar */
+.page,
+body.no-language-bar .page,
+body.language-row-visible .page,
+body.language-row-scrolled .page{
+  margin-top:72px !important;
+  padding-top:0 !important;
+}
+
+/* Landing section should not create another large top blank area */
+#home,
+.hero{
+  margin-top:0 !important;
+  padding-top:14px !important;
+}
+
+.hero .hero-grid,
+.hero-grid{
+  margin-top:0 !important;
+  padding-top:0 !important;
+}
+
+/* Keep section-scroll offset correct after reducing the landing top gap */
+html{
+  scroll-padding-top:106px !important;
+}
+
+section[id],
+.sec[id],
+[id="home"],
+[id="research-profile"],
+[id="professional-strengths"],
+[id="education"],
+[id="publications"],
+[id="projects"],
+[id="systems"],
+[id="experience"],
+[id="skills"],
+[id="honors"],
+[id="contact"]{
+  scroll-margin-top:106px !important;
+}
+
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header,
+  body.no-language-bar .scroll-identity-header.fixed-review-header,
+  body.language-row-visible .scroll-identity-header.fixed-review-header,
+  body.language-row-scrolled .scroll-identity-header.fixed-review-header{
+    top:5px !important;
+  }
+
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:70px !important;
+    padding-top:0 !important;
+  }
+
+  #home,
+  .hero{
+    margin-top:0 !important;
+    padding-top:10px !important;
+  }
+
+  html{
+    scroll-padding-top:102px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="professional-strengths"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:102px !important;
+  }
+}
+
+@media(max-width:420px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:68px !important;
+  }
+
+  #home,
+  .hero{
+    padding-top:8px !important;
+  }
+}
+
+
+/* V105 FINAL: landing starts at sidebar top; Academic Portfolio area begins at top */
+
+/* Desktop: make landing/portfolio card start from the same top line as the sidebar */
+@media(min-width:1281px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:20px !important; /* same as .sidebar top */
+    padding-top:0 !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    margin-top:0 !important;
+    /* content stays below fixed header, while the hero card itself starts at sidebar top */
+    padding-top:92px !important;
+  }
+
+  .hero .eyebrow,
+  #home .eyebrow{
+    margin-top:0 !important;
+  }
+}
+
+/* Laptop/tablet: reduce old reserved gap but keep header clear */
+@media(max-width:1280px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:18px !important;
+    padding-top:0 !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    margin-top:0 !important;
+    padding-top:88px !important;
+  }
+}
+
+/* Mobile: no sidebar, but remove top blank space and keep Academic Portfolio visible below header */
+@media(max-width:760px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:10px !important;
+    padding-top:0 !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    margin-top:0 !important;
+    padding-top:82px !important;
+  }
+
+  .hero .eyebrow,
+  #home .eyebrow{
+    margin-top:0 !important;
+  }
+}
+
+@media(max-width:420px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:8px !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    padding-top:78px !important;
+  }
+}
+
+/* Keep top header position stable */
+.scroll-identity-header.fixed-review-header,
+body.no-language-bar .scroll-identity-header.fixed-review-header,
+body.language-row-visible .scroll-identity-header.fixed-review-header,
+body.language-row-scrolled .scroll-identity-header.fixed-review-header{
+  top:6px !important;
+}
+
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header,
+  body.no-language-bar .scroll-identity-header.fixed-review-header,
+  body.language-row-visible .scroll-identity-header.fixed-review-header,
+  body.language-row-scrolled .scroll-identity-header.fixed-review-header{
+    top:5px !important;
+  }
+}

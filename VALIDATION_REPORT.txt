@@ -1,15 +1,13 @@
-V102 validation report
-- Built from V101 ZIP: shovon_mandal_academic_portfolio_v101_header_text_size_fix.zip
-- Experience overflow visible: True
-- Tablet experience stack rule present: True
-- Mobile experience rules present: True
-- Small mobile stack rule present: True
-- Experience date/duration safe width: True
-- Tags wrap safely: True
-- Header text size fix preserved: True
-- Default English light override preserved: True
+V105 validation report
+- Built from V104 ZIP: shovon_mandal_academic_portfolio_v104_landing_top_gap_fix.zip
+- Language row still removed from HTML: True
+- Google Translate script still removed: True
+- Desktop page aligned to sidebar top: True
+- Hero content safely below header: True
+- Mobile top gap reduced: True
+- Experience responsive fix preserved: True
+- Header exact role preserved: True
 - ORCID exact URL preserved: True
-- Google Translate preserved: True
 - No direct chat URL: True
 - No admin link: True
 - No forbidden study-word string: True

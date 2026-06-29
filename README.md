@@ -176,3 +176,40 @@ This version keeps the V101/V100/V97 layout and fixes the Experience section res
 - Period/duration boxes stack on very small screens.
 - Course and responsibility tags wrap properly instead of overflowing.
 - Experience text, institute links, role titles, and responsibility details are visible across desktop, tablet, and mobile.
+
+
+## V103 No Language Bar Header Update
+
+This version removes the language bar completely and keeps the portfolio as a cleaner academic static website.
+
+Final changes:
+- Removed the full language bar.
+- Removed Google Translate script reference from `index.html`.
+- Header now shows:
+  - **Shovon Mandal**
+  - **Lecturer, Department of Computer Science and Engineering**
+- Header spacing updated for desktop, tablet, and mobile.
+- Section scroll gap adjusted after removing the language bar.
+- Experience responsive fixes from V102 are preserved.
+
+
+## V104 Landing Top Gap Fix
+
+This version keeps the V103 no-language-bar layout and removes the extra blank gap at the top of the landing page.
+
+Final changes:
+- Removed leftover spacing that was previously reserved for the language bar.
+- Header now sits closer to the top.
+- Landing page begins closer below the header.
+- Section scroll gap remains safe so headings do not hide behind the fixed header.
+
+
+## V105 Landing Alignment Fix
+
+This version keeps the V104 no-language-bar layout and aligns the landing/portfolio card with the sidebar top.
+
+Final changes:
+- The landing page card now starts at the same top line as the sidebar on desktop.
+- The previous extra top blank space above the landing page is removed.
+- The `Academic Portfolio` area begins at the top of the content area while staying clear of the fixed header.
+- Mobile top spacing is reduced while keeping the header from covering the landing text.

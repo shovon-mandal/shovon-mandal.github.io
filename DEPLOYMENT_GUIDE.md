@@ -55,3 +55,30 @@ git add -A
 git commit -m "Fix responsive experience section layout"
 git push
 ```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Remove language bar and update header identity"
+git push
+```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Remove extra landing top gap"
+git push
+```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Align landing page with sidebar top"
+git push
+```
