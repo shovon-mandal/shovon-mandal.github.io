@@ -554,8 +554,8 @@ init();
 
   function updateRoleText(){
     if (!roleText) return;
-    const full = "Computer Science and Engineering";
-    const short = "CSE";
+    const full = "Department of Computer Science and Engineering";
+    const short = "Dept. of CSE";
     const compact = window.innerWidth <= 560;
     roleText.textContent = compact ? short : full;
 

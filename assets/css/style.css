@@ -10312,3 +10312,173 @@ section[id],
     font-size:.40rem !important;
   }
 }
+
+/* V101 FIX: larger fixed-header identity and current-view text, especially on mobile */
+.scroll-identity-header.fixed-review-header{
+  grid-template-columns:minmax(255px,1fr) minmax(150px,.45fr) auto !important;
+  column-gap:12px !important;
+}
+
+.scroll-id-left strong{
+  font-size:1.12rem !important;
+  line-height:1.08 !important;
+  letter-spacing:-.028em !important;
+}
+
+.scroll-id-left em,
+.header-role-text{
+  font-size:.78rem !important;
+  line-height:1.12 !important;
+  max-width:380px !important;
+  font-weight:850 !important;
+}
+
+.scroll-current-label{
+  min-width:148px !important;
+  max-width:260px !important;
+  min-height:36px !important;
+  padding:7px 12px !important;
+  font-size:.82rem !important;
+  line-height:1.08 !important;
+  font-weight:1000 !important;
+}
+
+.scroll-current-label::before{
+  display:inline !important;
+  font-size:.68rem !important;
+  margin-right:5px !important;
+}
+
+@media(max-width:900px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(175px,1fr) minmax(128px,.60fr) auto !important;
+    column-gap:7px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.95rem !important;
+    line-height:1.06 !important;
+    letter-spacing:-.035em !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.62rem !important;
+    line-height:1.08 !important;
+    max-width:220px !important;
+  }
+
+  .scroll-current-label{
+    min-width:122px !important;
+    max-width:170px !important;
+    min-height:34px !important;
+    padding:5px 7px !important;
+    font-size:.68rem !important;
+    line-height:1.05 !important;
+    white-space:normal !important;
+  }
+
+  .scroll-current-label::before{
+    display:none !important;
+  }
+}
+
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(142px,1fr) minmax(108px,.72fr) auto !important;
+    column-gap:5px !important;
+    padding-left:7px !important;
+    padding-right:7px !important;
+  }
+
+  .scroll-id-left{
+    gap:6px !important;
+  }
+
+  .scroll-id-left img{
+    width:36px !important;
+    height:36px !important;
+    min-width:36px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.84rem !important;
+    line-height:1.04 !important;
+    letter-spacing:-.04em !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.52rem !important;
+    line-height:1.04 !important;
+    max-width:150px !important;
+  }
+
+  .scroll-current-label{
+    min-width:106px !important;
+    max-width:132px !important;
+    min-height:32px !important;
+    padding:4px 5px !important;
+    font-size:.60rem !important;
+    line-height:1.04 !important;
+    white-space:normal !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+  }
+}
+
+@media(max-width:420px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(126px,1fr) minmax(94px,.68fr) auto !important;
+    column-gap:4px !important;
+    padding-left:5px !important;
+    padding-right:5px !important;
+  }
+
+  .scroll-id-left img{
+    width:34px !important;
+    height:34px !important;
+    min-width:34px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.78rem !important;
+    line-height:1.02 !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.48rem !important;
+    line-height:1.02 !important;
+    max-width:128px !important;
+  }
+
+  .scroll-current-label{
+    min-width:94px !important;
+    max-width:112px !important;
+    font-size:.56rem !important;
+    line-height:1.02 !important;
+  }
+}
+
+@media(max-width:360px){
+  .scroll-identity-header.fixed-review-header{
+    grid-template-columns:minmax(116px,1fr) minmax(84px,.62fr) auto !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.72rem !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.44rem !important;
+    max-width:110px !important;
+  }
+
+  .scroll-current-label{
+    min-width:84px !important;
+    max-width:98px !important;
+    font-size:.52rem !important;
+  }
+}
