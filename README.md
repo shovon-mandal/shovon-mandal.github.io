@@ -1,10 +1,10 @@
-# Shovon Mandal Academic Portfolio — V78 Final Tick After Wait
+# Shovon Mandal Academic Portfolio — V80 Final Professional Tick Download Icon
 
 Final update:
-- Tick/completed mark now appears only after the user stays in a segment for at least 1 second
-- Quick scrolling no longer instantly marks sections as completed
-- Right-side progress sidebar is shorter
-- Right-side progress sidebar is thinner
-- Mobile progress sidebar is also smaller and thinner
-- Current active section highlighting remains instant
-- Previous mobile header, CV icon, compact sidebar, menu, contact, and publish-ready fixes preserved
+- Sidebar completion tick now appears at the end of each link line
+- Tick is now a small professional greenish/teal mark with no green background
+- Menu completion tick also uses the same professional style
+- Progress completion tick is subtle and professional
+- Download buttons now use one stronger, clearer download icon across all screens
+- Duplicate CV/download icons are suppressed
+- Previous 1-second tick delay, reload reset, compact sidebar, mobile header, progress, menu, contact, and publish-ready fixes preserved

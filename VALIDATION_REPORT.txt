@@ -1,11 +1,11 @@
-V78 validation report
-- One-second dwell timer present: True
-- Completed class used for tick: True
-- Instant visited tick disabled: True
-- Right progress sidebar thinner: True
-- Right progress sidebar shorter: True
-- Mobile progress track thinner: True
-- Header role text preserved: True
+V80 validation report
+- Sidebar tick end column CSS present: True
+- Professional tick color present: True
+- Tick background removed: True
+- Single bold download icon present: True
+- Duplicate generic CV icon disabled: True
+- 1-second dwell preserved: True
+- Reload reset preserved: True
 - Back to Top preserved: True
 - Contact final classes preserved: True
 - No direct chat URL: True

@@ -706,3 +706,7 @@ init();
   document.addEventListener("DOMContentLoaded", requestUpdate);
   renderProgressUI();
 })();
+
+
+/* V79: completed ticks intentionally reset on every page reload.
+   No localStorage/sessionStorage is used for completed section ticks. */
