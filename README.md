@@ -154,3 +154,25 @@ Use these settings in GitHub:
 - No direct WhatsApp/chat link is included.
 - Google Translate is included as a static website translator widget.
 - The website resets to English by default when loaded.
+
+
+## V101 Final Header Text Update
+
+This version keeps the V100/V97 layout and increases the header text sizes:
+
+- Larger **Shovon Mandal** name in the fixed header.
+- Larger **Lecturer, Department of Computer Science and Engineering** line.
+- Larger current-view section label.
+- Larger mobile header identity and current-view label.
+- Scroll gap adjusted to match the increased header height.
+
+
+## V102 Experience Responsive Fix
+
+This version keeps the V101/V100/V97 layout and fixes the Experience section responsiveness:
+
+- Experience cards no longer clip or cut details in mobile view.
+- Date and duration boxes wrap safely on tablet and mobile.
+- Period/duration boxes stack on very small screens.
+- Course and responsibility tags wrap properly instead of overflowing.
+- Experience text, institute links, role titles, and responsibility details are visible across desktop, tablet, and mobile.

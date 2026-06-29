@@ -10313,69 +10313,111 @@ section[id],
   }
 }
 
-/* V101 FIX: larger fixed-header identity and current-view text, especially on mobile */
+
+/* V101 FINAL: larger header identity and current-view text; V100/V97 layout preserved */
+
+/* Desktop/header: increase name, lecturer/department text, and current-view label */
 .scroll-identity-header.fixed-review-header{
-  grid-template-columns:minmax(255px,1fr) minmax(150px,.45fr) auto !important;
+  min-height:72px !important;
+  grid-template-columns:minmax(260px,1.05fr) minmax(165px,.52fr) auto !important;
   column-gap:12px !important;
+  padding-top:8px !important;
+  padding-bottom:8px !important;
+}
+
+.scroll-id-left{
+  min-width:0 !important;
+  max-width:100% !important;
+  align-items:center !important;
 }
 
 .scroll-id-left strong{
-  font-size:1.12rem !important;
-  line-height:1.08 !important;
-  letter-spacing:-.028em !important;
+  font-size:1.08rem !important;
+  line-height:1.12 !important;
+  letter-spacing:-.02em !important;
+  white-space:nowrap !important;
 }
 
 .scroll-id-left em,
 .header-role-text{
-  font-size:.78rem !important;
-  line-height:1.12 !important;
-  max-width:380px !important;
+  font-size:.76rem !important;
+  line-height:1.14 !important;
   font-weight:850 !important;
+  max-width:360px !important;
+  white-space:normal !important;
 }
 
 .scroll-current-label{
-  min-width:148px !important;
-  max-width:260px !important;
-  min-height:36px !important;
+  justify-self:center !important;
+  min-width:160px !important;
+  max-width:250px !important;
+  min-height:38px !important;
   padding:7px 12px !important;
-  font-size:.82rem !important;
+  font-size:.78rem !important;
   line-height:1.08 !important;
-  font-weight:1000 !important;
+  font-weight:950 !important;
+  white-space:normal !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
 }
 
 .scroll-current-label::before{
-  display:inline !important;
-  font-size:.68rem !important;
+  font-size:.66rem !important;
   margin-right:5px !important;
 }
 
+/* Keep section jump gap correct after the larger header */
+html{
+  scroll-padding-top:136px !important;
+}
+
+section[id],
+.sec[id],
+[id="home"],
+[id="research-profile"],
+[id="professional-strengths"],
+[id="education"],
+[id="publications"],
+[id="projects"],
+[id="systems"],
+[id="experience"],
+[id="skills"],
+[id="honors"],
+[id="contact"]{
+  scroll-margin-top:136px !important;
+}
+
+/* Tablet: larger than V100 but still fitted */
 @media(max-width:900px){
   .scroll-identity-header.fixed-review-header{
-    grid-template-columns:minmax(175px,1fr) minmax(128px,.60fr) auto !important;
-    column-gap:7px !important;
+    min-height:70px !important;
+    grid-template-columns:minmax(178px,1fr) minmax(130px,.62fr) auto !important;
+    column-gap:8px !important;
+    padding-top:7px !important;
+    padding-bottom:7px !important;
   }
 
   .scroll-id-left strong{
-    font-size:.95rem !important;
-    line-height:1.06 !important;
-    letter-spacing:-.035em !important;
+    font-size:.94rem !important;
+    line-height:1.08 !important;
+    letter-spacing:-.025em !important;
   }
 
   .scroll-id-left em,
   .header-role-text{
-    font-size:.62rem !important;
-    line-height:1.08 !important;
-    max-width:220px !important;
+    font-size:.61rem !important;
+    line-height:1.09 !important;
+    max-width:230px !important;
+    white-space:normal !important;
   }
 
   .scroll-current-label{
-    min-width:122px !important;
-    max-width:170px !important;
-    min-height:34px !important;
+    min-width:128px !important;
+    max-width:168px !important;
+    min-height:36px !important;
     padding:5px 7px !important;
-    font-size:.68rem !important;
-    line-height:1.05 !important;
-    white-space:normal !important;
+    font-size:.66rem !important;
+    line-height:1.06 !important;
   }
 
   .scroll-current-label::before{
@@ -10383,16 +10425,78 @@ section[id],
   }
 }
 
+/* Mobile: make name and current view clearly larger */
 @media(max-width:760px){
   .scroll-identity-header.fixed-review-header{
-    grid-template-columns:minmax(142px,1fr) minmax(108px,.72fr) auto !important;
-    column-gap:5px !important;
-    padding-left:7px !important;
-    padding-right:7px !important;
+    min-height:68px !important;
+    grid-template-columns:minmax(150px,1fr) minmax(118px,.72fr) auto !important;
+    column-gap:6px !important;
+    padding:7px 7px !important;
   }
 
-  .scroll-id-left{
-    gap:6px !important;
+  .scroll-id-left img{
+    width:38px !important;
+    height:38px !important;
+    min-width:38px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:.84rem !important;
+    line-height:1.06 !important;
+    letter-spacing:-.03em !important;
+    white-space:nowrap !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.52rem !important;
+    line-height:1.08 !important;
+    font-weight:850 !important;
+    max-width:156px !important;
+    white-space:normal !important;
+  }
+
+  .scroll-current-label{
+    min-width:112px !important;
+    max-width:132px !important;
+    min-height:36px !important;
+    padding:4px 5px !important;
+    font-size:.59rem !important;
+    line-height:1.05 !important;
+    font-weight:950 !important;
+    white-space:normal !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+  }
+
+  html{
+    scroll-padding-top:128px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="professional-strengths"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:128px !important;
+  }
+}
+
+/* Small mobile: still larger than V100 while preventing overlap */
+@media(max-width:420px){
+  .scroll-identity-header.fixed-review-header{
+    min-height:66px !important;
+    grid-template-columns:minmax(132px,1fr) minmax(102px,.70fr) auto !important;
+    column-gap:5px !important;
+    padding:6px 6px !important;
   }
 
   .scroll-id-left img{
@@ -10402,83 +10506,286 @@ section[id],
   }
 
   .scroll-id-left strong{
-    font-size:.84rem !important;
+    font-size:.76rem !important;
     line-height:1.04 !important;
-    letter-spacing:-.04em !important;
+    letter-spacing:-.035em !important;
   }
 
   .scroll-id-left em,
   .header-role-text{
+    font-size:.47rem !important;
+    line-height:1.06 !important;
+    max-width:138px !important;
+  }
+
+  .scroll-current-label{
+    min-width:96px !important;
+    max-width:114px !important;
+    min-height:34px !important;
+    padding:3px 4px !important;
     font-size:.52rem !important;
     line-height:1.04 !important;
-    max-width:150px !important;
-  }
-
-  .scroll-current-label{
-    min-width:106px !important;
-    max-width:132px !important;
-    min-height:32px !important;
-    padding:4px 5px !important;
-    font-size:.60rem !important;
-    line-height:1.04 !important;
-    white-space:normal !important;
-    overflow:visible !important;
-    text-overflow:clip !important;
   }
 }
 
-@media(max-width:420px){
-  .scroll-identity-header.fixed-review-header{
-    grid-template-columns:minmax(126px,1fr) minmax(94px,.68fr) auto !important;
-    column-gap:4px !important;
-    padding-left:5px !important;
-    padding-right:5px !important;
-  }
 
-  .scroll-id-left img{
-    width:34px !important;
-    height:34px !important;
-    min-width:34px !important;
-  }
+/* V102 FINAL: Experience section responsive fix for all devices */
 
-  .scroll-id-left strong{
-    font-size:.78rem !important;
-    line-height:1.02 !important;
-  }
-
-  .scroll-id-left em,
-  .header-role-text{
-    font-size:.48rem !important;
-    line-height:1.02 !important;
-    max-width:128px !important;
-  }
-
-  .scroll-current-label{
-    min-width:94px !important;
-    max-width:112px !important;
-    font-size:.56rem !important;
-    line-height:1.02 !important;
-  }
+/* Prevent any experience content from being clipped */
+#experience,
+#experience .sec-body,
+#experience-list,
+.experience-card,
+.experience-head,
+.experience-body,
+.experience-segments,
+.experience-segment,
+.experience-tags{
+  overflow:visible !important;
+  max-height:none !important;
+  height:auto !important;
+  box-sizing:border-box !important;
 }
 
-@media(max-width:360px){
-  .scroll-identity-header.fixed-review-header{
-    grid-template-columns:minmax(116px,1fr) minmax(84px,.62fr) auto !important;
+.experience-card{
+  width:100% !important;
+  max-width:100% !important;
+  min-width:0 !important;
+}
+
+.experience-head{
+  display:flex !important;
+  align-items:flex-start !important;
+  justify-content:space-between !important;
+  flex-wrap:wrap !important;
+  gap:16px !important;
+  width:100% !important;
+}
+
+.experience-main-info{
+  flex:1 1 420px !important;
+  min-width:0 !important;
+  max-width:100% !important;
+}
+
+.experience-main-info h3,
+.experience-main-info p,
+.experience-place,
+.experience-place-link,
+.experience-body p,
+.experience-segment h4,
+.experience-tags span{
+  white-space:normal !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+  word-break:normal !important;
+  overflow-wrap:anywhere !important;
+  max-width:100% !important;
+}
+
+.experience-role{
+  white-space:normal !important;
+  line-height:1.2 !important;
+}
+
+.experience-time-block{
+  flex:0 0 224px !important;
+  width:224px !important;
+  min-width:224px !important;
+  max-width:224px !important;
+  display:grid !important;
+  grid-template-columns:1fr !important;
+  gap:8px !important;
+}
+
+.experience-period,
+.experience-duration{
+  box-sizing:border-box !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+  white-space:normal !important;
+  line-height:1.12 !important;
+  height:auto !important;
+  min-height:38px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+}
+
+.experience-body{
+  width:100% !important;
+  min-width:0 !important;
+  max-width:100% !important;
+}
+
+.experience-segments{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:14px !important;
+  width:100% !important;
+}
+
+.experience-segment{
+  min-width:0 !important;
+  max-width:100% !important;
+}
+
+.experience-tags{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+  width:100% !important;
+  min-width:0 !important;
+}
+
+.experience-tags span{
+  display:inline-flex !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  line-height:1.25 !important;
+  height:auto !important;
+}
+
+/* Tablet: stack date/duration cleanly without cutting details */
+@media(max-width:1024px){
+  .experience-head{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:14px !important;
   }
 
-  .scroll-id-left strong{
+  .experience-main-info{
+    width:100% !important;
+    flex:1 1 100% !important;
+  }
+
+  .experience-time-block{
+    width:100% !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:10px !important;
+  }
+
+  .experience-period,
+  .experience-duration{
+    width:100% !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    min-height:38px !important;
+    padding:8px 10px !important;
     font-size:.72rem !important;
   }
 
-  .scroll-id-left em,
-  .header-role-text{
-    font-size:.44rem !important;
-    max-width:110px !important;
+  .experience-segments{
+    grid-template-columns:1fr !important;
+  }
+}
+
+/* Mobile: all experience details visible, no clipped boxes */
+@media(max-width:760px){
+  #experience .sec-head,
+  #experience .sec-body{
+    width:100% !important;
+    max-width:100% !important;
   }
 
-  .scroll-current-label{
-    min-width:84px !important;
-    max-width:98px !important;
-    font-size:.52rem !important;
+  .experience-card{
+    padding:18px 14px !important;
+    border-radius:20px !important;
+  }
+
+  .experience-head{
+    grid-template-columns:1fr !important;
+    gap:12px !important;
+  }
+
+  .experience-main-info h3{
+    font-size:1.02rem !important;
+    line-height:1.18 !important;
+  }
+
+  .experience-place,
+  .experience-place-link{
+    font-size:.82rem !important;
+    line-height:1.22 !important;
+  }
+
+  .experience-role{
+    font-size:.68rem !important;
+  }
+
+  .experience-time-block{
+    width:100% !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    grid-template-columns:1fr 1fr !important;
+    gap:8px !important;
+  }
+
+  .experience-period,
+  .experience-duration{
+    width:100% !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    height:auto !important;
+    min-height:38px !important;
+    padding:7px 8px !important;
+    font-size:.64rem !important;
+    line-height:1.15 !important;
+    white-space:normal !important;
+  }
+
+  .experience-duration b{
+    margin-right:3px !important;
+  }
+
+  .experience-body p{
+    font-size:.86rem !important;
+    line-height:1.55 !important;
+  }
+
+  .experience-segments{
+    grid-template-columns:1fr !important;
+    gap:12px !important;
+  }
+
+  .experience-segment{
+    padding:12px !important;
+  }
+
+  .experience-tags span{
+    font-size:.72rem !important;
+    padding:7px 9px !important;
+    line-height:1.25 !important;
+  }
+}
+
+/* Small mobile: stack period and duration vertically so nothing is cut */
+@media(max-width:420px){
+  .experience-card{
+    padding:16px 12px !important;
+  }
+
+  .experience-main-info h3{
+    font-size:.96rem !important;
+  }
+
+  .experience-time-block{
+    grid-template-columns:1fr !important;
+    gap:7px !important;
+  }
+
+  .experience-period,
+  .experience-duration{
+    min-height:36px !important;
+    padding:7px 9px !important;
+    font-size:.62rem !important;
+  }
+
+  .experience-tags span{
+    width:100% !important;
+    justify-content:flex-start !important;
   }
 }

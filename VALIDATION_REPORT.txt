@@ -1,14 +1,14 @@
-V100 validation report
-- Built from V97 ZIP: shovon_mandal_academic_portfolio_v97_v91_header_width_language_bar.zip
-- Default English bright override present: True
-- Header text fit CSS present: True
-- Current view label sizing present: True
-- Scroll blank-line gap CSS present: True
-- V100 anchor gap JS present: True
-- Complete README has site URL: True
-- Git commit command in README: True
-- ORCID exact URL present: True
-- Default English link present once in HTML: True
+V102 validation report
+- Built from V101 ZIP: shovon_mandal_academic_portfolio_v101_header_text_size_fix.zip
+- Experience overflow visible: True
+- Tablet experience stack rule present: True
+- Mobile experience rules present: True
+- Small mobile stack rule present: True
+- Experience date/duration safe width: True
+- Tags wrap safely: True
+- Header text size fix preserved: True
+- Default English light override preserved: True
+- ORCID exact URL preserved: True
 - Google Translate preserved: True
 - No direct chat URL: True
 - No admin link: True

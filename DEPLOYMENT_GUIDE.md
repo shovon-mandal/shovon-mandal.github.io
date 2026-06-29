@@ -37,3 +37,21 @@ git push -u origin main
 - `README.md`
 - `DEPLOYMENT_GUIDE.md`
 - `.nojekyll`
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Increase portfolio header text size"
+git push
+```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Fix responsive experience section layout"
+git push
+```
