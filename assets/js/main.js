@@ -1,4 +1,4 @@
-const FALLBACK_DATA = {"site": {"name": "Shovon Mandal", "firstName": "Shovon", "lastName": "Mandal", "title": "Academic Portfolio", "role": "Lecturer, Department of Computer Science and Engineering", "affiliation": "Northern University of Business and Technology Khulna, Bangladesh", "email": "shovonmandal@gmail.com", "cv": "assets/docs/Shovon_Mandal_CV.pdf", "photo": "assets/img/profile.jpg", "goalLabel": "Academic Research Goal", "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain-based payment security, and contactless transaction security, while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration. My profile combines peer-reviewed publications, secure payment prototypes, university teaching experience, academic automation systems, and hardware-oriented project engagement.", "headline": "Secure Digital Payments · Distributed Payment Security · Contactless Transaction Security · Academic Automation · Hardware-Oriented Computing", "rotatingWords": ["M.Sc./Ph.D. Graduate Study Goal", "Secure Payment Systems Research", "Distributed Transaction Security", "Implementation-Oriented Academic"]}, "links": [{"label": "Faculty Profile", "url": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal"}, {"label": "Google Scholar", "url": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en"}, {"label": "ResearchGate", "url": "https://www.researchgate.net/profile/Shovon-Mandal-2"}, {"label": "GitHub", "url": "https://github.com/shovon-mandal"}, {"label": "LinkedIn", "url": "https://www.linkedin.com/in/shovonmandal/"}, {"label": "Email", "url": "mailto:shovonmandal@gmail.com"}], "fastReview": [{"label": "Research Papers", "target": "#publications"}, {"label": "Projects and Prototypes", "target": "#projects"}, {"label": "Teaching Experience", "target": "#experience"}, {"label": "Technical Skills", "target": "#skills"}], "snapshot": [{"label": "B.Sc. CGPA", "value": "3.80 out of 4.00"}, {"label": "Academic Standing", "value": "Highest Distinction"}, {"label": "Current Role", "value": "Lecturer, CSE"}, {"label": "Graduate Goal", "value": "M.Sc./Ph.D. Research"}, {"label": "Research Fit", "value": "Secure Payments · Distributed Systems · Automation"}], "metrics": [{"value": "6", "label": "Research Papers", "target": "#publications"}, {"value": "4+", "label": "Implementation Projects", "target": "#projects"}, {"value": "4+", "label": "Teaching Background", "target": "#experience"}, {"value": "3+", "label": "Academic Systems", "target": "#systems"}], "researchFit": [{"title": "Research Alignment", "text": "Secure distributed systems, blockchain-based payment security, contactless transaction security, applied security, and implementation-focused computing."}, {"title": "Scholarly Evidence", "text": "Peer-reviewed publications, thesis-based research, and working prototypes demonstrate preparation for supervised graduate research."}, {"title": "Implementation Capacity", "text": "Experience with prototype design, technical documentation, code organization, workflow automation, and reproducible academic outputs."}, {"title": "Teaching and Lab Contribution", "text": "University teaching experience supports course delivery, theory lectures, lab work, assignment evaluation, student mentoring, project supervision, and structured academic support."}], "profile": {"paragraphs": ["I am a Computer Science and Engineering lecturer whose academic profile connects secure computing research, prototype implementation, and classroom practice.", "My background includes peer-reviewed publications, thesis-based payment system research, GitHub-backed prototypes, classroom and laboratory teaching, academic systems development, and adaptability to emerging technologies."], "cards": [{"title": "Research Direction", "text": "Secure payments, distributed systems, contactless transaction security, and applied secure computing.", "target": "#research-fit"}, {"title": "Implementation Ability", "text": "Prototype-focused academic work supported by technical documentation and system-building practice.", "target": "#projects"}, {"title": "Teaching and Mentoring", "text": "Course teaching, theory lectures, lab work, assignment evaluation, student mentoring, and research/project supervision.", "target": "#experience"}, {"title": "Academic Systems", "text": "Workflow automation for routine management, assessment records, student communication, and academic operations.", "target": "#systems"}], "tags": ["Secure Distributed Systems", "Blockchain-Based Payment Security", "Contactless Transaction Security", "Digital Payment Systems", "Academic Automation", "Hardware-Oriented Computing", "Teaching Technology"], "strengths": ["Research direction aligned with secure payment systems and distributed computing.", "Ability to translate academic ideas into working prototypes and documented outputs.", "Teaching background includes course delivery, theory lectures, lab work, assignment evaluation, student mentoring, and student research/project supervision.", "Adaptive learning mindset for new technologies, academic tools, and automation workflows."]}, "education": [{"period": "Jul 2022 – Present", "degree": "M.Sc. in Computer Science and Engineering", "institution": "Khulna University of Engineering & Technology", "url": "https://www.kuet.ac.bd/", "badge": "Defense Pending", "items": ["<strong>Academic Status:</strong> Defense Pending", "<strong>Coursework CGPA:</strong> 3.29 out of 4.00", "<strong>Thesis:</strong> Blockchain Technology Based Smart E-Payment Strategy for Secure Cashless Payment", "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>Dr. Pintu Chandra Shill ↗</a>", "<strong>Relevant Coursework:</strong> Principles of Cryptography; Advanced Network Security; Cloud Computing; Neural Networks"]}, {"period": "Spring 2018 – Spring 2022", "degree": "B.Sc. in Computer Science and Engineering", "institution": "BRAC University", "url": "https://www.bracu.ac.bd/", "badge": "Highest Distinction", "items": ["<strong>CGPA:</strong> 3.80 out of 4.00", "<strong>Academic Standing:</strong> Highest Distinction", "<strong>Thesis:</strong> Blockchain-based Micropayment System for Secured Cashless Small Payments", "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://www.bracu.ac.bd/about/people/md-golam-rabiul-alam-phd' target='_blank' rel='noopener'>Md. Golam Rabiul Alam, PhD ↗</a>"]}], "publications": [{"status": "Published", "filter": "published core", "title": "Ensuring Security and Efficiency in Digital Payments using Blockchain with NFC", "authors": "<strong class='author-me'>Mandal, S.</strong>, & Shill, P. C.", "venue": "ICKECS 2024", "year": "2024", "doi": "10.1109/ICKECS61492.2024.10616703", "doiUrl": "https://doi.org/10.1109/ICKECS61492.2024.10616703"}, {"status": "Published", "filter": "published core", "title": "Q-learning based Automated Message Multicast in Gossip Protocol for Node Confirmation in IOTA Tangle", "authors": "Keya, M., <strong class='author-me'>Mandal, S.</strong>, et al.", "venue": "ICCIT 2024", "year": "2024", "doi": "10.1109/ICCIT64611.2024.11021995", "doiUrl": "https://doi.org/10.1109/ICCIT64611.2024.11021995"}, {"status": "Published", "filter": "published", "title": "Comparative Evaluation of Multiple CNN Architectures for Dermoscopic Skin Lesion Classification using ISIC Dataset", "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, Islam, M. J., Islam, K. M., Dhar, S., & Baidya, R.", "venue": "QPAIN 2026", "year": "2026", "doi": "10.1109/QPAIN69676.2026.11545903", "doiUrl": "https://doi.org/10.1109/QPAIN69676.2026.11545903"}, {"status": "Published", "filter": "published", "title": "A Machine Learning and DEM-Based Approach for Predicting Sea Level Rise and Assessing Coastal Risk in Bangladesh Using AI Insights", "authors": "Ghosh, A., Pinki, F. T., Baidya, R., Alam, F., & <strong class='author-me'>Mandal, S.</strong>", "venue": "CSNT 2026", "year": "2026", "doi": "10.1109/CSNT69054.2026.11502358", "doiUrl": "https://doi.org/10.1109/CSNT69054.2026.11502358"}, {"status": "Accepted / In Press", "filter": "accepted inpress", "title": "Revolutionizing Academic Learning and Research with the Integration of Leap Motion and ARCore in Android", "authors": "<strong class='author-me'>Mandal, S.</strong>, et al.", "venue": "ICCCNT 2025, IIT Indore", "year": "2025"}, {"status": "Accepted / In Press", "filter": "accepted inpress", "title": "Advancing Sentiment Analysis Through Natural Language Processing and Deep Learning", "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, et al.", "venue": "ICCCNT 2025", "year": "2025"}], "projects": [{"title": "Blockchain-Based Secure Cashless Payment Prototype with Contactless Interaction", "type": "Research Prototype", "category": "Secure Payments · Contactless Interaction · Hardware Integration", "filter": "research hardware blockchain connected device secure payment", "description": "Research prototype connecting blockchain-based verification with contactless transaction interaction and hardware-supported payment demonstration.", "tools": ["Blockchain", "Contactless module", "Arduino", "Secure payment flow", "Prototype documentation"], "highlights": ["Connects secure payment research with implementation-oriented prototyping.", "Demonstrates contactless cashless transaction interaction.", "Supports thesis direction in secure digital payment systems."], "url": "https://github.com/shovon-mandal/NFC"}, {"title": "Distributed Ledger-Based Payment Website and Transaction Demonstration", "type": "Research Prototype", "category": "Distributed Ledger · Web Transaction", "filter": "research distributed ledger web transaction", "description": "Web prototype for distributed-ledger-supported payment and decentralized transaction flow demonstration.", "tools": ["Distributed ledger", "Web transaction flow", "Payment demonstration", "Decentralized system practice"], "highlights": ["Demonstrates distributed ledger-based payment flow.", "Shows web-facing implementation of decentralized transaction concepts.", "Connects blockchain-adjacent systems with applied web prototyping."], "url": "https://github.com/shovon-mandal/IOTA-Website"}, {"title": "Academic Routine Management System using Google Sheets and Apps Script", "type": "Academic Automation", "category": "Google Apps Script · Google Sheets · Academic Workflow", "filter": "automation apps script google sheets academic", "description": "Google Sheets and Apps Script system for course offering, faculty/section routine retrieval, protected views, and PDF generation.", "tools": ["Google Apps Script", "Google Sheets", "Protected views", "PDF generation", "Routine retrieval"], "highlights": ["Improves routine retrieval and academic workflow clarity.", "Supports institutional record organization.", "Demonstrates automation ability beyond classroom programming."], "url": "https://github.com/shovon-mandal/academic-routine-management-appscript"}, {"title": "Python-Based Discord Server Management Bot for Academic Communication", "type": "Academic Communication Automation", "category": "Python · Discord Bot · Role Management", "filter": "automation python discord bot communication", "description": "Python bot for student verification, role management, announcements, reminders, and controlled academic communication.", "tools": ["Python", "Discord bot", "Role automation", "Student verification", "Reminder workflow"], "highlights": ["Applies automation to student verification and academic communication.", "Supports structured digital classroom community management.", "Demonstrates practical Python automation."], "url": "https://github.com/shovon-mandal/academic-discord-management-bot"}], "systems": [{"title": "Class Routine Automation", "text": "Structured course and section routine management with protected views and clean retrieval."}, {"title": "Assessment Workflow Support", "text": "Marking, record organization, and academic evaluation support using structured digital tools."}, {"title": "Academic Communication Bot", "text": "Student verification, role management, announcements, and controlled academic communication."}, {"title": "Adaptive Technical Practice", "text": "Ability to learn new tools and apply them to research, teaching, and institutional workflow problems."}], "experience": [{"period": "Mar 2024 – Present", "title": "Lecturer, Department of Computer Science and Engineering", "place": "Northern University of Business and Technology Khulna, Bangladesh", "roleLabel": "Lecturer", "roleClass": "role-lecturer", "text": "Teach undergraduate Computer Science and Engineering courses, conduct theory and laboratory classes, prepare course materials, assess student performance, mentor students, and supervise student research and project work.", "courseHeading": "Courses Taught", "courses": ["Computer Architecture", "Digital Logic Design", "Object-Oriented Programming with Java", "Technical Writing", "Linear Programming and Combinatorial Optimization"], "responsibilityHeading": "Teaching, Assessment, and Supervision", "responsibilities": ["Theory lecture delivery", "Lab work and practical class support", "Question and assessment preparation", "Answer-script and assignment evaluation", "Student mentoring", "Student research and project supervision"], "placeUrl": "https://nubtkhulna.ac.bd/", "durationStart": "2024-03", "durationEnd": "present", "durationLabel": "Duration"}, {"period": "Jul 2022 – Jun 2024", "title": "Lecturer (Adjunct), Department of Computer Science and Engineering", "place": "Imperial College of Engineering, Khulna", "roleLabel": "Adjunct Lecturer", "roleClass": "role-adjunct", "text": "Taught undergraduate Computer Science and Engineering courses, conducted laboratory sessions, prepared academic materials, evaluated student work, and supported academic project development.", "courseHeading": "Courses Taught", "courses": ["Database Management Systems", "Computer Peripherals and Interfacing", "Computer Architecture and Organization", "Computer Graphics", "Web Engineering", "Microprocessor and Microcontrollers"], "responsibilityHeading": "Instructional Responsibilities", "responsibilities": ["Theory class instruction", "Lab work and practical session support", "Assessment preparation", "Student performance evaluation", "Project guidance", "Academic support"], "placeUrl": "https://www.imperial.edu.bd/", "durationStart": "2022-07", "durationEnd": "2024-06", "durationLabel": "Duration"}, {"period": "Jul 2023 – Dec 2023", "title": "Teaching Assistant, Department of Computer Science and Engineering", "place": "Khulna University of Engineering & Technology", "roleLabel": "Teaching Assistant", "roleClass": "role-ta", "text": "Assisted course teachers with laboratory sessions, assignment checking, evaluation support, academic record preparation, student guidance, and course-related instructional activities.", "courseHeading": "Courses Assisted", "courses": ["Embedded Systems", "Electronic Devices and Circuits"], "responsibilityHeading": "Teaching Assistant Support", "responsibilities": ["Assisted course teachers", "Supported laboratory sessions", "Checked assignments", "Helped with evaluation", "Prepared academic records", "Guided students during course activities"], "placeUrl": "https://www.kuet.ac.bd/", "durationStart": "2023-07", "durationEnd": "2023-12", "durationLabel": "Duration"}, {"period": "Feb 2022 – Apr 2022", "title": "Student Tutor, Department of Computer Science and Engineering", "place": "BRAC University", "roleLabel": "Student Tutor", "roleClass": "role-tutor", "text": "Helped students understand course materials, supported problem-solving practice, assisted the course instructor with assignment checking, and provided academic support during tutorials.", "courseHeading": "Tutorial Course", "courses": ["Electronic Devices and Circuits"], "responsibilityHeading": "Student Tutor Support", "responsibilities": ["Helped students understand course topics", "Supported tutorial problem solving", "Assisted the course instructor", "Checked assignments", "Provided student academic support"], "placeUrl": "https://www.bracu.ac.bd/", "durationStart": "2022-02", "durationEnd": "2022-04", "durationLabel": "Duration"}], "skills": [{"title": "Programming and Computational Tools", "icon": "⌘", "items": ["Python", "Java", "C", "MATLAB", "MIPS Assembly", "JavaScript"]}, {"title": "Security and Distributed Systems", "icon": "◈", "items": ["Secure distributed systems", "Blockchain-based payment security", "Contactless transaction security", "Cryptography fundamentals", "Network security fundamentals", "Secure cashless payment workflows"]}, {"title": "Web, Database, and Application Development", "icon": "▣", "items": ["HTML", "CSS", "JavaScript", "PHP", "Laravel", "MySQL", "Android Studio"]}, {"title": "Academic Automation and Workflow Systems", "icon": "◆", "items": ["Google Apps Script", "Google Sheets automation", "Class routine management", "Protected academic views", "PDF generation workflow", "Assessment and marking support", "Academic communication automation"]}, {"title": "Hardware and Embedded Practice", "icon": "▧", "items": ["Arduino prototyping", "Contactless/RFID module practice", "Embedded systems", "Hardware interfacing", "Digital electronics"]}, {"title": "Research, Teaching, and Mentoring", "icon": "✦", "items": ["Literature review", "Prototype development", "Technical documentation", "Research implementation", "Theory lecture support", "Lab work support", "Student mentoring"]}], "repositorySkills": [{"title": "Secure Payment Prototype Evidence", "icon": "◈", "tags": ["Blockchain payment logic", "Contactless module integration", "Secure transaction flow", "Hardware interfacing", "Prototype documentation"]}, {"title": "Distributed Payment Demonstration", "icon": "▣", "tags": ["Distributed ledger concept", "Payment demonstration", "Web transaction flow", "Decentralized system practice"]}, {"title": "Academic Workflow Automation", "icon": "◆", "tags": ["Google Apps Script", "Google Sheets automation", "Scheduling logic", "Protected views", "PDF workflow"]}, {"title": "Academic Communication Automation", "icon": "✦", "tags": ["Python automation", "Role management", "Student verification", "Reminder workflow", "Access control"]}], "honors": {"Honors and Scholarships": ["Highest Distinction — BRAC University", "Vice Chancellor's List — BRAC University (5 consecutive semesters)", "Dean's List — BRAC University (2 consecutive semesters)", "Merit-based Scholarship — BRAC University", "Merit-based Scholarship — Junior School Certificate, Jashore Board"], "Leadership and Service": ["Judge, Project Showcasing — CSE Fest 2025", "Executive Member — BRAC University Computer Club", "Executive Member — Robotics Club of BRAC University", "Executive Member — BRACU Mongol Tori, Next Generation Mars Rover Team 4.0"]}};
+const FALLBACK_DATA = {"site": {"name": "Shovon Mandal", "firstName": "Shovon", "lastName": "Mandal", "title": "Academic Portfolio", "role": "Lecturer, Department of Computer Science and Engineering", "affiliation": "Northern University of Business and Technology Khulna, Bangladesh", "email": "shovonmandal@gmail.com", "cv": "assets/docs/Shovon_Mandal_CV.pdf", "photo": "assets/img/profile.jpg", "goalLabel": "Academic Research Goal", "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain-based payment security, and contactless transaction security, while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration. My profile combines peer-reviewed publications, secure payment prototypes, university teaching experience, academic automation systems, and hardware-oriented project engagement.", "headline": "Secure Digital Payments · Distributed Payment Security · Contactless Transaction Security · Academic Automation · Hardware-Oriented Computing", "rotatingWords": ["M.Sc./Ph.D. Graduate Study Goal", "Secure Payment Systems Research", "Distributed Transaction Security", "Implementation-Oriented Academic"]}, "links": [{"label": "Faculty Profile", "url": "https://nubtkhulna.ac.bd/sd/275/Shovon%20Mandal"}, {"label": "Google Scholar", "url": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en"}, {"label": "ResearchGate", "url": "https://www.researchgate.net/profile/Shovon-Mandal-2"}, {"label": "ORCID", "url": "https://orcid.org/0009-0003-6302-9484"}, {"label": "GitHub", "url": "https://github.com/shovon-mandal"}, {"label": "LinkedIn", "url": "https://www.linkedin.com/in/shovonmandal/"}, {"label": "Email", "url": "mailto:shovonmandal@gmail.com"}], "fastReview": [{"label": "Research Papers", "target": "#publications"}, {"label": "Projects and Prototypes", "target": "#projects"}, {"label": "Teaching Experience", "target": "#experience"}, {"label": "Technical Skills", "target": "#skills"}], "snapshot": [{"label": "B.Sc. CGPA", "value": "3.80 out of 4.00"}, {"label": "Academic Standing", "value": "Highest Distinction"}, {"label": "Current Role", "value": "Lecturer, CSE"}, {"label": "Graduate Goal", "value": "M.Sc./Ph.D. Research"}, {"label": "Research Fit", "value": "Secure Payments · Distributed Systems · Automation"}], "metrics": [{"value": "6", "label": "Research Papers", "target": "#publications"}, {"value": "4+", "label": "Implementation Projects", "target": "#projects"}, {"value": "4+", "label": "Teaching Background", "target": "#experience"}, {"value": "3+", "label": "Academic Systems", "target": "#systems"}], "researchFit": [{"title": "Research Alignment", "text": "Secure distributed systems, blockchain-based payment security, contactless transaction security, applied security, and implementation-focused computing."}, {"title": "Scholarly Evidence", "text": "Peer-reviewed publications, thesis-based research, and working prototypes demonstrate preparation for supervised graduate research."}, {"title": "Implementation Capacity", "text": "Experience with prototype design, technical documentation, code organization, workflow automation, and reproducible academic outputs."}, {"title": "Teaching and Lab Contribution", "text": "University teaching experience supports course delivery, theory lectures, lab work, assignment evaluation, student mentoring, project supervision, and structured academic support."}], "profile": {"paragraphs": ["I am a Computer Science and Engineering lecturer whose academic profile connects secure computing research, prototype implementation, and classroom practice.", "My background includes peer-reviewed publications, thesis-based payment system research, GitHub-backed prototypes, classroom and laboratory teaching, academic systems development, and adaptability to emerging technologies."], "cards": [{"title": "Research Direction", "text": "Secure payments, distributed systems, contactless transaction security, and applied secure computing.", "target": "#research-fit"}, {"title": "Implementation Ability", "text": "Prototype-focused academic work supported by technical documentation and system-building practice.", "target": "#projects"}, {"title": "Teaching and Mentoring", "text": "Course teaching, theory lectures, lab work, assignment evaluation, student mentoring, and research/project supervision.", "target": "#experience"}, {"title": "Academic Systems", "text": "Workflow automation for routine management, assessment records, student communication, and academic operations.", "target": "#systems"}], "tags": ["Secure Distributed Systems", "Blockchain-Based Payment Security", "Contactless Transaction Security", "Digital Payment Systems", "Academic Automation", "Hardware-Oriented Computing", "Teaching Technology"], "strengths": ["Research direction aligned with secure payment systems and distributed computing.", "Ability to translate academic ideas into working prototypes and documented outputs.", "Teaching background includes course delivery, theory lectures, lab work, assignment evaluation, student mentoring, and student research/project supervision.", "Adaptive learning mindset for new technologies, academic tools, and automation workflows."]}, "education": [{"period": "Jul 2022 – Present", "degree": "M.Sc. in Computer Science and Engineering", "institution": "Khulna University of Engineering & Technology", "url": "https://www.kuet.ac.bd/", "badge": "Defense Pending", "items": ["<strong>Academic Status:</strong> Defense Pending", "<strong>Coursework CGPA:</strong> 3.29 out of 4.00", "<strong>Thesis:</strong> Blockchain Technology Based Smart E-Payment Strategy for Secure Cashless Payment", "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>Dr. Pintu Chandra Shill ↗</a>", "<strong>Relevant Coursework:</strong> Principles of Cryptography; Advanced Network Security; Cloud Computing; Neural Networks"]}, {"period": "Spring 2018 – Spring 2022", "degree": "B.Sc. in Computer Science and Engineering", "institution": "BRAC University", "url": "https://www.bracu.ac.bd/", "badge": "Highest Distinction", "items": ["<strong>CGPA:</strong> 3.80 out of 4.00", "<strong>Academic Standing:</strong> Highest Distinction", "<strong>Thesis:</strong> Blockchain-based Micropayment System for Secured Cashless Small Payments", "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://www.bracu.ac.bd/about/people/md-golam-rabiul-alam-phd' target='_blank' rel='noopener'>Md. Golam Rabiul Alam, PhD ↗</a>"]}], "publications": [{"status": "Published", "filter": "published core", "title": "Ensuring Security and Efficiency in Digital Payments using Blockchain with NFC", "authors": "<strong class='author-me'>Mandal, S.</strong>, & Shill, P. C.", "venue": "ICKECS 2024", "year": "2024", "doi": "10.1109/ICKECS61492.2024.10616703", "doiUrl": "https://doi.org/10.1109/ICKECS61492.2024.10616703"}, {"status": "Published", "filter": "published core", "title": "Q-learning based Automated Message Multicast in Gossip Protocol for Node Confirmation in IOTA Tangle", "authors": "Keya, M., <strong class='author-me'>Mandal, S.</strong>, et al.", "venue": "ICCIT 2024", "year": "2024", "doi": "10.1109/ICCIT64611.2024.11021995", "doiUrl": "https://doi.org/10.1109/ICCIT64611.2024.11021995"}, {"status": "Published", "filter": "published", "title": "Comparative Evaluation of Multiple CNN Architectures for Dermoscopic Skin Lesion Classification using ISIC Dataset", "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, Islam, M. J., Islam, K. M., Dhar, S., & Baidya, R.", "venue": "QPAIN 2026", "year": "2026", "doi": "10.1109/QPAIN69676.2026.11545903", "doiUrl": "https://doi.org/10.1109/QPAIN69676.2026.11545903"}, {"status": "Published", "filter": "published", "title": "A Machine Learning and DEM-Based Approach for Predicting Sea Level Rise and Assessing Coastal Risk in Bangladesh Using AI Insights", "authors": "Ghosh, A., Pinki, F. T., Baidya, R., Alam, F., & <strong class='author-me'>Mandal, S.</strong>", "venue": "CSNT 2026", "year": "2026", "doi": "10.1109/CSNT69054.2026.11502358", "doiUrl": "https://doi.org/10.1109/CSNT69054.2026.11502358"}, {"status": "Accepted / In Press", "filter": "accepted inpress", "title": "Revolutionizing Academic Learning and Research with the Integration of Leap Motion and ARCore in Android", "authors": "<strong class='author-me'>Mandal, S.</strong>, et al.", "venue": "ICCCNT 2025, IIT Indore", "year": "2025"}, {"status": "Accepted / In Press", "filter": "accepted inpress", "title": "Advancing Sentiment Analysis Through Natural Language Processing and Deep Learning", "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, et al.", "venue": "ICCCNT 2025", "year": "2025"}], "projects": [{"title": "Blockchain-Based Secure Cashless Payment Prototype with Contactless Interaction", "type": "Research Prototype", "category": "Secure Payments · Contactless Interaction · Hardware Integration", "filter": "research hardware blockchain connected device secure payment", "description": "Research prototype connecting blockchain-based verification with contactless transaction interaction and hardware-supported payment demonstration.", "tools": ["Blockchain", "Contactless module", "Arduino", "Secure payment flow", "Prototype documentation"], "highlights": ["Connects secure payment research with implementation-oriented prototyping.", "Demonstrates contactless cashless transaction interaction.", "Supports thesis direction in secure digital payment systems."], "url": "https://github.com/shovon-mandal/NFC"}, {"title": "Distributed Ledger-Based Payment Website and Transaction Demonstration", "type": "Research Prototype", "category": "Distributed Ledger · Web Transaction", "filter": "research distributed ledger web transaction", "description": "Web prototype for distributed-ledger-supported payment and decentralized transaction flow demonstration.", "tools": ["Distributed ledger", "Web transaction flow", "Payment demonstration", "Decentralized system practice"], "highlights": ["Demonstrates distributed ledger-based payment flow.", "Shows web-facing implementation of decentralized transaction concepts.", "Connects blockchain-adjacent systems with applied web prototyping."], "url": "https://github.com/shovon-mandal/IOTA-Website"}, {"title": "Academic Routine Management System using Google Sheets and Apps Script", "type": "Academic Automation", "category": "Google Apps Script · Google Sheets · Academic Workflow", "filter": "automation apps script google sheets academic", "description": "Google Sheets and Apps Script system for course offering, faculty/section routine retrieval, protected views, and PDF generation.", "tools": ["Google Apps Script", "Google Sheets", "Protected views", "PDF generation", "Routine retrieval"], "highlights": ["Improves routine retrieval and academic workflow clarity.", "Supports institutional record organization.", "Demonstrates automation ability beyond classroom programming."], "url": "https://github.com/shovon-mandal/academic-routine-management-appscript"}, {"title": "Python-Based Discord Server Management Bot for Academic Communication", "type": "Academic Communication Automation", "category": "Python · Discord Bot · Role Management", "filter": "automation python discord bot communication", "description": "Python bot for student verification, role management, announcements, reminders, and controlled academic communication.", "tools": ["Python", "Discord bot", "Role automation", "Student verification", "Reminder workflow"], "highlights": ["Applies automation to student verification and academic communication.", "Supports structured digital classroom community management.", "Demonstrates practical Python automation."], "url": "https://github.com/shovon-mandal/academic-discord-management-bot"}], "systems": [{"title": "Class Routine Automation", "text": "Structured course and section routine management with protected views and clean retrieval."}, {"title": "Assessment Workflow Support", "text": "Marking, record organization, and academic evaluation support using structured digital tools."}, {"title": "Academic Communication Bot", "text": "Student verification, role management, announcements, and controlled academic communication."}, {"title": "Adaptive Technical Practice", "text": "Ability to learn new tools and apply them to research, teaching, and institutional workflow problems."}], "experience": [{"period": "Mar 2024 – Present", "title": "Lecturer, Department of Computer Science and Engineering", "place": "Northern University of Business and Technology Khulna, Bangladesh", "roleLabel": "Lecturer", "roleClass": "role-lecturer", "text": "Teach undergraduate Computer Science and Engineering courses, conduct theory and laboratory classes, prepare course materials, assess student performance, mentor students, and supervise student research and project work.", "courseHeading": "Courses Taught", "courses": ["Computer Architecture", "Digital Logic Design", "Object-Oriented Programming with Java", "Technical Writing", "Linear Programming and Combinatorial Optimization"], "responsibilityHeading": "Teaching, Assessment, and Supervision", "responsibilities": ["Theory lecture delivery", "Lab work and practical class support", "Question and assessment preparation", "Answer-script and assignment evaluation", "Student mentoring", "Student research and project supervision"], "placeUrl": "https://nubtkhulna.ac.bd/", "durationStart": "2024-03", "durationEnd": "present", "durationLabel": "Duration"}, {"period": "Jul 2022 – Jun 2024", "title": "Lecturer (Adjunct), Department of Computer Science and Engineering", "place": "Imperial College of Engineering, Khulna", "roleLabel": "Adjunct Lecturer", "roleClass": "role-adjunct", "text": "Taught undergraduate Computer Science and Engineering courses, conducted laboratory sessions, prepared academic materials, evaluated student work, and supported academic project development.", "courseHeading": "Courses Taught", "courses": ["Database Management Systems", "Computer Peripherals and Interfacing", "Computer Architecture and Organization", "Computer Graphics", "Web Engineering", "Microprocessor and Microcontrollers"], "responsibilityHeading": "Instructional Responsibilities", "responsibilities": ["Theory class instruction", "Lab work and practical session support", "Assessment preparation", "Student performance evaluation", "Project guidance", "Academic support"], "placeUrl": "https://www.imperial.edu.bd/", "durationStart": "2022-07", "durationEnd": "2024-06", "durationLabel": "Duration"}, {"period": "Jul 2023 – Dec 2023", "title": "Teaching Assistant, Department of Computer Science and Engineering", "place": "Khulna University of Engineering & Technology", "roleLabel": "Teaching Assistant", "roleClass": "role-ta", "text": "Assisted course teachers with laboratory sessions, assignment checking, evaluation support, academic record preparation, student guidance, and course-related instructional activities.", "courseHeading": "Courses Assisted", "courses": ["Embedded Systems", "Electronic Devices and Circuits"], "responsibilityHeading": "Teaching Assistant Support", "responsibilities": ["Assisted course teachers", "Supported laboratory sessions", "Checked assignments", "Helped with evaluation", "Prepared academic records", "Guided students during course activities"], "placeUrl": "https://www.kuet.ac.bd/", "durationStart": "2023-07", "durationEnd": "2023-12", "durationLabel": "Duration"}, {"period": "Feb 2022 – Apr 2022", "title": "Student Tutor, Department of Computer Science and Engineering", "place": "BRAC University", "roleLabel": "Student Tutor", "roleClass": "role-tutor", "text": "Helped students understand course materials, supported problem-solving practice, assisted the course instructor with assignment checking, and provided academic support during tutorials.", "courseHeading": "Tutorial Course", "courses": ["Electronic Devices and Circuits"], "responsibilityHeading": "Student Tutor Support", "responsibilities": ["Helped students understand course topics", "Supported tutorial problem solving", "Assisted the course instructor", "Checked assignments", "Provided student academic support"], "placeUrl": "https://www.bracu.ac.bd/", "durationStart": "2022-02", "durationEnd": "2022-04", "durationLabel": "Duration"}], "skills": [{"title": "Programming and Computational Tools", "icon": "⌘", "items": ["Python", "Java", "C", "MATLAB", "MIPS Assembly", "JavaScript"]}, {"title": "Security and Distributed Systems", "icon": "◈", "items": ["Secure distributed systems", "Blockchain-based payment security", "Contactless transaction security", "Cryptography fundamentals", "Network security fundamentals", "Secure cashless payment workflows"]}, {"title": "Web, Database, and Application Development", "icon": "▣", "items": ["HTML", "CSS", "JavaScript", "PHP", "Laravel", "MySQL", "Android Studio"]}, {"title": "Academic Automation and Workflow Systems", "icon": "◆", "items": ["Google Apps Script", "Google Sheets automation", "Class routine management", "Protected academic views", "PDF generation workflow", "Assessment and marking support", "Academic communication automation"]}, {"title": "Hardware and Embedded Practice", "icon": "▧", "items": ["Arduino prototyping", "Contactless/RFID module practice", "Embedded systems", "Hardware interfacing", "Digital electronics"]}, {"title": "Research, Teaching, and Mentoring", "icon": "✦", "items": ["Literature review", "Prototype development", "Technical documentation", "Research implementation", "Theory lecture support", "Lab work support", "Student mentoring"]}], "repositorySkills": [{"title": "Secure Payment Prototype Evidence", "icon": "◈", "tags": ["Blockchain payment logic", "Contactless module integration", "Secure transaction flow", "Hardware interfacing", "Prototype documentation"]}, {"title": "Distributed Payment Demonstration", "icon": "▣", "tags": ["Distributed ledger concept", "Payment demonstration", "Web transaction flow", "Decentralized system practice"]}, {"title": "Academic Workflow Automation", "icon": "◆", "tags": ["Google Apps Script", "Google Sheets automation", "Scheduling logic", "Protected views", "PDF workflow"]}, {"title": "Academic Communication Automation", "icon": "✦", "tags": ["Python automation", "Role management", "Student verification", "Reminder workflow", "Access control"]}], "honors": {"Honors and Scholarships": ["Highest Distinction — BRAC University", "Vice Chancellor's List — BRAC University (5 consecutive semesters)", "Dean's List — BRAC University (2 consecutive semesters)", "Merit-based Scholarship — BRAC University", "Merit-based Scholarship — Junior School Certificate, Jashore Board"], "Leadership and Service": ["Judge, Project Showcasing — CSE Fest 2025", "Executive Member — BRAC University Computer Club", "Executive Member — Robotics Club of BRAC University", "Executive Member — BRACU Mongol Tori, Next Generation Mars Rover Team 4.0"]}};
 
 const $ = (selector, scope = document) => scope.querySelector(selector);
 const $$ = (selector, scope = document) => Array.from(scope.querySelectorAll(selector));
@@ -103,7 +103,7 @@ function renderProjects(filter = "all") {
       <p>${p.description}</p>
       <ul>${p.highlights.map(h => `<li>${h}</li>`).join("")}</ul>
       <div class="tool-row">${p.tools.map(t => `<span class="tool">${t}</span>`).join("")}</div>
-      <div class="proj-foot"><a class="repo-btn" href="${p.url}" target="_blank" rel="noopener">GitHub Repository ↗</a></div>
+      <div class="proj-foot"><a class="repo-btn" href="${p.url}" target="_blank" rel="noopener">GitHub Repository</a></div>
     </article>
   `).join("");
 }
@@ -710,3 +710,287 @@ init();
 
 /* V79: completed ticks intentionally reset on every page reload.
    No localStorage/sessionStorage is used for completed section ticks. */
+
+
+
+
+
+/* V83: Language row is a normal top row, not a floating overlay. */
+(function(){
+  const translator = document.getElementById("site-translator");
+  if (!translator) return;
+  translator.classList.remove("is-hidden");
+  document.body.classList.remove("is-scrolling");
+})();
+
+
+/* V84: English button resets translator to English and reloads in default English */
+(function(){
+  function resetGoogleTranslateCookies(){
+    var past = "Thu, 01 Jan 1970 00:00:00 GMT";
+    var hosts = [location.hostname, "." + location.hostname];
+    document.cookie = "googtrans=;expires=" + past + ";path=/";
+    document.cookie = "googtrans=/en/en;path=/";
+    hosts.forEach(function(host){
+      if (!host || host === ".") return;
+      document.cookie = "googtrans=;expires=" + past + ";path=/;domain=" + host;
+      document.cookie = "googtrans=/en/en;path=/;domain=" + host;
+    });
+  }
+
+  function bindEnglishButton(){
+    var btn = document.getElementById("language-default-en");
+    if (!btn) return;
+    btn.addEventListener("click", function(){
+      resetGoogleTranslateCookies();
+      var combo = document.querySelector(".goog-te-combo");
+      if (combo) {
+        combo.value = "en";
+        combo.dispatchEvent(new Event("change"));
+      }
+      setTimeout(function(){ window.location.reload(); }, 120);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bindEnglishButton);
+  } else {
+    bindEnglishButton();
+  }
+})();
+
+
+
+
+
+/* V86: Use native Google Translate dropdown and English reset button */
+(function(){
+  function resetGoogleTranslateCookies(){
+    var past = "Thu, 01 Jan 1970 00:00:00 GMT";
+    var hosts = [location.hostname, "." + location.hostname];
+    document.cookie = "googtrans=;expires=" + past + ";path=/";
+    document.cookie = "googtrans=/en/en;path=/";
+    hosts.forEach(function(host){
+      if (!host || host === ".") return;
+      document.cookie = "googtrans=;expires=" + past + ";path=/;domain=" + host;
+      document.cookie = "googtrans=/en/en;path=/;domain=" + host;
+    });
+  }
+
+  function prepareNativeGoogleDropdown(){
+    var tries = 0;
+    var timer = setInterval(function(){
+      tries += 1;
+      var combo = document.querySelector(".goog-te-combo");
+      if (!combo && tries < 40) return;
+      if (!combo) {
+        clearInterval(timer);
+        return;
+      }
+
+      combo.setAttribute("aria-label", "Select website language");
+      combo.classList.add("native-google-language-select");
+
+      var english = Array.from(combo.options).find(function(option){
+        return option.value === "en" || /english/i.test(option.textContent || "");
+      });
+
+      if (english) {
+        combo.insertBefore(english, combo.options[0] || null);
+        english.textContent = "English";
+      }
+
+      combo.value = "en";
+      clearInterval(timer);
+    }, 250);
+  }
+
+  function bindEnglishButton(){
+    var btn = document.getElementById("language-default-en");
+    if (!btn) return;
+
+    btn.addEventListener("click", function(){
+      resetGoogleTranslateCookies();
+      var combo = document.querySelector(".goog-te-combo");
+      if (combo) {
+        combo.value = "en";
+        combo.dispatchEvent(new Event("change"));
+      }
+      setTimeout(function(){ window.location.reload(); }, 140);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function(){
+      prepareNativeGoogleDropdown();
+      bindEnglishButton();
+    });
+  } else {
+    prepareNativeGoogleDropdown();
+    bindEnglishButton();
+  }
+})();
+
+
+/* V87: Header stays below the top language row until that row scrolls away */
+(function(){
+  function updateLanguageRowState(){
+    const row = document.getElementById("language-top-row");
+    if (!row) return;
+    const height = row.offsetHeight || 44;
+    const visible = window.scrollY < Math.max(8, height - 4);
+    document.body.classList.toggle("language-row-visible", visible);
+    document.body.classList.toggle("language-row-scrolled", !visible);
+  }
+
+  window.addEventListener("scroll", updateLanguageRowState, { passive: true });
+  window.addEventListener("resize", updateLanguageRowState);
+  document.addEventListener("DOMContentLoaded", updateLanguageRowState);
+  window.addEventListener("load", updateLanguageRowState);
+  updateLanguageRowState();
+})();
+
+
+/* V89: English reset hyperlink stays in the language row and resets Google Translate */
+(function(){
+  function resetGoogleTranslateCookies(){
+    var past = "Thu, 01 Jan 1970 00:00:00 GMT";
+    var hosts = [location.hostname, "." + location.hostname];
+    document.cookie = "googtrans=;expires=" + past + ";path=/";
+    document.cookie = "googtrans=/en/en;path=/";
+    hosts.forEach(function(host){
+      if (!host || host === ".") return;
+      document.cookie = "googtrans=;expires=" + past + ";path=/;domain=" + host;
+      document.cookie = "googtrans=/en/en;path=/;domain=" + host;
+    });
+  }
+
+  function bindEnglishResetLink(){
+    var link = document.getElementById("language-default-en");
+    if (!link) return;
+
+    link.addEventListener("click", function(event){
+      event.preventDefault();
+      resetGoogleTranslateCookies();
+      var combo = document.querySelector(".goog-te-combo");
+      if (combo) {
+        combo.value = "en";
+        combo.dispatchEvent(new Event("change"));
+      }
+      setTimeout(function(){ window.location.reload(); }, 120);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bindEnglishResetLink);
+  } else {
+    bindEnglishResetLink();
+  }
+})();
+
+
+/* V93: fixed language row, Change Language label, exact ORCID build */
+(function(){
+  function resetGoogleTranslateCookies(){
+    var past = "Thu, 01 Jan 1970 00:00:00 GMT";
+    var hosts = [location.hostname, "." + location.hostname];
+    document.cookie = "googtrans=;expires=" + past + ";path=/";
+    document.cookie = "googtrans=/en/en;path=/";
+    hosts.forEach(function(host){
+      if (!host || host === ".") return;
+      document.cookie = "googtrans=;expires=" + past + ";path=/;domain=" + host;
+      document.cookie = "googtrans=/en/en;path=/;domain=" + host;
+    });
+  }
+
+  function setChangeLanguageLabel(){
+    var combo = document.querySelector(".goog-te-combo");
+    if (!combo) return false;
+
+    combo.setAttribute("aria-label", "Change Language");
+    combo.classList.add("native-google-language-select");
+
+    Array.from(combo.options).forEach(function(option, index){
+      var text = (option.textContent || "").trim();
+      if (!option.value || index === 0 || text === "ভাষা বেছে নিন" || /select language/i.test(text)) {
+        option.textContent = "Change Language";
+      }
+      if (option.value === "en") {
+        option.textContent = "English";
+      }
+    });
+
+    return true;
+  }
+
+  function suppressGoogleRibbon(){
+    document.documentElement.style.marginTop = "0px";
+    document.body.style.marginTop = "0px";
+    document.body.style.top = "0px";
+
+    document.querySelectorAll(
+      "body > .skiptranslate, iframe.skiptranslate, .goog-te-banner-frame, iframe.goog-te-banner-frame, " +
+      ".VIpgJd-ZVi9od-ORHb, .VIpgJd-ZVi9od-ORHb-OEVmcd, .VIpgJd-yAWNEb-L7lbkb, .goog-tooltip, #goog-gt-tt"
+    ).forEach(function(el){
+      if (!el.closest("#google_translate_element")) {
+        el.style.display = "none";
+        el.style.visibility = "hidden";
+        el.style.height = "0";
+        el.style.maxHeight = "0";
+        el.style.opacity = "0";
+        el.style.pointerEvents = "none";
+      }
+    });
+  }
+
+  function bindDefaultEnglish(){
+    var link = document.getElementById("language-default-en");
+    if (!link || link.dataset.boundV93 === "1") return;
+
+    link.dataset.boundV93 = "1";
+    link.addEventListener("click", function(event){
+      event.preventDefault();
+      resetGoogleTranslateCookies();
+      var combo = document.querySelector(".goog-te-combo");
+      if (combo) {
+        combo.value = "en";
+        combo.dispatchEvent(new Event("change"));
+      }
+      setTimeout(function(){ window.location.reload(); }, 120);
+    });
+  }
+
+  function boot(){
+    bindDefaultEnglish();
+    suppressGoogleRibbon();
+
+    var tries = 0;
+    var timer = setInterval(function(){
+      tries += 1;
+      var ready = setChangeLanguageLabel();
+      suppressGoogleRibbon();
+      if (ready || tries > 50) clearInterval(timer);
+    }, 200);
+
+    document.addEventListener("change", function(event){
+      if (event.target && event.target.classList && event.target.classList.contains("goog-te-combo")) {
+        setTimeout(suppressGoogleRibbon, 80);
+        setTimeout(suppressGoogleRibbon, 500);
+        setTimeout(suppressGoogleRibbon, 1200);
+      }
+    });
+
+    if (document.body) {
+      new MutationObserver(function(){
+        setChangeLanguageLabel();
+        suppressGoogleRibbon();
+      }).observe(document.body, { childList:true, subtree:true, characterData:true });
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
+})();

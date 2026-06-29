@@ -1,13 +1,15 @@
-V80 validation report
-- Sidebar tick end column CSS present: True
-- Professional tick color present: True
-- Tick background removed: True
-- Single bold download icon present: True
-- Duplicate generic CV icon disabled: True
-- 1-second dwell preserved: True
-- Reload reset preserved: True
-- Back to Top preserved: True
-- Contact final classes preserved: True
+V93 validation report
+- Body tag present once: True
+- Scroll bar present: True
+- Language top row present once: True
+- Default English link present once in HTML: True
+- Exact ORCID URL in JSON: True
+- ORCID after ResearchGate in JSON: True
+- Change Language label present: True
+- Language bar width before sidebar present: True
+- Experience boxes preserved: True
+- Google Translate preserved: True
+- Google banner suppression preserved: True
 - No direct chat URL: True
 - No admin link: True
 - No forbidden study-word string: True

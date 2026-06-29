@@ -1,10 +1,12 @@
-# Shovon Mandal Academic Portfolio — V80 Final Professional Tick Download Icon
+# Shovon Mandal Academic Portfolio — V93 Fixed Load ORCID Language Width
 
 Final update:
-- Sidebar completion tick now appears at the end of each link line
-- Tick is now a small professional greenish/teal mark with no green background
-- Menu completion tick also uses the same professional style
-- Progress completion tick is subtle and professional
-- Download buttons now use one stronger, clearer download icon across all screens
-- Duplicate CV/download icons are suppressed
-- Previous 1-second tick delay, reload reset, compact sidebar, mobile header, progress, menu, contact, and publish-ready fixes preserved
+- Fixed broken page loading by rebuilding the malformed language-row HTML
+- Added exact ORCID link: https://orcid.org/0009-0003-6302-9484
+- ORCID appears after ResearchGate
+- Language bar follows the landing/page content width and stops before the sidebar
+- Default English remains in the same line inside the language bar
+- Google Translate placeholder is changed to Change Language
+- Experience date/duration boxes remain equal size
+- Google Translate ribbon/banner suppression preserved
+- Previous mobile header, institute styling, menu hover, repository hover, and CV icon fixes preserved
