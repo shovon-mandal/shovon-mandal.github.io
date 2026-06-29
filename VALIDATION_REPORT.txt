@@ -1,8 +1,9 @@
-V74 validation report
-- Smaller sidebar width present: True
-- Compact sidebar nav present: True
-- Header role line CSS present: True
-- CSE switch threshold adjusted: True
+V75 validation report
+- Mobile current label wrap CSS present: True
+- Mobile current label wider grid present: True
+- Mobile name block smaller CSS present: True
+- Very small screen support present: True
+- Header role text preserved: True
 - Right progress sidebar preserved: True
 - Back to Top preserved: True
 - Contact final classes preserved: True
