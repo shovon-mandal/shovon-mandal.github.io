@@ -10,13 +10,13 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain-based payment security, and contactless transaction security, while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration. My profile combines peer-reviewed publications, secure payment prototypes, university teaching experience, academic automation systems, and hardware-oriented project engagement.",
-    "headline": "Secure Digital Payments · Distributed Payment Security · Contactless Transaction Security · Academic Automation · Hardware-Oriented Computing",
+    "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, blockchain-based payment security, contactless transaction security, and hardware-oriented computing, while contributing to rigorous research, teaching support, technical implementation, and scholarly collaboration. My profile combines peer-reviewed publications, secure payment prototypes, undergraduate teaching experience, academic automation systems, and hardware-oriented project engagement.",
+    "headline": "Secure Distributed Systems · Payment Security · Hardware-Oriented Computing · Contactless Transaction Security · Research Implementation",
     "rotatingWords": [
-      "M.Sc./Ph.D. Graduate Study Goal",
-      "Secure Payment Systems Research",
-      "Distributed Transaction Security",
-      "Implementation-Oriented Academic"
+      "M.Sc./Ph.D. Higher Study Goal",
+      "Secure Distributed Systems Research",
+      "Payment Security and Contactless Transactions",
+      "Hardware-Oriented Computing Implementation"
     ]
   },
   "links": [
@@ -51,20 +51,20 @@
   ],
   "fastReview": [
     {
-      "label": "Research Papers",
+      "label": "Research Fit",
+      "target": "#research-fit"
+    },
+    {
+      "label": "Publications",
       "target": "#publications"
     },
     {
-      "label": "Projects and Prototypes",
+      "label": "Projects",
       "target": "#projects"
     },
     {
-      "label": "Teaching Experience",
+      "label": "Experience",
       "target": "#experience"
-    },
-    {
-      "label": "Technical Skills",
-      "target": "#skills"
     }
   ],
   "snapshot": [
@@ -77,16 +77,16 @@
       "value": "Highest Distinction"
     },
     {
-      "label": "Current Role",
-      "value": "Lecturer, CSE"
+      "label": "Teaching Experience",
+      "value": "4+ Years Undergraduate Teaching"
     },
     {
-      "label": "Graduate Goal",
+      "label": "Higher Study Goal",
       "value": "M.Sc./Ph.D. Research"
     },
     {
-      "label": "Research Fit",
-      "value": "Secure Payments · Distributed Systems · Automation"
+      "label": "Research Alignment",
+      "value": "Secure Distributed Systems · Payment Security · Hardware-Oriented Computing"
     }
   ],
   "metrics": [
@@ -97,13 +97,13 @@
     },
     {
       "value": "4+",
-      "label": "Implementation Projects",
-      "target": "#projects"
+      "label": "Teaching Years",
+      "target": "#experience"
     },
     {
       "value": "4+",
-      "label": "Teaching Background",
-      "target": "#experience"
+      "label": "Implementation Projects",
+      "target": "#projects"
     },
     {
       "value": "3+",
@@ -113,47 +113,47 @@
   ],
   "researchFit": [
     {
-      "title": "Research Alignment",
-      "text": "Secure distributed systems, blockchain-based payment security, contactless transaction security, applied security, and implementation-focused computing."
+      "title": "Core Research Alignment",
+      "text": "Secure distributed systems, blockchain-based payment security, contactless transaction security, and hardware-oriented computing implementation form the core direction for future M.Sc./Ph.D. study."
     },
     {
-      "title": "Scholarly Evidence",
-      "text": "Peer-reviewed publications, thesis-based research, and working prototypes demonstrate preparation for supervised graduate research."
+      "title": "Publication Evidence",
+      "text": "Six research papers across blockchain, distributed ledger systems, machine learning, and NLP demonstrate a visible research trajectory with published and accepted conference work."
     },
     {
-      "title": "Implementation Capacity",
-      "text": "Experience with prototype design, technical documentation, code organization, workflow automation, and reproducible academic outputs."
+      "title": "Implementation Evidence",
+      "text": "Secure payment prototypes, academic automation systems, and public GitHub repositories show the ability to move from research idea to working system and technical documentation."
     },
     {
-      "title": "Teaching and Lab Contribution",
-      "text": "University teaching experience supports course delivery, theory lectures, lab work, assignment evaluation, student mentoring, project supervision, and structured academic support."
+      "title": "Teaching and Academic Support",
+      "text": "4+ years of undergraduate teaching experience, including university teaching and Rajshahi University-affiliated college teaching, supports readiness for teaching, lab, mentoring, and research-support roles."
     }
   ],
   "profile": {
     "paragraphs": [
-      "I am a Computer Science and Engineering lecturer whose academic profile connects secure computing research, prototype implementation, and classroom practice.",
-      "My background includes peer-reviewed publications, thesis-based payment system research, GitHub-backed prototypes, classroom and laboratory teaching, academic systems development, and adaptability to emerging technologies."
+      "I am a Computer Science and Engineering lecturer whose profile combines secure computing research, implementation work, and university teaching.",
+      "For a research supervisor, my strongest value is the combination of research alignment, hands-on prototype development, publication evidence, and teaching/lab readiness. I can contribute to a research group not only as a student, but also as an implementation-focused collaborator who can document, test, teach, and mentor."
     ],
     "cards": [
       {
-        "title": "Research Direction",
-        "text": "Secure payments, distributed systems, contactless transaction security, and applied secure computing.",
+        "title": "Core Research Alignment",
+        "text": "M.Sc./Ph.D. interest in secure distributed systems, payment security, contactless transaction security, and hardware-oriented computing implementation.",
         "target": "#research-fit"
       },
       {
+        "title": "Publication Evidence",
+        "text": "Six research papers across blockchain, distributed ledger, AI/ML, and NLP, with published DOI-backed work and accepted/in-press IEEE conference papers.",
+        "target": "#publications"
+      },
+      {
         "title": "Implementation Ability",
-        "text": "Prototype-focused academic work supported by technical documentation and system-building practice.",
+        "text": "Working research prototypes, payment system demonstrations, academic automation systems, and public GitHub repositories.",
         "target": "#projects"
       },
       {
-        "title": "Teaching and Mentoring",
-        "text": "Course teaching, theory lectures, lab work, assignment evaluation, student mentoring, and research/project supervision.",
+        "title": "Teaching Experience",
+        "text": "4+ years of undergraduate teaching experience, including university teaching and Rajshahi University-affiliated college teaching.",
         "target": "#experience"
-      },
-      {
-        "title": "Academic Systems",
-        "text": "Workflow automation for routine management, assessment records, student communication, and academic operations.",
-        "target": "#systems"
       }
     ],
     "tags": [
@@ -161,15 +161,19 @@
       "Blockchain-Based Payment Security",
       "Contactless Transaction Security",
       "Digital Payment Systems",
+      "Applied Cryptography",
+      "Smart Contracts",
+      "IOTA / Distributed Ledger",
       "Academic Automation",
       "Hardware-Oriented Computing",
-      "Teaching Technology"
+      "Machine Learning"
     ],
     "strengths": [
-      "Research direction aligned with secure payment systems and distributed computing.",
-      "Ability to translate academic ideas into working prototypes and documented outputs.",
-      "Teaching background includes course delivery, theory lectures, lab work, assignment evaluation, student mentoring, and student research/project supervision.",
-      "Adaptive learning mindset for new technologies, academic tools, and automation workflows."
+      "Research alignment covers secure distributed systems, payment security, contactless transaction security, and hardware-oriented computing implementation.",
+      "Six research papers show a visible publication trajectory across security, distributed systems, machine learning, and NLP.",
+      "GitHub-backed prototypes demonstrate implementation ability, technical documentation, and working-system development.",
+      "4+ years of undergraduate teaching experience supports teaching, lab, mentoring, and academic support roles.",
+      "Academic automation projects show structured workflow thinking, reproducibility, and practical institutional problem-solving."
     ]
   },
   "education": [
@@ -181,7 +185,6 @@
       "badge": "Defense Pending",
       "items": [
         "<strong>Academic Status:</strong> Defense Pending",
-        "<strong>Coursework CGPA:</strong> 3.29 out of 4.00",
         "<strong>Thesis:</strong> Blockchain Technology Based Smart E-Payment Strategy for Secure Cashless Payment",
         "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>Dr. Pintu Chandra Shill ↗</a>",
         "<strong>Relevant Coursework:</strong> Principles of Cryptography; Advanced Network Security; Cloud Computing; Neural Networks"
@@ -196,6 +199,8 @@
       "items": [
         "<strong>CGPA:</strong> 3.80 out of 4.00",
         "<strong>Academic Standing:</strong> Highest Distinction",
+        "<strong>Vice Chancellor's List:</strong> 5 consecutive semesters",
+        "<strong>Dean's List:</strong> 2 consecutive semesters",
         "<strong>Thesis:</strong> Blockchain-based Micropayment System for Secured Cashless Small Payments",
         "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://www.bracu.ac.bd/about/people/md-golam-rabiul-alam-phd' target='_blank' rel='noopener'>Md. Golam Rabiul Alam, PhD ↗</a>"
       ]
@@ -207,100 +212,135 @@
       "filter": "published core",
       "title": "Ensuring Security and Efficiency in Digital Payments using Blockchain with NFC",
       "authors": "<strong class='author-me'>Mandal, S.</strong>, & Shill, P. C.",
-      "venue": "ICKECS 2024",
+      "venue": "ICKECS 2024 — IEEE",
       "year": "2024",
       "doi": "10.1109/ICKECS61492.2024.10616703",
-      "doiUrl": "https://doi.org/10.1109/ICKECS61492.2024.10616703"
+      "doiUrl": "https://doi.org/10.1109/ICKECS61492.2024.10616703",
+      "type": "IEEE Conference Paper",
+      "area": "Blockchain, NFC, secure digital payment systems",
+      "role": "First author",
+      "detail": "Published IEEE conference paper with DOI; directly connected to secure cashless payment and contactless transaction security.",
+      "publisher": "IEEE / DOI available"
     },
     {
       "status": "Published",
       "filter": "published core",
       "title": "Q-learning based Automated Message Multicast in Gossip Protocol for Node Confirmation in IOTA Tangle",
       "authors": "Keya, M., <strong class='author-me'>Mandal, S.</strong>, et al.",
-      "venue": "ICCIT 2024",
+      "venue": "ICCIT 2024 — IEEE",
       "year": "2024",
       "doi": "10.1109/ICCIT64611.2024.11021995",
-      "doiUrl": "https://doi.org/10.1109/ICCIT64611.2024.11021995"
+      "doiUrl": "https://doi.org/10.1109/ICCIT64611.2024.11021995",
+      "type": "IEEE Conference Paper",
+      "area": "IOTA Tangle, distributed ledger, gossip protocol, Q-learning",
+      "role": "Co-author",
+      "detail": "Published IEEE conference paper with DOI; demonstrates distributed ledger and network protocol research exposure.",
+      "publisher": "IEEE / DOI available"
     },
     {
       "status": "Published",
       "filter": "published",
       "title": "Comparative Evaluation of Multiple CNN Architectures for Dermoscopic Skin Lesion Classification using ISIC Dataset",
       "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, Islam, M. J., Islam, K. M., Dhar, S., & Baidya, R.",
-      "venue": "QPAIN 2026",
+      "venue": "QPAIN 2026 — IEEE",
       "year": "2026",
       "doi": "10.1109/QPAIN69676.2026.11545903",
-      "doiUrl": "https://doi.org/10.1109/QPAIN69676.2026.11545903"
+      "doiUrl": "https://doi.org/10.1109/QPAIN69676.2026.11545903",
+      "type": "IEEE Conference Paper",
+      "area": "Deep learning, medical image classification, CNN architectures",
+      "role": "Co-author",
+      "detail": "Published IEEE conference paper with DOI; shows applied AI research contribution.",
+      "publisher": "IEEE / DOI available"
     },
     {
       "status": "Published",
       "filter": "published",
       "title": "A Machine Learning and DEM-Based Approach for Predicting Sea Level Rise and Assessing Coastal Risk in Bangladesh Using AI Insights",
       "authors": "Ghosh, A., Pinki, F. T., Baidya, R., Alam, F., & <strong class='author-me'>Mandal, S.</strong>",
-      "venue": "CSNT 2026",
+      "venue": "CSNT 2026 — IEEE",
       "year": "2026",
       "doi": "10.1109/CSNT69054.2026.11502358",
-      "doiUrl": "https://doi.org/10.1109/CSNT69054.2026.11502358"
+      "doiUrl": "https://doi.org/10.1109/CSNT69054.2026.11502358",
+      "type": "IEEE Conference Paper",
+      "area": "Machine learning, DEM-based coastal risk prediction, AI insights",
+      "role": "Co-author",
+      "detail": "Published IEEE conference paper with DOI; demonstrates interdisciplinary AI application.",
+      "publisher": "IEEE / DOI available"
     },
     {
-      "status": "Accepted / In Press",
-      "filter": "accepted inpress",
+      "status": "In press",
+      "filter": "accepted in press icccnt implementation arcore android learning technology",
       "title": "Revolutionizing Academic Learning and Research with the Integration of Leap Motion and ARCore in Android",
       "authors": "<strong class='author-me'>Mandal, S.</strong>, et al.",
-      "venue": "ICCCNT 2025, IIT Indore",
-      "year": "2025"
+      "venue": "16th International Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), IIT Indore, Madhya Pradesh, India",
+      "year": "2025",
+      "type": "Conference Paper",
+      "area": "ARCore, Leap Motion, Android, academic learning technology",
+      "role": "First author",
+      "detail": "Accepted/in-press ICCCNT 2025 conference paper; demonstrates academic technology implementation, interactive learning-system development, Android implementation, and research-to-prototype ability.",
+      "publisher": "ICCCNT 2025 / In press",
+      "doi": "",
+      "doiUrl": ""
     },
     {
-      "status": "Accepted / In Press",
-      "filter": "accepted inpress",
+      "status": "In press",
+      "filter": "accepted in press icccnt nlp sentiment analysis deep learning",
       "title": "Advancing Sentiment Analysis Through Natural Language Processing and Deep Learning",
       "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, et al.",
-      "venue": "ICCCNT 2025",
-      "year": "2025"
+      "venue": "16th International Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), IIT Indore, Madhya Pradesh, India",
+      "year": "2025",
+      "type": "Conference Paper",
+      "area": "Natural language processing, sentiment analysis, deep learning",
+      "role": "Co-author",
+      "detail": "Accepted/in-press ICCCNT 2025 conference paper; demonstrates AI/NLP research involvement, deep-learning-based sentiment-analysis work, and collaborative publication experience.",
+      "publisher": "ICCCNT 2025 / In press",
+      "doi": "",
+      "doiUrl": ""
     }
   ],
   "projects": [
     {
-      "title": "Blockchain-Based Secure Cashless Payment Prototype with Contactless Interaction",
-      "type": "Research Prototype",
+      "title": "Blockchain and NFC-Based Secure Cashless Payment Prototype",
+      "type": "Thesis-Supporting Research Implementation",
       "category": "Secure Payments · Contactless Interaction · Hardware Integration",
       "filter": "research hardware blockchain connected device secure payment",
       "description": "Research prototype connecting blockchain-based verification with contactless transaction interaction and hardware-supported payment demonstration.",
       "tools": [
         "Blockchain",
-        "Contactless module",
+        "NFC Module",
         "Arduino",
+        "Python",
         "Secure payment flow",
         "Prototype documentation"
       ],
       "highlights": [
         "Connects secure payment research with implementation-oriented prototyping.",
-        "Demonstrates contactless cashless transaction interaction.",
-        "Supports thesis direction in secure digital payment systems."
+        "Demonstrates contactless cashless transaction interaction at the hardware level.",
+        "Supports thesis direction in secure digital payment systems — related to ICKECS 2024 paper."
       ],
       "url": "https://github.com/shovon-mandal/NFC"
     },
     {
-      "title": "Distributed Ledger-Based Payment Website and Transaction Demonstration",
+      "title": "IOTA-Based Payment Website and Decentralized Transaction Demonstration",
       "type": "Research Prototype",
       "category": "Distributed Ledger · Web Transaction",
       "filter": "research distributed ledger web transaction",
-      "description": "Web prototype for distributed-ledger-supported payment and decentralized transaction flow demonstration.",
+      "description": "Web prototype for distributed-ledger-supported payment and decentralized transaction flow demonstration, with frontend and backend components built for experimental validation.",
       "tools": [
-        "Distributed ledger",
+        "IOTA / Distributed Ledger",
+        "JavaScript",
         "Web transaction flow",
-        "Payment demonstration",
-        "Decentralized system practice"
+        "Payment demonstration"
       ],
       "highlights": [
-        "Demonstrates distributed ledger-based payment flow.",
-        "Shows web-facing implementation of decentralized transaction concepts.",
-        "Connects blockchain-adjacent systems with applied web prototyping."
+        "Demonstrates distributed ledger-based payment flow and decentralized transaction concepts.",
+        "Shows web-facing implementation of IOTA Tangle integration.",
+        "Related to ICCIT 2024 IEEE paper on Q-learning and Gossip Protocol."
       ],
       "url": "https://github.com/shovon-mandal/IOTA-Website"
     },
     {
-      "title": "Academic Routine Management System using Google Sheets and Apps Script",
+      "title": "Academic Routine Management System — Google Sheets and Apps Script",
       "type": "Academic Automation",
       "category": "Google Apps Script · Google Sheets · Academic Workflow",
       "filter": "automation apps script google sheets academic",
@@ -327,7 +367,7 @@
       "description": "Python bot for student verification, role management, announcements, reminders, and controlled academic communication.",
       "tools": [
         "Python",
-        "Discord bot",
+        "Discord Bot API",
         "Role automation",
         "Student verification",
         "Reminder workflow"
@@ -335,7 +375,7 @@
       "highlights": [
         "Applies automation to student verification and academic communication.",
         "Supports structured digital classroom community management.",
-        "Demonstrates practical Python automation."
+        "Demonstrates practical Python automation beyond coursework."
       ],
       "url": "https://github.com/shovon-mandal/academic-discord-management-bot"
     }
@@ -364,8 +404,8 @@
       "title": "Lecturer, Department of Computer Science and Engineering",
       "place": "Northern University of Business and Technology Khulna, Bangladesh",
       "roleLabel": "Lecturer",
-      "roleClass": "role-lecturer",
-      "text": "Teach undergraduate Computer Science and Engineering courses, conduct theory and laboratory classes, prepare course materials, assess student performance, mentor students, and supervise student research and project work.",
+      "roleClass": "current-university-teaching",
+      "text": "Current university teaching role covering undergraduate CSE theory and laboratory teaching, course material preparation, student assessment, mentoring, and student research/project supervision.",
       "courseHeading": "Courses Taught",
       "courses": [
         "Computer Architecture",
@@ -391,10 +431,10 @@
     {
       "period": "Jul 2022 – Jun 2024",
       "title": "Lecturer (Adjunct), Department of Computer Science and Engineering",
-      "place": "Imperial College of Engineering, Khulna",
+      "place": "Imperial College of Engineering, Khulna — Affiliated with Rajshahi University",
       "roleLabel": "Adjunct Lecturer",
-      "roleClass": "role-adjunct",
-      "text": "Taught undergraduate Computer Science and Engineering courses, conducted laboratory sessions, prepared academic materials, evaluated student work, and supported academic project development.",
+      "roleClass": "rajshahi-affiliated",
+      "text": "Two years of undergraduate teaching experience at Imperial College of Engineering, Khulna, affiliated with Rajshahi University. Responsibilities included CSE theory lecture support, lab work, course assistance, assessment support, and student mentoring.",
       "courseHeading": "Courses Taught",
       "courses": [
         "Database Management Systems",
@@ -498,11 +538,8 @@
       "title": "Web, Database, and Application Development",
       "icon": "▣",
       "items": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "Laravel",
+        "HTML / CSS / JavaScript",
+        "PHP / Laravel",
         "MySQL",
         "Android Studio"
       ]
@@ -525,7 +562,7 @@
       "icon": "▧",
       "items": [
         "Arduino prototyping",
-        "Contactless/RFID module practice",
+        "Contactless / RFID module practice",
         "Embedded systems",
         "Hardware interfacing",
         "Digital electronics"
@@ -551,7 +588,7 @@
       "icon": "◈",
       "tags": [
         "Blockchain payment logic",
-        "Contactless module integration",
+        "NFC module integration",
         "Secure transaction flow",
         "Hardware interfacing",
         "Prototype documentation"
@@ -600,9 +637,9 @@
     ],
     "Leadership and Service": [
       "Judge, Project Showcasing — CSE Fest 2025",
-      "Executive Member — BRAC University Computer Club",
-      "Executive Member — Robotics Club of BRAC University",
-      "Executive Member — BRACU Mongol Tori, Next Generation Mars Rover Team 4.0"
+      "Executive Member — BRAC University Computer Club (2018–2020)",
+      "Executive Member — Robotics Club of BRAC University (2018–2020)",
+      "Executive Member — BRACU Mongol Tori, Next Generation Mars Rover Team 4.0 (2019–2020)"
     ]
   }
 }

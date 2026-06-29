@@ -1,12 +1,19 @@
-V105 validation report
-- Built from V104 ZIP: shovon_mandal_academic_portfolio_v104_landing_top_gap_fix.zip
-- Language row still removed from HTML: True
-- Google Translate script still removed: True
-- Desktop page aligned to sidebar top: True
-- Hero content safely below header: True
-- Mobile top gap reduced: True
-- Experience responsive fix preserved: True
-- Header exact role preserved: True
+V117 validation report
+- Built from V116 ZIP: shovon_mandal_academic_portfolio_v116_icccnt_inpress_fix.zip
+- Implementation Evidence removed from data snapshot: True
+- Secure Payment Prototypes + Academic Systems removed from snapshot/data: True
+- Conference Website text removed: False
+- ICCCNT raw URL removed from display/data: False
+- In-press papers still present: True
+- In-press publisher/status clean: True
+- In-press DOI removed: True
+- Mobile safe scroll JS present: True
+- Mobile scroll margin CSS present: True
+- Research Alignment preserved: True
+- Final snapshot value preserved: True
+- Full publication detail preserved: True
+- Mobile menu click handler preserved: True
+- No language bar: True
 - ORCID exact URL preserved: True
 - No direct chat URL: True
 - No admin link: True

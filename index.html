@@ -18,12 +18,17 @@
 <div id="scroll-bar"></div>
 <a class="skip-link" href="#main">Skip to main content</a>
 
-<header class="mob-header">
-  <a class="mob-brand" href="#home">
-    <img src="assets/img/profile.jpg" alt=""/>
-    <span>Shovon Mandal</span>
+<header class="mob-header" id="mobile-fixed-header" aria-label="Mobile fixed header">
+  <a class="mob-brand" href="#home" aria-label="Back to home section">
+    <img src="assets/img/profile.jpg" alt="Shovon Mandal profile photo"/>
+    <span class="mob-brand-text">
+      <strong>Shovon Mandal</strong>
+      <em>Lecturer, Department of Computer Science and Engineering</em>
+    </span>
   </a>
-  <button id="menu-btn" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+  <div class="mob-current-label" id="mob-current-label" aria-live="polite">Overview</div>
+  <a class="mob-cv-btn" href="assets/docs/Shovon_Mandal_CV.pdf" download aria-label="Download CV PDF">CV</a>
+  <button id="menu-btn" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
 </header>
 
 
@@ -40,7 +45,7 @@
   <div class="scroll-current-label" id="scroll-current-label" aria-live="polite">Overview</div>
 
   <div class="scroll-id-actions" aria-label="Header actions">
-    <a class="scroll-cv-btn" href="assets/docs/Shovon_Mandal_CV.pdf" download>
+    <a class="scroll-cv-btn" href="assets/docs/Shovon_Mandal_CV.pdf" download aria-label="Download CV PDF">
       <span>CV</span>
     </a>
     <button class="scroll-menu-btn" id="scroll-menu-btn" type="button" aria-expanded="false" aria-controls="scroll-menu-panel">
@@ -113,8 +118,7 @@
         <div class="goal-rotate" id="goal-rotate"></div>
         <p class="goal-text" id="goal-text"></p>
       </div>
-
-      <p class="hero-focus" id="hero-headline"></p>
+<p class="hero-focus" id="hero-headline"></p>
 
       <div class="strength-row">
         <a class="s-pill" href="#research-fit">Research Alignment</a>
@@ -195,7 +199,7 @@
     <div class="sec-h split">
       <div>
         <p class="eyebrow">06 / Publications</p>
-        <h2>Peer-Reviewed Research Output</h2>
+        <h2>Peer-Reviewed Research Alignment</h2>
       </div>
       <div class="filter-row" id="pub-filters">
         <button class="filt on" data-scope="pub" data-filter="all">All</button>
@@ -254,7 +258,7 @@
       <p class="eyebrow">10 / Experience</p>
       <h2>Teaching Experience, Courses Conducted, and Academic Support</h2>
     </div>
-    <div class="exp-list" id="experience-list"></div>
+<div class="exp-list" id="experience-list"></div>
   </section>
 
   <section id="honors" class="sec reveal">
@@ -295,6 +299,22 @@
           <span class="final-contact-copy">
             <strong>Research Network</strong>
             <em>ResearchGate ↗</em>
+          </span>
+        </a>
+
+        <a class="final-contact-card" href="https://www.linkedin.com/in/shovonmandal/" target="_blank" rel="noopener">
+          <span class="final-contact-icon">in</span>
+          <span class="final-contact-copy">
+            <strong>LinkedIn</strong>
+            <em>linkedin.com/in/shovonmandal ↗</em>
+          </span>
+        </a>
+
+        <a class="final-contact-card" href="https://orcid.org/0009-0003-6302-9484" target="_blank" rel="noopener">
+          <span class="final-contact-icon">iD</span>
+          <span class="final-contact-copy">
+            <strong>ORCID</strong>
+            <em>0009-0003-6302-9484 ↗</em>
           </span>
         </a>
       </div>

@@ -82,3 +82,102 @@ git add -A
 git commit -m "Align landing page with sidebar top"
 git push
 ```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Align academic portfolio heading with sidebar top"
+git push
+```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Add fixed mobile header for sidebar hidden view"
+git push
+```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Fix publishable landing page spacing"
+git push
+```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Fix mobile menu click behavior"
+git push
+```
+
+
+## Recommended Commit
+
+```bash
+git add -A
+git commit -m "Restore CV button in portfolio header"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Publish professor-ready academic portfolio"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Publish higher-study academic portfolio"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Publish clean academic portfolio"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Publish final academic portfolio"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Fix ICCCNT in-press publication links"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Finalize portfolio snapshot and mobile navigation"
+git push
+```

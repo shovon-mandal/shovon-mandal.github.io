@@ -11256,3 +11256,1979 @@ body.language-row-scrolled .scroll-identity-header.fixed-review-header{
     top:5px !important;
   }
 }
+
+
+/* V106 FINAL: Academic Portfolio heading aligned with sidebar top */
+
+/* Desktop: sidebar top = 20px, so the landing section and Academic Portfolio text start from that top line */
+@media(min-width:1281px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:20px !important;
+    padding-top:0 !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    margin-top:0 !important;
+    padding-top:0 !important;
+    align-items:start !important;
+    min-height:calc(100vh - 40px) !important;
+  }
+
+  #home.hero > div:first-child,
+  section#home.sec.hero > div:first-child{
+    padding-top:0 !important;
+    margin-top:0 !important;
+  }
+
+  #home .eyebrow,
+  .hero .eyebrow{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+}
+
+/* Laptop/tablet: keep the landing heading near the top, not centered with a large blank gap */
+@media(max-width:1280px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:16px !important;
+    padding-top:0 !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    margin-top:0 !important;
+    padding-top:12px !important;
+    align-items:start !important;
+  }
+
+  #home .eyebrow,
+  .hero .eyebrow{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+}
+
+/* Mobile: remove extra upper blank area while keeping content visible below the fixed header */
+@media(max-width:760px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:8px !important;
+    padding-top:0 !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    margin-top:0 !important;
+    padding-top:74px !important;
+    align-items:start !important;
+  }
+
+  #home .eyebrow,
+  .hero .eyebrow{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+}
+
+@media(max-width:420px){
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:6px !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    padding-top:70px !important;
+  }
+}
+
+/* Keep fixed header at the top */
+.scroll-identity-header.fixed-review-header,
+body.no-language-bar .scroll-identity-header.fixed-review-header,
+body.language-row-visible .scroll-identity-header.fixed-review-header,
+body.language-row-scrolled .scroll-identity-header.fixed-review-header{
+  top:6px !important;
+}
+
+@media(max-width:760px){
+  .scroll-identity-header.fixed-review-header,
+  body.no-language-bar .scroll-identity-header.fixed-review-header,
+  body.language-row-visible .scroll-identity-header.fixed-review-header,
+  body.language-row-scrolled .scroll-identity-header.fixed-review-header{
+    top:5px !important;
+  }
+}
+
+
+/* V107 FINAL: fixed mobile/tablet header when sidebar is not available */
+
+/*
+  Desktop keeps the V106 sidebar/top alignment.
+  On devices where the sidebar is hidden, a real fixed mobile header is used.
+  This prevents the landing top-fix from breaking mobile view.
+*/
+
+/* Sidebar-present desktop: keep V106 behavior */
+@media(min-width:1101px){
+  .mob-header{
+    display:none !important;
+  }
+}
+
+/* Sidebar-hidden tablet/mobile: use fixed header instead of the desktop floating header */
+@media(max-width:1100px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) minmax(92px,auto) auto !important;
+    align-items:center !important;
+    gap:8px !important;
+    position:fixed !important;
+    top:0 !important;
+    left:0 !important;
+    right:0 !important;
+    z-index:1600 !important;
+    height:76px !important;
+    min-height:76px !important;
+    padding:8px 10px !important;
+    background:rgba(255,255,255,.97) !important;
+    border-bottom:1px solid rgba(208,221,240,.98) !important;
+    box-shadow:0 10px 30px rgba(6,24,51,.12) !important;
+    backdrop-filter:blur(16px) saturate(1.12) !important;
+    -webkit-backdrop-filter:blur(16px) saturate(1.12) !important;
+  }
+
+  .mob-brand{
+    display:flex !important;
+    align-items:center !important;
+    gap:9px !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    text-decoration:none !important;
+    color:#061833 !important;
+  }
+
+  .mob-brand img{
+    width:42px !important;
+    height:42px !important;
+    min-width:42px !important;
+    border-radius:12px !important;
+    object-fit:cover !important;
+    object-position:top center !important;
+    border:2px solid #ffffff !important;
+    box-shadow:0 7px 16px rgba(6,24,51,.14) !important;
+  }
+
+  .mob-brand-text{
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    line-height:1.05 !important;
+  }
+
+  .mob-brand-text strong{
+    display:block !important;
+    font-size:.90rem !important;
+    line-height:1.05 !important;
+    font-weight:950 !important;
+    letter-spacing:-.025em !important;
+    white-space:nowrap !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+    color:#061833 !important;
+  }
+
+  .mob-brand-text em{
+    display:block !important;
+    margin-top:2px !important;
+    font-size:.53rem !important;
+    line-height:1.08 !important;
+    font-style:normal !important;
+    font-weight:800 !important;
+    color:#334e73 !important;
+    white-space:normal !important;
+    overflow:visible !important;
+    text-overflow:clip !important;
+    max-width:240px !important;
+  }
+
+  .mob-current-label{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    min-width:92px !important;
+    max-width:132px !important;
+    min-height:34px !important;
+    padding:4px 7px !important;
+    border-radius:999px !important;
+    background:linear-gradient(135deg,#061833,#0b3d68) !important;
+    color:#ffffff !important;
+    font-size:.58rem !important;
+    font-weight:950 !important;
+    line-height:1.04 !important;
+    text-align:center !important;
+    white-space:normal !important;
+    box-shadow:0 8px 18px rgba(6,24,51,.16) !important;
+  }
+
+  #menu-btn{
+    display:inline-flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    min-width:52px !important;
+    height:34px !important;
+    padding:0 10px !important;
+    border-radius:10px !important;
+    background:#061833 !important;
+    color:#ffffff !important;
+    border:1px solid #061833 !important;
+    font-size:.72rem !important;
+    font-weight:900 !important;
+  }
+
+  /* Hide desktop floating identity header on sidebar-hidden devices */
+  .scroll-identity-header,
+  .scroll-identity-header.fixed-review-header,
+  .scroll-header-bridge,
+  .scroll-header-bridge.is-active{
+    display:none !important;
+    visibility:hidden !important;
+    pointer-events:none !important;
+  }
+
+  /* Sidebar is hidden by default, but opens below the fixed mobile header */
+  .sidebar{
+    display:none !important;
+  }
+
+  .sidebar.open{
+    display:flex !important;
+    top:76px !important;
+    right:0 !important;
+    left:0 !important;
+    bottom:0 !important;
+    width:auto !important;
+    border-radius:0 !important;
+    z-index:1500 !important;
+  }
+
+  /* Page starts below fixed mobile header; no random top gap */
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    width:calc(100% - 28px) !important;
+    max-width:980px !important;
+    margin:88px auto 0 !important;
+    padding-top:0 !important;
+  }
+
+  /* Landing content starts naturally under the fixed mobile header */
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    margin-top:0 !important;
+    padding-top:22px !important;
+    align-items:start !important;
+    min-height:auto !important;
+  }
+
+  #home .eyebrow,
+  .hero .eyebrow{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+
+  html{
+    scroll-padding-top:98px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="professional-strengths"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:98px !important;
+  }
+}
+
+/* Mobile: tighter but still readable fixed header */
+@media(max-width:760px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    grid-template-columns:minmax(0,1fr) minmax(82px,auto) auto !important;
+    height:74px !important;
+    min-height:74px !important;
+    padding:7px 8px !important;
+    gap:6px !important;
+  }
+
+  .mob-brand img{
+    width:38px !important;
+    height:38px !important;
+    min-width:38px !important;
+    border-radius:11px !important;
+  }
+
+  .mob-brand-text strong{
+    font-size:.82rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.48rem !important;
+    max-width:172px !important;
+  }
+
+  .mob-current-label{
+    min-width:82px !important;
+    max-width:112px !important;
+    min-height:32px !important;
+    padding:4px 5px !important;
+    font-size:.51rem !important;
+  }
+
+  #menu-btn{
+    min-width:46px !important;
+    height:32px !important;
+    padding:0 8px !important;
+    font-size:.66rem !important;
+  }
+
+  .sidebar.open{
+    top:74px !important;
+  }
+
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    width:calc(100% - 18px) !important;
+    margin-top:84px !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    padding-top:18px !important;
+  }
+
+  html{
+    scroll-padding-top:94px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="professional-strengths"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:94px !important;
+  }
+}
+
+/* Very small phones: keep header stable, no overlap */
+@media(max-width:420px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    grid-template-columns:minmax(0,1fr) minmax(72px,auto) auto !important;
+    height:72px !important;
+    min-height:72px !important;
+    padding:6px 6px !important;
+    gap:5px !important;
+  }
+
+  .mob-brand{
+    gap:7px !important;
+  }
+
+  .mob-brand img{
+    width:36px !important;
+    height:36px !important;
+    min-width:36px !important;
+  }
+
+  .mob-brand-text strong{
+    font-size:.76rem !important;
+    letter-spacing:-.035em !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.43rem !important;
+    max-width:142px !important;
+    line-height:1.05 !important;
+  }
+
+  .mob-current-label{
+    min-width:72px !important;
+    max-width:92px !important;
+    min-height:30px !important;
+    font-size:.45rem !important;
+    padding:3px 4px !important;
+  }
+
+  #menu-btn{
+    min-width:42px !important;
+    height:30px !important;
+    font-size:.62rem !important;
+    padding:0 6px !important;
+  }
+
+  .sidebar.open{
+    top:72px !important;
+  }
+
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    width:calc(100% - 14px) !important;
+    margin-top:80px !important;
+  }
+
+  #home.hero,
+  section#home.sec.hero,
+  .hero{
+    padding-top:16px !important;
+  }
+}
+
+
+/* V108 FINAL: publishable landing page cleanup — no huge blank space */
+
+/*
+  Purpose:
+  - Keep desktop/sidebar version clean.
+  - Keep mobile/tablet fixed header when sidebar is hidden.
+  - Remove the large blank landing-page space created by previous top-alignment experiments.
+  - Make the landing card compact, professional, and publication-ready.
+*/
+
+/* Desktop with sidebar: landing card starts at the same top line as sidebar */
+@media(min-width:1101px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    display:none !important;
+  }
+
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    margin-top:20px !important;
+    margin-left:32px !important;
+    margin-right:calc(var(--sidebar,290px) + 40px) !important;
+    padding-top:0 !important;
+    padding-bottom:40px !important;
+    max-width:none !important;
+  }
+
+  #home,
+  #home.sec,
+  #home.sec.hero,
+  section#home.sec.hero,
+  .hero{
+    min-height:auto !important;
+    height:auto !important;
+    margin-top:0 !important;
+    margin-bottom:24px !important;
+    padding:clamp(30px,3vw,42px) !important;
+    display:grid !important;
+    grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr) !important;
+    gap:34px !important;
+    align-items:start !important;
+    align-content:start !important;
+  }
+
+  #home > div:first-child,
+  section#home.sec.hero > div:first-child{
+    padding-top:0 !important;
+    margin-top:0 !important;
+    align-self:start !important;
+  }
+
+  #home .eyebrow,
+  .hero .eyebrow{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+
+  #home h1,
+  .hero h1{
+    margin-top:0 !important;
+  }
+
+  #home .hero-panel,
+  .hero .hero-panel{
+    align-self:start !important;
+    margin-top:0 !important;
+  }
+
+  /* Avoid a floating header covering the first landing line while at the very top */
+  body:not(.has-scroll-identity) .scroll-identity-header.fixed-review-header{
+    opacity:0 !important;
+    pointer-events:none !important;
+    transform:translateY(-95px) scale(.985) !important;
+  }
+}
+
+/* Tablet/mobile where sidebar is hidden: fixed header + compact landing */
+@media(max-width:1100px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    display:grid !important;
+    height:72px !important;
+    min-height:72px !important;
+  }
+
+  .sidebar{
+    display:none !important;
+  }
+
+  .sidebar.open{
+    display:flex !important;
+    top:72px !important;
+    right:0 !important;
+    left:0 !important;
+    bottom:0 !important;
+    width:auto !important;
+    border-radius:0 !important;
+    z-index:1500 !important;
+  }
+
+  .scroll-identity-header,
+  .scroll-identity-header.fixed-review-header,
+  .scroll-header-bridge,
+  .scroll-header-bridge.is-active{
+    display:none !important;
+    visibility:hidden !important;
+    pointer-events:none !important;
+  }
+
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    width:calc(100% - 28px) !important;
+    max-width:980px !important;
+    margin:80px auto 0 !important;
+    padding-top:0 !important;
+    padding-bottom:32px !important;
+  }
+
+  #home,
+  #home.sec,
+  #home.sec.hero,
+  section#home.sec.hero,
+  .hero{
+    min-height:auto !important;
+    height:auto !important;
+    margin-top:0 !important;
+    margin-bottom:18px !important;
+    padding:24px 20px !important;
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+    align-items:start !important;
+    align-content:start !important;
+  }
+
+  #home > div:first-child,
+  section#home.sec.hero > div:first-child{
+    padding-top:0 !important;
+    margin-top:0 !important;
+  }
+
+  #home .eyebrow,
+  .hero .eyebrow{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+
+  #home h1,
+  .hero h1{
+    margin-top:0 !important;
+  }
+
+  html{
+    scroll-padding-top:92px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:92px !important;
+  }
+}
+
+/* Mobile: clean landing, no oversized top blank area */
+@media(max-width:760px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    height:70px !important;
+    min-height:70px !important;
+    grid-template-columns:minmax(0,1fr) minmax(78px,auto) auto !important;
+    padding:6px 8px !important;
+  }
+
+  .sidebar.open{
+    top:70px !important;
+  }
+
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    width:calc(100% - 16px) !important;
+    margin-top:76px !important;
+    padding-top:0 !important;
+  }
+
+  #home,
+  #home.sec,
+  #home.sec.hero,
+  section#home.sec.hero,
+  .hero{
+    min-height:auto !important;
+    margin-top:0 !important;
+    margin-bottom:14px !important;
+    padding:18px 14px !important;
+    gap:16px !important;
+  }
+
+  #home .hero-panel,
+  .hero .hero-panel{
+    margin-top:0 !important;
+  }
+
+  html{
+    scroll-padding-top:88px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:88px !important;
+  }
+}
+
+/* Very small phones: keep it tight and readable */
+@media(max-width:420px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    height:68px !important;
+    min-height:68px !important;
+    grid-template-columns:minmax(0,1fr) minmax(68px,auto) auto !important;
+    padding:6px 6px !important;
+  }
+
+  .sidebar.open{
+    top:68px !important;
+  }
+
+  .page,
+  body.no-language-bar .page,
+  body.language-row-visible .page,
+  body.language-row-scrolled .page{
+    width:calc(100% - 12px) !important;
+    margin-top:72px !important;
+  }
+
+  #home,
+  #home.sec,
+  #home.sec.hero,
+  section#home.sec.hero,
+  .hero{
+    padding:16px 12px !important;
+    margin-bottom:12px !important;
+    gap:14px !important;
+  }
+
+  .mob-current-label{
+    min-width:68px !important;
+    max-width:84px !important;
+    font-size:.43rem !important;
+  }
+
+  .mob-brand-text em{
+    max-width:136px !important;
+  }
+}
+
+
+/* V109 FINAL: mobile/tablet menu click fix */
+
+/* Ensure the fixed mobile header and Menu button always receive clicks */
+@media(max-width:1100px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    pointer-events:auto !important;
+    z-index:3000 !important;
+  }
+
+  .mob-header *,
+  header.mob-header#mobile-fixed-header *{
+    pointer-events:auto !important;
+  }
+
+  #menu-btn{
+    position:relative !important;
+    z-index:3100 !important;
+    pointer-events:auto !important;
+    cursor:pointer !important;
+    touch-action:manipulation !important;
+    user-select:none !important;
+    -webkit-user-select:none !important;
+  }
+
+  .scroll-header-bridge,
+  .scroll-header-bridge.is-active,
+  .scroll-identity-header,
+  .scroll-identity-header.fixed-review-header{
+    pointer-events:none !important;
+    z-index:0 !important;
+  }
+
+  .sidebar{
+    pointer-events:auto !important;
+  }
+
+  .sidebar.open{
+    display:flex !important;
+    pointer-events:auto !important;
+    z-index:2900 !important;
+    opacity:1 !important;
+    visibility:visible !important;
+    transform:none !important;
+  }
+
+  .sidebar.open .sidebar-inner,
+  .sidebar.open a,
+  .sidebar.open button{
+    pointer-events:auto !important;
+  }
+
+  body.menu-is-open{
+    overflow:hidden !important;
+  }
+}
+
+/* Button feedback */
+#menu-btn:active{
+  transform:translateY(1px) !important;
+}
+
+
+/* V110 FINAL: Download CV button restored in fixed header */
+
+/* Desktop floating header already has CV; make it clearly visible */
+.scroll-id-actions .scroll-cv-btn,
+.scroll-cv-btn{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-width:44px !important;
+  height:36px !important;
+  padding:0 12px !important;
+  border-radius:999px !important;
+  background:linear-gradient(135deg,#061833,#0b3d68) !important;
+  color:#ffffff !important;
+  border:1px solid rgba(6,24,51,.18) !important;
+  box-shadow:0 8px 18px rgba(6,24,51,.14) !important;
+  text-decoration:none !important;
+  font-size:.78rem !important;
+  font-weight:1000 !important;
+  line-height:1 !important;
+  white-space:nowrap !important;
+  pointer-events:auto !important;
+}
+
+.scroll-id-actions .scroll-cv-btn::before,
+.scroll-cv-btn::before{
+  content:"⬇" !important;
+  font-size:.72rem !important;
+  margin-right:4px !important;
+}
+
+.scroll-id-actions .scroll-cv-btn:hover,
+.scroll-cv-btn:hover{
+  transform:translateY(-1px) !important;
+  background:linear-gradient(135deg,#0b3d68,#155f90) !important;
+}
+
+/* Mobile/tablet fixed header now includes CV between current section and Menu */
+@media(max-width:1100px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    grid-template-columns:minmax(0,1fr) minmax(82px,auto) auto auto !important;
+  }
+
+  .mob-cv-btn{
+    display:inline-flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    min-width:42px !important;
+    height:34px !important;
+    padding:0 9px !important;
+    border-radius:10px !important;
+    background:linear-gradient(135deg,#0b3d68,#155f90) !important;
+    color:#ffffff !important;
+    border:1px solid rgba(11,61,104,.2) !important;
+    box-shadow:0 7px 16px rgba(6,24,51,.12) !important;
+    text-decoration:none !important;
+    font-size:.70rem !important;
+    font-weight:1000 !important;
+    line-height:1 !important;
+    white-space:nowrap !important;
+    pointer-events:auto !important;
+    cursor:pointer !important;
+    touch-action:manipulation !important;
+    position:relative !important;
+    z-index:3100 !important;
+  }
+
+  .mob-cv-btn::before{
+    content:"⬇" !important;
+    font-size:.64rem !important;
+    margin-right:3px !important;
+  }
+
+  .mob-cv-btn:active{
+    transform:translateY(1px) !important;
+  }
+}
+
+@media(max-width:760px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    grid-template-columns:minmax(0,1fr) minmax(74px,auto) auto auto !important;
+    gap:5px !important;
+  }
+
+  .mob-cv-btn{
+    min-width:38px !important;
+    height:32px !important;
+    padding:0 7px !important;
+    font-size:.64rem !important;
+    border-radius:9px !important;
+  }
+
+  .mob-cv-btn::before{
+    font-size:.58rem !important;
+    margin-right:2px !important;
+  }
+
+  .mob-current-label{
+    min-width:74px !important;
+    max-width:96px !important;
+    font-size:.48rem !important;
+  }
+
+  #menu-btn{
+    min-width:44px !important;
+    padding:0 7px !important;
+    font-size:.64rem !important;
+  }
+}
+
+@media(max-width:420px){
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    grid-template-columns:minmax(0,1fr) minmax(62px,auto) auto auto !important;
+    gap:4px !important;
+  }
+
+  .mob-cv-btn{
+    min-width:34px !important;
+    height:30px !important;
+    padding:0 5px !important;
+    font-size:.58rem !important;
+  }
+
+  .mob-cv-btn::before{
+    display:none !important;
+  }
+
+  .mob-current-label{
+    min-width:62px !important;
+    max-width:78px !important;
+    font-size:.40rem !important;
+  }
+
+  #menu-btn{
+    min-width:40px !important;
+    height:30px !important;
+    padding:0 5px !important;
+    font-size:.58rem !important;
+  }
+
+  .mob-brand-text strong{
+    font-size:.70rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.40rem !important;
+    max-width:126px !important;
+  }
+}
+
+
+/* ===== MERGED FINAL: Content & Academic Polish ===== */
+
+/* Author highlight in publications */
+.author-me {
+  background: rgba(14,168,147,.15) !important;
+  border: 1px solid rgba(14,168,147,.32) !important;
+  color: #065e54 !important;
+  font-weight: 900 !important;
+}
+
+/* Publication badges: clearer IEEE published vs accepted */
+.pub-badge.published {
+  background: rgba(14,168,147,.16) !important;
+  border: 1px solid rgba(14,168,147,.4) !important;
+  color: #076e62 !important;
+  font-size: .7rem !important;
+  padding: 4px 12px !important;
+}
+.pub-badge.inpress {
+  background: rgba(30,95,196,.13) !important;
+  border: 1px solid rgba(30,95,196,.35) !important;
+  color: #1044a0 !important;
+  font-size: .7rem !important;
+  padding: 4px 12px !important;
+}
+
+/* Experience: courses (left) blue, responsibilities (right) teal */
+.experience-segment.courses h4 {
+  color: var(--b600) !important;
+  font-size: .7rem !important;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.experience-segment.responsibilities h4 {
+  color: var(--c500) !important;
+  font-size: .7rem !important;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.experience-segment.courses .experience-tags span {
+  background: rgba(30,95,196,.09) !important;
+  border: 1px solid rgba(30,95,196,.22) !important;
+  color: var(--n800) !important;
+  border-radius: var(--r-pill) !important;
+  padding: 4px 11px !important;
+  font-size: .75rem !important;
+  font-weight: 600 !important;
+}
+.experience-segment.responsibilities .experience-tags span {
+  background: rgba(14,168,147,.09) !important;
+  border: 1px solid rgba(14,168,147,.22) !important;
+  color: var(--n800) !important;
+  border-radius: var(--r-pill) !important;
+  padding: 4px 11px !important;
+  font-size: .75rem !important;
+  font-weight: 600 !important;
+}
+
+/* Research fit: stronger hover */
+.fit-row:hover {
+  border-color: rgba(14,168,147,.5) !important;
+  background: linear-gradient(135deg, rgba(14,168,147,.06), rgba(30,95,196,.04)) !important;
+}
+
+/* Snapshot: clear contrast */
+.snap-k { font-weight: 700 !important; color: var(--n700) !important; }
+.snap-v { font-weight: 800 !important; color: var(--n900) !important; }
+
+/* Honors: readable list items */
+.hn-box li { color: var(--txt) !important; font-weight: 500 !important; }
+
+/* Goal text: readable and authoritative */
+.goal-text {
+  font-size: .91rem !important;
+  color: var(--n800) !important;
+  line-height: 1.72 !important;
+}
+
+/* Contact cards: hover lift */
+.final-contact-card {
+  transition: all .2s ease !important;
+}
+.final-contact-card:hover {
+  transform: translateY(-2px) !important;
+  border-color: rgba(30,95,196,.45) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+/* Print: clean for professors who print */
+@media print {
+  .sidebar, .right-progress-sidebar, #btt,
+  .scroll-identity-header, .scroll-header-bridge,
+  .mob-header, .hero-btns, .s-pill,
+  .filter-row, .filt { display: none !important; }
+  .page { margin: 0 !important; max-width: 100% !important; }
+  .sec {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  body { background: #fff !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+}
+
+
+/* V112 FINAL: publishable professor-ready polish */
+
+/* Preserve the good Academic Research Goal and sliding text, but make the landing more intentional */
+.goal-box{
+  border:1px solid rgba(11,61,104,.18) !important;
+  background:linear-gradient(135deg,rgba(6,24,51,.045),rgba(14,168,147,.07),rgba(245,158,11,.055)) !important;
+}
+
+.goal-label{
+  color:#0b3d68 !important;
+  font-weight:1000 !important;
+}
+
+.goal-rotate{
+  color:#075e54 !important;
+  font-weight:1000 !important;
+}
+
+.goal-text{
+  font-size:.94rem !important;
+  line-height:1.72 !important;
+  color:#172b47 !important;
+}
+
+/* Major strengths directly under the goal */
+.professor-fit-strip{
+  display:grid !important;
+  grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+  gap:9px !important;
+  margin:14px 0 8px !important;
+}
+
+.professor-fit-strip span{
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  min-height:58px !important;
+  padding:9px 10px !important;
+  border-radius:16px !important;
+  background:linear-gradient(180deg,#ffffff,#f6f9ff) !important;
+  border:1px solid rgba(208,221,240,.95) !important;
+  box-shadow:0 8px 20px rgba(6,24,51,.07) !important;
+  color:#334e73 !important;
+  font-size:.72rem !important;
+  font-weight:850 !important;
+  line-height:1.18 !important;
+}
+
+.professor-fit-strip span b{
+  display:block !important;
+  color:#061833 !important;
+  font-size:.94rem !important;
+  font-weight:1000 !important;
+  margin-bottom:2px !important;
+}
+
+/* Snapshot and metric highlights for 4+ years teaching */
+.snapshot-highlight,
+.snapshot .snapshot-highlight{
+  background:linear-gradient(135deg,rgba(245,158,11,.13),rgba(14,168,147,.08)) !important;
+  border-color:rgba(245,158,11,.34) !important;
+}
+
+.snapshot-highlight .snap-k,
+.snapshot-highlight .snap-v{
+  color:#061833 !important;
+}
+
+.m-card.metric-highlight{
+  background:linear-gradient(135deg,#061833,#0b3d68) !important;
+  color:#ffffff !important;
+  border-color:rgba(6,24,51,.28) !important;
+  box-shadow:0 12px 28px rgba(6,24,51,.17) !important;
+}
+
+.m-card.metric-highlight strong,
+.m-card.metric-highlight span{
+  color:#ffffff !important;
+}
+
+/* Full publication details */
+.full-publication-card{
+  position:relative !important;
+  overflow:visible !important;
+}
+
+.pub-topline{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:10px !important;
+  margin-bottom:9px !important;
+}
+
+.pub-number{
+  width:34px !important;
+  height:34px !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  border-radius:12px !important;
+  background:linear-gradient(135deg,#061833,#0b3d68) !important;
+  color:#ffffff !important;
+  font-size:.74rem !important;
+  font-weight:1000 !important;
+}
+
+.pub-authors{
+  font-size:.88rem !important;
+  line-height:1.55 !important;
+  color:#334e73 !important;
+  margin-bottom:12px !important;
+}
+
+.pub-detail-grid{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:8px !important;
+  margin:12px 0 !important;
+}
+
+.pub-detail-grid span{
+  display:flex !important;
+  flex-direction:column !important;
+  min-width:0 !important;
+  padding:9px 10px !important;
+  border-radius:14px !important;
+  background:#f7faff !important;
+  border:1px solid rgba(208,221,240,.88) !important;
+  color:#334e73 !important;
+  font-size:.75rem !important;
+  line-height:1.3 !important;
+  overflow-wrap:anywhere !important;
+}
+
+.pub-detail-grid span b{
+  display:block !important;
+  margin-bottom:3px !important;
+  color:#061833 !important;
+  font-size:.63rem !important;
+  text-transform:uppercase !important;
+  letter-spacing:.08em !important;
+  font-weight:1000 !important;
+}
+
+.pub-impact{
+  margin-top:10px !important;
+  padding:10px 12px !important;
+  border-left:4px solid #0ea893 !important;
+  border-radius:12px !important;
+  background:rgba(14,168,147,.075) !important;
+  color:#172b47 !important;
+  font-size:.82rem !important;
+  line-height:1.55 !important;
+}
+
+.doi-line{
+  font-size:.82rem !important;
+  overflow-wrap:anywhere !important;
+}
+
+/* Experience spotlight: 4+ years teaching background */
+.experience-spotlight{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:16px !important;
+  padding:16px 18px !important;
+  margin:0 0 18px !important;
+  border-radius:20px !important;
+  background:linear-gradient(135deg,#061833,#0b3d68 68%,#0ea893) !important;
+  box-shadow:0 16px 36px rgba(6,24,51,.18) !important;
+  color:#ffffff !important;
+}
+
+.experience-spotlight strong{
+  display:block !important;
+  font-size:1.05rem !important;
+  font-weight:1000 !important;
+  letter-spacing:-.02em !important;
+}
+
+.experience-spotlight p{
+  margin-top:4px !important;
+  color:rgba(255,255,255,.84) !important;
+  line-height:1.5 !important;
+  font-size:.86rem !important;
+}
+
+.experience-spotlight a{
+  flex:0 0 auto !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:38px !important;
+  padding:0 13px !important;
+  border-radius:999px !important;
+  background:#ffffff !important;
+  color:#061833 !important;
+  text-decoration:none !important;
+  font-size:.72rem !important;
+  font-weight:1000 !important;
+  white-space:nowrap !important;
+}
+
+.experience-card.current-highlight{
+  border-color:rgba(14,168,147,.38) !important;
+  box-shadow:0 16px 40px rgba(14,168,147,.11) !important;
+}
+
+.experience-card.four-year-foundation{
+  border-color:rgba(245,158,11,.34) !important;
+}
+
+/* CV button color: cleaner academic style */
+.scroll-cv-btn,
+.scroll-id-actions .scroll-cv-btn,
+.mob-cv-btn,
+.hero-btns .btn-pri,
+.sb-cv{
+  background:linear-gradient(135deg,#ffffff,#f7faff) !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.28) !important;
+  box-shadow:0 8px 18px rgba(6,24,51,.10) !important;
+}
+
+.scroll-cv-btn::before,
+.mob-cv-btn::before{
+  color:#0b3d68 !important;
+}
+
+.scroll-cv-btn:hover,
+.mob-cv-btn:hover,
+.hero-btns .btn-pri:hover,
+.sb-cv:hover{
+  background:linear-gradient(135deg,#f7faff,#eaf2ff) !important;
+  color:#061833 !important;
+  border-color:rgba(14,168,147,.42) !important;
+}
+
+/* Menu style restored to clean previous-final style */
+#menu-btn{
+  background:linear-gradient(135deg,#061833,#0b3d68) !important;
+  color:#ffffff !important;
+  border:1px solid rgba(6,24,51,.22) !important;
+  box-shadow:0 8px 18px rgba(6,24,51,.14) !important;
+  border-radius:999px !important;
+  font-weight:1000 !important;
+}
+
+#menu-btn:hover{
+  background:linear-gradient(135deg,#0b3d68,#155f90) !important;
+}
+
+@media(max-width:1100px){
+  .sidebar.open{
+    background:rgba(255,255,255,.98) !important;
+  }
+
+  .sidebar.open .nav a{
+    border-radius:14px !important;
+    margin-bottom:4px !important;
+    padding:10px 12px !important;
+    border:1px solid transparent !important;
+  }
+
+  .sidebar.open .nav a:hover,
+  .sidebar.open .nav a.active{
+    background:linear-gradient(135deg,rgba(6,24,51,.08),rgba(14,168,147,.08)) !important;
+    border-color:rgba(14,168,147,.22) !important;
+  }
+}
+
+/* Professor-ready emphasis without clutter */
+.fit-row:hover,
+.ev-card:hover,
+.proj-card:hover,
+.pub-card:hover{
+  border-color:rgba(14,168,147,.42) !important;
+  box-shadow:0 14px 36px rgba(6,24,51,.11) !important;
+}
+
+/* Responsive polishing */
+@media(max-width:900px){
+  .professor-fit-strip{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  }
+
+  .pub-detail-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .experience-spotlight{
+    align-items:flex-start !important;
+    flex-direction:column !important;
+  }
+}
+
+@media(max-width:560px){
+  .professor-fit-strip{
+    grid-template-columns:1fr 1fr !important;
+    gap:7px !important;
+  }
+
+  .professor-fit-strip span{
+    min-height:54px !important;
+    padding:8px !important;
+    font-size:.64rem !important;
+  }
+
+  .professor-fit-strip span b{
+    font-size:.82rem !important;
+  }
+
+  .pub-topline{
+    align-items:flex-start !important;
+  }
+
+  .pub-number{
+    width:30px !important;
+    height:30px !important;
+    border-radius:10px !important;
+  }
+
+  .experience-spotlight{
+    padding:14px !important;
+    border-radius:18px !important;
+  }
+
+  .experience-spotlight strong{
+    font-size:.96rem !important;
+  }
+
+  .experience-spotlight p{
+    font-size:.80rem !important;
+  }
+
+  .experience-spotlight a{
+    width:100% !important;
+  }
+}
+
+
+/* V113 FINAL: publishable higher-study wording + larger header identity */
+
+/* Header text: larger name and Lecturer/Department line */
+@media(min-width:1101px){
+  .scroll-identity-header.fixed-review-header{
+    min-height:78px !important;
+    grid-template-columns:minmax(390px,1.22fr) minmax(170px,.50fr) auto !important;
+    column-gap:16px !important;
+    padding:9px 14px !important;
+  }
+
+  .scroll-id-left img{
+    width:48px !important;
+    height:48px !important;
+    min-width:48px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:1.24rem !important;
+    line-height:1.06 !important;
+    letter-spacing:-.022em !important;
+    white-space:nowrap !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.88rem !important;
+    line-height:1.12 !important;
+    font-weight:850 !important;
+    max-width:520px !important;
+    white-space:normal !important;
+  }
+
+  .scroll-current-label{
+    min-width:164px !important;
+    max-width:250px !important;
+    font-size:.78rem !important;
+  }
+}
+
+/* Mobile/tablet fixed header identity: larger but fitted */
+@media(max-width:1100px){
+  .mob-brand img{
+    width:44px !important;
+    height:44px !important;
+    min-width:44px !important;
+  }
+
+  .mob-brand-text strong{
+    font-size:.98rem !important;
+    line-height:1.04 !important;
+    font-weight:1000 !important;
+    letter-spacing:-.028em !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.58rem !important;
+    line-height:1.08 !important;
+    font-weight:850 !important;
+    max-width:270px !important;
+  }
+}
+
+@media(max-width:760px){
+  .mob-brand img{
+    width:40px !important;
+    height:40px !important;
+    min-width:40px !important;
+  }
+
+  .mob-brand-text strong{
+    font-size:.88rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.51rem !important;
+    max-width:184px !important;
+  }
+}
+
+@media(max-width:420px){
+  .mob-brand img{
+    width:36px !important;
+    height:36px !important;
+    min-width:36px !important;
+  }
+
+  .mob-brand-text strong{
+    font-size:.78rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.43rem !important;
+    max-width:132px !important;
+  }
+}
+
+/* Neutralize over-special highlighting of teaching metric/snapshot */
+.snapshot-highlight,
+.snapshot .snapshot-highlight,
+.m-card.metric-highlight,
+.experience-card.current-highlight,
+.experience-card.four-year-foundation{
+  background:inherit !important;
+  border-color:var(--line) !important;
+  box-shadow:var(--shadow-sm) !important;
+  color:inherit !important;
+}
+
+.m-card.metric-highlight strong,
+.m-card.metric-highlight span{
+  color:inherit !important;
+}
+
+/* Keep teaching visible as normal professional content, not forced highlight */
+.experience-spotlight{
+  background:linear-gradient(135deg,#ffffff,#f7faff) !important;
+  color:#061833 !important;
+  border:1px solid rgba(208,221,240,.95) !important;
+  box-shadow:0 10px 24px rgba(6,24,51,.08) !important;
+}
+
+.experience-spotlight strong{
+  color:#061833 !important;
+}
+
+.experience-spotlight p{
+  color:#334e73 !important;
+}
+
+.experience-spotlight a{
+  background:linear-gradient(135deg,#061833,#0b3d68) !important;
+  color:#ffffff !important;
+}
+
+/* Professor-fit strip becomes neutral major-strength strip */
+.professor-fit-strip span{
+  background:linear-gradient(180deg,#ffffff,#f8fbff) !important;
+  border-color:rgba(208,221,240,.95) !important;
+  box-shadow:0 8px 18px rgba(6,24,51,.06) !important;
+}
+
+.professor-fit-strip span b{
+  color:#0b3d68 !important;
+}
+
+/* CV button: clean academic navy-white style, not harsh */
+.scroll-cv-btn,
+.scroll-id-actions .scroll-cv-btn,
+.mob-cv-btn,
+.hero-btns .btn-pri,
+.sb-cv{
+  background:#ffffff !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.32) !important;
+  box-shadow:0 7px 16px rgba(6,24,51,.10) !important;
+}
+
+.scroll-cv-btn:hover,
+.mob-cv-btn:hover,
+.hero-btns .btn-pri:hover,
+.sb-cv:hover{
+  background:#f3f8ff !important;
+  color:#061833 !important;
+  border-color:rgba(14,168,147,.38) !important;
+}
+
+/* Slightly cleaner Academic Research Goal box */
+.goal-box{
+  background:linear-gradient(135deg,rgba(30,95,196,.06),rgba(14,168,147,.055)) !important;
+  border:1px solid rgba(208,221,240,.95) !important;
+}
+
+.goal-text{
+  color:#172b47 !important;
+  line-height:1.72 !important;
+}
+
+
+/* V114 FINAL: clean publishable version */
+
+/* Remove redundant landing four-box strip and extra experience spotlight if any old markup remains */
+.professor-fit-strip,
+.experience-spotlight{
+  display:none !important;
+}
+
+/* Current-view label should match the cleaner CV button style */
+.scroll-current-label,
+.mob-current-label{
+  background:#ffffff !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.32) !important;
+  box-shadow:0 7px 16px rgba(6,24,51,.10) !important;
+}
+
+.scroll-current-label::before{
+  color:#0b3d68 !important;
+}
+
+/* CV button and current-view label now use a consistent academic style */
+.scroll-cv-btn,
+.scroll-id-actions .scroll-cv-btn,
+.mob-cv-btn,
+.hero-btns .btn-pri,
+.sb-cv{
+  background:#ffffff !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.32) !important;
+  box-shadow:0 7px 16px rgba(6,24,51,.10) !important;
+}
+
+.scroll-cv-btn:hover,
+.mob-cv-btn:hover,
+.hero-btns .btn-pri:hover,
+.sb-cv:hover,
+.scroll-current-label:hover,
+.mob-current-label:hover{
+  background:#f3f8ff !important;
+  color:#061833 !important;
+  border-color:rgba(14,168,147,.38) !important;
+}
+
+/* Keep Academic Research Goal strong but not repetitive */
+.goal-box{
+  margin-bottom:14px !important;
+  background:linear-gradient(135deg,rgba(30,95,196,.06),rgba(14,168,147,.055)) !important;
+  border:1px solid rgba(208,221,240,.95) !important;
+}
+
+.goal-label{
+  color:#0b3d68 !important;
+  font-weight:1000 !important;
+}
+
+.goal-rotate{
+  color:#075e54 !important;
+  font-weight:1000 !important;
+}
+
+.goal-text{
+  color:#172b47 !important;
+  line-height:1.72 !important;
+}
+
+/* Research Fit cards become the single place for the four strengths */
+.fit-row,
+.profile-card,
+.rsk-row{
+  border-color:rgba(208,221,240,.95) !important;
+}
+
+.fit-row h3,
+.profile-card h3,
+.rsk-row h3{
+  color:#061833 !important;
+}
+
+/* Remove special over-highlighting from teaching/snapshot/metric boxes */
+.snapshot-highlight,
+.snapshot .snapshot-highlight,
+.m-card.metric-highlight,
+.experience-card.current-highlight,
+.experience-card.four-year-foundation{
+  background:inherit !important;
+  border-color:var(--line) !important;
+  box-shadow:var(--shadow-sm) !important;
+  color:inherit !important;
+}
+
+.m-card.metric-highlight strong,
+.m-card.metric-highlight span{
+  color:inherit !important;
+}
+
+/* Larger header identity remains, with enough room */
+@media(min-width:1101px){
+  .scroll-identity-header.fixed-review-header{
+    min-height:78px !important;
+    grid-template-columns:minmax(400px,1.25fr) minmax(170px,.50fr) auto !important;
+    column-gap:16px !important;
+    padding:9px 14px !important;
+  }
+
+  .scroll-id-left strong{
+    font-size:1.25rem !important;
+    line-height:1.06 !important;
+    letter-spacing:-.022em !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.90rem !important;
+    line-height:1.12 !important;
+    font-weight:850 !important;
+    max-width:540px !important;
+  }
+
+  .scroll-current-label{
+    min-width:164px !important;
+    max-width:250px !important;
+    font-size:.78rem !important;
+  }
+}
+
+@media(max-width:1100px){
+  .mob-brand-text strong{
+    font-size:.98rem !important;
+    font-weight:1000 !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.58rem !important;
+    font-weight:850 !important;
+  }
+}
+
+@media(max-width:760px){
+  .mob-brand-text strong{
+    font-size:.88rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.51rem !important;
+  }
+
+  .mob-current-label{
+    font-size:.48rem !important;
+  }
+}
+
+@media(max-width:420px){
+  .mob-brand-text strong{
+    font-size:.78rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.43rem !important;
+  }
+
+  .mob-current-label{
+    font-size:.40rem !important;
+  }
+}
+
+
+/* V115 FINAL PUBLISH READY: Research Alignment + hardware-oriented computing */
+
+/* Snapshot: Research Alignment should be readable and compact */
+.snap-v,
+.snapshot .snap-v{
+  overflow-wrap:anywhere !important;
+}
+
+/* Current-view label and CV button remain same clean academic style */
+.scroll-current-label,
+.mob-current-label,
+.scroll-cv-btn,
+.scroll-id-actions .scroll-cv-btn,
+.mob-cv-btn,
+.hero-btns .btn-pri,
+.sb-cv{
+  background:#ffffff !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.32) !important;
+  box-shadow:0 7px 16px rgba(6,24,51,.10) !important;
+}
+
+/* Goal box: final aligned research message */
+.goal-box{
+  background:linear-gradient(135deg,rgba(30,95,196,.06),rgba(14,168,147,.055)) !important;
+  border:1px solid rgba(208,221,240,.95) !important;
+}
+
+.goal-rotate{
+  color:#075e54 !important;
+  font-weight:1000 !important;
+}
+
+.goal-text{
+  color:#172b47 !important;
+  line-height:1.72 !important;
+}
+
+/* Core Research Alignment should visually read as the primary research-fit card */
+.fit-row:first-child,
+.profile-card:first-child{
+  border-color:rgba(14,168,147,.30) !important;
+  background:linear-gradient(180deg,#ffffff,#f7fffc) !important;
+}
+
+/* Header identity final sizing */
+@media(min-width:1101px){
+  .scroll-id-left strong{
+    font-size:1.25rem !important;
+  }
+
+  .scroll-id-left em,
+  .header-role-text{
+    font-size:.90rem !important;
+    max-width:540px !important;
+  }
+}
+
+@media(max-width:1100px){
+  .mob-brand-text strong{
+    font-size:.98rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.58rem !important;
+  }
+}
+
+@media(max-width:760px){
+  .mob-brand-text strong{
+    font-size:.88rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.51rem !important;
+  }
+}
+
+@media(max-width:420px){
+  .mob-brand-text strong{
+    font-size:.78rem !important;
+  }
+
+  .mob-brand-text em{
+    font-size:.43rem !important;
+  }
+}
+
+
+/* V116 FINAL: ICCCNT in-press publication website-link fix */
+.pub-badge.inpress{
+  background:linear-gradient(135deg,#f8fbff,#eef6ff) !important;
+  color:#0b3d68 !important;
+  border:1px solid rgba(11,61,104,.24) !important;
+}
+
+.doi-line a{
+  color:#0b3d68 !important;
+  font-weight:900 !important;
+  text-decoration:underline !important;
+  text-underline-offset:3px !important;
+}
+
+.full-publication-card .doi-line{
+  background:#f8fbff !important;
+  border:1px solid rgba(208,221,240,.82) !important;
+  border-radius:12px !important;
+  padding:8px 10px !important;
+  margin-top:8px !important;
+}
+
+
+/* V117 FINAL: snapshot cleanup + in-press cleanup + mobile scroll overlap fix */
+
+/* Academic Snapshot: Implementation Evidence removed from data; keep remaining rows balanced */
+.snapshot .snap-list{
+  gap:8px !important;
+}
+
+/* In-press records should not show conference-website wording */
+.doi-line b{
+  color:#061833 !important;
+}
+
+/* Mobile/tablet section jumps: add enough top space below fixed header */
+@media(max-width:1100px){
+  html{
+    scroll-padding-top:112px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:112px !important;
+  }
+
+  .mob-header,
+  header.mob-header#mobile-fixed-header{
+    z-index:3200 !important;
+  }
+
+  .sidebar.open{
+    z-index:3100 !important;
+  }
+}
+
+@media(max-width:760px){
+  html{
+    scroll-padding-top:106px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:106px !important;
+  }
+}
+
+@media(max-width:420px){
+  html{
+    scroll-padding-top:102px !important;
+  }
+
+  section[id],
+  .sec[id],
+  [id="home"],
+  [id="research-profile"],
+  [id="research-fit"],
+  [id="professional-strengths"],
+  [id="profile"],
+  [id="education"],
+  [id="publications"],
+  [id="projects"],
+  [id="systems"],
+  [id="experience"],
+  [id="skills"],
+  [id="honors"],
+  [id="contact"]{
+    scroll-margin-top:102px !important;
+  }
+}

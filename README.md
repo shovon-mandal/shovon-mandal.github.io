@@ -213,3 +213,132 @@ Final changes:
 - The previous extra top blank space above the landing page is removed.
 - The `Academic Portfolio` area begins at the top of the content area while staying clear of the fixed header.
 - Mobile top spacing is reduced while keeping the header from covering the landing text.
+
+
+## V106 Academic Portfolio Top Alignment Fix
+
+This version keeps the V105 no-language-bar layout and aligns the landing heading area properly.
+
+Final changes:
+- The landing card still starts at the sidebar top.
+- The `Academic Portfolio` heading now starts at the top of the landing card instead of being pushed downward.
+- Desktop landing content is aligned to the top, not vertically centered.
+- Tablet/mobile top spacing is reduced while keeping the fixed header clear.
+
+
+## V107 Mobile Fixed Header Fix
+
+This version keeps the V106 desktop/sidebar alignment and adds a separate fixed header for devices where the sidebar is hidden.
+
+Final changes:
+- Desktop view keeps the sidebar-top landing alignment.
+- Tablet/mobile view now uses a fixed top mobile header.
+- Mobile header shows Shovon Mandal, Lecturer role/department, current section name, and Menu.
+- Desktop floating header is hidden on sidebar-hidden devices to prevent overlap.
+- Page spacing and section scroll offsets are recalculated for the fixed mobile header.
+- Mobile sidebar menu opens below the fixed header.
+
+
+## V108 Publishable Landing Page Fix
+
+This version keeps the no-language-bar portfolio and fixes the landing page for publication.
+
+Final changes:
+- Removed the large blank space on the landing page.
+- Desktop landing card starts cleanly near the sidebar top.
+- Landing content is no longer vertically pushed down.
+- Mobile/tablet fixed header is preserved, but page spacing is reduced.
+- Hero/landing section height is now content-based instead of forcing a full viewport height.
+- Section scroll offsets remain safe for fixed headers.
+
+
+## V109 Mobile Menu Click Fix
+
+This version keeps the V108 publishable landing layout and fixes the mobile/tablet menu button.
+
+Final changes:
+- Menu button is now forced to be clickable on mobile and tablet.
+- Mobile fixed header receives pointer events correctly.
+- Old floating header/bridge cannot block the Menu button.
+- Sidebar opens below the mobile header.
+- Menu button changes to `Close` when opened and back to `Menu` when closed.
+- Menu closes after selecting a sidebar link.
+
+
+## V110 Header CV Button Fix
+
+This version keeps the V109 publishable landing and mobile menu fix, and restores the Download CV button in the header.
+
+Final changes:
+- Added a visible CV download button to the mobile/tablet fixed header.
+- Desktop floating header CV button remains visible and styled.
+- Mobile header now shows: name/role, current section, CV, and Menu.
+- Menu click behavior from V109 is preserved.
+
+
+## V112 Publishable Professor-Ready Version
+
+This version is prepared as the recommended publishable website version.
+
+Final improvements:
+- Full publication cards now show authors, year, venue, paper type, role, research area, publisher/status, DOI, and research relevance.
+- 4+ years of university teaching experience is highlighted in the snapshot, metric box, and Experience section.
+- Major strengths are highlighted directly on the landing page: research papers, teaching years, implementation projects, and secure payment research fit.
+- Academic Research Goal and rotating/sliding text are preserved and polished.
+- Download CV button color is changed to a cleaner academic style.
+- Mobile menu styling is restored to a clean previous-final style and the click behavior is preserved.
+- The website is no-language-bar, mobile-responsive, and ready for GitHub Pages publication.
+
+
+## V113 Higher Study Clean Publishable Version
+
+Final corrections:
+- Teaching experience is now described as **4+ years undergraduate teaching experience**.
+- Teaching split is clarified: **2+ years university teaching** plus **2 years at Imperial College of Engineering, Khulna — Rajshahi University Affiliated Engineering College**.
+- The Experience section now uses the full Imperial College name with Rajshahi University affiliation.
+- Funding-related wording and “Discuss Graduate Funding Fit” style CTA were removed.
+- Academic goal is framed around M.Sc./Ph.D. higher study and research contribution.
+- Header name and Lecturer/Department line sizes are increased for desktop and mobile.
+- Teaching experience is no longer specially over-highlighted; it is presented naturally and professionally.
+
+
+## V114 Clean Publishable Final
+
+Final cleanup:
+- Removed the redundant four-box strip under the Academic Research Goal.
+- Merged the four strength ideas into the Research Fit/Profile cards.
+- Removed Teaching Split from Academic Snapshot.
+- Removed Research Output from Academic Snapshot.
+- Imperial College wording updated to: **Imperial College of Engineering, Khulna — Affiliated with Rajshahi University**.
+- Current-view label color now matches the clean CV button style.
+- Sliding goal text preserved and lightly improved.
+- Extra over-highlighting removed for a cleaner professor-facing academic portfolio.
+
+
+## V115 Final Publish-Ready Version
+
+Final research-alignment update:
+- Academic Snapshot now uses **Research Alignment**.
+- Final value: **Secure Distributed Systems · Payment Security · Hardware-Oriented Computing**.
+- Research Fit section now starts with **Core Research Alignment**.
+- Academic goal now naturally includes hardware-oriented computing.
+- Sliding goal text is aligned with secure systems, payment security, contactless transactions, and hardware-oriented implementation.
+- Clean V114 publishable structure is preserved.
+
+
+## V116 ICCCNT In-Press Publication Fix
+
+Final publication correction:
+- The two ICCCNT in-press papers no longer use IEEE as the publisher/status line.
+- Both in-press records now use the official ICCCNT website link: https://16icccnt.com/
+- Both in-press records show status as: **In press / DOI not assigned yet**.
+- Published DOI-backed papers are unchanged.
+
+
+## V117 Final Cleanup
+
+Final fixes:
+- Removed `Implementation Evidence — Secure Payment Prototypes + Academic Systems` from Academic Snapshot.
+- In-press papers no longer mention `Conference Website`.
+- In-press papers show only: `Status: In press / DOI not assigned yet`.
+- Mobile/tablet section navigation offset was increased so selected sections do not hide behind the fixed header.
