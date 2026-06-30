@@ -226,3 +226,81 @@ git add -A
 git commit -m "Make fast review list style"
 git push
 ```
+
+
+## Final GitHub Pages Update Commands
+
+After replacing the repository files with this package:
+
+```bash
+git add -A
+git commit -m "Update published portfolio website"
+git push
+```
+
+Then wait 1–3 minutes and hard refresh the website:
+- Windows Chrome/Edge: Ctrl + F5
+- Mac Chrome/Safari: Cmd + Shift + R
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Publish reviewed clean portfolio"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Add research plan references and SEO"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Refine research plan and references"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Add reference emails"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Add coauthor scholar links"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Add plain coauthor scholar hyperlinks"
+git push
+```
+
+
+## Recommended Final Commit
+
+```bash
+git add -A
+git commit -m "Make supervisor links plain"
+git push
+```

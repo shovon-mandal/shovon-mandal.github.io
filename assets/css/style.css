@@ -3367,10 +3367,10 @@ body.has-scroll-identity section{
 }
 
 .scroll-cv-btn{
-  background:linear-gradient(135deg,#0b2d5c,#38bdf8) !important;
-  color:#ffffff !important;
-  border:1px solid transparent !important;
-  box-shadow:0 10px 22px rgba(11,45,92,.22) !important;
+  background:linear-gradient(135deg,#ffffff,#f7faff) !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.28) !important;
+  box-shadow:0 8px 18px rgba(6,24,51,.10) !important;
 }
 
 .scroll-cv-btn::before{
@@ -3656,8 +3656,8 @@ body.has-scroll-identity section{
 }
 
 .scroll-cv-btn{
-  background:linear-gradient(135deg,#0b2d5c,#38bdf8) !important;
-  color:#ffffff !important;
+  background:linear-gradient(135deg,#ffffff,#f7faff) !important;
+  color:#061833 !important;
 }
 
 .scroll-menu-btn{
@@ -12086,9 +12086,9 @@ body.language-row-scrolled .scroll-identity-header.fixed-review-header{
   height:36px !important;
   padding:0 12px !important;
   border-radius:999px !important;
-  background:linear-gradient(135deg,#061833,#0b3d68) !important;
-  color:#ffffff !important;
-  border:1px solid rgba(6,24,51,.18) !important;
+  background:linear-gradient(135deg,#ffffff,#f7faff) !important;
+  color:#061833 !important;
+  border:1px solid rgba(11,61,104,.28) !important;
   box-shadow:0 8px 18px rgba(6,24,51,.14) !important;
   text-decoration:none !important;
   font-size:.78rem !important;
@@ -12126,9 +12126,9 @@ body.language-row-scrolled .scroll-identity-header.fixed-review-header{
     height:34px !important;
     padding:0 9px !important;
     border-radius:10px !important;
-    background:linear-gradient(135deg,#0b3d68,#155f90) !important;
-    color:#ffffff !important;
-    border:1px solid rgba(11,61,104,.2) !important;
+    background:linear-gradient(135deg,#ffffff,#f7faff) !important;
+    color:#061833 !important;
+    border:1px solid rgba(11,61,104,.28) !important;
     box-shadow:0 7px 16px rgba(6,24,51,.12) !important;
     text-decoration:none !important;
     font-size:.70rem !important;
@@ -13902,4 +13902,427 @@ section[id],
     font-size:.63rem !important;
     padding:7px 9px 7px 10px !important;
   }
+}
+
+
+/* V129 FINAL: reviewed package cleanup */
+
+/* Keep reviewed landing, add final smoothness without layout change */
+html{
+  scroll-behavior:smooth !important;
+}
+
+a,
+button,
+.btn,
+.nav a,
+.hero-fast-review-card,
+.hero-fast-review-card a,
+.snapshot,
+.goal-box,
+.pub-card,
+.proj-card,
+.fit-row,
+.profile-card,
+.ev-card,
+.m-card,
+.skill-card,
+.edu-card,
+.experience-card{
+  transition:
+    transform .24s ease,
+    box-shadow .24s ease,
+    border-color .24s ease,
+    background .24s ease,
+    color .24s ease,
+    opacity .24s ease !important;
+}
+
+.btn:hover,
+.nav a:hover,
+.hero-fast-review-card a:hover,
+.pub-card:hover,
+.proj-card:hover,
+.fit-row:hover,
+.profile-card:hover,
+.ev-card:hover,
+.m-card:hover,
+.skill-card:hover,
+.edu-card:hover,
+.experience-card:hover{
+  transform:translateY(-1px) !important;
+}
+
+/* Remove any remaining translator surfaces if inherited from old CSS */
+#google_translate_element,
+#site-translator,
+.language-top-row,
+.google-translate-row,
+.goog-te-banner-frame,
+.goog-te-gadget{
+  display:none !important;
+  visibility:hidden !important;
+  height:0 !important;
+  max-height:0 !important;
+  overflow:hidden !important;
+}
+
+/* Anchor safety for fixed header */
+section[id],
+.sec[id]{
+  scroll-margin-top:112px !important;
+}
+
+@media(max-width:1100px){
+  section[id],
+  .sec[id]{
+    scroll-margin-top:116px !important;
+  }
+}
+
+@media(max-width:760px){
+  section[id],
+  .sec[id]{
+    scroll-margin-top:108px !important;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{
+    scroll-behavior:auto !important;
+  }
+
+  *,
+  *::before,
+  *::after{
+    transition:none !important;
+    animation:none !important;
+  }
+}
+
+
+/* V130 FINAL: Future Research Plan, References, co-author links, and SEO polish */
+
+.future-plan-section,
+.references-section{
+  position:relative !important;
+}
+
+.future-plan-grid,
+.reference-grid{
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  gap:16px !important;
+}
+
+.future-card,
+.reference-card{
+  position:relative !important;
+  min-width:0 !important;
+  padding:18px 18px 18px 58px !important;
+  border-radius:20px !important;
+  background:linear-gradient(180deg,#ffffff,#f7faff) !important;
+  border:1px solid rgba(208,221,240,.95) !important;
+  box-shadow:0 10px 26px rgba(6,24,51,.07) !important;
+  transition:transform .24s ease, box-shadow .24s ease, border-color .24s ease, background .24s ease !important;
+}
+
+.future-card:hover,
+.reference-card:hover{
+  transform:translateY(-2px) !important;
+  border-color:rgba(14,168,147,.40) !important;
+  box-shadow:0 16px 38px rgba(6,24,51,.10) !important;
+}
+
+.future-n,
+.ref-n{
+  position:absolute !important;
+  left:16px !important;
+  top:18px !important;
+  width:30px !important;
+  height:30px !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  border-radius:12px !important;
+  background:linear-gradient(135deg,#061833,#0b3d68) !important;
+  color:#ffffff !important;
+  font-size:.72rem !important;
+  font-weight:1000 !important;
+}
+
+.future-card h3,
+.reference-card h3{
+  margin:0 0 8px !important;
+  color:#061833 !important;
+  font-size:1.02rem !important;
+  line-height:1.25 !important;
+  letter-spacing:-.01em !important;
+}
+
+.future-card p,
+.reference-card p{
+  color:#334e73 !important;
+  font-size:.86rem !important;
+  line-height:1.62 !important;
+}
+
+.ref-role{
+  font-weight:950 !important;
+  color:#0b3d68 !important;
+  margin-bottom:3px !important;
+}
+
+.ref-affiliation{
+  font-weight:780 !important;
+  color:#4a6080 !important;
+  margin-bottom:9px !important;
+}
+
+.ref-links,
+.pub-author-links{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+  margin-top:12px !important;
+}
+
+.ref-links a,
+.pub-author-links a,
+.inline-academic-link{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:30px !important;
+  padding:6px 10px !important;
+  border-radius:999px !important;
+  background:#ffffff !important;
+  border:1px solid rgba(11,61,104,.22) !important;
+  color:#0b3d68 !important;
+  font-size:.75rem !important;
+  font-weight:900 !important;
+  text-decoration:none !important;
+  box-shadow:0 5px 12px rgba(6,24,51,.06) !important;
+  transition:transform .22s ease, border-color .22s ease, background .22s ease !important;
+}
+
+.ref-links a:hover,
+.pub-author-links a:hover,
+.inline-academic-link:hover{
+  transform:translateY(-1px) !important;
+  background:#f3f8ff !important;
+  border-color:rgba(14,168,147,.40) !important;
+}
+
+.pub-author-links{
+  margin:8px 0 2px !important;
+}
+
+@media(max-width:900px){
+  .future-plan-grid,
+  .reference-grid{
+    grid-template-columns:1fr !important;
+  }
+}
+
+@media(max-width:560px){
+  .future-card,
+  .reference-card{
+    padding:16px 14px 16px 52px !important;
+    border-radius:18px !important;
+  }
+
+  .future-n,
+  .ref-n{
+    left:14px !important;
+    top:16px !important;
+    width:28px !important;
+    height:28px !important;
+  }
+
+  .future-card h3,
+  .reference-card h3{
+    font-size:.95rem !important;
+  }
+
+  .future-card p,
+  .reference-card p{
+    font-size:.80rem !important;
+  }
+}
+
+
+/* V131 FINAL: refined research plan and references */
+.future-plan-section .lead{
+  max-width:980px !important;
+  font-size:.98rem !important;
+  line-height:1.68 !important;
+}
+
+.future-card{
+  background:linear-gradient(180deg,#ffffff,#f8fbff) !important;
+}
+
+.future-card:first-child{
+  border-color:rgba(14,168,147,.38) !important;
+  background:linear-gradient(180deg,#ffffff,#f6fffc) !important;
+}
+
+.references-section .lead{
+  max-width:860px !important;
+}
+
+.reference-card .ref-links a[href=""]{
+  display:none !important;
+}
+
+
+/* V132 FINAL: reference emails */
+.ref-email{
+  margin:8px 0 10px !important;
+  color:#334e73 !important;
+  font-size:.84rem !important;
+  line-height:1.45 !important;
+  overflow-wrap:anywhere !important;
+}
+
+.ref-email b{
+  color:#061833 !important;
+  font-weight:1000 !important;
+}
+
+.ref-email a{
+  display:inline !important;
+  color:#0b3d68 !important;
+  font-weight:900 !important;
+  text-decoration:underline !important;
+  text-underline-offset:3px !important;
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  min-height:0 !important;
+}
+
+
+/* V133 FINAL: Education and co-author Google Scholar links */
+.pub-author-links{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+  margin:8px 0 4px !important;
+}
+
+.pub-author-links a,
+.inline-academic-link{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  min-height:28px !important;
+  padding:5px 9px !important;
+  border-radius:999px !important;
+  background:#ffffff !important;
+  border:1px solid rgba(11,61,104,.22) !important;
+  color:#0b3d68 !important;
+  font-size:.74rem !important;
+  font-weight:900 !important;
+  text-decoration:none !important;
+  box-shadow:0 5px 12px rgba(6,24,51,.06) !important;
+  transition:transform .22s ease, border-color .22s ease, background .22s ease !important;
+}
+
+.pub-author-links a:hover,
+.inline-academic-link:hover{
+  transform:translateY(-1px) !important;
+  background:#f3f8ff !important;
+  border-color:rgba(14,168,147,.40) !important;
+}
+
+.pub-authors .inline-academic-link{
+  margin:0 2px !important;
+  vertical-align:baseline !important;
+}
+
+@media(max-width:560px){
+  .pub-author-links a,
+  .inline-academic-link{
+    font-size:.68rem !important;
+    padding:5px 8px !important;
+  }
+}
+
+
+/* V134 FINAL: plain co-author hyperlinks; only Shovon Mandal remains highlighted */
+.pub-authors .author-link,
+.author-link{
+  display:inline !important;
+  padding:0 !important;
+  margin:0 !important;
+  min-height:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  color:inherit !important;
+  font:inherit !important;
+  font-weight:inherit !important;
+  line-height:inherit !important;
+  text-decoration:none !important;
+  white-space:normal !important;
+}
+
+.pub-authors .author-link:hover,
+.author-link:hover{
+  color:#0b3d68 !important;
+  text-decoration:underline !important;
+  text-underline-offset:3px !important;
+  transform:none !important;
+}
+
+.pub-authors .author-me{
+  color:#061833 !important;
+  font-weight:1000 !important;
+  background:linear-gradient(180deg,rgba(14,168,147,.14),rgba(14,168,147,.05)) !important;
+  border-radius:7px !important;
+  padding:1px 5px !important;
+}
+
+/* Remove old co-author chip area if inherited */
+.pub-author-links{
+  display:none !important;
+}
+
+
+/* V135 FINAL: V126-style plain supervisor hyperlinks in Education */
+#education .inline-academic-link,
+.edu-card .inline-academic-link,
+.education-card .inline-academic-link{
+  display:inline !important;
+  align-items:unset !important;
+  justify-content:unset !important;
+  min-height:0 !important;
+  padding:0 !important;
+  margin:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  color:#0b3d68 !important;
+  font-size:inherit !important;
+  font-weight:800 !important;
+  line-height:inherit !important;
+  text-decoration:none !important;
+  vertical-align:baseline !important;
+}
+
+#education .inline-academic-link:hover,
+.edu-card .inline-academic-link:hover,
+.education-card .inline-academic-link:hover{
+  color:#061833 !important;
+  text-decoration:underline !important;
+  text-underline-offset:3px !important;
+  transform:none !important;
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
 }

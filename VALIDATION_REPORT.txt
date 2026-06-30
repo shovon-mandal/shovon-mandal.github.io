@@ -1,21 +1,15 @@
-V126 validation report
-- Built from V125 ZIP: shovon_mandal_academic_portfolio_v125_v120_picture_smooth_final.zip
-- V120 landing/picture placement preserved: False
-- Fast Review preserved: True
-- Fast Review list CSS present: True
-- Smooth transition CSS preserved: True
-- Smooth anchor JS preserved: True
-- Education institutions include Bangladesh: True
-- Experience institutes include Bangladesh: True
-- No duplicate Bangladesh phrase: True
-- Forbidden wording absent: True
-- Implementation Evidence remains removed: True
-- Conference Website remains removed: False
-- In-press status preserved: True
-- Research Alignment preserved: True
-- Full publication detail preserved: True
-- Mobile menu click handler preserved: True
+V135 validation report
+- Built from V134 ZIP: shovon_mandal_academic_portfolio_v134_plain_coauthor_hyperlinks_final.zip
+- V126-style supervisor link override present: True
+- Pintu education link present: True
+- Golam education link present: True
+- Pintu email preserved: True
+- Golam email preserved: True
+- Plain co-author author-link class preserved: True
+- Only my author highlight class preserved: True
+- No Google Analytics added: True
 - No language bar: True
+- In-press status preserved: True
 - ORCID exact URL preserved: True
 - No direct chat URL: True
 - No admin link: True

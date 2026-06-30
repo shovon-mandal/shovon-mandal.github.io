@@ -389,3 +389,87 @@ Final correction:
 - V120 picture placement is preserved.
 - Fast Review links are changed into a clean vertical list style.
 - Smooth transitions and scroll stability from V125 are preserved.
+
+
+## V127 Live Update Ready
+
+This package is prepared for updating the currently published GitHub Pages site.
+
+Use this version because the live website still shows older landing elements. This package preserves:
+- V120-style landing picture placement.
+- Fast Review list style.
+- No language bar.
+- Clean Academic Snapshot.
+- In-press publication status without conference website display.
+- Bangladesh institute suffixes.
+- Smooth transitions and mobile scroll stability.
+
+
+## V129 Reviewed Clean Final
+
+Final review cleanup:
+- Built from the uploaded V128 reviewed package.
+- Old Google Translate script remnants were removed.
+- Imperial College affiliation restored as: Imperial College of Engineering, Khulna, Bangladesh — Affiliated with Rajshahi University, Bangladesh.
+- Fast Review, clean snapshot, in-press status, ORCID, CV, menu, and smooth scrolling are preserved.
+- Package is flattened for direct GitHub Pages repository upload.
+
+
+## V130 Research Plan, References, Co-author Links, and SEO
+
+Final funding-oriented updates:
+- Added Statement of Research Interest and Future Research Plan.
+- Added Academic References and Research Network segment with two supervisors.
+- Added academic profile links for key supervisor/co-author names.
+- Improved SEO meta tags, Open Graph tags, Twitter card tags, canonical URL, robots tag, keywords, and Person JSON-LD structured data.
+- No Google Analytics or visitor counter added.
+
+
+## V131 Refined Research Plan and References
+
+Final refinements:
+- Rewrote the Statement of Research Interest and Future Research Plan in a more natural professor-facing style.
+- Added blockchain, NFC/RFID, embedded hardware, device-level security, and prototype-evaluation direction.
+- Changed References heading to Academic References only.
+- Removed BRAC profile link from the References section.
+- Marked Md. Golam Rabiul Alam, PhD as both B.Sc. thesis supervisor and research co-author.
+- Added Md. Golam Rabiul Alam as linked co-author in the ICCIT 2024 publication entry.
+
+
+## V132 Reference Emails Final
+
+Final reference update:
+- Added Dr. Pintu Chandra Shill email: pintu@cse.kuet.ac.bd.
+- Added Md. Golam Rabiul Alam, PhD email: rabiul.alam@bracu.ac.bd.
+- Emails are shown in the Academic References section as mailto links.
+- BRAC profile link remains removed from the reference part.
+- V131 research plan, references, co-author links, SEO, no-language-bar, and no-analytics setup are preserved.
+
+
+## V133 Co-author Scholar Links Final
+
+Final update:
+- Pintu Chandra Shill is hyperlinked in the Education section using the same academic link style.
+- Md. Golam Rabiul Alam, PhD Education link now points to Google Scholar.
+- Verified co-author Google Scholar profile links were added inside publication author lines and co-author link chips.
+- Reference emails are preserved: pintu@cse.kuet.ac.bd and rabiul.alam@bracu.ac.bd.
+- Unverified Google Scholar profiles were not guessed.
+
+
+## V134 Plain Co-author Hyperlinks Final
+
+Final co-author update:
+- Co-authors are hyperlinked directly in the author line.
+- Co-author links keep the same normal author-text style with only a link sign.
+- Only Shovon Mandal remains highlighted.
+- Added the provided Google Scholar links for Mahmuda Keya, Anika Tahsin, Md. Zia Uddin, and Arjan Ghosh.
+- Preserved Pintu Chandra Shill and Md. Golam Rabiul Alam Scholar links and reference emails.
+
+
+## V135 V126-style Supervisor Links
+
+Final correction:
+- Education supervisor names are no longer button/pill styled.
+- Dr. Pintu Chandra Shill and Md. Golam Rabiul Alam, PhD remain clickable hyperlinks with the link sign.
+- Co-author links remain plain text hyperlinks.
+- Only Shovon Mandal remains highlighted in publication author lines.

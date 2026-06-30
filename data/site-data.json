@@ -51,8 +51,8 @@
   ],
   "fastReview": [
     {
-      "label": "Research Fit",
-      "target": "#research-fit"
+      "label": "Research Plan",
+      "target": "#future-research-plan"
     },
     {
       "label": "Publications",
@@ -63,8 +63,8 @@
       "target": "#projects"
     },
     {
-      "label": "Experience",
-      "target": "#experience"
+      "label": "References",
+      "target": "#references"
     }
   ],
   "snapshot": [
@@ -126,7 +126,7 @@
     },
     {
       "title": "Teaching and Academic Support",
-      "text": "4+ years of undergraduate teaching experience, including university teaching and Rajshahi University-affiliated college teaching, supports readiness for teaching, lab, mentoring, and research-support roles."
+      "text": "4+ years of undergraduate teaching experience supports readiness for teaching, lab, mentoring, and research-support roles."
     }
   ],
   "profile": {
@@ -152,7 +152,7 @@
       },
       {
         "title": "Teaching Experience",
-        "text": "4+ years of undergraduate teaching experience, including university teaching and Rajshahi University-affiliated college teaching.",
+        "text": "4+ years of undergraduate teaching experience.",
         "target": "#experience"
       }
     ],
@@ -202,7 +202,7 @@
         "<strong>Vice Chancellor's List:</strong> 5 consecutive semesters",
         "<strong>Dean's List:</strong> 2 consecutive semesters",
         "<strong>Thesis:</strong> Blockchain-based Micropayment System for Secured Cashless Small Payments",
-        "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://www.bracu.ac.bd/about/people/md-golam-rabiul-alam-phd' target='_blank' rel='noopener'>Md. Golam Rabiul Alam, PhD ↗</a>"
+        "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://scholar.google.com/citations?user=t4GrJR4AAAAJ&hl=en' target='_blank' rel='noopener'>Md. Golam Rabiul Alam, PhD ↗</a>"
       ]
     }
   ],
@@ -211,7 +211,7 @@
       "status": "Published",
       "filter": "published core",
       "title": "Ensuring Security and Efficiency in Digital Payments using Blockchain with NFC",
-      "authors": "<strong class='author-me'>Mandal, S.</strong>, & Shill, P. C.",
+      "authors": "<strong class='author-me'>Mandal, S.</strong>, & <a class='author-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>Shill, P. C. ↗</a>",
       "venue": "ICKECS 2024 — IEEE",
       "year": "2024",
       "doi": "10.1109/ICKECS61492.2024.10616703",
@@ -220,13 +220,14 @@
       "area": "Blockchain, NFC, secure digital payment systems",
       "role": "First author",
       "detail": "Published IEEE conference paper with DOI; directly connected to secure cashless payment and contactless transaction security.",
-      "publisher": "IEEE / DOI available"
+      "publisher": "IEEE / DOI available",
+      "authorLinks": []
     },
     {
       "status": "Published",
       "filter": "published core",
       "title": "Q-learning based Automated Message Multicast in Gossip Protocol for Node Confirmation in IOTA Tangle",
-      "authors": "Keya, M., <strong class='author-me'>Mandal, S.</strong>, et al.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=pPg7H2YAAAAJ&hl=en' target='_blank' rel='noopener'>Keya, M. ↗</a>, <strong class='author-me'>Mandal, S.</strong>, Dhar, S., Tahsin, H. M., Siam, M., <a class='author-link' href='https://scholar.google.com/citations?user=Ke_Yly4AAAAJ&hl=en' target='_blank' rel='noopener'>Tahsin, A. ↗</a>, <a class='author-link' href='https://scholar.google.com/citations?user=t4GrJR4AAAAJ&hl=en' target='_blank' rel='noopener'>Alam, M. G. R. ↗</a>, <a class='author-link' href='https://scholar.google.com/citations?user=YFu7iB8AAAAJ&hl=en' target='_blank' rel='noopener'>Uddin, M. Z. ↗</a>, et al.",
       "venue": "ICCIT 2024 — IEEE",
       "year": "2024",
       "doi": "10.1109/ICCIT64611.2024.11021995",
@@ -235,13 +236,14 @@
       "area": "IOTA Tangle, distributed ledger, gossip protocol, Q-learning",
       "role": "Co-author",
       "detail": "Published IEEE conference paper with DOI; demonstrates distributed ledger and network protocol research exposure.",
-      "publisher": "IEEE / DOI available"
+      "publisher": "IEEE / DOI available",
+      "authorLinks": []
     },
     {
       "status": "Published",
       "filter": "published",
       "title": "Comparative Evaluation of Multiple CNN Architectures for Dermoscopic Skin Lesion Classification using ISIC Dataset",
-      "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, Islam, M. J., Islam, K. M., Dhar, S., & Baidya, R.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, <strong class='author-me'>Mandal, S.</strong>, Islam, M. J., Islam, K. M., Dhar, S., & Baidya, R.",
       "venue": "QPAIN 2026 — IEEE",
       "year": "2026",
       "doi": "10.1109/QPAIN69676.2026.11545903",
@@ -250,13 +252,14 @@
       "area": "Deep learning, medical image classification, CNN architectures",
       "role": "Co-author",
       "detail": "Published IEEE conference paper with DOI; shows applied AI research contribution.",
-      "publisher": "IEEE / DOI available"
+      "publisher": "IEEE / DOI available",
+      "authorLinks": []
     },
     {
       "status": "Published",
       "filter": "published",
       "title": "A Machine Learning and DEM-Based Approach for Predicting Sea Level Rise and Assessing Coastal Risk in Bangladesh Using AI Insights",
-      "authors": "Ghosh, A., Pinki, F. T., Baidya, R., Alam, F., & <strong class='author-me'>Mandal, S.</strong>",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Pinki, F. T., Baidya, R., Alam, F., & <strong class='author-me'>Mandal, S.</strong>",
       "venue": "CSNT 2026 — IEEE",
       "year": "2026",
       "doi": "10.1109/CSNT69054.2026.11502358",
@@ -265,7 +268,8 @@
       "area": "Machine learning, DEM-based coastal risk prediction, AI insights",
       "role": "Co-author",
       "detail": "Published IEEE conference paper with DOI; demonstrates interdisciplinary AI application.",
-      "publisher": "IEEE / DOI available"
+      "publisher": "IEEE / DOI available",
+      "authorLinks": []
     },
     {
       "status": "In press",
@@ -280,13 +284,14 @@
       "detail": "Accepted/in-press ICCCNT 2025 conference paper; demonstrates academic technology implementation, interactive learning-system development, Android implementation, and research-to-prototype ability.",
       "publisher": "ICCCNT 2025 / In press",
       "doi": "",
-      "doiUrl": ""
+      "doiUrl": "",
+      "authorLinks": []
     },
     {
       "status": "In press",
       "filter": "accepted in press icccnt nlp sentiment analysis deep learning",
       "title": "Advancing Sentiment Analysis Through Natural Language Processing and Deep Learning",
-      "authors": "Ghosh, A., <strong class='author-me'>Mandal, S.</strong>, et al.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, <strong class='author-me'>Mandal, S.</strong>, et al.",
       "venue": "16th International Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), IIT Indore, Madhya Pradesh, India",
       "year": "2025",
       "type": "Conference Paper",
@@ -295,7 +300,8 @@
       "detail": "Accepted/in-press ICCCNT 2025 conference paper; demonstrates AI/NLP research involvement, deep-learning-based sentiment-analysis work, and collaborative publication experience.",
       "publisher": "ICCCNT 2025 / In press",
       "doi": "",
-      "doiUrl": ""
+      "doiUrl": "",
+      "authorLinks": []
     }
   ],
   "projects": [
@@ -433,7 +439,7 @@
       "title": "Lecturer (Adjunct), Department of Computer Science and Engineering",
       "place": "Imperial College of Engineering, Khulna, Bangladesh — Affiliated with Rajshahi University, Bangladesh",
       "roleLabel": "Adjunct Lecturer",
-      "roleClass": "rajshahi-affiliated",
+      "roleClass": "role-adjunct",
       "text": "Two years of undergraduate teaching experience at Imperial College of Engineering, Khulna, Bangladesh, affiliated with Rajshahi University, Bangladesh. Responsibilities included CSE theory lecture support, lab work, course assistance, assessment support, and student mentoring.",
       "courseHeading": "Courses Taught",
       "courses": [
@@ -641,5 +647,55 @@
       "Executive Member — Robotics Club of BRAC University (2018–2020)",
       "Executive Member — BRACU Mongol Tori, Next Generation Mars Rover Team 4.0 (2019–2020)"
     ]
-  }
+  },
+  "futureResearchPlan": {
+    "lead": "My future research direction grows directly from my thesis and prototype work: secure digital payments that connect blockchain-based verification with contactless and hardware-supported transaction environments.",
+    "cards": [
+      {
+        "title": "Research Problem I Want to Work On",
+        "text": "Cashless and contactless payments are becoming common, but many low-value payment settings still face problems of trust, tampering, device-level security, transaction traceability, and practical deployment cost. I want to study how blockchain-based verification can be combined with NFC/RFID or embedded hardware interaction to make small digital payments more secure, auditable, and usable."
+      },
+      {
+        "title": "Planned Research Direction",
+        "text": "My planned direction is blockchain-assisted secure payment architecture for contactless and hardware-oriented systems. The work can include secure transaction logging, lightweight authentication, device-to-system trust, fraud resistance, smart-contract-based verification, and secure interaction between payment software and physical modules."
+      },
+      {
+        "title": "How I Want to Approach the Work",
+        "text": "I am interested in building and evaluating working prototypes rather than limiting the work to a conceptual model. A possible study can include system design, threat modeling, prototype implementation, transaction testing, latency and cost analysis, and comparison with existing payment-security approaches."
+      },
+      {
+        "title": "Fit with a Research Lab",
+        "text": "This plan fits research groups working on cybersecurity, distributed systems, blockchain, embedded/IoT systems, secure human-computer interaction, and applied computing. I can contribute through literature review, prototype development, experiment documentation, technical writing, teaching support, and collaborative publication work."
+      }
+    ]
+  },
+  "references": [
+    {
+      "name": "Dr. Pintu Chandra Shill",
+      "role": "M.Sc. Thesis Supervisor and Research Co-author",
+      "affiliation": "Professor, Department of Computer Science and Engineering, KUET, Bangladesh",
+      "relation": "Supervised the M.Sc. thesis direction on blockchain-based secure payment systems and co-authored the ICKECS 2024 paper on blockchain with NFC.",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en"
+        }
+      ],
+      "email": "pintu@cse.kuet.ac.bd"
+    },
+    {
+      "name": "Md. Golam Rabiul Alam, PhD",
+      "role": "B.Sc. Thesis Supervisor and Research Co-author",
+      "affiliation": "Professor, Department of Computer Science and Engineering, BRAC University, Bangladesh",
+      "relation": "Supervised the B.Sc. thesis on blockchain-based micropayment systems and co-authored the ICCIT 2024 paper on IOTA Tangle and gossip-protocol-based node confirmation.",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=t4GrJR4AAAAJ&hl=en"
+        }
+      ],
+      "email": "rabiul.alam@bracu.ac.bd"
+    }
+  ],
+  "referencesNote": "Academic references and recommendation support are available upon request."
 }
