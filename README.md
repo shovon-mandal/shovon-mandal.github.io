@@ -14,8 +14,8 @@ This repository contains the static academic portfolio website of **Shovon Manda
 - **Name:** Shovon Mandal
 - **Role:** Lecturer, Department of Computer Science and Engineering
 - **Affiliation:** Northern University of Business and Technology Khulna, Bangladesh
-- **Research focus:** Blockchain-based secure cashless payment, contactless transaction security, distributed transaction security, cryptography, network security, academic automation, and applied computing systems.
-- **Graduate status:** M.Sc. in CSE, KUET — Defense Pending
+- **Research focus:** Cybersecurity, blockchain/NFC-enabled secure digital payments, NFC/IoT transaction security, applied cryptography, secure distributed systems, embedded systems security, trustworthy hardware-enabled intelligent systems, sensor-enabled computing, and academic automation systems.
+- **Graduate status:** M.Sc. Eng. in CSE, KUET — Only thesis defense remaining
 - **CV file:** `assets/docs/Shovon_Mandal_CV.pdf`
 
 ## Important Links
@@ -30,7 +30,7 @@ This repository contains the static academic portfolio website of **Shovon Manda
 
 ## Education
 
-- **M.Sc. in Computer Science and Engineering**, Khulna University of Engineering & Technology (Jul 2022 – Present) — Defense Pending
+- **M.Sc. Eng. in Computer Science and Engineering**, Khulna University of Engineering & Technology (Jul 2022 – Present) — Only thesis defense remaining
 - **B.Sc. in Computer Science and Engineering**, BRAC University (Spring 2018 – Spring 2022) — Highest Distinction
 
 ## Publications
@@ -297,7 +297,7 @@ Final corrections:
 - Teaching split is clarified: **2+ years university teaching** plus **2 years at Imperial College of Engineering, Khulna — Rajshahi University Affiliated Engineering College**.
 - The Experience section now uses the full Imperial College name with Rajshahi University affiliation.
 - Funding-related wording and “Discuss Graduate Funding Fit” style CTA were removed.
-- Academic goal is framed around M.Sc./Ph.D. higher study and research contribution.
+- Academic goal is framed around fully funded Ph.D. or thesis-based M.S. graduate research opportunities and research contribution.
 - Header name and Lecturer/Department line sizes are increased for desktop and mobile.
 - Teaching experience is no longer specially over-highlighted; it is presented naturally and professionally.
 
@@ -319,10 +319,10 @@ Final cleanup:
 
 Final research-alignment update:
 - Academic Snapshot now uses **Research Alignment**.
-- Final value: **Secure Distributed Systems · Payment Security · Hardware-Oriented Computing**.
+- Final value: **Cybersecurity · Secure Distributed Systems · Embedded Systems Security**.
 - Research Fit section now starts with **Core Research Alignment**.
-- Academic goal now naturally includes hardware-oriented computing.
-- Sliding goal text is aligned with secure systems, payment security, contactless transactions, and hardware-oriented implementation.
+- Academic goal now naturally includes embedded systems security, trustworthy hardware-enabled intelligent systems, and sensor-enabled computing.
+- Sliding goal text is aligned with cybersecurity, blockchain/NFC payment security, secure distributed systems, embedded systems security, and trustworthy hardware systems.
 - Clean V114 publishable structure is preserved.
 
 

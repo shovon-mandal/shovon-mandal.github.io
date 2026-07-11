@@ -10,13 +10,13 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "My academic goal is to pursue advanced graduate study (M.Sc./Ph.D.) in secure distributed systems, payment security, contactless transaction security, and hardware-oriented computing. I aim to contribute to rigorous research, teaching support, technical implementation, and scholarly collaboration through a profile that combines peer-reviewed publications, secure payment prototypes, undergraduate teaching experience, academic automation systems, and hardware-oriented project engagement.",
-    "headline": "Secure Distributed Systems · Payment Security · Hardware-Oriented Computing · Contactless Transaction Security · Research Implementation",
+    "goal": "I am seeking fully funded graduate research opportunities in the United States at the Ph.D. or thesis-based M.S. level. My research direction centers on cybersecurity, blockchain/NFC-enabled secure digital payments, applied cryptography, secure distributed systems, embedded systems security, trustworthy hardware-enabled intelligent systems, and sensor-enabled computing. I can contribute through publication-driven research, prototype development, teaching/lab support, technical implementation, and documentation.",
+    "headline": "Cybersecurity · Blockchain/NFC Payment Security · Secure Distributed Systems · Embedded Systems Security · Trustworthy Hardware Systems",
     "rotatingWords": [
-      "M.Sc./Ph.D. Higher Study Goal",
-      "Secure Distributed Systems Research",
-      "Payment Security and Contactless Transactions",
-      "Hardware-Oriented Computing Implementation"
+      "Funded Ph.D. / Thesis-Based M.S. Goal",
+      "Cybersecurity and Secure Distributed Systems",
+      "Blockchain/NFC Payment Security",
+      "Embedded Systems Security and Trustworthy Hardware"
     ]
   },
   "links": [
@@ -82,11 +82,11 @@
     },
     {
       "label": "Higher Study Goal",
-      "value": "M.Sc./Ph.D. Research"
+      "value": "Funded Ph.D. / Thesis-Based M.S."
     },
     {
       "label": "Research Alignment",
-      "value": "Secure Distributed Systems · Payment Security · Hardware-Oriented Computing"
+      "value": "Cybersecurity · Secure Distributed Systems · Embedded Systems Security"
     }
   ],
   "metrics": [
@@ -114,7 +114,7 @@
   "researchFit": [
     {
       "title": "Core Research Alignment",
-      "text": "Secure distributed systems, blockchain-based payment security, contactless transaction security, and hardware-oriented computing implementation form the core direction for future M.Sc./Ph.D. study."
+      "text": "Cybersecurity, blockchain/NFC-enabled payment security, applied cryptography, secure distributed systems, embedded systems security, and trustworthy hardware-enabled systems form the core direction for future Ph.D. or thesis-based M.S. study."
     },
     {
       "title": "Publication Evidence",
@@ -122,22 +122,22 @@
     },
     {
       "title": "Implementation Evidence",
-      "text": "Secure payment prototypes, academic automation systems, and public GitHub repositories show the ability to move from research idea to working system and technical documentation."
+      "text": "Secure payment prototypes, NFC/Arduino experimentation, academic automation systems, and public GitHub repositories show the ability to move from research idea to working system, evaluation, and technical documentation."
     },
     {
       "title": "Teaching and Academic Support",
-      "text": "4+ years of undergraduate teaching experience supports readiness for teaching, lab, mentoring, and research-support roles."
+      "text": "University lecturer experience, KUET Teaching Assistant experience, and BRAC University Student Tutor experience support readiness for teaching, lab, mentoring, and research-support roles."
     }
   ],
   "profile": {
     "paragraphs": [
-      "I am a Computer Science and Engineering lecturer whose profile combines secure computing research, implementation work, and university teaching.",
-      "For a research supervisor, my strongest value is the combination of research alignment, hands-on prototype development, publication evidence, and teaching/lab readiness. I can contribute to a research group not only as a student, but also as an implementation-focused collaborator who can document, test, teach, and mentor."
+      "I am a Computer Science and Engineering lecturer and M.Sc. Eng. student at KUET, with only my thesis defense remaining. My profile combines cybersecurity research, secure distributed-system implementation, embedded/hardware-oriented prototyping, and university teaching.",
+      "For a research supervisor, my strongest value is the combination of security-focused research alignment, hands-on prototype development, publication evidence, and teaching/lab readiness. I can contribute to a research group as an implementation-focused collaborator who can document, test, teach, mentor, and support publication-oriented research."
     ],
     "cards": [
       {
         "title": "Core Research Alignment",
-        "text": "M.Sc./Ph.D. interest in secure distributed systems, payment security, contactless transaction security, and hardware-oriented computing implementation.",
+        "text": "Ph.D. or thesis-based M.S. interest in cybersecurity, blockchain/NFC payment security, applied cryptography, secure distributed systems, embedded systems security, and trustworthy hardware-enabled intelligent systems.",
         "target": "#research-fit"
       },
       {
@@ -147,46 +147,47 @@
       },
       {
         "title": "Implementation Ability",
-        "text": "Working research prototypes, payment system demonstrations, academic automation systems, and public GitHub repositories.",
+        "text": "Working security prototypes, NFC/Arduino-based payment demonstrations, IOTA/distributed-ledger implementation work, academic automation systems, and public GitHub repositories.",
         "target": "#projects"
       },
       {
         "title": "Teaching Experience",
-        "text": "4+ years of undergraduate teaching experience.",
+        "text": "University lecturer, KUET Teaching Assistant, and BRAC University Student Tutor experience.",
         "target": "#experience"
       }
     ],
     "tags": [
+      "Cybersecurity",
       "Secure Distributed Systems",
-      "Blockchain-Based Payment Security",
-      "Contactless Transaction Security",
-      "Digital Payment Systems",
+      "Blockchain-Based Secure Digital Payments",
+      "NFC/IoT Transaction Security",
       "Applied Cryptography",
-      "Smart Contracts",
+      "Embedded Systems Security",
+      "Trustworthy Robotics and Hardware Systems",
+      "Sensor-Enabled Intelligent Systems",
       "IOTA / Distributed Ledger",
-      "Academic Automation",
-      "Hardware-Oriented Computing",
       "Machine Learning"
     ],
     "strengths": [
-      "Research alignment covers secure distributed systems, payment security, contactless transaction security, and hardware-oriented computing implementation.",
-      "Six research papers show a visible publication trajectory across security, distributed systems, machine learning, and NLP.",
-      "GitHub-backed prototypes demonstrate implementation ability, technical documentation, and working-system development.",
-      "4+ years of undergraduate teaching experience supports teaching, lab, mentoring, and academic support roles.",
+      "Research alignment covers cybersecurity, blockchain/NFC payment security, applied cryptography, secure distributed systems, embedded systems security, and trustworthy hardware-enabled systems.",
+      "Six research papers show a visible publication trajectory across security, distributed systems, machine learning, NLP, and AI-enabled applications.",
+      "GitHub-backed prototypes demonstrate implementation ability, technical documentation, working-system development, and experimental validation.",
+      "University lecturer, KUET Teaching Assistant, and BRAC University Student Tutor experience support teaching, lab, mentoring, and academic support roles.",
       "Academic automation projects show structured workflow thinking, reproducibility, and practical institutional problem-solving."
     ]
   },
   "education": [
     {
       "period": "Jul 2022 – Present",
-      "degree": "M.Sc. in Computer Science and Engineering",
+      "degree": "M.Sc. Eng. in Computer Science and Engineering",
       "institution": "Khulna University of Engineering & Technology, Bangladesh",
       "url": "https://www.kuet.ac.bd/",
-      "badge": "Defense Pending",
+      "badge": "Only thesis defense remaining",
       "items": [
-        "<strong>Academic Status:</strong> Defense Pending",
+        "<strong>Academic Status:</strong> Only thesis defense remaining",
         "<strong>Thesis:</strong> Blockchain Technology Based Smart E-Payment Strategy for Secure Cashless Payment",
         "<strong>Supervisor:</strong> <a class='inline-academic-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>Dr. Pintu Chandra Shill ↗</a>",
+        "<strong>Research Area:</strong> Blockchain-Based Secure Digital Payment and NFC-Enabled Transaction Security",
         "<strong>Relevant Coursework:</strong> Principles of Cryptography; Advanced Network Security; Cloud Computing; Neural Networks"
       ]
     },
@@ -532,10 +533,11 @@
       "title": "Security and Distributed Systems",
       "icon": "◈",
       "items": [
+        "Cybersecurity",
+        "Applied cryptography",
         "Secure distributed systems",
         "Blockchain-based payment security",
-        "Contactless transaction security",
-        "Cryptography fundamentals",
+        "NFC/IoT transaction security",
         "Network security fundamentals",
         "Secure cashless payment workflows"
       ]
@@ -564,12 +566,14 @@
       ]
     },
     {
-      "title": "Hardware and Embedded Practice",
+      "title": "Embedded, Hardware, and Sensor-Enabled Systems",
       "icon": "▧",
       "items": [
+        "Embedded systems security",
         "Arduino prototyping",
-        "Contactless / RFID module practice",
-        "Embedded systems",
+        "Contactless / NFC / RFID module practice",
+        "Sensor-enabled systems",
+        "Trustworthy hardware systems",
         "Hardware interfacing",
         "Digital electronics"
       ]
@@ -582,8 +586,9 @@
         "Prototype development",
         "Technical documentation",
         "Research implementation",
-        "Theory lecture support",
+        "Theory lecture delivery",
         "Lab work support",
+        "Teaching Assistant readiness",
         "Student mentoring"
       ]
     }
@@ -594,8 +599,9 @@
       "icon": "◈",
       "tags": [
         "Blockchain payment logic",
-        "NFC module integration",
+        "NFC/Arduino module integration",
         "Secure transaction flow",
+        "Device-level verification",
         "Hardware interfacing",
         "Prototype documentation"
       ]
@@ -649,32 +655,32 @@
     ]
   },
   "futureResearchPlan": {
-    "lead": "My future research direction grows directly from my thesis and prototype work: secure digital payments that connect blockchain-based verification with contactless and hardware-supported transaction environments.",
+    "lead": "My future research direction grows directly from my M.Sc. Eng. thesis and prototype work: secure digital payments that connect blockchain-based verification, NFC/contactless interaction, embedded systems security, and trustworthy hardware-enabled computing.",
     "cards": [
       {
         "title": "Research Problem I Want to Work On",
-        "text": "Cashless and contactless payments are becoming common, but many low-value payment settings still face problems of trust, tampering, device-level security, transaction traceability, and practical deployment cost. I want to study how blockchain-based verification can be combined with NFC/RFID or embedded hardware interaction to make small digital payments more secure, auditable, and usable."
+        "text": "Cashless, NFC, IoT, and contactless payment systems are becoming common, but many low-value and device-mediated payment settings still face problems of trust, tampering, device-level security, transaction traceability, lightweight authentication, and practical deployment cost. I want to study how blockchain-based verification and applied cryptographic mechanisms can support secure, auditable, and usable transaction systems."
       },
       {
         "title": "Planned Research Direction",
-        "text": "My planned direction is blockchain-assisted secure payment architecture for contactless and hardware-oriented systems. The work can include secure transaction logging, lightweight authentication, device-to-system trust, fraud resistance, smart-contract-based verification, and secure interaction between payment software and physical modules."
+        "text": "My planned direction is secure transaction architecture for contactless and hardware-enabled systems. The work can include secure transaction logging, lightweight authentication, device-to-system trust, fraud resistance, smart-contract-supported verification, and secure interaction between payment software and physical modules."
       },
       {
         "title": "How I Want to Approach the Work",
-        "text": "I am interested in building and evaluating working prototypes rather than limiting the work to a conceptual model. A possible study can include system design, threat modeling, prototype implementation, transaction testing, latency and cost analysis, and comparison with existing payment-security approaches."
+        "text": "I am interested in building and evaluating working prototypes rather than limiting the work to a conceptual model. A possible study can include system design, threat modeling, prototype implementation, transaction testing, latency and cost analysis, device-level verification, and comparison with existing payment-security approaches."
       },
       {
         "title": "Fit with a Research Lab",
-        "text": "This plan fits research groups working on cybersecurity, distributed systems, blockchain, embedded/IoT systems, secure human-computer interaction, and applied computing. I can contribute through literature review, prototype development, experiment documentation, technical writing, teaching support, and collaborative publication work."
+        "text": "This plan fits research groups working on cybersecurity, distributed systems, blockchain, applied cryptography, IoT/embedded systems, trustworthy robotics, hardware-enabled intelligent systems, sensor-enabled systems, secure human-computer interaction, and applied computing. I can contribute through literature review, prototype development, experiment documentation, technical writing, teaching support, and collaborative publication work."
       }
     ]
   },
   "references": [
     {
       "name": "Dr. Pintu Chandra Shill",
-      "role": "M.Sc. Thesis Supervisor and Research Co-author",
+      "role": "M.Sc. Eng. Thesis Supervisor and Research Co-author",
       "affiliation": "Professor, Department of Computer Science and Engineering, KUET, Bangladesh",
-      "relation": "Supervised the M.Sc. thesis direction on blockchain-based secure payment systems and co-authored the ICKECS 2024 paper on blockchain with NFC.",
+      "relation": "Supervised the M.Sc. Eng. thesis direction on blockchain-based secure payment systems and co-authored the ICKECS 2024 paper on blockchain with NFC.",
       "links": [
         {
           "label": "Google Scholar",

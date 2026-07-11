@@ -1,15 +1,10 @@
-V135 validation report
-- Built from V134 ZIP: shovon_mandal_academic_portfolio_v134_plain_coauthor_hyperlinks_final.zip
-- V126-style supervisor link override present: True
-- Pintu education link present: True
-- Golam education link present: True
-- Pintu email preserved: True
-- Golam email preserved: True
-- Plain co-author author-link class preserved: True
-- Only my author highlight class preserved: True
-- No Google Analytics added: True
-- No language bar: True
-- In-press status preserved: True
-- ORCID exact URL preserved: True
-- No direct chat URL: True
-- No admin link: True
+V23 updated validation report
+- Built from uploaded v23 ZIP: shovon-mandal.github.io.zip
+- M.Sc. Eng. degree wording applied in website data and fallback JavaScript: True
+- KUET status changed to Only thesis defense remaining: True
+- KUET Teaching Assistant role preserved: True
+- Research profile strengthened for professor outreach: cybersecurity, blockchain/NFC payment security, applied cryptography, secure distributed systems, embedded systems security, trustworthy hardware-enabled systems, and sensor-enabled systems.
+- Main visible content source updated: data/site-data.json
+- JavaScript fallback data updated: assets/js/main.js
+- README updated for M.Sc. Eng. and research-positioning consistency: True
+- CV PDF file path preserved: assets/docs/Shovon_Mandal_CV.pdf
