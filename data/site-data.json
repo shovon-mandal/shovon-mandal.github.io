@@ -10,12 +10,12 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "I am seeking fully funded graduate research opportunities in the United States at the Ph.D. or thesis-based M.S. level. My research direction centers on cybersecurity, blockchain/NFC-enabled secure digital payments, applied cryptography, secure distributed systems, embedded systems security, trustworthy hardware-enabled intelligent systems, and sensor-enabled computing. I can contribute through publication-driven research, prototype development, teaching/lab support, technical implementation, and documentation.",
-    "headline": "Cybersecurity · Blockchain/NFC Payment Security · Secure Distributed Systems · Embedded Systems Security · Trustworthy Hardware Systems",
+    "goal": "I am exploring graduate research opportunities at the Ph.D. or thesis-based M.S. level, particularly those offering research assistantship or teaching assistantship support. My research interests include cybersecurity, blockchain- and NFC-enabled secure digital payments, applied cryptography, secure distributed systems, embedded systems security, trustworthy hardware-enabled intelligent systems, and sensor-enabled computing. I can contribute through publication-oriented research, prototype and system development, technical implementation, teaching and laboratory support, and clear technical documentation.",
+    "headline": "Cybersecurity · Blockchain and NFC Payment Security · Secure Distributed Systems · Embedded Systems Security · Trustworthy Hardware Systems",
     "rotatingWords": [
-      "Funded Ph.D. / Thesis-Based M.S. Goal",
+      "Ph.D. or Thesis-Based M.S. Goal",
       "Cybersecurity and Secure Distributed Systems",
-      "Blockchain/NFC Payment Security",
+      "Blockchain and NFC Payment Security",
       "Embedded Systems Security and Trustworthy Hardware"
     ]
   },
@@ -82,7 +82,7 @@
     },
     {
       "label": "Higher Study Goal",
-      "value": "Funded Ph.D. / Thesis-Based M.S."
+      "value": "Ph.D. or Thesis-Based M.S."
     },
     {
       "label": "Research Alignment",
