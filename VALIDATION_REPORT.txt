@@ -1,10 +1,23 @@
-V23 updated validation report
-- Built from uploaded v23 ZIP: shovon-mandal.github.io.zip
-- M.Sc. Eng. degree wording applied in website data and fallback JavaScript: True
-- KUET status changed to Only thesis defense remaining: True
-- KUET Teaching Assistant role preserved: True
-- Research profile strengthened for professor outreach: cybersecurity, blockchain/NFC payment security, applied cryptography, secure distributed systems, embedded systems security, trustworthy hardware-enabled systems, and sensor-enabled systems.
-- Main visible content source updated: data/site-data.json
-- JavaScript fallback data updated: assets/js/main.js
-- README updated for M.Sc. Eng. and research-positioning consistency: True
-- CV PDF file path preserved: assets/docs/Shovon_Mandal_CV.pdf
+SHOVON MANDAL ACADEMIC PORTFOLIO - VALIDATION REPORT
+Updated: 2 August 2026
+
+Completed changes:
+- Preserved the existing website design, layout, navigation, animation, filters, and responsive behavior.
+- Updated the research profile toward secure distributed systems and applied intelligent computing.
+- Added applied machine learning, natural language processing, explainable AI, and computer vision to the academic positioning.
+- Added four conference manuscripts under review with original author order preserved.
+- Ordered the new manuscripts with Shovon Mandal's first-author paper first.
+- Added an Under Review publication filter and a distinct status badge.
+- Corrected publication rendering so a missing DOI no longer automatically displays In press.
+- Updated homepage metrics to distinguish published/accepted papers from manuscripts under review.
+- Updated SEO metadata and structured-data research topics.
+- Removed publicly displayed referee email addresses.
+- Replaced the downloadable CV with an updated two-page academic CV.
+
+Validation completed:
+- JSON syntax check passed.
+- JavaScript syntax check passed.
+- Page rendering test produced 10 publication cards and 4 under-review cards.
+- Under Review filter returned exactly the four submitted manuscripts.
+- No browser console or page-script errors were detected in the offline rendering test.
+- Updated CV rendered successfully as a two-page Letter-size PDF without clipping or overlap.

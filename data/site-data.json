@@ -10,13 +10,13 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "I am exploring graduate research opportunities at the Ph.D. or thesis-based M.S. level, particularly those offering research assistantship or teaching assistantship support. My research interests include cybersecurity, blockchain- and NFC-enabled secure digital payments, applied cryptography, secure distributed systems, embedded systems security, trustworthy hardware-enabled intelligent systems, and sensor-enabled computing. I can contribute through publication-oriented research, prototype and system development, technical implementation, teaching and laboratory support, and clear technical documentation.",
-    "headline": "Cybersecurity · Blockchain and NFC Payment Security · Secure Distributed Systems · Embedded Systems Security · Trustworthy Hardware Systems",
+    "goal": "I am interested in pursuing funded Ph.D. or thesis-based M.S. research opportunities in secure distributed systems, blockchain and IoT security, applied machine learning, natural language processing, and explainable AI. My background combines peer-reviewed research, prototype development, university teaching, and technical implementation.",
+    "headline": "Secure Distributed Systems · Blockchain and IoT Security · Applied Machine Learning · Natural Language Processing · Explainable AI",
     "rotatingWords": [
-      "Ph.D. or Thesis-Based M.S. Goal",
-      "Cybersecurity and Secure Distributed Systems",
-      "Blockchain and NFC Payment Security",
-      "Embedded Systems Security and Trustworthy Hardware"
+      "Ph.D. Research in Secure and Intelligent Systems",
+      "Blockchain, IoT, and Distributed-System Security",
+      "Applied Machine Learning and Explainable AI",
+      "Natural Language Processing and Code-Mixed Text Analysis"
     ]
   },
   "links": [
@@ -82,17 +82,22 @@
     },
     {
       "label": "Higher Study Goal",
-      "value": "Ph.D. or Thesis-Based M.S."
+      "value": "Funded Ph.D. or Thesis-Based M.S."
     },
     {
       "label": "Research Alignment",
-      "value": "Cybersecurity · Secure Distributed Systems · Embedded Systems Security"
+      "value": "Secure Distributed Systems · Applied AI · NLP"
     }
   ],
   "metrics": [
     {
       "value": "6",
-      "label": "Research Papers",
+      "label": "Published / Accepted Papers",
+      "target": "#publications"
+    },
+    {
+      "value": "4",
+      "label": "Manuscripts Under Review",
       "target": "#publications"
     },
     {
@@ -104,76 +109,71 @@
       "value": "4+",
       "label": "Implementation Projects",
       "target": "#projects"
-    },
-    {
-      "value": "3+",
-      "label": "Academic Systems",
-      "target": "#systems"
     }
   ],
   "researchFit": [
     {
       "title": "Core Research Alignment",
-      "text": "Cybersecurity, blockchain/NFC-enabled payment security, applied cryptography, secure distributed systems, embedded systems security, and trustworthy hardware-enabled systems form the core direction for future Ph.D. or thesis-based M.S. study."
+      "text": "Secure distributed systems, blockchain and IoT transaction security, applied cryptography, embedded systems security, applied machine learning, natural language processing, and explainable AI define the current research direction."
     },
     {
       "title": "Publication Evidence",
-      "text": "Six research papers across blockchain, distributed ledger systems, machine learning, and NLP demonstrate a visible research trajectory with published and accepted conference work."
+      "text": "Six published or accepted conference papers and four manuscripts under review demonstrate an expanding research trajectory across security, distributed systems, machine learning, natural language processing, explainable AI, and computer vision."
     },
     {
       "title": "Implementation Evidence",
-      "text": "Secure payment prototypes, NFC/Arduino experimentation, academic automation systems, and public GitHub repositories show the ability to move from research idea to working system, evaluation, and technical documentation."
+      "text": "Blockchain and NFC payment prototypes, IOTA-based transaction demonstrations, embedded-system experiments, and public GitHub repositories show the ability to move from a research question to implementation, evaluation, and documentation."
     },
     {
       "title": "Teaching and Academic Support",
-      "text": "University lecturer experience, KUET Teaching Assistant experience, and BRAC University Student Tutor experience support readiness for teaching, lab, mentoring, and research-support roles."
+      "text": "University lecturer experience, KUET Teaching Assistant experience, and BRAC University Student Tutor experience support readiness for teaching, laboratory supervision, mentoring, and collaborative research roles."
     }
   ],
   "profile": {
     "paragraphs": [
-      "I am a Computer Science and Engineering lecturer and M.Sc. Eng. student at KUET, with only my thesis defense remaining. My profile combines cybersecurity research, secure distributed-system implementation, embedded/hardware-oriented prototyping, and university teaching.",
-      "For a research supervisor, my strongest value is the combination of security-focused research alignment, hands-on prototype development, publication evidence, and teaching/lab readiness. I can contribute to a research group as an implementation-focused collaborator who can document, test, teach, mentor, and support publication-oriented research."
+      "I am a Computer Science and Engineering lecturer and M.Sc. Eng. researcher at Khulna University of Engineering & Technology, with only my thesis defense remaining. My research lies at the intersection of secure distributed systems and applied intelligent computing, including blockchain-based payments, NFC and IoT transaction security, IOTA-based decentralized communication, machine learning, natural language processing, explainable AI, and computer vision applications.",
+      "My work combines publication-oriented research with prototype development, experimental evaluation, technical implementation, and university teaching. I am particularly interested in developing secure, reliable, and interpretable intelligent systems for distributed, IoT, and data-driven environments."
     ],
     "cards": [
       {
-        "title": "Core Research Alignment",
-        "text": "Ph.D. or thesis-based M.S. interest in cybersecurity, blockchain/NFC payment security, applied cryptography, secure distributed systems, embedded systems security, and trustworthy hardware-enabled intelligent systems.",
+        "title": "Research Direction",
+        "text": "Secure distributed systems and applied intelligent computing, with emphasis on blockchain and IoT security, applied machine learning, NLP, and explainable AI.",
         "target": "#research-fit"
       },
       {
         "title": "Publication Evidence",
-        "text": "Six research papers across blockchain, distributed ledger, AI/ML, and NLP, with published DOI-backed work and accepted/in-press IEEE conference papers.",
+        "text": "Six published or accepted conference papers and four manuscripts under review across security, distributed systems, machine learning, NLP, explainable AI, and computer vision.",
         "target": "#publications"
       },
       {
         "title": "Implementation Ability",
-        "text": "Working security prototypes, NFC/Arduino-based payment demonstrations, IOTA/distributed-ledger implementation work, academic automation systems, and public GitHub repositories.",
+        "text": "Working blockchain, NFC, Arduino, IOTA, web, and academic automation systems supported by technical documentation and public repositories.",
         "target": "#projects"
       },
       {
         "title": "Teaching Experience",
-        "text": "University lecturer, KUET Teaching Assistant, and BRAC University Student Tutor experience.",
+        "text": "University lecturer, KUET Teaching Assistant, and BRAC University Student Tutor experience across undergraduate courses and laboratories.",
         "target": "#experience"
       }
     ],
     "tags": [
-      "Cybersecurity",
       "Secure Distributed Systems",
-      "Blockchain-Based Secure Digital Payments",
-      "NFC/IoT Transaction Security",
+      "Blockchain-Based Digital Payments",
+      "NFC and IoT Transaction Security",
       "Applied Cryptography",
       "Embedded Systems Security",
-      "Trustworthy Robotics and Hardware Systems",
-      "Sensor-Enabled Intelligent Systems",
-      "IOTA / Distributed Ledger",
-      "Machine Learning"
+      "Applied Machine Learning",
+      "Natural Language Processing",
+      "Explainable AI",
+      "Computer Vision",
+      "IOTA and Distributed Ledger Technologies"
     ],
     "strengths": [
-      "Research alignment covers cybersecurity, blockchain/NFC payment security, applied cryptography, secure distributed systems, embedded systems security, and trustworthy hardware-enabled systems.",
-      "Six research papers show a visible publication trajectory across security, distributed systems, machine learning, NLP, and AI-enabled applications.",
-      "GitHub-backed prototypes demonstrate implementation ability, technical documentation, working-system development, and experimental validation.",
-      "University lecturer, KUET Teaching Assistant, and BRAC University Student Tutor experience support teaching, lab, mentoring, and academic support roles.",
-      "Academic automation projects show structured workflow thinking, reproducibility, and practical institutional problem-solving."
+      "Research experience connects secure distributed systems with applied machine learning and interpretable intelligent computing.",
+      "Six published or accepted conference papers and four manuscripts under review provide evidence of sustained collaborative research activity.",
+      "GitHub-backed prototypes demonstrate implementation, experimentation, technical documentation, and working-system development.",
+      "University teaching and laboratory experience support mentoring, instructional, and research-assistant responsibilities.",
+      "Cross-domain projects show the ability to apply rigorous computational methods to security, language, vision, and educational data."
     ]
   },
   "education": [
@@ -220,7 +220,7 @@
       "type": "IEEE Conference Paper",
       "area": "Blockchain, NFC, secure digital payment systems",
       "role": "First author",
-      "detail": "Published IEEE conference paper with DOI; directly connected to secure cashless payment and contactless transaction security.",
+      "detail": "Presents a blockchain- and NFC-based approach to improving security and efficiency in contactless digital payments.",
       "publisher": "IEEE / DOI available",
       "authorLinks": []
     },
@@ -236,7 +236,7 @@
       "type": "IEEE Conference Paper",
       "area": "IOTA Tangle, distributed ledger, gossip protocol, Q-learning",
       "role": "Co-author",
-      "detail": "Published IEEE conference paper with DOI; demonstrates distributed ledger and network protocol research exposure.",
+      "detail": "Investigates Q-learning-guided message multicast for node confirmation in the IOTA Tangle.",
       "publisher": "IEEE / DOI available",
       "authorLinks": []
     },
@@ -252,7 +252,7 @@
       "type": "IEEE Conference Paper",
       "area": "Deep learning, medical image classification, CNN architectures",
       "role": "Co-author",
-      "detail": "Published IEEE conference paper with DOI; shows applied AI research contribution.",
+      "detail": "Compares multiple CNN architectures for dermoscopic skin-lesion classification using the ISIC dataset.",
       "publisher": "IEEE / DOI available",
       "authorLinks": []
     },
@@ -268,7 +268,7 @@
       "type": "IEEE Conference Paper",
       "area": "Machine learning, DEM-based coastal risk prediction, AI insights",
       "role": "Co-author",
-      "detail": "Published IEEE conference paper with DOI; demonstrates interdisciplinary AI application.",
+      "detail": "Applies machine learning and digital elevation data to sea-level-rise prediction and coastal-risk assessment in Bangladesh.",
       "publisher": "IEEE / DOI available",
       "authorLinks": []
     },
@@ -282,7 +282,7 @@
       "type": "Conference Paper",
       "area": "ARCore, Leap Motion, Android, academic learning technology",
       "role": "First author",
-      "detail": "Accepted/in-press ICCCNT 2025 conference paper; demonstrates academic technology implementation, interactive learning-system development, Android implementation, and research-to-prototype ability.",
+      "detail": "Examines the integration of Leap Motion and ARCore in an Android-based academic learning and research environment.",
       "publisher": "ICCCNT 2025 / In press",
       "doi": "",
       "doiUrl": "",
@@ -298,8 +298,76 @@
       "type": "Conference Paper",
       "area": "Natural language processing, sentiment analysis, deep learning",
       "role": "Co-author",
-      "detail": "Accepted/in-press ICCCNT 2025 conference paper; demonstrates AI/NLP research involvement, deep-learning-based sentiment-analysis work, and collaborative publication experience.",
+      "detail": "Evaluates natural-language-processing and deep-learning methods for sentiment analysis.",
       "publisher": "ICCCNT 2025 / In press",
+      "doi": "",
+      "doiUrl": "",
+      "authorLinks": []
+    },
+    {
+      "status": "Under Review",
+      "statusText": "Manuscript submitted; under review",
+      "filter": "under review machine learning educational data mining catboost svm",
+      "title": "Data-Driven Multiclass Prediction of Student Academic Outcomes Using Machine Learning: A Comparative Evaluation of SVM and CatBoost",
+      "authors": "<strong class='author-me'>Mandal, S.</strong>, Ahmed, K. A., <a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Swadesh, P. M., & Baidya, R.",
+      "venue": "5th IEEE International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON 2026), Jashore, Bangladesh",
+      "year": "2026",
+      "type": "Conference Manuscript",
+      "area": "Educational data mining, multiclass classification, SVM, CatBoost",
+      "role": "First author",
+      "detail": "Compares SVM and CatBoost for three-level student-outcome prediction and examines the influence of prior academic and behavioral features.",
+      "publisher": "Submitted to RAAICON 2026",
+      "doi": "",
+      "doiUrl": "",
+      "authorLinks": []
+    },
+    {
+      "status": "Under Review",
+      "statusText": "Manuscript submitted; under review",
+      "filter": "under review computer vision cnn transfer learning fish quality",
+      "title": "Automated Visual Inspection of Tilapia Fish Quality Using CNN and Transfer Learning",
+      "authors": "Islam, M. H., Jiku, N. A. S., <strong class='author-me'>Mandal, S.</strong>, Swadesh, P. M., & <a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>",
+      "venue": "5th IEEE International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON 2026), Jashore, Bangladesh",
+      "year": "2026",
+      "type": "Conference Manuscript",
+      "area": "Computer vision, CNN, transfer learning, food-quality inspection",
+      "role": "Co-author",
+      "detail": "Develops a three-class visual inspection pipeline for classifying tilapia as fresh, semi-fresh, or rotten from skin images.",
+      "publisher": "Submitted to RAAICON 2026",
+      "doi": "",
+      "doiUrl": "",
+      "authorLinks": []
+    },
+    {
+      "status": "Under Review",
+      "statusText": "Manuscript submitted; under review",
+      "filter": "under review nlp code mixed emotion recognition banglabert xlm roberta stacking",
+      "title": "Beyond Single Transformers: A BanglaBERT-XLM-RoBERTa Stacking Framework for Code-Mixed Emotion Recognition",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Datta, A., <strong class='author-me'>Mandal, S.</strong>, Swadesh, P. M., Ahmed, K. A., & Molla, M. H.",
+      "venue": "3rd IEEE International Conference on Computing, Applications and Systems (COMPAS 2026), Dhaka, Bangladesh",
+      "year": "2026",
+      "type": "Conference Manuscript",
+      "area": "Code-mixed NLP, emotion recognition, transformer stacking, class imbalance",
+      "role": "Co-author",
+      "detail": "Combines BanglaBERT and XLM-RoBERTa through a logistic-regression meta-classifier for six-class emotion recognition in Banglish text.",
+      "publisher": "Submitted to COMPAS 2026",
+      "doi": "",
+      "doiUrl": "",
+      "authorLinks": []
+    },
+    {
+      "status": "Under Review",
+      "statusText": "Manuscript submitted; under review",
+      "filter": "under review nlp sentiment analysis explainable ai llm style transfer domain adaptation",
+      "title": "Chameleon Words in Cross-Domain Sentiment Analysis: An Explainable Framework with LLM-Based Style Transfer",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Molla, M. H., Swadesh, P. M., <strong class='author-me'>Mandal, S.</strong>, Ahmed, K. A., & Datta, A.",
+      "venue": "3rd IEEE International Conference on Computing, Applications and Systems (COMPAS 2026), Dhaka, Bangladesh",
+      "year": "2026",
+      "type": "Conference Manuscript",
+      "area": "Cross-domain sentiment analysis, explainable AI, SHAP, LLM style transfer",
+      "role": "Co-author",
+      "detail": "Studies sentiment-polarity reversals across domains and evaluates explainability and LLM-based style transfer under zero-target-supervision conditions.",
+      "publisher": "Submitted to COMPAS 2026",
       "doi": "",
       "doiUrl": "",
       "authorLinks": []
@@ -655,23 +723,23 @@
     ]
   },
   "futureResearchPlan": {
-    "lead": "My future research direction grows directly from my M.Sc. Eng. thesis and prototype work: secure digital payments that connect blockchain-based verification, NFC/contactless interaction, embedded systems security, and trustworthy hardware-enabled computing.",
+    "lead": "My future research direction focuses on secure and trustworthy intelligent systems, connecting blockchain-based verification, NFC and IoT security, distributed architectures, embedded systems, and interpretable machine learning.",
     "cards": [
       {
-        "title": "Research Problem I Want to Work On",
-        "text": "Cashless, NFC, IoT, and contactless payment systems are becoming common, but many low-value and device-mediated payment settings still face problems of trust, tampering, device-level security, transaction traceability, lightweight authentication, and practical deployment cost. I want to study how blockchain-based verification and applied cryptographic mechanisms can support secure, auditable, and usable transaction systems."
+        "title": "Secure Transaction Systems",
+        "text": "I am interested in secure and auditable transaction architectures for blockchain, NFC, IoT, and other device-mediated environments. Relevant problems include lightweight authentication, transaction traceability, fraud resistance, device-to-system trust, and practical deployment constraints."
       },
       {
-        "title": "Planned Research Direction",
-        "text": "My planned direction is secure transaction architecture for contactless and hardware-enabled systems. The work can include secure transaction logging, lightweight authentication, device-to-system trust, fraud resistance, smart-contract-supported verification, and secure interaction between payment software and physical modules."
+        "title": "Trustworthy and Explainable AI",
+        "text": "I aim to investigate reliable machine-learning systems through explainability, robustness, domain adaptation, class-imbalance handling, and careful evaluation. This direction includes language, vision, and structured-data applications where model decisions must remain interpretable and dependable."
       },
       {
-        "title": "How I Want to Approach the Work",
-        "text": "I am interested in building and evaluating working prototypes rather than limiting the work to a conceptual model. A possible study can include system design, threat modeling, prototype implementation, transaction testing, latency and cost analysis, device-level verification, and comparison with existing payment-security approaches."
+        "title": "Implementation and Evaluation",
+        "text": "My preferred research approach combines system design with reproducible implementation and empirical validation. Possible components include threat modelling, prototype development, ablation studies, statistical testing, latency and reliability analysis, and comparison with strong baselines."
       },
       {
-        "title": "Fit with a Research Lab",
-        "text": "This plan fits research groups working on cybersecurity, distributed systems, blockchain, applied cryptography, IoT/embedded systems, trustworthy robotics, hardware-enabled intelligent systems, sensor-enabled systems, secure human-computer interaction, and applied computing. I can contribute through literature review, prototype development, experiment documentation, technical writing, teaching support, and collaborative publication work."
+        "title": "Research-Lab Fit",
+        "text": "This direction aligns with research groups working on cybersecurity, distributed systems, blockchain, applied cryptography, IoT and embedded systems, trustworthy AI, natural language processing, computer vision, and applied machine learning."
       }
     ]
   },
@@ -686,8 +754,7 @@
           "label": "Google Scholar",
           "url": "https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en"
         }
-      ],
-      "email": "pintu@cse.kuet.ac.bd"
+      ]
     },
     {
       "name": "Md. Golam Rabiul Alam, PhD",
@@ -699,8 +766,7 @@
           "label": "Google Scholar",
           "url": "https://scholar.google.com/citations?user=t4GrJR4AAAAJ&hl=en"
         }
-      ],
-      "email": "rabiul.alam@bracu.ac.bd"
+      ]
     }
   ],
   "referencesNote": "Academic references and recommendation support are available upon request."

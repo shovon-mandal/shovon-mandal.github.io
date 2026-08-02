@@ -14326,3 +14326,10 @@ section[id],
   border:0 !important;
   box-shadow:none !important;
 }
+
+/* Publication status added for submitted manuscripts */
+.pub-badge.underreview {
+  background: rgba(203, 112, 24, .10);
+  border: 1px solid rgba(203, 112, 24, .30);
+  color: #9a5412;
+}
