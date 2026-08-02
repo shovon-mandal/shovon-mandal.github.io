@@ -10,7 +10,7 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "I am interested in pursuing funded Ph.D. or thesis-based M.S. research opportunities in secure distributed systems, blockchain and IoT security, applied machine learning, natural language processing, and explainable AI. My background combines peer-reviewed research, prototype development, university teaching, and technical implementation.",
+    "goal": "I am exploring graduate research opportunities at the Ph.D. or thesis-based M.S. level, particularly those offering research assistantship or teaching assistantship support. My research interests include cybersecurity, blockchain- and NFC-enabled secure digital payments, applied cryptography, secure distributed systems, IoT and embedded systems security, applied machine learning, natural language processing, and explainable AI. I can contribute through publication-oriented research, prototype and system development, experimental evaluation, technical implementation, university teaching and laboratory support, and clear technical documentation.",
     "headline": "Secure Distributed Systems · Blockchain and IoT Security · Applied Machine Learning · Natural Language Processing · Explainable AI",
     "rotatingWords": [
       "Ph.D. Research in Secure and Intelligent Systems",
@@ -82,11 +82,11 @@
     },
     {
       "label": "Higher Study Goal",
-      "value": "Funded Ph.D. or Thesis-Based M.S."
+      "value": "Ph.D. or Thesis-Based M.S."
     },
     {
       "label": "Research Alignment",
-      "value": "Secure Distributed Systems · Applied AI · NLP"
+      "value": "Secure Distributed Systems · Cybersecurity · Applied Machine Learning · NLP · Explainable AI"
     }
   ],
   "metrics": [
