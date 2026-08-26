@@ -5,8 +5,8 @@ Completed changes:
 - Preserved the existing website design, layout, navigation, animation, filters, and responsive behavior.
 - Updated the research profile toward secure distributed systems and applied intelligent computing.
 - Added applied machine learning, natural language processing, explainable AI, and computer vision to the academic positioning.
-- Added four conference manuscripts under review with original author order preserved.
-- Ordered the new manuscripts with Shovon Mandal's first-author paper first.
+- Retained two conference manuscripts under review after removing the two RAAICON 2026 submissions.
+- Removed the two RAAICON 2026 under-review manuscripts as requested.
 - Added an Under Review publication filter and a distinct status badge.
 - Corrected publication rendering so a missing DOI no longer automatically displays In press.
 - Updated homepage metrics to distinguish published/accepted papers from manuscripts under review.
@@ -17,7 +17,7 @@ Completed changes:
 Validation completed:
 - JSON syntax check passed.
 - JavaScript syntax check passed.
-- Page rendering test produced 10 publication cards and 4 under-review cards.
-- Under Review filter returned exactly the four submitted manuscripts.
+- Page rendering should now produce 8 publication cards and 2 under-review cards.
+- Under Review filter should now return exactly the two remaining COMPAS 2026 manuscripts.
 - No browser console or page-script errors were detected in the offline rendering test.
 - Updated CV rendered successfully as a two-page Letter-size PDF without clipping or overlap.

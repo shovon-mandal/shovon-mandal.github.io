@@ -96,7 +96,7 @@
       "target": "#publications"
     },
     {
-      "value": "4",
+      "value": "2",
       "label": "Manuscripts Under Review",
       "target": "#publications"
     },
@@ -118,7 +118,7 @@
     },
     {
       "title": "Publication Evidence",
-      "text": "Six published or accepted conference papers and four manuscripts under review demonstrate an expanding research trajectory across security, distributed systems, machine learning, natural language processing, explainable AI, and computer vision."
+      "text": "Six published or accepted conference papers and two manuscripts under review demonstrate an expanding research trajectory across security, distributed systems, machine learning, natural language processing, explainable AI, and computer vision."
     },
     {
       "title": "Implementation Evidence",
@@ -142,7 +142,7 @@
       },
       {
         "title": "Publication Evidence",
-        "text": "Six published or accepted conference papers and four manuscripts under review across security, distributed systems, machine learning, NLP, explainable AI, and computer vision.",
+        "text": "Six published or accepted conference papers and two manuscripts under review across security, distributed systems, machine learning, NLP, explainable AI, and computer vision.",
         "target": "#publications"
       },
       {
@@ -170,7 +170,7 @@
     ],
     "strengths": [
       "Research experience connects secure distributed systems with applied machine learning and interpretable intelligent computing.",
-      "Six published or accepted conference papers and four manuscripts under review provide evidence of sustained collaborative research activity.",
+      "Six published or accepted conference papers and two manuscripts under review provide evidence of sustained collaborative research activity.",
       "GitHub-backed prototypes demonstrate implementation, experimentation, technical documentation, and working-system development.",
       "University teaching and laboratory experience support mentoring, instructional, and research-assistant responsibilities.",
       "Cross-domain projects show the ability to apply rigorous computational methods to security, language, vision, and educational data."
@@ -212,7 +212,7 @@
       "status": "Published",
       "filter": "published core",
       "title": "Ensuring Security and Efficiency in Digital Payments using Blockchain with NFC",
-      "authors": "<strong class='author-me'>Mandal, S.</strong>, & <a class='author-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>Shill, P. C. ↗</a>",
+      "authors": "<strong class='author-me'>S. Mandal</strong> and <a class='author-link' href='https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en' target='_blank' rel='noopener'>P. C. Shill ↗</a>",
       "venue": "ICKECS 2024 — IEEE",
       "year": "2024",
       "doi": "10.1109/ICKECS61492.2024.10616703",
@@ -228,7 +228,7 @@
       "status": "Published",
       "filter": "published core",
       "title": "Q-learning based Automated Message Multicast in Gossip Protocol for Node Confirmation in IOTA Tangle",
-      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=pPg7H2YAAAAJ&hl=en' target='_blank' rel='noopener'>Keya, M. ↗</a>, <strong class='author-me'>Mandal, S.</strong>, Dhar, S., Tahsin, H. M., Siam, M., <a class='author-link' href='https://scholar.google.com/citations?user=Ke_Yly4AAAAJ&hl=en' target='_blank' rel='noopener'>Tahsin, A. ↗</a>, <a class='author-link' href='https://scholar.google.com/citations?user=t4GrJR4AAAAJ&hl=en' target='_blank' rel='noopener'>Alam, M. G. R. ↗</a>, <a class='author-link' href='https://scholar.google.com/citations?user=YFu7iB8AAAAJ&hl=en' target='_blank' rel='noopener'>Uddin, M. Z. ↗</a>, et al.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=pPg7H2YAAAAJ&hl=en' target='_blank' rel='noopener'>M. Keya ↗</a>, <strong class='author-me'>S. Mandal</strong>, S. Dhar, H. M. Tahsin, M. Siam, <a class='author-link' href='https://scholar.google.com/citations?user=Ke_Yly4AAAAJ&hl=en' target='_blank' rel='noopener'>A. Tahsin ↗</a>, <a class='author-link' href='https://scholar.google.com/citations?user=t4GrJR4AAAAJ&hl=en' target='_blank' rel='noopener'>M. G. R. Alam ↗</a>, <a class='author-link' href='https://scholar.google.com/citations?user=YFu7iB8AAAAJ&hl=en' target='_blank' rel='noopener'>M. Z. Uddin ↗</a>, et al.",
       "venue": "ICCIT 2024 — IEEE",
       "year": "2024",
       "doi": "10.1109/ICCIT64611.2024.11021995",
@@ -244,7 +244,7 @@
       "status": "Published",
       "filter": "published",
       "title": "Comparative Evaluation of Multiple CNN Architectures for Dermoscopic Skin Lesion Classification using ISIC Dataset",
-      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, <strong class='author-me'>Mandal, S.</strong>, Islam, M. J., Islam, K. M., Dhar, S., & Baidya, R.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>A. Ghosh ↗</a>, <strong class='author-me'>S. Mandal</strong>, M. J. Islam, K. M. Islam, S. Dhar, and R. Baidya",
       "venue": "QPAIN 2026 — IEEE",
       "year": "2026",
       "doi": "10.1109/QPAIN69676.2026.11545903",
@@ -260,7 +260,7 @@
       "status": "Published",
       "filter": "published",
       "title": "A Machine Learning and DEM-Based Approach for Predicting Sea Level Rise and Assessing Coastal Risk in Bangladesh Using AI Insights",
-      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Pinki, F. T., Baidya, R., Alam, F., & <strong class='author-me'>Mandal, S.</strong>",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>A. Ghosh ↗</a>, F. T. Pinki, R. Baidya, F. Alam, and <strong class='author-me'>S. Mandal</strong>",
       "venue": "CSNT 2026 — IEEE",
       "year": "2026",
       "doi": "10.1109/CSNT69054.2026.11502358",
@@ -276,7 +276,7 @@
       "status": "In press",
       "filter": "accepted in press icccnt implementation arcore android learning technology",
       "title": "Revolutionizing Academic Learning and Research with the Integration of Leap Motion and ARCore in Android",
-      "authors": "<strong class='author-me'>Mandal, S.</strong>, et al.",
+      "authors": "<strong class='author-me'>S. Mandal</strong> et al.",
       "venue": "16th International Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), IIT Indore, Madhya Pradesh, India",
       "year": "2025",
       "type": "Conference Paper",
@@ -292,7 +292,7 @@
       "status": "In press",
       "filter": "accepted in press icccnt nlp sentiment analysis deep learning",
       "title": "Advancing Sentiment Analysis Through Natural Language Processing and Deep Learning",
-      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, <strong class='author-me'>Mandal, S.</strong>, et al.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>A. Ghosh ↗</a>, <strong class='author-me'>S. Mandal</strong>, et al.",
       "venue": "16th International Conference on Computing, Communication and Networking Technologies (ICCCNT 2025), IIT Indore, Madhya Pradesh, India",
       "year": "2025",
       "type": "Conference Paper",
@@ -307,43 +307,9 @@
     {
       "status": "Under Review",
       "statusText": "Manuscript submitted; under review",
-      "filter": "under review machine learning educational data mining catboost svm",
-      "title": "Data-Driven Multiclass Prediction of Student Academic Outcomes Using Machine Learning: A Comparative Evaluation of SVM and CatBoost",
-      "authors": "<strong class='author-me'>Mandal, S.</strong>, Ahmed, K. A., <a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Swadesh, P. M., & Baidya, R.",
-      "venue": "5th IEEE International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON 2026), Jashore, Bangladesh",
-      "year": "2026",
-      "type": "Conference Manuscript",
-      "area": "Educational data mining, multiclass classification, SVM, CatBoost",
-      "role": "First author",
-      "detail": "Compares SVM and CatBoost for three-level student-outcome prediction and examines the influence of prior academic and behavioral features.",
-      "publisher": "Submitted to RAAICON 2026",
-      "doi": "",
-      "doiUrl": "",
-      "authorLinks": []
-    },
-    {
-      "status": "Under Review",
-      "statusText": "Manuscript submitted; under review",
-      "filter": "under review computer vision cnn transfer learning fish quality",
-      "title": "Automated Visual Inspection of Tilapia Fish Quality Using CNN and Transfer Learning",
-      "authors": "Islam, M. H., Jiku, N. A. S., <strong class='author-me'>Mandal, S.</strong>, Swadesh, P. M., & <a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>",
-      "venue": "5th IEEE International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON 2026), Jashore, Bangladesh",
-      "year": "2026",
-      "type": "Conference Manuscript",
-      "area": "Computer vision, CNN, transfer learning, food-quality inspection",
-      "role": "Co-author",
-      "detail": "Develops a three-class visual inspection pipeline for classifying tilapia as fresh, semi-fresh, or rotten from skin images.",
-      "publisher": "Submitted to RAAICON 2026",
-      "doi": "",
-      "doiUrl": "",
-      "authorLinks": []
-    },
-    {
-      "status": "Under Review",
-      "statusText": "Manuscript submitted; under review",
       "filter": "under review nlp code mixed emotion recognition banglabert xlm roberta stacking",
       "title": "Beyond Single Transformers: A BanglaBERT-XLM-RoBERTa Stacking Framework for Code-Mixed Emotion Recognition",
-      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Datta, A., <strong class='author-me'>Mandal, S.</strong>, Swadesh, P. M., Ahmed, K. A., & Molla, M. H.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>A. Ghosh ↗</a>, A. Datta, <strong class='author-me'>S. Mandal</strong>, P. M. Swadesh, K. A. Ahmed, and M. H. Molla",
       "venue": "3rd IEEE International Conference on Computing, Applications and Systems (COMPAS 2026), Dhaka, Bangladesh",
       "year": "2026",
       "type": "Conference Manuscript",
@@ -360,7 +326,7 @@
       "statusText": "Manuscript submitted; under review",
       "filter": "under review nlp sentiment analysis explainable ai llm style transfer domain adaptation",
       "title": "Chameleon Words in Cross-Domain Sentiment Analysis: An Explainable Framework with LLM-Based Style Transfer",
-      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>Ghosh, A. ↗</a>, Molla, M. H., Swadesh, P. M., <strong class='author-me'>Mandal, S.</strong>, Ahmed, K. A., & Datta, A.",
+      "authors": "<a class='author-link' href='https://scholar.google.com/citations?user=ARzTQjIAAAAJ&hl=en' target='_blank' rel='noopener'>A. Ghosh ↗</a>, M. H. Molla, P. M. Swadesh, <strong class='author-me'>S. Mandal</strong>, K. A. Ahmed, and A. Datta",
       "venue": "3rd IEEE International Conference on Computing, Applications and Systems (COMPAS 2026), Dhaka, Bangladesh",
       "year": "2026",
       "type": "Conference Manuscript",

@@ -18,7 +18,7 @@ The website presents Shovon Mandal's research profile across:
 
 - 4 published conference papers
 - 2 accepted / in-press conference papers
-- 4 conference manuscripts under review
+- 2 conference manuscripts under review
 
 Under-review manuscripts are displayed separately and are not described as accepted or published. Submitted PDFs, submission IDs, and reviewer information are not publicly included.
 
