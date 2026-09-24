@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex, nofollow"/>
+<title>Content editor | Shovon Mandal</title>
+<link rel="icon" type="image/jpeg" href="assets/img/profile.jpg"/>
+<link rel="stylesheet" href="assets/css/admin.css"/>
+</head>
+<body>
+
+<header class="bar">
+  <div class="bar-id">
+    <img src="assets/img/profile.jpg" alt=""/>
+    <div>
+      <strong>Content editor</strong>
+      <span id="conn-state">Checking connection...</span>
+    </div>
+  </div>
+  <div class="bar-actions">
+    <a class="btn ghost" href="./" target="_blank" rel="noopener">View website</a>
+    <button class="btn ghost" id="btn-preview-cv" type="button" disabled>Preview CV</button>
+    <button class="btn primary" id="btn-publish" type="button" disabled>Publish changes</button>
+    <button class="btn ghost" id="btn-signout" type="button" hidden>Sign out</button>
+  </div>
+</header>
+
+<!-- Sign-in / setup screen -->
+<section class="gate" id="gate">
+  <div class="gate-card">
+    <h1>Edit your website content</h1>
+    <p id="gate-msg">Sign in with your Google account to update papers, projects and CV details.</p>
+    <button class="btn primary big" id="btn-signin" type="button" hidden>Sign in with Google</button>
+    <div id="setup-note" class="note" hidden>
+      <p><b>Firebase is not connected yet.</b> Open <code>assets/js/firebase-config.js</code>, paste your Firebase web config and set <code>enabled: true</code>. See <code>FIREBASE_SETUP_GUIDE.md</code>.</p>
+      <p>You can still edit here and use <b>Download JSON</b> to update <code>data/site-data.json</code> by hand.</p>
+      <button class="btn ghost" id="btn-local" type="button">Edit without Firebase</button>
+    </div>
+  </div>
+</section>
+
+<main class="app" id="app" hidden>
+  <div class="banner" id="banner" hidden></div>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="papers" class="on">Papers</button>
+    <button role="tab" data-tab="projects">Projects</button>
+    <button role="tab" data-tab="cv">CV details</button>
+    <button role="tab" data-tab="coauthors">Co-authors</button>
+    <button role="tab" data-tab="json">All data</button>
+    <button role="tab" data-tab="history">Backups</button>
+  </nav>
+
+  <!-- PAPERS -->
+  <section class="panel" data-panel="papers">
+    <div class="panel-head">
+      <div>
+        <h2>Papers</h2>
+        <p class="hint">Change a status straight from the list. Counts on the website (e.g. "8 published or accepted") update by themselves.</p>
+      </div>
+      <button class="btn primary" id="btn-add-paper" type="button">Add paper</button>
+    </div>
+    <div class="list" id="paper-list"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="panel" data-panel="projects" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>Projects</h2>
+        <p class="hint">Choose where each project appears: on the website, in the CV (Selected or Additional), or both.</p>
+      </div>
+      <button class="btn primary" id="btn-add-project" type="button">Add project</button>
+    </div>
+    <div class="list" id="project-list"></div>
+  </section>
+
+  <!-- CV DETAILS -->
+  <section class="panel" data-panel="cv" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>CV details</h2>
+        <p class="hint">Papers and projects come from their own tabs. Formatting: <code>**bold**</code>, <code>*italic*</code>, <code>[link text](https://...)</code>.</p>
+      </div>
+    </div>
+    <form class="form" id="cv-form" autocomplete="off">
+      <label>Header line<input name="headerLine"/></label>
+      <label>Email<input name="email" type="email"/></label>
+      <label>Header links <small>One per line: Label | URL</small><textarea name="links" rows="6"></textarea></label>
+      <label>Research profile<textarea name="researchProfile" rows="6"></textarea></label>
+      <label>Research interests<textarea name="researchInterests" rows="3"></textarea></label>
+      <label class="check"><input type="checkbox" name="showUnderReview"/> Show "Manuscripts Under Review" section in the CV</label>
+      <label>Technical skills <small>One line each</small><textarea name="skills" rows="7"></textarea></label>
+      <label>Honors, scholarships and service <small>One per line (printed in two columns)</small><textarea name="honors" rows="8"></textarea></label>
+      <label>Closing note<input name="footerNote"/></label>
+      <label>Education <small>JSON list: title, url, period, institution, lines[]</small><textarea name="education" rows="12" class="mono"></textarea></label>
+      <label>Teaching experience <small>JSON list: title, url, place, period, bullets[], lines[]</small><textarea name="experience" rows="14" class="mono"></textarea></label>
+      <p class="form-msg" id="cv-msg"></p>
+    </form>
+  </section>
+
+  <!-- CO-AUTHORS -->
+  <section class="panel" data-panel="coauthors" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>Co-author links</h2>
+        <p class="hint">Names written exactly like this in a paper's author list become Google Scholar links on the website.</p>
+      </div>
+    </div>
+    <form class="form" id="co-form" autocomplete="off">
+      <label>Your name in author lists <small>Printed in bold</small><input name="authorName"/></label>
+      <label>Co-authors <small>One per line: Name | Google Scholar URL</small><textarea name="coauthors" rows="10"></textarea></label>
+    </form>
+  </section>
+
+  <!-- ALL DATA -->
+  <section class="panel" data-panel="json" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>All website data</h2>
+        <p class="hint">Every section of the site (profile, education, skills, honors...). Edit carefully, then Apply.</p>
+      </div>
+      <div class="row-actions">
+        <button class="btn ghost" id="btn-download-json" type="button">Download JSON</button>
+        <label class="btn ghost file-btn">Upload JSON<input type="file" id="file-json" accept="application/json,.json" hidden/></label>
+        <button class="btn primary" id="btn-apply-json" type="button">Apply</button>
+      </div>
+    </div>
+    <textarea id="json-area" class="mono json-area" spellcheck="false"></textarea>
+    <p class="form-msg" id="json-msg"></p>
+  </section>
+
+  <!-- HISTORY -->
+  <section class="panel" data-panel="history" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>Backups</h2>
+        <p class="hint">A copy of the live content is saved before every publish. Restoring loads it into the editor; publish to make it live.</p>
+      </div>
+      <button class="btn ghost" id="btn-load-history" type="button">Refresh</button>
+    </div>
+    <div class="list" id="history-list"></div>
+  </section>
+</main>
+
+<!-- Edit dialog (papers and projects) -->
+<dialog id="editor">
+  <form method="dialog" class="dlg" id="editor-form" autocomplete="off">
+    <header><h3 id="editor-title">Edit</h3><button class="x" value="cancel" type="submit" aria-label="Close">×</button></header>
+    <div class="dlg-body" id="editor-body"></div>
+    <footer>
+      <button class="btn ghost" value="cancel" type="submit">Cancel</button>
+      <button class="btn primary" value="save" type="submit" id="editor-save">Save to list</button>
+    </footer>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/firebase-config.js"></script>
+<script src="assets/js/data-core.js"></script>
+<script src="assets/vendor/jspdf.umd.min.js"></script>
+<script src="assets/js/cv-pdf.js"></script>
+<script type="module" src="assets/js/admin.js"></script>
+</body>
+</html>

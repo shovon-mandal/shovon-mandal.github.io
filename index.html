@@ -22,6 +22,7 @@
 <link rel="icon" type="image/jpeg" href="assets/img/profile.jpg"/>
 <link rel="apple-touch-icon" href="assets/img/profile.jpg"/>
 <link rel="stylesheet" href="assets/css/style.css"/>
+<link rel="preconnect" href="https://firestore.googleapis.com" crossorigin/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -396,11 +397,15 @@
 
   <footer>
     <p>© <span id="yr"></span> Shovon Mandal. Academic portfolio prepared for research visibility and scholarly communication.</p>
+    <p><span id="last-updated"></span></p>
     <p><a href="#home">Back to top</a></p>
   </footer>
 </main>
 
 <button id="btt" aria-label="Back to Top">Back to Top</button>
+<script src="assets/js/firebase-config.js"></script>
+<script src="assets/js/data-core.js"></script>
+<script src="assets/js/cv-pdf.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

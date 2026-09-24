@@ -1,0 +1,35 @@
+rules_version = '2';
+
+// Only the owner's Google account can change anything.
+// Everyone can read the public website content.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isOwner() {
+      return request.auth != null
+        && request.auth.token.email == "shovonmandal@gmail.com"
+        && request.auth.token.email_verified == true;
+    }
+
+    // Live website content (one document: portfolio/site)
+    match /portfolio/{docId} {
+      allow read: if true;
+      allow create, update: if isOwner()
+        && request.resource.data.keys().hasOnly(['json', 'updatedAt', 'updatedBy'])
+        && request.resource.data.json is string
+        && request.resource.data.json.size() < 900000;
+      allow delete: if false;
+    }
+
+    // Automatic backups taken before every publish (private)
+    match /portfolio_history/{entryId} {
+      allow read, create, delete: if isOwner();
+      allow update: if false;
+    }
+
+    // Everything else is closed
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
