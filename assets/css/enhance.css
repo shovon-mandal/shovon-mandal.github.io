@@ -44,3 +44,17 @@
   .rotator > span{transition:none}
   .rotator-bar,.hu-dot{animation:none}
 }
+
+/* CV last-updated date under the download buttons */
+.cv-updated{margin:8px 0 14px 6px;font-size:.76rem;font-weight:600;color:#4a6080;letter-spacing:.01em}
+.cv-updated[hidden],.sb-cv-date[hidden]{display:none !important}
+.sb-cv-date{display:block;margin-top:6px;font-size:.7rem;font-weight:600;color:#4a6080;text-align:center}
+
+/* Paper counts inside the publication filter buttons */
+.filt .filt-count{
+  display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;
+  margin-left:7px;padding:0 6px;border-radius:999px;font-size:.68rem;font-weight:800;line-height:1;
+  background:rgba(30,95,196,.1);color:#1e5fc4;
+}
+.filt.on .filt-count{background:rgba(255,255,255,.22);color:#fff}
+.filt[hidden]{display:none !important}
