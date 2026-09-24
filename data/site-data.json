@@ -2,9 +2,13 @@
   "meta": {
     "updatedAt": "2026-09-24T18:00:00+06:00",
     "schema": 2,
-    "contentVersion": 4,
+    "contentVersion": 5,
     "changes": {
       "4": [
+        "site",
+        "snapshot"
+      ],
+      "5": [
         "site",
         "snapshot"
       ]
@@ -21,8 +25,8 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "I am exploring Ph.D. or thesis-based M.S. research opportunities aligned with my research interests and with research assistantship or teaching assistantship support. My interests include cybersecurity, blockchain- and NFC-enabled secure digital payments, applied cryptography, secure distributed systems, IoT and embedded systems security, applied machine learning, natural language processing, and explainable AI. I can contribute through publication-oriented research, prototype and system development, experimental evaluation, technical implementation, university teaching and laboratory support, and clear technical documentation.",
-    "headline": "Bridging Secure Distributed Systems and Applied AI to Develop Reliable, Interpretable, and Deployable Solutions for Real-World Computing Challenges",
+    "goal": "I am interested in pursuing Ph.D. or thesis-based M.S. research opportunities in secure distributed systems, blockchain and IoT security, applied machine learning, natural language processing, and explainable AI. My background combines peer-reviewed research, prototype development, university teaching, and technical implementation.",
+    "headline": "Secure Distributed Systems · Blockchain and IoT Security · Applied Machine Learning · Natural Language Processing · Explainable AI",
     "rotatingWords": [
       "Ph.D. Research in Secure and Intelligent Systems",
       "Blockchain, IoT, and Distributed-System Security",
@@ -94,11 +98,11 @@
     },
     {
       "label": "Higher Study Goal",
-      "value": "Ph.D. or Thesis-Based M.S."
+      "value": "Funded Ph.D. or Thesis-Based M.S."
     },
     {
       "label": "Research Alignment",
-      "value": "Secure Distributed Systems · Cybersecurity · Applied Machine Learning · NLP · Explainable AI"
+      "value": "Secure Distributed Systems · Applied AI · NLP"
     }
   ],
   "metrics": [
