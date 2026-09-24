@@ -61,7 +61,7 @@
         <h2>Papers</h2>
         <p class="hint">Change a status straight from the list. Counts on the website (e.g. "8 published or accepted") update by themselves.</p>
       </div>
-      <button class="btn primary" id="btn-add-paper" type="button">Add paper</button>
+      <div class="row-actions"><button class="btn ghost" id="btn-json-paper" type="button">Add from JSON</button><button class="btn primary" id="btn-add-paper" type="button">Add paper</button></div>
     </div>
     <div class="list" id="paper-list"></div>
   </section>
@@ -73,9 +73,8 @@
         <h2>Website text</h2>
         <p class="hint">Every text block of the website, section by section. Changes are kept in the editor; click <b>Publish changes</b> to make them live. Numbers like <code>{{accepted}}</code> or <code>{{AcceptedWord}}</code> are filled in automatically from the Papers list.</p>
       </div>
-      <div class="row-actions" id="site-jump"></div>
     </div>
-    <div id="site-form"></div>
+    <div class="builder" data-builder="site"></div>
   </section>
 
   <!-- PROJECTS -->
@@ -85,7 +84,7 @@
         <h2>Projects</h2>
         <p class="hint">Choose where each project appears: on the website, in the CV (Selected or Additional), or both.</p>
       </div>
-      <button class="btn primary" id="btn-add-project" type="button">Add project</button>
+      <div class="row-actions"><button class="btn ghost" id="btn-json-project" type="button">Add from JSON</button><button class="btn primary" id="btn-add-project" type="button">Add project</button></div>
     </div>
     <div class="list" id="project-list"></div>
   </section>
@@ -95,13 +94,10 @@
     <div class="panel-head">
       <div>
         <h2>Recent updates</h2>
-        <p class="hint">Shown in the "Recent Updates" section of the website, newest first. Leave it empty to hide the section.</p>
+        <p class="hint">Shown in the "Recent Updates" section and in the "Latest" box at the top of the website, newest first.</p>
       </div>
     </div>
-    <form class="form" id="news-form" autocomplete="off">
-      <label class="check"><input type="checkbox" name="showHero"/> Show the latest updates as a sliding line in the top section of the website</label>
-      <label>Updates <small>One per line: Date | Text (e.g. Sep 2026 | Paper accepted at IEEE OMLET 2026.)</small><textarea name="news" rows="10"></textarea></label>
-    </form>
+    <div class="builder" data-builder="news"></div>
   </section>
 
   <!-- CV DETAILS -->
@@ -109,23 +105,10 @@
     <div class="panel-head">
       <div>
         <h2>CV details</h2>
-        <p class="hint">Papers and projects come from their own tabs. Formatting: <code>**bold**</code>, <code>*italic*</code>, <code>[link text](https://...)</code>.</p>
+        <p class="hint">Papers and projects come from their own tabs. Formatting inside CV text: <code>**bold**</code>, <code>*italic*</code>, <code>[link text](https://...)</code>. Every list also has <b>Edit as JSON</b> if you prefer code.</p>
       </div>
     </div>
-    <form class="form" id="cv-form" autocomplete="off">
-      <label>Header line<input name="headerLine"/></label>
-      <label>Email<input name="email" type="email"/></label>
-      <label>Header links <small>One per line: Label | URL</small><textarea name="links" rows="6"></textarea></label>
-      <label>Research profile<textarea name="researchProfile" rows="6"></textarea></label>
-      <label>Research interests<textarea name="researchInterests" rows="3"></textarea></label>
-      <label class="check"><input type="checkbox" name="showUnderReview"/> Show "Manuscripts Under Review" section in the CV</label>
-      <label>Technical skills <small>One line each</small><textarea name="skills" rows="7"></textarea></label>
-      <label>Honors, scholarships and service <small>One per line (printed in two columns)</small><textarea name="honors" rows="8"></textarea></label>
-      <label>Closing note<input name="footerNote"/></label>
-      <label>Education <small>JSON list: title, url, period, institution, lines[]</small><textarea name="education" rows="12" class="mono"></textarea></label>
-      <label>Teaching experience <small>JSON list: title, url, place, period, bullets[], lines[]</small><textarea name="experience" rows="14" class="mono"></textarea></label>
-      <p class="form-msg" id="cv-msg"></p>
-    </form>
+    <div class="builder" data-builder="cv"></div>
   </section>
 
   <!-- CO-AUTHORS -->
@@ -136,10 +119,7 @@
         <p class="hint">Names written exactly like this in a paper's author list become Google Scholar links on the website.</p>
       </div>
     </div>
-    <form class="form" id="co-form" autocomplete="off">
-      <label>Your name in author lists <small>Printed in bold</small><input name="authorName"/></label>
-      <label>Co-authors <small>One per line: Name | Google Scholar URL</small><textarea name="coauthors" rows="10"></textarea></label>
-    </form>
+    <div class="builder" data-builder="coauthors"></div>
   </section>
 
   <!-- ALL DATA -->
@@ -175,8 +155,9 @@
 <!-- Edit dialog (papers and projects) -->
 <dialog id="editor">
   <form method="dialog" class="dlg" id="editor-form" autocomplete="off">
-    <header><h3 id="editor-title">Edit</h3><button class="x" value="cancel" type="submit" aria-label="Close">×</button></header>
+    <header><h3 id="editor-title">Edit</h3><div class="row-actions"><button class="btn small ghost" id="editor-mode" type="button">Edit as JSON</button><button class="x" value="cancel" type="submit" aria-label="Close">×</button></div></header>
     <div class="dlg-body" id="editor-body"></div>
+    <div class="dlg-body" id="editor-json" hidden><label>JSON <small id="editor-json-hint">Edit the fields directly. Must be valid JSON.</small><textarea class="mono" id="editor-json-area" rows="22" spellcheck="false"></textarea></label><p class="form-msg err" id="editor-json-msg"></p></div>
     <footer>
       <button class="btn ghost" value="cancel" type="submit">Cancel</button>
       <button class="btn primary" value="save" type="submit" id="editor-save">Save to list</button>

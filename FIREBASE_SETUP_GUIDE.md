@@ -158,7 +158,7 @@ Firebase-এর data Google-এর cloud-এ থাকে, আপনার compu
 ## Part 5: Website-এর যেকোনো লেখা বদলানো
 
 Admin panel-এর **Website text** tab-এ website-এর সব অংশ আলাদা আলাদা box-এ আছে:
-Top section (sliding lines সহ), Profile links, Academic Snapshot, Fast Review, Number cards, About Me, Future Research Plan, Technical Skills, Honors, Education, Teaching Experience, References।
+Top section (sliding lines সহ), Profile links, Academic Snapshot, Fast Review, Number cards, About Me, Future Research Plan, Technical Skills, Education, Teaching Experience, Honors, Contact, References।
 
 - উপরের button চাপলে সরাসরি সেই অংশে চলে যাবে।
 - লেখা বদলান, তারপর **Publish changes** চাপুন।
@@ -174,3 +174,23 @@ Website-এর উপরের অংশে সবুজ **Latest** box-এ আ�
 - বন্ধ করতে চাইলে **Website text → Top section**-এ "Show the Latest updates box"-এর tick তুলে দিন (Updates tab-এও একই checkbox আছে) → **Publish changes**।
 - সবুজ sliding line বন্ধ বা চালু করার checkbox-ও **Website text → Top section**-এ আছে।
 - Mouse রাখলে slide থেমে থাকে, যাতে পুরো লেখা পড়া যায়।
+
+
+---
+
+## Part 7: Admin panel - সব কিছু graphical ভাবে
+
+এখন admin panel-এর প্রতিটা অংশ সাধারণ form দিয়ে edit করা যায়। JSON বা code লাগে না, তবে চাইলে ব্যবহার করতে পারবেন।
+
+**List-এর নিয়ম (Website text, Updates, CV details, Co-authors - সব জায়গায় একই):**
+- প্রতিটা item-এর নামে click করলে খুলে যায়, আবার click করলে বন্ধ হয়।
+- **↑ ↓** দিয়ে order বদলান, **Remove** দিয়ে মুছুন, নিচের **+ Add ...** দিয়ে নতুন যোগ করুন।
+- প্রতিটা list-এর ডানে **Edit as JSON** আছে। চাপলে পুরো list code হিসেবে দেখায়, edit করে **Apply JSON** চাপুন। আবার **Back to form** চাপলে form-এ ফিরে যাবেন।
+
+**Paper বা project যোগ করার দুই উপায়:**
+1. **Add paper / Add project** - form পূরণ করে।
+2. **Add from JSON** - একটা বা একসাথে অনেকগুলো paste করে। নমুনা আগে থেকেই দেওয়া থাকে। শুধু `title` থাকা বাধ্যতামূলক, বাকি field না দিলে default বসে।
+
+**Edit করার সময়:** Paper বা project-এর **Edit** dialog-এর উপরে **Edit as JSON** button আছে। Form আর JSON-এর মধ্যে যতবার খুশি যাওয়া-আসা করা যায়, দুই দিকের পরিবর্তন মিলে থাকে। JSON ভুল হলে লাল লেখা দেখাবে, আর save হবে না।
+
+সবশেষে সবসময় **Publish changes** চাপবেন।

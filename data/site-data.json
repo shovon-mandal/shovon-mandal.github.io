@@ -2,7 +2,7 @@
   "meta": {
     "updatedAt": "2026-09-24T18:00:00+06:00",
     "schema": 2,
-    "contentVersion": 7,
+    "contentVersion": 8,
     "changes": {
       "4": [
         "site",
@@ -19,6 +19,9 @@
       ],
       "7": [
         "site"
+      ],
+      "8": [
+        "contact"
       ]
     }
   },
@@ -957,5 +960,40 @@
       "date": "2026",
       "text": "Papers published in IEEE QPAIN 2026 and IEEE CSNT 2026."
     }
-  ]
+  ],
+  "contact": {
+    "lead": "You can reach me by email or through the research profiles below.",
+    "cards": [
+      {
+        "icon": "E",
+        "title": "Email for Contact",
+        "text": "shovonmandal@gmail.com",
+        "url": "mailto:shovonmandal@gmail.com"
+      },
+      {
+        "icon": "GS",
+        "title": "Research Profile",
+        "text": "Google Scholar ↗",
+        "url": "https://scholar.google.com/citations?user=h6Imiq4AAAAJ&hl=en"
+      },
+      {
+        "icon": "RG",
+        "title": "Research Network",
+        "text": "ResearchGate ↗",
+        "url": "https://www.researchgate.net/profile/Shovon-Mandal-2"
+      },
+      {
+        "icon": "in",
+        "title": "LinkedIn",
+        "text": "linkedin.com/in/shovonmandal ↗",
+        "url": "https://www.linkedin.com/in/shovonmandal/"
+      },
+      {
+        "icon": "iD",
+        "title": "ORCID",
+        "text": "0009-0003-6302-9484 ↗",
+        "url": "https://orcid.org/0009-0003-6302-9484"
+      }
+    ]
+  }
 }
