@@ -7,15 +7,20 @@
 
    Step: paste the config from Firebase Console > Project settings > Your apps > Web app,
    then set enabled: true. Until then the site keeps using data/site-data.json. */
+
+   
+/* Firebase settings for the admin panel (admin.html) and for reading live content.
+   It is safe to keep these values in a public repository. Write access is
+   controlled by firestore.rules (only the admin Google account can write). */
 window.PORTFOLIO_FIREBASE = {
-  enabled: false,
+  enabled: true,
   config: {
-    apiKey: "PASTE_API_KEY",
-    authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
-    projectId: "PASTE_PROJECT_ID",
-    storageBucket: "PASTE_PROJECT_ID.appspot.com",
-    messagingSenderId: "PASTE_SENDER_ID",
-    appId: "PASTE_APP_ID"
+    apiKey: "AIzaSyBVrFbN3nHQnmM3lqZNiilFCDbsywCI8fQ",
+    authDomain: "shovon-portfolio.firebaseapp.com",
+    projectId: "shovon-portfolio",
+    storageBucket: "shovon-portfolio.firebasestorage.app",
+    messagingSenderId: "740253012838",
+    appId: "1:740253012838:web:66d3d36fedb4862cee6ea7"
   },
   adminEmail: "shovonmandal@gmail.com",
   docPath: ["portfolio", "site"],
