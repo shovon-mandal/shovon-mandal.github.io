@@ -138,6 +138,7 @@ async function loadLive() {
       liveExists = true;
       const ts = snap.data().updatedAt;
       showBanner(`Live content loaded. Last published ${ts ? C.formatDate(ts.toDate(), true) : "earlier"}.`, true);
+      setTimeout(checkRepoText, 0);
     } else {
       state = await fetchJsonFile();
       liveExists = false;
@@ -192,6 +193,7 @@ function renderAll() {
   renderProjects();
   fillCvForm();
   fillCoForm();
+  fillNewsForm();
   $("#json-area").value = JSON.stringify(state, null, 2);
 }
 
@@ -487,6 +489,52 @@ $("#cv-form").addEventListener("input", e => {
   } else cv[n] = f[n].value;
   markDirty();
 });
+
+/* ---------------- updates ---------------- */
+function fillNewsForm() {
+  $("#news-form").news.value = (state.news || []).map(n => `${n.date} | ${n.text}`).join("\n");
+}
+$("#news-form").addEventListener("input", () => {
+  state.news = lines($("#news-form").news.value).map(l => {
+    const i = l.indexOf("|");
+    return i < 0 ? { date: "", text: l } : { date: l.slice(0, i).trim(), text: l.slice(i + 1).trim() };
+  });
+  markDirty();
+});
+
+/* ---------------- new website text from the repository ----------------
+   When a new version of data/site-data.json is pushed to GitHub, its text
+   can be merged in WITHOUT touching papers, projects, co-authors or CV details. */
+const KEEP_KEYS = ["publications", "projects", "coauthors", "cv", "meta"];
+async function checkRepoText() {
+  let repo;
+  try { repo = await fetchJsonFile(); } catch (e) { return; }
+  const repoV = (repo.meta && repo.meta.contentVersion) || 0;
+  const liveV = (state.meta && state.meta.contentVersion) || 0;
+  if (repoV <= liveV) return;
+  const b = $("#banner");
+  b.innerHTML = `New website text is available from GitHub (version ${repoV}). Your papers, co-authors and CV details stay exactly as they are. Existing projects only get the new description wording; projects you added stay as they are. <button class="btn small primary" id="btn-merge" type="button">Apply new text</button>`;
+  b.classList.remove("ok");
+  b.hidden = false;
+  $("#btn-merge").addEventListener("click", () => {
+    const authorName = state.site && state.site.authorName;
+    Object.keys(repo).forEach(k => {
+      if (KEEP_KEYS.includes(k)) return;
+      if (k === "news" && Array.isArray(state.news) && state.news.length) return;
+      state[k] = repo[k];
+    });
+    if (authorName) state.site.authorName = authorName;
+    /* new wording for projects that came from the repository (matched by id); new projects you added are untouched */
+    (repo.projects || []).forEach(rp => {
+      const lp = (state.projects || []).find(x => x.id && x.id === rp.id);
+      if (lp) ["title", "description", "highlights", "tools"].forEach(f => { if (rp[f] !== undefined) lp[f] = rp[f]; });
+    });
+    state.meta = Object.assign({}, state.meta, { contentVersion: repoV });
+    renderAll();
+    markDirty();
+    showBanner("New text applied in the editor. Check it with View website after publishing. Click <b>Publish changes</b> to make it live.", true);
+  });
+}
 
 /* ---------------- co-authors ---------------- */
 function fillCoForm() {

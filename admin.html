@@ -46,6 +46,7 @@
   <nav class="tabs" role="tablist">
     <button role="tab" data-tab="papers" class="on">Papers</button>
     <button role="tab" data-tab="projects">Projects</button>
+    <button role="tab" data-tab="news">Updates</button>
     <button role="tab" data-tab="cv">CV details</button>
     <button role="tab" data-tab="coauthors">Co-authors</button>
     <button role="tab" data-tab="json">All data</button>
@@ -74,6 +75,19 @@
       <button class="btn primary" id="btn-add-project" type="button">Add project</button>
     </div>
     <div class="list" id="project-list"></div>
+  </section>
+
+  <!-- UPDATES -->
+  <section class="panel" data-panel="news" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>Recent updates</h2>
+        <p class="hint">Shown in the "Recent Updates" section of the website, newest first. Leave it empty to hide the section.</p>
+      </div>
+    </div>
+    <form class="form" id="news-form" autocomplete="off">
+      <label>Updates <small>One per line: Date | Text (e.g. Sep 2026 | Paper accepted at IEEE OMLET 2026.)</small><textarea name="news" rows="10"></textarea></label>
+    </form>
   </section>
 
   <!-- CV DETAILS -->

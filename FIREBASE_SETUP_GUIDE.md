@@ -137,3 +137,18 @@ apiKey public repository-তে থাকলে ভয়ের কিছু ন
 | Admin page-এ "Firebase not connected" | `firebase-config.js`-এ `enabled: true` হয়নি বা value ভুল |
 | Website-এ পুরনো তথ্য দেখাচ্ছে | Ctrl + Shift + R দিয়ে hard refresh |
 | Admin page বন্ধ হয়ে গেলেও কাজ করতে চান | "Edit without Firebase" → কাজ শেষে Download JSON → GitHub-এ `data/site-data.json` replace |
+
+---
+
+## Part 4: GitHub থেকে নতুন লেখা (website text) আনা
+
+Firebase-এর data Google-এর cloud-এ থাকে, আপনার computer বা GitHub-এ না। তাই git push করলে Firebase-এর paper বা project মুছে যায় না।
+
+কিন্তু website আগে Firebase থেকে পড়ে। তাই GitHub-এ `data/site-data.json`-এ নতুন লেখা push করলেও সেটা নিজে থেকে live হয় না। নিয়ম হলো:
+
+1. Push করার পরে `admin.html` খুলে login করুন।
+2. উপরে message আসবে: "New website text is available from GitHub" → **Apply new text** চাপুন।
+3. আপনার papers, co-authors আর CV details যেমন ছিল তেমনই থাকবে। শুধু About, Research Plan, Skills, Updates আর পুরনো project-এর description-এর লেখা বদলাবে।
+4. **Publish changes** চাপুন।
+
+**কখনো করবেন না:** All data tab-এ GitHub-এর `site-data.json` upload করে Apply করা। তাহলে admin panel থেকে যোগ করা paper মুছে যাবে। ভুল করে করলে Backups tab থেকে restore করুন।

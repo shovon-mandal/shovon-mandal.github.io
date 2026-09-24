@@ -1,7 +1,8 @@
 {
   "meta": {
-    "updatedAt": "2026-09-24T00:00:00+06:00",
-    "schema": 2
+    "updatedAt": "2026-09-24T18:00:00+06:00",
+    "schema": 2,
+    "contentVersion": 3
   },
   "site": {
     "name": "Shovon Mandal",
@@ -13,15 +14,11 @@
     "email": "shovonmandal@gmail.com",
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
-    "goalLabel": "Academic Research Goal",
-    "goal": "I am exploring Ph.D. or thesis-based M.S. research opportunities aligned with my research interests and with research assistantship or teaching assistantship support. My interests include cybersecurity, blockchain- and NFC-enabled secure digital payments, applied cryptography, secure distributed systems, IoT and embedded systems security, applied machine learning, natural language processing, and explainable AI. I can contribute through publication-oriented research, prototype and system development, experimental evaluation, technical implementation, university teaching and laboratory support, and clear technical documentation.",
-    "headline": "Bridging Secure Distributed Systems and Applied AI to Develop Reliable, Interpretable, and Deployable Solutions for Real-World Computing Challenges",
-    "rotatingWords": [
-      "Ph.D. Research in Secure and Intelligent Systems",
-      "Blockchain, IoT, and Distributed-System Security",
-      "Applied Machine Learning and Explainable AI",
-      "Natural Language Processing and Code-Mixed Text Analysis"
-    ]
+    "goalLabel": "Research Focus",
+    "goal": "My main research area is secure digital payment. In my B.Sc. and M.Sc. theses, I built blockchain-based payment systems and tested them with NFC and Arduino hardware. I also use machine learning as a tool for security problems, such as detecting network attacks. I plan to continue this research at the Ph.D. level, with a focus on transaction security for payment and IoT devices.",
+    "headline": "I work on securing digital payments and connected devices, using blockchain for transaction verification and machine learning for attack detection.",
+    "rotatingWords": [],
+    "authorName": "S. Mandal"
   },
   "links": [
     {
@@ -90,7 +87,7 @@
     },
     {
       "label": "Research Alignment",
-      "value": "Secure Distributed Systems · Cybersecurity · Applied Machine Learning · NLP · Explainable AI"
+      "value": "Payment and IoT Security · Machine Learning for Security"
     }
   ],
   "metrics": [
@@ -115,70 +112,46 @@
       "target": "#projects"
     }
   ],
-  "researchFit": [
-    {
-      "title": "Core Research Alignment",
-      "text": "Secure distributed systems, blockchain and IoT transaction security, applied cryptography, embedded systems security, applied machine learning, natural language processing, and explainable AI define the current research direction."
-    },
-    {
-      "title": "Publication Evidence",
-      "text": "{{AcceptedWord}} published or accepted conference papers{{reviewClause}} demonstrate an expanding research trajectory across security, distributed systems, machine learning, natural language processing, explainable AI, and computer vision."
-    },
-    {
-      "title": "Implementation Evidence",
-      "text": "Blockchain and NFC payment prototypes, IOTA-based transaction demonstrations, embedded-system experiments, and public GitHub repositories show the ability to move from a research question to implementation, evaluation, and documentation."
-    },
-    {
-      "title": "Teaching and Academic Support",
-      "text": "University lecturer experience, KUET Teaching Assistant experience, and BRAC University Student Tutor experience support readiness for teaching, laboratory supervision, mentoring, and collaborative research roles."
-    }
-  ],
+  "researchFit": [],
   "profile": {
     "paragraphs": [
-      "I am a Computer Science and Engineering lecturer and M.Sc. Eng. researcher at Khulna University of Engineering & Technology, with only my thesis defense remaining. My research lies at the intersection of secure distributed systems and applied intelligent computing, including blockchain-based payments, NFC and IoT transaction security, IOTA-based decentralized communication, machine learning, natural language processing, explainable AI, and computer vision applications.",
-      "My work combines publication-oriented research with prototype development, experimental evaluation, technical implementation, and university teaching. I am particularly interested in developing secure, reliable, and interpretable intelligent systems for distributed, IoT, and data-driven environments."
+      "I am a Lecturer in the Department of Computer Science and Engineering at Northern University of Business and Technology Khulna. I am also completing my M.Sc. Eng. at Khulna University of Engineering and Technology (KUET), where only my thesis defense is remaining.",
+      "My main research area is secure digital payment. In my B.Sc. thesis at BRAC University, I worked on a blockchain-based micropayment system for small cashless payments. In my M.Sc. thesis, I extended this idea with NFC and built a working prototype using Arduino and Python. This work was published at ICKECS 2024. I also worked on node confirmation in the IOTA Tangle, which was published at ICCIT 2024.",
+      "Besides security, I work with my colleagues on applied machine learning projects in natural language processing, medical imaging and computer vision. From these projects, I learned how to design experiments, compare models fairly and report the weak points of a result honestly. Now I am using this experience for security problems, such as detecting network attacks that a model has never seen during training."
     ],
     "cards": [
       {
-        "title": "Research Direction",
-        "text": "Secure distributed systems and applied intelligent computing, with emphasis on blockchain and IoT security, applied machine learning, NLP, and explainable AI.",
-        "target": "#research-fit"
-      },
-      {
-        "title": "Publication Evidence",
-        "text": "{{AcceptedWord}} published or accepted conference papers{{reviewClause}} across security, distributed systems, machine learning, NLP, explainable AI, and computer vision.",
+        "title": "Main Research Area",
+        "text": "Secure digital payment and transaction verification using blockchain, NFC and the IOTA Tangle.",
         "target": "#publications"
       },
       {
-        "title": "Implementation Ability",
-        "text": "Working blockchain, NFC, Arduino, IOTA, web, and academic automation systems supported by technical documentation and public repositories.",
+        "title": "Publications",
+        "text": "{{AcceptedWord}} published or accepted conference papers{{reviewClause}}, including two first-author papers.",
+        "target": "#publications"
+      },
+      {
+        "title": "Working Prototypes",
+        "text": "A blockchain and NFC payment prototype with Arduino hardware, and an IOTA-based web payment demo. The code is on GitHub.",
         "target": "#projects"
       },
       {
-        "title": "Teaching Experience",
-        "text": "University lecturer, KUET Teaching Assistant, and BRAC University Student Tutor experience across undergraduate courses and laboratories.",
+        "title": "Teaching",
+        "text": "More than four years of university teaching in computer architecture, digital logic, object-oriented programming, databases and microcontrollers.",
         "target": "#experience"
       }
     ],
     "tags": [
       "Secure Distributed Systems",
       "Blockchain-Based Digital Payments",
-      "NFC and IoT Transaction Security",
+      "IoT and NFC Transaction Security",
       "Applied Cryptography",
       "Embedded Systems Security",
       "Applied Machine Learning",
       "Natural Language Processing",
-      "Explainable AI",
-      "Computer Vision",
-      "IOTA and Distributed Ledger Technologies"
+      "Explainable AI"
     ],
-    "strengths": [
-      "Research experience connects secure distributed systems with applied machine learning and interpretable intelligent computing.",
-      "{{AcceptedWord}} published or accepted conference papers{{reviewClause}} provide evidence of sustained collaborative research activity.",
-      "GitHub-backed prototypes demonstrate implementation, experimentation, technical documentation, and working-system development.",
-      "University teaching and laboratory experience support mentoring, instructional, and research-assistant responsibilities.",
-      "Cross-domain projects show the ability to apply rigorous computational methods to security, language, vision, and educational data."
-    ]
+    "strengths": []
   },
   "education": [
     {
@@ -422,19 +395,17 @@
       "type": "Thesis-Supporting Research Implementation",
       "category": "Secure Payments · Contactless Interaction · Hardware Integration",
       "filter": "research hardware blockchain connected device secure payment",
-      "description": "Research prototype connecting blockchain-based verification with contactless transaction interaction and hardware-supported payment demonstration.",
+      "description": "A working prototype where an NFC card starts a payment and the transaction is verified on a blockchain. I built it with Arduino and Python as part of my M.Sc. thesis.",
       "tools": [
         "Blockchain",
-        "NFC Module",
+        "NFC module",
         "Arduino",
-        "Python",
-        "Secure payment flow",
-        "Prototype documentation"
+        "Python"
       ],
       "highlights": [
-        "Connects secure payment research with implementation-oriented prototyping.",
-        "Demonstrates contactless cashless transaction interaction at the hardware level.",
-        "Supports thesis direction in secure digital payment systems - related to ICKECS 2024 paper."
+        "Arduino and Python modules for transaction processing and device-level verification.",
+        "Hardware tests of the full payment flow, from NFC tap to blockchain record.",
+        "Related paper: ICKECS 2024."
       ],
       "url": "https://github.com/shovon-mandal/NFC",
       "cvSection": "selected",
@@ -452,17 +423,16 @@
       "type": "Web-Based Research Prototype",
       "category": "Distributed Ledger · Web Transaction",
       "filter": "research distributed ledger web transaction",
-      "description": "Web prototype for distributed-ledger-supported payment and decentralized transaction flow demonstration, with frontend and backend components built for experimental validation.",
+      "description": "A web prototype that shows how a payment can move through the IOTA Tangle without a central server. It has frontend and backend parts for testing.",
       "tools": [
-        "IOTA / Distributed Ledger",
+        "IOTA Tangle",
         "JavaScript",
-        "Web transaction flow",
-        "Payment demonstration"
+        "Web backend"
       ],
       "highlights": [
-        "Demonstrates distributed ledger-based payment flow and decentralized transaction concepts.",
-        "Shows web-facing implementation of IOTA Tangle integration.",
-        "Related to ICCIT 2024 IEEE paper on Q-learning and Gossip Protocol."
+        "Payment interaction and decentralized transaction flow in the browser.",
+        "Frontend and backend components for demonstration and testing.",
+        "Related paper: ICCIT 2024."
       ],
       "url": "https://github.com/shovon-mandal/IOTA-Website",
       "cvSection": "selected",
@@ -476,22 +446,20 @@
       "id": "r02"
     },
     {
-      "title": "Academic Routine Management System - Google Sheets and Apps Script",
+      "title": "Academic Routine Management System with Google Sheets and Apps Script",
       "type": "Academic Automation",
       "category": "Google Apps Script · Google Sheets · Academic Workflow",
       "filter": "automation apps script google sheets academic",
-      "description": "Google Sheets and Apps Script system for course offering, faculty/section routine retrieval, protected views, and PDF generation.",
+      "description": "A Google Sheets and Apps Script system for managing course offerings and class routines. Each faculty member or section can see their own routine through a protected view and download it as PDF.",
       "tools": [
         "Google Apps Script",
         "Google Sheets",
-        "Protected views",
-        "PDF generation",
-        "Routine retrieval"
+        "PDF generation"
       ],
       "highlights": [
-        "Improves routine retrieval and academic workflow clarity.",
-        "Supports institutional record organization.",
-        "Demonstrates automation ability beyond classroom programming."
+        "Faculty-wise and section-wise routine search.",
+        "Protected views so each user sees only their own part.",
+        "PDF copy of any routine in one click."
       ],
       "url": "https://github.com/shovon-mandal/academic-routine-management-appscript",
       "cvSection": "none",
@@ -506,18 +474,15 @@
       "type": "Academic Communication Automation",
       "category": "Python · Discord Bot · Role Management",
       "filter": "automation python discord bot communication",
-      "description": "Python bot for student verification, role management, announcements, reminders, and controlled academic communication.",
+      "description": "A Python bot for managing a class Discord server. It verifies students, gives roles, and sends announcements and reminders.",
       "tools": [
         "Python",
-        "Discord Bot API",
-        "Role automation",
-        "Student verification",
-        "Reminder workflow"
+        "Discord Bot API"
       ],
       "highlights": [
-        "Applies automation to student verification and academic communication.",
-        "Supports structured digital classroom community management.",
-        "Demonstrates practical Python automation beyond coursework."
+        "Student verification before joining class channels.",
+        "Automatic role assignment.",
+        "Scheduled announcements and reminders."
       ],
       "url": "https://github.com/shovon-mandal/academic-discord-management-bot",
       "cvSection": "none",
@@ -574,24 +539,7 @@
       "id": "r06"
     }
   ],
-  "systems": [
-    {
-      "title": "Class Routine Automation",
-      "text": "Structured course and section routine management with protected views and clean retrieval."
-    },
-    {
-      "title": "Assessment Workflow Support",
-      "text": "Marking, record organization, and academic evaluation support using structured digital tools."
-    },
-    {
-      "title": "Academic Communication Bot",
-      "text": "Student verification, role management, announcements, and controlled academic communication."
-    },
-    {
-      "title": "Adaptive Technical Practice",
-      "text": "Ability to learn new tools and apply them to research, teaching, and institutional workflow problems."
-    }
-  ],
+  "systems": [],
   "experience": [
     {
       "period": "Mar 2024 - Present",
@@ -707,7 +655,7 @@
   ],
   "skills": [
     {
-      "title": "Programming and Computational Tools",
+      "title": "Programming",
       "icon": "⌘",
       "items": [
         "Python",
@@ -722,17 +670,15 @@
       "title": "Security and Distributed Systems",
       "icon": "◈",
       "items": [
-        "Cybersecurity",
         "Applied cryptography",
-        "Secure distributed systems",
-        "Blockchain-based payment security",
-        "NFC/IoT transaction security",
-        "Network security fundamentals",
-        "Secure cashless payment workflows"
+        "Blockchain-based payment systems",
+        "NFC transaction security",
+        "IOTA Tangle",
+        "Network security fundamentals"
       ]
     },
     {
-      "title": "Web, Database, and Application Development",
+      "title": "Web, Database, and Applications",
       "icon": "▣",
       "items": [
         "HTML / CSS / JavaScript",
@@ -750,97 +696,31 @@
         "Microsoft Excel",
         "Google Sheets",
         "Git",
-        "API integration",
-        "Workflow automation"
+        "API integration"
       ]
     },
     {
-      "title": "Academic Automation and Workflow Systems",
-      "icon": "◆",
-      "items": [
-        "Google Apps Script",
-        "Google Sheets automation",
-        "Class routine management",
-        "Protected academic views",
-        "PDF generation workflow",
-        "Assessment and marking support",
-        "Academic communication automation"
-      ]
-    },
-    {
-      "title": "Embedded, Hardware, and Sensor-Enabled Systems",
+      "title": "Embedded and Hardware",
       "icon": "▧",
       "items": [
-        "Embedded systems security",
         "Arduino prototyping",
-        "Contactless / NFC / RFID module practice",
-        "Sensor-enabled systems",
-        "Trustworthy hardware systems",
-        "Hardware interfacing",
+        "NFC / RFID modules",
+        "Microcontroller interfacing",
+        "Embedded systems",
         "Digital electronics"
       ]
     },
     {
-      "title": "Research, Teaching, and Mentoring",
-      "icon": "✦",
-      "items": [
-        "Literature review",
-        "Prototype development",
-        "Technical documentation",
-        "Research implementation",
-        "Theory lecture delivery",
-        "Lab work support",
-        "Teaching Assistant readiness",
-        "Student mentoring"
-      ]
-    }
-  ],
-  "repositorySkills": [
-    {
-      "title": "Secure Payment Prototype Evidence",
-      "icon": "◈",
-      "tags": [
-        "Blockchain payment logic",
-        "NFC/Arduino module integration",
-        "Secure transaction flow",
-        "Device-level verification",
-        "Hardware interfacing",
-        "Prototype documentation"
-      ]
-    },
-    {
-      "title": "Distributed Payment Demonstration",
-      "icon": "▣",
-      "tags": [
-        "Distributed ledger concept",
-        "Payment demonstration",
-        "Web transaction flow",
-        "Decentralized system practice"
-      ]
-    },
-    {
-      "title": "Academic Workflow Automation",
+      "title": "Academic Automation",
       "icon": "◆",
-      "tags": [
+      "items": [
         "Google Apps Script",
         "Google Sheets automation",
-        "Scheduling logic",
-        "Protected views",
-        "PDF workflow"
-      ]
-    },
-    {
-      "title": "Academic Communication Automation",
-      "icon": "✦",
-      "tags": [
-        "Python automation",
-        "Role management",
-        "Student verification",
-        "Reminder workflow",
-        "Access control"
+        "Python Discord bot"
       ]
     }
   ],
+  "repositorySkills": [],
   "honors": {
     "Honors and Scholarships": [
       "Highest Distinction - BRAC University",
@@ -857,23 +737,19 @@
     ]
   },
   "futureResearchPlan": {
-    "lead": "My future research direction focuses on secure and trustworthy intelligent systems, connecting blockchain-based verification, NFC and IoT security, distributed architectures, embedded systems, and interpretable machine learning.",
+    "lead": "In the future, I want to work on transaction security for payment and IoT devices. I also want to use machine learning in a careful way to detect attacks on these systems.",
     "cards": [
       {
-        "title": "Secure Transaction Systems",
-        "text": "I am interested in secure and auditable transaction architectures for blockchain, NFC, IoT, and other device-mediated environments. Relevant problems include lightweight authentication, transaction traceability, fraud resistance, device-to-system trust, and practical deployment constraints."
+        "title": "Lightweight Security for Payment Devices",
+        "text": "NFC readers and small IoT devices have limited memory, power and processing speed. I want to study authentication and transaction verification methods that can run on such devices without making the payment slow."
       },
       {
-        "title": "Trustworthy and Explainable AI",
-        "text": "I aim to investigate reliable machine-learning systems through explainability, robustness, domain adaptation, class-imbalance handling, and careful evaluation. This direction includes language, vision, and structured-data applications where model decisions must remain interpretable and dependable."
+        "title": "Attack Detection That Handles New Attacks",
+        "text": "Many intrusion detection models report very high accuracy, but they fail when a new type of attack appears. I want to build detection methods that can report unknown attacks and explain why they made a decision."
       },
       {
-        "title": "Implementation and Evaluation",
-        "text": "My preferred research approach combines system design with reproducible implementation and empirical validation. Possible components include threat modelling, prototype development, ablation studies, statistical testing, latency and reliability analysis, and comparison with strong baselines."
-      },
-      {
-        "title": "Research-Lab Fit",
-        "text": "This direction aligns with research groups working on cybersecurity, distributed systems, blockchain, applied cryptography, IoT and embedded systems, trustworthy AI, natural language processing, computer vision, and applied machine learning."
+        "title": "Build, Measure and Compare",
+        "text": "I prefer to test an idea with a real prototype and a fair comparison. That means a clear threat model, measured latency and cost, and comparison with strong baseline methods."
       }
     ]
   },
@@ -903,7 +779,7 @@
       ]
     }
   ],
-  "referencesNote": "Academic references and recommendation support are available upon request.",
+  "referencesNote": "Academic references are available upon request.",
   "coauthors": {
     "P. C. Shill": "https://scholar.google.com/citations?user=w3eyrycAAAAJ&hl=en",
     "M. Keya": "https://scholar.google.com/citations?user=pPg7H2YAAAAJ&hl=en",
@@ -1039,5 +915,23 @@
       "Executive Member, BRACU Mongol Tori, Next Generation Mars Rover Team 4.0."
     ],
     "footerNote": "References and supporting documents are available upon request."
-  }
+  },
+  "news": [
+    {
+      "date": "Aug 2026",
+      "text": "Submitted a paper on explainable network intrusion detection with unknown-attack rejection to IEEE WIECON-ECE 2026."
+    },
+    {
+      "date": "2026",
+      "text": "Paper on automated tilapia fish quality inspection accepted at IEEE OMLET 2026."
+    },
+    {
+      "date": "2026",
+      "text": "Paper on BanglaBERT and XLM-RoBERTa stacking for code-mixed emotion recognition accepted at IEEE COMPAS 2026."
+    },
+    {
+      "date": "2026",
+      "text": "Papers published in IEEE QPAIN 2026 and IEEE CSNT 2026."
+    }
+  ]
 }
