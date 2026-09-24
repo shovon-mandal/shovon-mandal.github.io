@@ -2,7 +2,7 @@
   "meta": {
     "updatedAt": "2026-09-24T18:00:00+06:00",
     "schema": 2,
-    "contentVersion": 5,
+    "contentVersion": 6,
     "changes": {
       "4": [
         "site",
@@ -11,6 +11,11 @@
       "5": [
         "site",
         "snapshot"
+      ],
+      "6": [
+        "site",
+        "snapshot",
+        "news"
       ]
     }
   },
@@ -33,7 +38,8 @@
       "Applied Machine Learning and Explainable AI",
       "Natural Language Processing and Code-Mixed Text Analysis"
     ],
-    "authorName": "S. Mandal"
+    "authorName": "S. Mandal",
+    "showHeroUpdates": true
   },
   "links": [
     {

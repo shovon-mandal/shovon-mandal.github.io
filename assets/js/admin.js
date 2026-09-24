@@ -505,6 +505,8 @@ function siteGroups() {
     { id: "hero", title: "Top section", fields: [
       { label: "Role line", get: () => S().role, set: v => S().role = v },
       { label: "Institution line", get: () => S().affiliation, set: v => S().affiliation = v },
+      { label: "Show the green sliding lines under the goal title", check: true, get: () => S().showRotatingLines !== false, set: v => S().showRotatingLines = v },
+      { label: "Show the \"Latest\" updates box (text comes from the Updates tab)", check: true, get: () => S().showHeroUpdates !== false, set: v => { S().showHeroUpdates = v; if ($("#news-form")) $("#news-form").showHero.checked = v; } },
       { label: "Goal box title", get: () => S().goalLabel, set: v => S().goalLabel = v },
       { label: "Sliding lines in the goal box", hint: "One per line. They change one after another. Leave empty to hide.", rows: 4,
         get: () => (S().rotatingWords || []).join("\n"), set: v => S().rotatingWords = lines(v) },
@@ -585,6 +587,7 @@ function fillSiteForm() {
           const i = SITE_FIELDS.push(f) - 1;
           const val = esc(f.get() == null ? "" : f.get());
           const hint = f.hint ? ` <small>${esc(f.hint)}</small>` : "";
+          if (f.check) return `<label class="check"><input type="checkbox" data-sf="${i}" ${f.get() ? "checked" : ""}/> ${esc(f.label)}</label>`;
           const ctl = f.rows
             ? `<textarea data-sf="${i}" rows="${f.rows}" class="${f.json ? "mono" : ""}" spellcheck="${f.json ? "false" : "true"}">${val}</textarea>`
             : `<input data-sf="${i}" value="${val}"/>`;
@@ -601,6 +604,7 @@ $("#site-form").addEventListener("input", e => {
   const i = e.target.dataset.sf;
   if (i === undefined) return;
   const f = SITE_FIELDS[+i];
+  if (f.check) { f.set(e.target.checked); markDirty(); return; }
   if (f.json) {
     const msg = $(`[data-sfmsg="${i}"]`);
     try {
@@ -622,8 +626,12 @@ $("#site-form").addEventListener("input", e => {
 /* ---------------- updates ---------------- */
 function fillNewsForm() {
   $("#news-form").news.value = (state.news || []).map(n => `${n.date} | ${n.text}`).join("\n");
+  $("#news-form").showHero.checked = !state.site || state.site.showHeroUpdates !== false;
 }
 $("#news-form").addEventListener("input", () => {
+  state.site = state.site || {};
+  state.site.showHeroUpdates = $("#news-form").showHero.checked;
+  fillSiteForm();
   state.news = lines($("#news-form").news.value).map(l => {
     const i = l.indexOf("|");
     return i < 0 ? { date: "", text: l } : { date: l.slice(0, i).trim(), text: l.slice(i + 1).trim() };

@@ -1,0 +1,46 @@
+/* Rotating lines: goal box and latest-updates ticker (loaded after style.css) */
+.rotator{position:relative !important;overflow:hidden;padding-bottom:6px}
+.rotator > span{
+  display:block !important;position:absolute;left:0;right:0;top:0;
+  opacity:0;transform:translateY(90%);
+  animation:none !important;
+  transition:transform .6s cubic-bezier(.2,.75,.2,1),opacity .5s ease;
+}
+.rotator > span.active{position:relative;opacity:1;transform:translateY(0)}
+.rotator > span.leaving{opacity:0;transform:translateY(-90%)}
+.rotator-bar{
+  position:absolute;left:0;bottom:0;height:2px;width:100%;
+  background:linear-gradient(90deg,#0ea893,#1e5fc4);border-radius:2px;
+  transform-origin:left center;transform:scaleX(0);opacity:.55;
+  animation:rotBar var(--rot-ms,3200ms) linear infinite;
+}
+.rotator.paused .rotator-bar{animation-play-state:paused}
+@keyframes rotBar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+/* Latest updates ticker in the hero */
+.hero-updates{
+  display:flex;align-items:flex-start;gap:12px;margin:0 0 18px;padding:10px 14px;
+  border:1px solid var(--line,#d0ddf0);border-left:4px solid #0ea893;border-radius:14px;
+  background:linear-gradient(135deg,rgba(14,168,147,.07),rgba(30,95,196,.04));
+  text-decoration:none;color:inherit;max-width:100%;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.hero-updates[hidden]{display:none !important}
+.hero-updates:hover{border-color:rgba(14,168,147,.55);box-shadow:0 6px 18px rgba(11,31,58,.08)}
+.hero-updates:focus-visible{outline:3px solid #8ab4f0;outline-offset:2px}
+.hu-label{
+  flex:none;display:inline-flex;align-items:center;gap:6px;margin-top:1px;
+  font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#075e54;
+}
+.hu-dot{width:7px;height:7px;border-radius:50%;background:#0ea893;box-shadow:0 0 0 0 rgba(14,168,147,.55);animation:huPulse 2s ease-out infinite}
+@keyframes huPulse{0%{box-shadow:0 0 0 0 rgba(14,168,147,.5)}80%,100%{box-shadow:0 0 0 7px rgba(14,168,147,0)}}
+.hu-rotate{flex:1;min-width:0;font-size:.86rem;line-height:1.5;color:#172b47;font-weight:600}
+.hu-rotate b{color:#075e54;font-weight:800;margin-right:8px}
+
+@media (max-width:560px){
+  .hero-updates{flex-direction:column;gap:4px}
+}
+@media (prefers-reduced-motion:reduce){
+  .rotator > span{transition:none}
+  .rotator-bar,.hu-dot{animation:none}
+}

@@ -163,3 +163,14 @@ Top section (sliding lines সহ), Profile links, Academic Snapshot, Fast Revie
 - উপরের button চাপলে সরাসরি সেই অংশে চলে যাবে।
 - লেখা বদলান, তারপর **Publish changes** চাপুন।
 - Education, Teaching Experience আর References-এর box JSON format-এ। ভুল হলে লাল লেখা দেখাবে, আর ঠিক না করা পর্যন্ত save হবে না।
+
+---
+
+## Part 6: উপরের "Latest" sliding line
+
+Website-এর উপরের অংশে সবুজ **Latest** box-এ আপনার Updates list থেকে একটার পর একটা খবর slide করে আসে।
+
+- নতুন খবর যোগ করতে: admin → **Updates** tab → সবার উপরে নতুন লাইন লিখুন (`Oct 2026 | Paper accepted at ...`) → **Publish changes**।
+- বন্ধ করতে চাইলে **Website text → Top section**-এ "Show the Latest updates box"-এর tick তুলে দিন (Updates tab-এও একই checkbox আছে) → **Publish changes**।
+- সবুজ sliding line বন্ধ বা চালু করার checkbox-ও **Website text → Top section**-এ আছে।
+- Mouse রাখলে slide থেমে থাকে, যাতে পুরো লেখা পড়া যায়।

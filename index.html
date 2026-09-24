@@ -22,6 +22,7 @@
 <link rel="icon" type="image/jpeg" href="assets/img/profile.jpg"/>
 <link rel="apple-touch-icon" href="assets/img/profile.jpg"/>
 <link rel="stylesheet" href="assets/css/style.css"/>
+<link rel="stylesheet" href="assets/css/enhance.css"/>
 <link rel="preconnect" href="https://firestore.googleapis.com" crossorigin/>
 <script type="application/ld+json">
 {
@@ -167,6 +168,11 @@
         <p class="goal-text" id="goal-text"></p>
       </div>
 <p class="hero-focus" id="hero-headline"></p>
+
+      <a class="hero-updates" id="hero-updates" href="#news" hidden aria-label="Recent updates">
+        <span class="hu-label"><i class="hu-dot" aria-hidden="true"></i>Latest</span>
+        <span class="hu-rotate" id="hero-updates-rotate" aria-live="polite"></span>
+      </a>
 
       <div class="hero-btns">
         <a class="btn btn-pri" id="cv-btn" href="assets/docs/Shovon_Mandal_CV.pdf" target="_blank" rel="noopener">Download CV PDF</a>
