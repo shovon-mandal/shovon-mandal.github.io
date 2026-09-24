@@ -193,7 +193,7 @@ function renderEducation() {
 function pubHaystack(p) {
   const kind = PortfolioCore.statusKind(p.status);
   const statusWords = { published: "published", accepted: "accepted", inpress: "accepted in press", review: "under review" }[kind] || "";
-  return `${statusWords} ${p.core ? "core" : ""} ${p.filter || ""} ${p.keywords || ""}`.toLowerCase();
+  return `${statusWords} ${p.filter || ""} ${p.keywords || ""}`.toLowerCase();
 }
 
 function renderPublications(filter = "all") {
