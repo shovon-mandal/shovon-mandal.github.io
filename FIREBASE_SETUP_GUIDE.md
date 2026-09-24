@@ -152,3 +152,14 @@ Firebase-এর data Google-এর cloud-এ থাকে, আপনার compu
 4. **Publish changes** চাপুন।
 
 **কখনো করবেন না:** All data tab-এ GitHub-এর `site-data.json` upload করে Apply করা। তাহলে admin panel থেকে যোগ করা paper মুছে যাবে। ভুল করে করলে Backups tab থেকে restore করুন।
+
+---
+
+## Part 5: Website-এর যেকোনো লেখা বদলানো
+
+Admin panel-এর **Website text** tab-এ website-এর সব অংশ আলাদা আলাদা box-এ আছে:
+Top section (sliding lines সহ), Profile links, Academic Snapshot, Fast Review, Number cards, About Me, Future Research Plan, Technical Skills, Honors, Education, Teaching Experience, References।
+
+- উপরের button চাপলে সরাসরি সেই অংশে চলে যাবে।
+- লেখা বদলান, তারপর **Publish changes** চাপুন।
+- Education, Teaching Experience আর References-এর box JSON format-এ। ভুল হলে লাল লেখা দেখাবে, আর ঠিক না করা পর্যন্ত save হবে না।

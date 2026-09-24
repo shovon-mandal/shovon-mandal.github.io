@@ -45,6 +45,7 @@
 
   <nav class="tabs" role="tablist">
     <button role="tab" data-tab="papers" class="on">Papers</button>
+    <button role="tab" data-tab="site">Website text</button>
     <button role="tab" data-tab="projects">Projects</button>
     <button role="tab" data-tab="news">Updates</button>
     <button role="tab" data-tab="cv">CV details</button>
@@ -63,6 +64,18 @@
       <button class="btn primary" id="btn-add-paper" type="button">Add paper</button>
     </div>
     <div class="list" id="paper-list"></div>
+  </section>
+
+  <!-- WEBSITE TEXT -->
+  <section class="panel" data-panel="site" hidden>
+    <div class="panel-head">
+      <div>
+        <h2>Website text</h2>
+        <p class="hint">Every text block of the website, section by section. Changes are kept in the editor; click <b>Publish changes</b> to make them live. Numbers like <code>{{accepted}}</code> or <code>{{AcceptedWord}}</code> are filled in automatically from the Papers list.</p>
+      </div>
+      <div class="row-actions" id="site-jump"></div>
+    </div>
+    <div id="site-form"></div>
   </section>
 
   <!-- PROJECTS -->

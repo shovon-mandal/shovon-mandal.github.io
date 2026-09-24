@@ -194,6 +194,7 @@ function renderAll() {
   fillCvForm();
   fillCoForm();
   fillNewsForm();
+  fillSiteForm();
   $("#json-area").value = JSON.stringify(state, null, 2);
 }
 
@@ -490,6 +491,134 @@ $("#cv-form").addEventListener("input", e => {
   markDirty();
 });
 
+/* ---------------- website text (every section) ---------------- */
+const parts = l => l.split("|").map(x => x.trim());
+const rowsOf = t => lines(t).map(parts);
+const paras = t => String(t || "").split(/\n\s*\n/).map(x => x.trim()).filter(Boolean);
+const ensure = (obj, key, def) => { if (obj[key] == null) obj[key] = def; return obj[key]; };
+
+function siteGroups() {
+  const S = () => ensure(state, "site", {});
+  const P = () => ensure(state, "profile", {});
+  const F = () => ensure(state, "futureResearchPlan", {});
+  return [
+    { id: "hero", title: "Top section", fields: [
+      { label: "Role line", get: () => S().role, set: v => S().role = v },
+      { label: "Institution line", get: () => S().affiliation, set: v => S().affiliation = v },
+      { label: "Goal box title", get: () => S().goalLabel, set: v => S().goalLabel = v },
+      { label: "Sliding lines in the goal box", hint: "One per line. They change one after another. Leave empty to hide.", rows: 4,
+        get: () => (S().rotatingWords || []).join("\n"), set: v => S().rotatingWords = lines(v) },
+      { label: "Goal text", rows: 7, get: () => S().goal, set: v => S().goal = v },
+      { label: "Headline under the goal box", rows: 2, get: () => S().headline, set: v => S().headline = v }
+    ]},
+    { id: "links", title: "Profile links", fields: [
+      { label: "Links under the buttons", hint: "One per line: Label | URL", rows: 7,
+        get: () => (state.links || []).map(l => `${l.label} | ${l.url}`).join("\n"),
+        set: v => state.links = rowsOf(v).filter(r => r[1]).map(r => ({ label: r[0], url: r[1] })) }
+    ]},
+    { id: "snapshot", title: "Academic Snapshot and Fast Review", fields: [
+      { label: "Academic Snapshot rows", hint: "One per line: Label | Value", rows: 6,
+        get: () => (state.snapshot || []).map(r => `${r.label} | ${r.value}`).join("\n"),
+        set: v => state.snapshot = rowsOf(v).map(r => ({ label: r[0], value: r[1] || "" })) },
+      { label: "Fast Review buttons", hint: "One per line: Label | #section (e.g. Publications | #publications)", rows: 4,
+        get: () => (state.fastReview || []).map(r => `${r.label} | ${r.target}`).join("\n"),
+        set: v => state.fastReview = rowsOf(v).map(r => ({ label: r[0], target: r[1] || "#home" })) },
+      { label: "Number cards", hint: "One per line: Value | Label | #section. Automatic values: {{published}}, {{inPress}}, {{accepted}}, {{review}}", rows: 4,
+        get: () => (state.metrics || []).map(r => `${r.value} | ${r.label} | ${r.target || ""}`).join("\n"),
+        set: v => state.metrics = rowsOf(v).map(r => ({ value: r[0], label: r[1] || "", target: r[2] || "#home" })) }
+    ]},
+    { id: "about", title: "About Me", fields: [
+      { label: "Paragraphs", hint: "Leave one empty line between paragraphs.", rows: 12,
+        get: () => (P().paragraphs || []).join("\n\n"), set: v => P().paragraphs = paras(v) },
+      { label: "Small cards", hint: "One per line: Title | Text | #section", rows: 5,
+        get: () => (P().cards || []).map(c => `${c.title} | ${c.text} | ${c.target || ""}`).join("\n"),
+        set: v => P().cards = rowsOf(v).map(r => ({ title: r[0], text: r[1] || "", target: r[2] || "#home" })) },
+      { label: "Research tags", hint: "One per line", rows: 6,
+        get: () => (P().tags || []).join("\n"), set: v => P().tags = lines(v) }
+    ]},
+    { id: "plan", title: "Future Research Plan", fields: [
+      { label: "Opening text", rows: 3, get: () => F().lead, set: v => F().lead = v },
+      { label: "Cards", hint: "One per line: Title | Text", rows: 6,
+        get: () => (F().cards || []).map(c => `${c.title} | ${c.text}`).join("\n"),
+        set: v => F().cards = rowsOf(v).map(r => ({ title: r[0], text: r.slice(1).join(" | ") })) }
+    ]},
+    { id: "skills", title: "Technical Skills", fields: [
+      { label: "Skill groups", hint: "One group per line: Icon | Group title | item, item, item", rows: 7,
+        get: () => (state.skills || []).map(g => `${g.icon || "•"} | ${g.title} | ${(g.items || []).join(", ")}`).join("\n"),
+        set: v => state.skills = rowsOf(v).map(r => ({ icon: r[0] || "•", title: r[1] || "", items: String(r[2] || "").split(",").map(x => x.trim()).filter(Boolean) })) }
+    ]},
+    { id: "honors", title: "Honors and Service", fields: [
+      { label: "Honors", hint: "A line starting with # is a box title; the lines under it are its items.", rows: 12,
+        get: () => Object.entries(state.honors || {}).map(([t, items]) => `# ${t}\n${items.join("\n")}`).join("\n\n"),
+        set: v => {
+          const out = {}; let cur = null;
+          lines(v).forEach(l => { if (l.startsWith("#")) { cur = l.replace(/^#+\s*/, ""); out[cur] = []; } else { if (!cur) { cur = "Honors"; out[cur] = out[cur] || []; } out[cur].push(l); } });
+          state.honors = out;
+        } }
+    ]},
+    { id: "education", title: "Education (website)", fields: [
+      { label: "Education entries", json: true, hint: "JSON list: period, degree, institution, url, badge, items[]", rows: 16,
+        get: () => JSON.stringify(state.education || [], null, 2), set: v => state.education = v }
+    ]},
+    { id: "experience", title: "Teaching Experience (website)", fields: [
+      { label: "Experience entries", json: true, hint: "JSON list: period, title, place, placeUrl, roleLabel, text, courses[], responsibilities[], durationStart (YYYY-MM), durationEnd (YYYY-MM or present)", rows: 18,
+        get: () => JSON.stringify(state.experience || [], null, 2), set: v => state.experience = v }
+    ]},
+    { id: "references", title: "References", fields: [
+      { label: "Note above the references", get: () => state.referencesNote, set: v => state.referencesNote = v },
+      { label: "Reference entries", json: true, hint: "JSON list: name, role, affiliation, relation, links[{label, url}]", rows: 14,
+        get: () => JSON.stringify(state.references || [], null, 2), set: v => state.references = v }
+    ]}
+  ];
+}
+
+let SITE_FIELDS = [];
+function fillSiteForm() {
+  const groups = siteGroups();
+  SITE_FIELDS = [];
+  $("#site-jump").innerHTML = groups.map(g => `<button class="btn ghost" type="button" data-jump="${g.id}">${esc(g.title.replace(/ \(website\)/, ""))}</button>`).join("");
+  $("#site-form").innerHTML = groups.map(g => `
+    <div class="site-group" id="sg-${g.id}">
+      <h3>${esc(g.title)}</h3>
+      <div class="form">
+        ${g.fields.map(f => {
+          const i = SITE_FIELDS.push(f) - 1;
+          const val = esc(f.get() == null ? "" : f.get());
+          const hint = f.hint ? ` <small>${esc(f.hint)}</small>` : "";
+          const ctl = f.rows
+            ? `<textarea data-sf="${i}" rows="${f.rows}" class="${f.json ? "mono" : ""}" spellcheck="${f.json ? "false" : "true"}">${val}</textarea>`
+            : `<input data-sf="${i}" value="${val}"/>`;
+          return `<label>${esc(f.label)}${hint}${ctl}</label>${f.json ? `<p class="form-msg" data-sfmsg="${i}"></p>` : ""}`;
+        }).join("")}
+      </div>
+    </div>`).join("");
+}
+$("#site-jump").addEventListener("click", e => {
+  const b = e.target.closest("[data-jump]");
+  if (b) $("#sg-" + b.dataset.jump).scrollIntoView({ behavior: "smooth", block: "start" });
+});
+$("#site-form").addEventListener("input", e => {
+  const i = e.target.dataset.sf;
+  if (i === undefined) return;
+  const f = SITE_FIELDS[+i];
+  if (f.json) {
+    const msg = $(`[data-sfmsg="${i}"]`);
+    try {
+      const v = JSON.parse(e.target.value);
+      if (!Array.isArray(v)) throw new Error("must be a list [ ... ]");
+      f.set(v);
+      msg.textContent = ""; msg.classList.remove("err");
+    } catch (err) {
+      msg.textContent = "Not valid JSON yet (" + err.message + "). This box is not saved until it is valid.";
+      msg.classList.add("err");
+      return;
+    }
+  } else {
+    f.set(e.target.value);
+  }
+  markDirty();
+});
+
 /* ---------------- updates ---------------- */
 function fillNewsForm() {
   $("#news-form").news.value = (state.news || []).map(n => `${n.date} | ${n.text}`).join("\n");
@@ -518,14 +647,22 @@ async function checkRepoText() {
   b.hidden = false;
   $("#btn-merge").addEventListener("click", () => {
     const authorName = state.site && state.site.authorName;
+    /* if the live data already has an earlier text version, apply only the sections changed since then */
+    let only = null;
+    const changes = (repo.meta && repo.meta.changes) || {};
+    if (liveV >= 3) {
+      only = new Set();
+      Object.keys(changes).forEach(v => { if (+v > liveV) changes[v].forEach(k => only.add(k)); });
+    }
     Object.keys(repo).forEach(k => {
       if (KEEP_KEYS.includes(k)) return;
+      if (only && !only.has(k)) return;
       if (k === "news" && Array.isArray(state.news) && state.news.length) return;
       state[k] = repo[k];
     });
     if (authorName) state.site.authorName = authorName;
     /* new wording for projects that came from the repository (matched by id); new projects you added are untouched */
-    (repo.projects || []).forEach(rp => {
+    if (!only) (repo.projects || []).forEach(rp => {
       const lp = (state.projects || []).find(x => x.id && x.id === rp.id);
       if (lp) ["title", "description", "highlights", "tools"].forEach(f => { if (rp[f] !== undefined) lp[f] = rp[f]; });
     });

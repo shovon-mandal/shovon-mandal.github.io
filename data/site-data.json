@@ -2,7 +2,13 @@
   "meta": {
     "updatedAt": "2026-09-24T18:00:00+06:00",
     "schema": 2,
-    "contentVersion": 3
+    "contentVersion": 4,
+    "changes": {
+      "4": [
+        "site",
+        "snapshot"
+      ]
+    }
   },
   "site": {
     "name": "Shovon Mandal",
@@ -14,10 +20,15 @@
     "email": "shovonmandal@gmail.com",
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
-    "goalLabel": "Research Focus",
-    "goal": "My main research area is secure digital payment. In my B.Sc. and M.Sc. theses, I built blockchain-based payment systems and tested them with NFC and Arduino hardware. I also use machine learning as a tool for security problems, such as detecting network attacks. I plan to continue this research at the Ph.D. level, with a focus on transaction security for payment and IoT devices.",
-    "headline": "I work on securing digital payments and connected devices, using blockchain for transaction verification and machine learning for attack detection.",
-    "rotatingWords": [],
+    "goalLabel": "Academic Research Goal",
+    "goal": "I am exploring Ph.D. or thesis-based M.S. research opportunities aligned with my research interests and with research assistantship or teaching assistantship support. My interests include cybersecurity, blockchain- and NFC-enabled secure digital payments, applied cryptography, secure distributed systems, IoT and embedded systems security, applied machine learning, natural language processing, and explainable AI. I can contribute through publication-oriented research, prototype and system development, experimental evaluation, technical implementation, university teaching and laboratory support, and clear technical documentation.",
+    "headline": "Bridging Secure Distributed Systems and Applied AI to Develop Reliable, Interpretable, and Deployable Solutions for Real-World Computing Challenges",
+    "rotatingWords": [
+      "Ph.D. Research in Secure and Intelligent Systems",
+      "Blockchain, IoT, and Distributed-System Security",
+      "Applied Machine Learning and Explainable AI",
+      "Natural Language Processing and Code-Mixed Text Analysis"
+    ],
     "authorName": "S. Mandal"
   },
   "links": [
@@ -87,7 +98,7 @@
     },
     {
       "label": "Research Alignment",
-      "value": "Payment and IoT Security · Machine Learning for Security"
+      "value": "Secure Distributed Systems · Cybersecurity · Applied Machine Learning · NLP · Explainable AI"
     }
   ],
   "metrics": [
