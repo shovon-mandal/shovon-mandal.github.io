@@ -58,3 +58,20 @@
 }
 .filt.on .filt-count{background:rgba(255,255,255,.22);color:#fff}
 .filt[hidden]{display:none !important}
+
+/* Compact publication cards on phones: details in two columns */
+@media (max-width:640px){
+  #publications .pub-detail-grid{display:grid !important;grid-template-columns:1fr 1fr !important;gap:6px !important}
+  #publications .pub-detail-grid > span{padding:8px 10px !important;font-size:.78rem !important;line-height:1.35 !important;min-width:0}
+  #publications .pub-detail-grid > span:nth-child(2),
+  #publications .pub-detail-grid > span:nth-child(5){grid-column:1 / -1}
+  #publications .pub-detail-grid > span:nth-child(1){order:1}
+  #publications .pub-detail-grid > span:nth-child(3){order:2}
+  #publications .pub-detail-grid > span:nth-child(4){order:3}
+  #publications .pub-detail-grid > span:nth-child(6){order:4}
+  #publications .pub-detail-grid > span:nth-child(2){order:5}
+  #publications .pub-detail-grid > span:nth-child(5){order:6}
+  #publications .pub-card{padding:16px !important}
+  #publications .doi-line{word-break:break-word}
+  #publications .pub-impact{font-size:.86rem !important;padding:10px 12px !important}
+}

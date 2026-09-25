@@ -54,7 +54,11 @@
       ReviewWord: cap(word(rev)),
       reviewLabel: rev === 1 ? "Manuscript Under Review" : "Manuscripts Under Review",
       reviewClause: rev > 0 ? " and " + word(rev) + (rev === 1 ? " manuscript" : " manuscripts") + " under review" : "",
-      projects: String(websiteProjects(data).length)
+      projects: String(websiteProjects(data).length),
+      firstAuthor: String(websitePubs(data).filter(function (p) {
+        var k = statusKind(p.status);
+        return /first/i.test(p.role || "") && (k === "published" || k === "accepted" || k === "inpress");
+      }).length)
     };
   }
 

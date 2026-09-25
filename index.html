@@ -104,15 +104,15 @@
   <nav class="scroll-menu-panel" id="scroll-menu-panel" aria-label="Compact section menu">
     <a href="#home"><span>⌂</span>Overview</a>
     <a href="#research-profile"><span>◎</span>About</a>
-    <a href="#news"><span>✦</span>Updates</a>
-    <a href="#future-research-plan"><span>◌</span>Research Plan</a>
-    <a href="#education"><span>▤</span>Education</a>
     <a href="#publications"><span>✎</span>Publications</a>
     <a href="#projects"><span>▣</span>Projects</a>
-    <a href="#skills"><span>⌘</span>Skills</a>
+    <a href="#future-research-plan"><span>◌</span>Research Plan</a>
+    <a href="#news"><span>✦</span>Updates</a>
+    <a href="#education"><span>▤</span>Education</a>
     <a href="#experience"><span>◈</span>Experience</a>
-    <a href="#references"><span>☑</span>References</a>
+    <a href="#skills"><span>⌘</span>Skills</a>
     <a href="#honors"><span>★</span>Honors</a>
+    <a href="#references"><span>☑</span>References</a>
     <a href="#contact"><span>✉</span>Contact</a>
   </nav>
 </header>
@@ -129,15 +129,15 @@
     <nav class="sb-nav icon-nav clean-icon-nav" id="sb-nav" aria-label="Section navigation">
       <a href="#home"><span class="nav-ico">⌂</span><span>Overview</span></a>
       <a href="#research-profile"><span class="nav-ico">◎</span><span>About</span></a>
-      <a href="#news"><span class="nav-ico">✦</span><span>Updates</span></a>
-      <a href="#future-research-plan"><span class="nav-ico">◌</span><span>Research Plan</span></a>
-      <a href="#education"><span class="nav-ico">▤</span><span>Education</span></a>
       <a href="#publications"><span class="nav-ico">✎</span><span>Publications</span></a>
       <a href="#projects"><span class="nav-ico">▣</span><span>Projects</span></a>
-      <a href="#skills"><span class="nav-ico">⌘</span><span>Skills</span></a>
+      <a href="#future-research-plan"><span class="nav-ico">◌</span><span>Research Plan</span></a>
+      <a href="#news"><span class="nav-ico">✦</span><span>Updates</span></a>
+      <a href="#education"><span class="nav-ico">▤</span><span>Education</span></a>
       <a href="#experience"><span class="nav-ico">◈</span><span>Experience</span></a>
-      <a href="#references"><span class="nav-ico">☑</span><span>References</span></a>
+      <a href="#skills"><span class="nav-ico">⌘</span><span>Skills</span></a>
       <a href="#honors"><span class="nav-ico">★</span><span>Honors</span></a>
+      <a href="#references"><span class="nav-ico">☑</span><span>References</span></a>
       <a href="#contact"><span class="nav-ico">✉</span><span>Contact</span></a>
       <div class="nav-rail" id="nav-rail"></div>
     </nav>
@@ -217,32 +217,6 @@
   </section>
 </div>
 
-  <section id="news" class="sec reveal">
-    <div class="sec-h">
-      <p class="eyebrow">Updates</p>
-      <h2>Recent Updates</h2>
-    </div>
-    <div class="sys-list" id="news-list"></div>
-  </section>
-
-  <section id="future-research-plan" class="sec future-plan-section reveal">
-    <div class="sec-h">
-      <p class="eyebrow">Research Plan</p>
-      <h2>Future Research Plan</h2>
-      <p class="lead" id="future-plan-lead"></p>
-    </div>
-    <div class="future-plan-grid" id="future-plan-list"></div>
-  </section>
-
-
-  <section id="education" class="sec reveal">
-    <div class="sec-h">
-      <p class="eyebrow">Education</p>
-      <h2>Education</h2>
-    </div>
-    <div class="timeline" id="education-list"></div>
-  </section>
-
   <section id="publications" class="sec reveal">
     <div class="sec-h split">
       <div>
@@ -254,6 +228,7 @@
         <button class="filt" data-scope="pub" data-filter="published">Published</button>
         <button class="filt" data-scope="pub" data-filter="accepted">Accepted</button>
         <button class="filt" data-scope="pub" data-filter="under review">Under Review</button>
+        <button class="filt" data-scope="pub" data-filter="core">Core Research</button>
       </div>
     </div>
     <div class="pub-list" id="pub-list"></div>
@@ -278,15 +253,31 @@
     <div class="proj-grid" id="project-list"></div>
   </section>
 
-  <section id="skills" class="sec reveal">
+  <section id="future-research-plan" class="sec future-plan-section reveal">
     <div class="sec-h">
-      <p class="eyebrow">Skills</p>
-      <h2>Technical Skills</h2>
+      <p class="eyebrow">Research Plan</p>
+      <h2>Future Research Plan</h2>
+      <p class="lead" id="future-plan-lead"></p>
     </div>
-    <div class="skill-grid" id="skills-list"></div>
-
+    <div class="future-plan-grid" id="future-plan-list"></div>
   </section>
 
+
+  <section id="news" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">Updates</p>
+      <h2>Recent Updates</h2>
+    </div>
+    <div class="sys-list" id="news-list"></div>
+  </section>
+
+  <section id="education" class="sec reveal">
+    <div class="sec-h">
+      <p class="eyebrow">Education</p>
+      <h2>Education</h2>
+    </div>
+    <div class="timeline" id="education-list"></div>
+  </section>
 
   <section id="experience" class="sec reveal">
     <div class="sec-h">
@@ -297,14 +288,15 @@
   </section>
 
 
-  <section id="references" class="sec references-section reveal">
+  <section id="skills" class="sec reveal">
     <div class="sec-h">
-      <p class="eyebrow">References</p>
-      <h2>Academic References</h2>
-      <p class="lead" id="references-note"></p>
+      <p class="eyebrow">Skills</p>
+      <h2>Technical Skills</h2>
     </div>
-    <div class="reference-grid" id="references-list"></div>
+    <div class="skill-grid" id="skills-list"></div>
+
   </section>
+
 
   <section id="honors" class="sec reveal">
     <div class="sec-h">
@@ -312,6 +304,15 @@
       <h2>Honors and Service</h2>
     </div>
     <div class="honors-grid" id="honors-list"></div>
+  </section>
+
+  <section id="references" class="sec references-section reveal">
+    <div class="sec-h">
+      <p class="eyebrow">References</p>
+      <h2>Academic References</h2>
+      <p class="lead" id="references-note"></p>
+    </div>
+    <div class="reference-grid" id="references-list"></div>
   </section>
 
   <section id="contact" class="sec contact-sec reveal">
@@ -382,6 +383,7 @@
     <p><span id="last-updated"></span></p>
     <p><a href="#home">Back to top</a></p>
   </footer>
+
 </main>
 
 <button id="btt" aria-label="Back to Top">Back to Top</button>

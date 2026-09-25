@@ -2,7 +2,7 @@
   "meta": {
     "updatedAt": "2026-09-25T12:00:00+06:00",
     "schema": 2,
-    "contentVersion": 8,
+    "contentVersion": 10,
     "changes": {
       "4": [
         "site",
@@ -22,6 +22,16 @@
       ],
       "8": [
         "contact"
+      ],
+      "9": [
+        "fastReview"
+      ],
+      "10": [
+        "site",
+        "snapshot",
+        "metrics",
+        "profile.tags",
+        "profile.cards"
       ]
     }
   },
@@ -36,13 +46,13 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "I am interested in pursuing Ph.D. or thesis-based M.S. research opportunities in secure distributed systems, blockchain and IoT security, applied machine learning, natural language processing, and explainable AI. My background combines peer-reviewed research, prototype development, university teaching, and technical implementation. I am happy to work as a research assistant or a teaching assistant, and I can support both research projects and undergraduate courses and labs.",
-    "headline": "Secure Distributed Systems · Blockchain and IoT Security · Applied Machine Learning · Natural Language Processing · Explainable AI",
+    "goal": "I am interested in pursuing Ph.D. or thesis-based M.S. research in cybersecurity and secure distributed systems. My main work is on blockchain and NFC-based payment security, and I also work on IoT and embedded systems security and machine learning for attack detection. I am happy to work as a research assistant or a teaching assistant.",
+    "headline": "Cybersecurity · Blockchain and NFC Payment Security · Secure Distributed Systems · IoT and Embedded Systems Security · Machine Learning for Security",
     "rotatingWords": [
-      "Ph.D. or M.S. Research in Secure and Intelligent Systems",
-      "Blockchain, IoT, and Distributed-System Security",
-      "Applied Machine Learning and Explainable AI",
-      "Natural Language Processing and Code-Mixed Text Analysis"
+      "Ph.D. or M.S. Research in Cybersecurity and Secure Distributed Systems",
+      "Blockchain and NFC-Based Payment Security",
+      "IoT and Embedded Systems Security",
+      "Machine Learning for Network Intrusion Detection"
     ],
     "authorName": "S. Mandal",
     "showHeroUpdates": true
@@ -79,16 +89,16 @@
   ],
   "fastReview": [
     {
-      "label": "Research Plan",
-      "target": "#future-research-plan"
-    },
-    {
       "label": "Publications",
       "target": "#publications"
     },
     {
       "label": "Projects",
       "target": "#projects"
+    },
+    {
+      "label": "Research Plan",
+      "target": "#future-research-plan"
     },
     {
       "label": "Experience",
@@ -110,11 +120,11 @@
     },
     {
       "label": "Higher Study Goal",
-      "value": "Funded Ph.D. or Thesis-Based M.S."
+      "value": "Ph.D. or Thesis-Based M.S."
     },
     {
       "label": "Research Alignment",
-      "value": "Secure Distributed Systems · Applied AI · NLP"
+      "value": "Cybersecurity · Secure Distributed Systems · Embedded Security"
     }
   ],
   "metrics": [
@@ -129,14 +139,14 @@
       "target": "#publications"
     },
     {
-      "value": "4+",
-      "label": "Teaching Years",
-      "target": "#experience"
+      "value": "{{firstAuthor}}",
+      "label": "First-Author Papers",
+      "target": "#publications"
     },
     {
       "value": "4+",
-      "label": "Implementation Projects",
-      "target": "#projects"
+      "label": "Teaching Years",
+      "target": "#experience"
     }
   ],
   "researchFit": [],
@@ -149,12 +159,12 @@
     "cards": [
       {
         "title": "Main Research Area",
-        "text": "Secure digital payment and transaction verification using blockchain, NFC and the IOTA Tangle.",
+        "text": "Cybersecurity for digital payments: blockchain and NFC-based transaction verification, the IOTA Tangle, and embedded payment devices.",
         "target": "#publications"
       },
       {
         "title": "Publications",
-        "text": "{{AcceptedWord}} published or accepted conference papers{{reviewClause}}, including two first-author papers.",
+        "text": "{{AcceptedWord}} published or accepted conference papers{{reviewClause}}, including {{firstAuthor}} first-author papers.",
         "target": "#publications"
       },
       {
@@ -169,13 +179,13 @@
       }
     ],
     "tags": [
+      "Cybersecurity",
       "Secure Distributed Systems",
       "Blockchain-Based Digital Payments",
       "IoT and NFC Transaction Security",
-      "Applied Cryptography",
       "Embedded Systems Security",
-      "Applied Machine Learning",
-      "Natural Language Processing",
+      "Applied Cryptography",
+      "Machine Learning for Security",
       "Explainable AI"
     ],
     "strengths": []

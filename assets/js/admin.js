@@ -693,7 +693,7 @@ const BUILDERS = {
         R("fast", "Fast Review buttons", "Button", () => state.fastReview, v => state.fastReview = v, [
           { k: "label", label: "Button text" }, { k: "target", label: "Goes to", t: "select", opts: SEC }]),
         R("metrics", "Number cards", "Card", () => state.metrics, v => state.metrics = v, [
-          { k: "value", label: "Value", hint: "Automatic: {{published}} {{inPress}} {{accepted}} {{review}}" },
+          { k: "value", label: "Value", hint: "Automatic: {{published}} {{inPress}} {{accepted}} {{review}} {{firstAuthor}}" },
           { k: "label", label: "Label" }, { k: "target", label: "Goes to", t: "select", opts: SEC }], { titleKey: "label" })
       ]},
       { id: "about", title: "About Me", fields: [
@@ -924,6 +924,10 @@ async function checkRepoText() {
       only = new Set();
       Object.keys(changes).forEach(v => { if (+v > liveV) changes[v].forEach(k => only.add(k)); });
     }
+    if (only) [...only].filter(k => k.includes(".")).forEach(path => {
+      const [a, f] = path.split(".");
+      if (repo[a] && repo[a][f] !== undefined) { state[a] = state[a] || {}; state[a][f] = clone(repo[a][f]); }
+    });
     Object.keys(repo).forEach(k => {
       if (KEEP_KEYS.includes(k)) return;
       if (only && !only.has(k)) return;
