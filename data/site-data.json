@@ -2,7 +2,7 @@
   "meta": {
     "updatedAt": "2026-09-25T12:00:00+06:00",
     "schema": 2,
-    "contentVersion": 10,
+    "contentVersion": 11,
     "changes": {
       "4": [
         "site",
@@ -32,6 +32,9 @@
         "metrics",
         "profile.tags",
         "profile.cards"
+      ],
+      "11": [
+        "futureResearchPlan"
       ]
     }
   },
@@ -774,19 +777,23 @@
     ]
   },
   "futureResearchPlan": {
-    "lead": "In the future, I want to work on transaction security for payment and IoT devices. I also want to use machine learning in a careful way to detect attacks on these systems.",
+    "lead": "In the future, I want to connect my blockchain security work with trustworthy and explainable AI. My goal is to build security systems for payments and IoT devices where the AI decision is correct, easy to explain, and can be verified later.",
     "cards": [
       {
-        "title": "Lightweight Security for Payment Devices",
-        "text": "NFC readers and small IoT devices have limited memory, power and processing speed. I want to study authentication and transaction verification methods that can run on such devices without making the payment slow."
+        "title": "Explainable AI for Blockchain Payment Security",
+        "text": "In my blockchain and NFC payment work, a security check decides if a transaction is safe or not. I want to use explainable AI methods such as SHAP and LIME, so that a fraud or attack detection model can also show why it flagged a transaction. In this way, users and payment providers can understand and trust the decision."
       },
       {
-        "title": "Attack Detection That Handles New Attacks",
-        "text": "Many intrusion detection models report very high accuracy, but they fail when a new type of attack appears. I want to build detection methods that can report unknown attacks and explain why they made a decision."
+        "title": "Verifiable AI Decisions with Blockchain",
+        "text": "An explanation is useful only if nobody can change it later. I want to record the model version, the decision, and its explanation on a blockchain, so that the decision of an AI system can be checked and audited later. This work connects my blockchain background with trustworthy AI."
       },
       {
-        "title": "Build, Measure and Compare",
-        "text": "I prefer to test an idea with a real prototype and a fair comparison. That means a clear threat model, measured latency and cost, and comparison with strong baseline methods."
+        "title": "Trustworthy GPS Tracking with Explainable AI",
+        "text": "I am currently working on a GPS tag. GPS data can be noisy, and it can also be faked by spoofing attacks. I want to detect abnormal movement and possible spoofing with machine learning, explain each alert with explainable AI, and keep the location records tamper-proof using a lightweight blockchain."
+      },
+      {
+        "title": "Privacy-Preserving Learning for IoT Devices",
+        "text": "IoT and payment devices produce private data that should not leave the device. I want to study federated learning, where devices train a shared model without sending their raw data, and use blockchain to keep a record of model updates and to stop poisoned updates."
       }
     ]
   },
