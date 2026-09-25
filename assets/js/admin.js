@@ -228,7 +228,6 @@ function renderPapers() {
         <div class="flags">
           <span class="flag ${p.showOnWebsite === false ? "off" : ""}">Website</span>
           <span class="flag ${p.showOnCV === false ? "off" : ""}">CV</span>
-          ${p.core ? `<span class="flag">Core research</span>` : ""}
         </div>
       </div>
       <div class="item-actions">
@@ -322,7 +321,6 @@ function paperForm(p) {
     <div class="checks">
       <label><input type="checkbox" name="showOnWebsite" ${p.showOnWebsite !== false ? "checked" : ""}/> Show on website</label>
       <label><input type="checkbox" name="showOnCV" ${p.showOnCV !== false ? "checked" : ""}/> Show in CV</label>
-      <label><input type="checkbox" name="core" ${p.core ? "checked" : ""}/> Core research</label>
     </div>
     <datalist id="dl-type"><option>IEEE Conference Paper</option><option>Conference Paper</option><option>Conference Manuscript</option><option>Journal Article</option><option>Journal Manuscript</option></datalist>
     <datalist id="dl-prefix"><option>in</option><option>accepted for presentation at the</option><option>submitted to the</option><option>accepted for publication in</option></datalist>
