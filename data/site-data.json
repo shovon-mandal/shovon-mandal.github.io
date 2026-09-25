@@ -2,7 +2,7 @@
   "meta": {
     "updatedAt": "2026-09-25T12:00:00+06:00",
     "schema": 2,
-    "contentVersion": 11,
+    "contentVersion": 12,
     "changes": {
       "4": [
         "site",
@@ -34,6 +34,9 @@
         "profile.cards"
       ],
       "11": [
+        "futureResearchPlan"
+      ],
+      "12": [
         "futureResearchPlan"
       ]
     }
@@ -788,8 +791,8 @@
         "text": "An explanation is useful only if nobody can change it later. I want to record the model version, the decision, and its explanation on a blockchain, so that the decision of an AI system can be checked and audited later. This work connects my blockchain background with trustworthy AI."
       },
       {
-        "title": "Trustworthy GPS Tracking with Explainable AI",
-        "text": "I am currently working on a GPS tag. GPS data can be noisy, and it can also be faked by spoofing attacks. I want to detect abnormal movement and possible spoofing with machine learning, explain each alert with explainable AI, and keep the location records tamper-proof using a lightweight blockchain."
+        "title": "Trustworthy Location Tracking with Explainable AI",
+        "text": "I am currently working with a Bluetooth tracker tag (HOCO E101) that finds its location through the Apple Find My and Google Find Hub networks. Such tags can be misused for unwanted tracking, and their location reports can be wrong or faked. I want to detect these cases with machine learning, explain each alert with explainable AI, and keep the location records tamper-proof using a lightweight blockchain."
       },
       {
         "title": "Privacy-Preserving Learning for IoT Devices",
