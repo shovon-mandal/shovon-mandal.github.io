@@ -2,7 +2,7 @@
   "meta": {
     "updatedAt": "2026-09-25T12:00:00+06:00",
     "schema": 2,
-    "contentVersion": 12,
+    "contentVersion": 8,
     "changes": {
       "4": [
         "site",
@@ -22,22 +22,6 @@
       ],
       "8": [
         "contact"
-      ],
-      "9": [
-        "fastReview"
-      ],
-      "10": [
-        "site",
-        "snapshot",
-        "metrics",
-        "profile.tags",
-        "profile.cards"
-      ],
-      "11": [
-        "futureResearchPlan"
-      ],
-      "12": [
-        "futureResearchPlan"
       ]
     }
   },
@@ -52,13 +36,13 @@
     "cv": "assets/docs/Shovon_Mandal_CV.pdf",
     "photo": "assets/img/profile.jpg",
     "goalLabel": "Academic Research Goal",
-    "goal": "I am interested in pursuing Ph.D. or thesis-based M.S. research in cybersecurity and secure distributed systems. My main work is on blockchain and NFC-based payment security, and I also work on IoT and embedded systems security and machine learning for attack detection. I am happy to work as a research assistant or a teaching assistant.",
-    "headline": "Cybersecurity · Blockchain and NFC Payment Security · Secure Distributed Systems · IoT and Embedded Systems Security · Machine Learning for Security",
+    "goal": "I am interested in pursuing Ph.D. or thesis-based M.S. research opportunities in secure distributed systems, blockchain and IoT security, applied machine learning, natural language processing, and explainable AI. My background combines peer-reviewed research, prototype development, university teaching, and technical implementation. I am happy to work as a research assistant or a teaching assistant, and I can support both research projects and undergraduate courses and labs.",
+    "headline": "Secure Distributed Systems · Blockchain and IoT Security · Applied Machine Learning · Natural Language Processing · Explainable AI",
     "rotatingWords": [
-      "Ph.D. or M.S. Research in Cybersecurity and Secure Distributed Systems",
-      "Blockchain and NFC-Based Payment Security",
-      "IoT and Embedded Systems Security",
-      "Machine Learning for Network Intrusion Detection"
+      "Ph.D. or M.S. Research in Secure and Intelligent Systems",
+      "Blockchain, IoT, and Distributed-System Security",
+      "Applied Machine Learning and Explainable AI",
+      "Natural Language Processing and Code-Mixed Text Analysis"
     ],
     "authorName": "S. Mandal",
     "showHeroUpdates": true
@@ -95,16 +79,16 @@
   ],
   "fastReview": [
     {
+      "label": "Research Plan",
+      "target": "#future-research-plan"
+    },
+    {
       "label": "Publications",
       "target": "#publications"
     },
     {
       "label": "Projects",
       "target": "#projects"
-    },
-    {
-      "label": "Research Plan",
-      "target": "#future-research-plan"
     },
     {
       "label": "Experience",
@@ -126,11 +110,11 @@
     },
     {
       "label": "Higher Study Goal",
-      "value": "Ph.D. or Thesis-Based M.S."
+      "value": "Funded Ph.D. or Thesis-Based M.S."
     },
     {
       "label": "Research Alignment",
-      "value": "Cybersecurity · Secure Distributed Systems · Embedded Security"
+      "value": "Secure Distributed Systems · Applied AI · NLP"
     }
   ],
   "metrics": [
@@ -145,14 +129,14 @@
       "target": "#publications"
     },
     {
-      "value": "{{firstAuthor}}",
-      "label": "First-Author Papers",
-      "target": "#publications"
-    },
-    {
       "value": "4+",
       "label": "Teaching Years",
       "target": "#experience"
+    },
+    {
+      "value": "4+",
+      "label": "Implementation Projects",
+      "target": "#projects"
     }
   ],
   "researchFit": [],
@@ -165,12 +149,12 @@
     "cards": [
       {
         "title": "Main Research Area",
-        "text": "Cybersecurity for digital payments: blockchain and NFC-based transaction verification, the IOTA Tangle, and embedded payment devices.",
+        "text": "Secure digital payment and transaction verification using blockchain, NFC and the IOTA Tangle.",
         "target": "#publications"
       },
       {
         "title": "Publications",
-        "text": "{{AcceptedWord}} published or accepted conference papers{{reviewClause}}, including {{firstAuthor}} first-author papers.",
+        "text": "{{AcceptedWord}} published or accepted conference papers{{reviewClause}}, including two first-author papers.",
         "target": "#publications"
       },
       {
@@ -185,13 +169,13 @@
       }
     ],
     "tags": [
-      "Cybersecurity",
       "Secure Distributed Systems",
       "Blockchain-Based Digital Payments",
       "IoT and NFC Transaction Security",
-      "Embedded Systems Security",
       "Applied Cryptography",
-      "Machine Learning for Security",
+      "Embedded Systems Security",
+      "Applied Machine Learning",
+      "Natural Language Processing",
       "Explainable AI"
     ],
     "strengths": []
@@ -780,23 +764,19 @@
     ]
   },
   "futureResearchPlan": {
-    "lead": "In the future, I want to connect my blockchain security work with trustworthy and explainable AI. My goal is to build security systems for payments and IoT devices where the AI decision is correct, easy to explain, and can be verified later.",
+    "lead": "In the future, I want to work on transaction security for payment and IoT devices. I also want to use machine learning in a careful way to detect attacks on these systems.",
     "cards": [
       {
-        "title": "Explainable AI for Blockchain Payment Security",
-        "text": "In my blockchain and NFC payment work, a security check decides if a transaction is safe or not. I want to use explainable AI methods such as SHAP and LIME, so that a fraud or attack detection model can also show why it flagged a transaction. In this way, users and payment providers can understand and trust the decision."
+        "title": "Lightweight Security for Payment Devices",
+        "text": "NFC readers and small IoT devices have limited memory, power and processing speed. I want to study authentication and transaction verification methods that can run on such devices without making the payment slow."
       },
       {
-        "title": "Verifiable AI Decisions with Blockchain",
-        "text": "An explanation is useful only if nobody can change it later. I want to record the model version, the decision, and its explanation on a blockchain, so that the decision of an AI system can be checked and audited later. This work connects my blockchain background with trustworthy AI."
+        "title": "Attack Detection That Handles New Attacks",
+        "text": "Many intrusion detection models report very high accuracy, but they fail when a new type of attack appears. I want to build detection methods that can report unknown attacks and explain why they made a decision."
       },
       {
-        "title": "Trustworthy Location Tracking with Explainable AI",
-        "text": "I am currently working with a Bluetooth tracker tag (HOCO E101) that finds its location through the Apple Find My and Google Find Hub networks. Such tags can be misused for unwanted tracking, and their location reports can be wrong or faked. I want to detect these cases with machine learning, explain each alert with explainable AI, and keep the location records tamper-proof using a lightweight blockchain."
-      },
-      {
-        "title": "Privacy-Preserving Learning for IoT Devices",
-        "text": "IoT and payment devices produce private data that should not leave the device. I want to study federated learning, where devices train a shared model without sending their raw data, and use blockchain to keep a record of model updates and to stop poisoned updates."
+        "title": "Build, Measure and Compare",
+        "text": "I prefer to test an idea with a real prototype and a fair comparison. That means a clear threat model, measured latency and cost, and comparison with strong baseline methods."
       }
     ]
   },

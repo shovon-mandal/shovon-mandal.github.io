@@ -228,6 +228,7 @@ function renderPapers() {
         <div class="flags">
           <span class="flag ${p.showOnWebsite === false ? "off" : ""}">Website</span>
           <span class="flag ${p.showOnCV === false ? "off" : ""}">CV</span>
+          ${p.core ? `<span class="flag">Core research</span>` : ""}
         </div>
       </div>
       <div class="item-actions">
@@ -321,6 +322,7 @@ function paperForm(p) {
     <div class="checks">
       <label><input type="checkbox" name="showOnWebsite" ${p.showOnWebsite !== false ? "checked" : ""}/> Show on website</label>
       <label><input type="checkbox" name="showOnCV" ${p.showOnCV !== false ? "checked" : ""}/> Show in CV</label>
+      <label><input type="checkbox" name="core" ${p.core ? "checked" : ""}/> Core research</label>
     </div>
     <datalist id="dl-type"><option>IEEE Conference Paper</option><option>Conference Paper</option><option>Conference Manuscript</option><option>Journal Article</option><option>Journal Manuscript</option></datalist>
     <datalist id="dl-prefix"><option>in</option><option>accepted for presentation at the</option><option>submitted to the</option><option>accepted for publication in</option></datalist>
@@ -691,7 +693,7 @@ const BUILDERS = {
         R("fast", "Fast Review buttons", "Button", () => state.fastReview, v => state.fastReview = v, [
           { k: "label", label: "Button text" }, { k: "target", label: "Goes to", t: "select", opts: SEC }]),
         R("metrics", "Number cards", "Card", () => state.metrics, v => state.metrics = v, [
-          { k: "value", label: "Value", hint: "Automatic: {{published}} {{inPress}} {{accepted}} {{review}} {{firstAuthor}}" },
+          { k: "value", label: "Value", hint: "Automatic: {{published}} {{inPress}} {{accepted}} {{review}}" },
           { k: "label", label: "Label" }, { k: "target", label: "Goes to", t: "select", opts: SEC }], { titleKey: "label" })
       ]},
       { id: "about", title: "About Me", fields: [
@@ -922,10 +924,6 @@ async function checkRepoText() {
       only = new Set();
       Object.keys(changes).forEach(v => { if (+v > liveV) changes[v].forEach(k => only.add(k)); });
     }
-    if (only) [...only].filter(k => k.includes(".")).forEach(path => {
-      const [a, f] = path.split(".");
-      if (repo[a] && repo[a][f] !== undefined) { state[a] = state[a] || {}; state[a][f] = clone(repo[a][f]); }
-    });
     Object.keys(repo).forEach(k => {
       if (KEEP_KEYS.includes(k)) return;
       if (only && !only.has(k)) return;
