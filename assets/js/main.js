@@ -205,12 +205,22 @@ function pubYear(p) {
   return isNaN(y) ? 0 : y;
 }
 
+/* Status priority: published papers always come first, then in press,
+   accepted, and under review. The year sort applies inside each group. */
+const PUB_STATUS_RANK = { published: 0, inpress: 1, accepted: 2, review: 3, other: 4 };
+function pubRank(p) {
+  const r = PUB_STATUS_RANK[PortfolioCore.statusKind(p.status)];
+  return r === undefined ? 5 : r;
+}
+
 function sortPubs(list, order) {
   return list
     .map((p, i) => ({ p, i }))
     .sort((a, b) => {
+      const s = pubRank(a.p) - pubRank(b.p);
+      if (s) return s;
       const d = order === "oldest" ? pubYear(a.p) - pubYear(b.p) : pubYear(b.p) - pubYear(a.p);
-      return d || a.i - b.i;            // same year: keep the original order
+      return d || a.i - b.i;            // same status + year: keep the original order
     })
     .map(x => x.p);
 }
@@ -490,12 +500,36 @@ function setupNavigation() {
 }
 
 function setupReveal() {
+  const items = $$(".reveal");
+  /* No observer support: just show everything */
+  if (!("IntersectionObserver" in window)) {
+    items.forEach(x => x.classList.add("visible"));
+    return;
+  }
+  /* threshold 0 (not 10%): tall sections such as Publications on a phone can be
+     many screens long, so 10% of them is never on screen at once and the
+     section would stay invisible. Any visible pixel now reveals it. */
   const reveal = new IntersectionObserver(entries => {
     entries.forEach(e => {
-      if (e.isIntersecting) e.target.classList.add("visible");
+      if (e.isIntersecting) {
+        e.target.classList.add("visible");
+        reveal.unobserve(e.target);
+      }
     });
-  }, { threshold: .10 });
-  $$(".reveal").forEach(x => reveal.observe(x));
+  }, { threshold: 0, rootMargin: "0px 0px -40px 0px" });
+  items.forEach(x => reveal.observe(x));
+  /* Safety net: anything already at or above the viewport (e.g. after a jump
+     link or restored scroll position) is revealed straight away */
+  const sweep = () => items.forEach(x => {
+    if (!x.classList.contains("visible") && x.getBoundingClientRect().top < window.innerHeight) {
+      x.classList.add("visible");
+      reveal.unobserve(x);
+    }
+  });
+  window.addEventListener("scroll", sweep, { passive: true });
+  window.addEventListener("resize", sweep);
+  window.addEventListener("load", sweep);
+  sweep();
 }
 
 function setupContact() {
